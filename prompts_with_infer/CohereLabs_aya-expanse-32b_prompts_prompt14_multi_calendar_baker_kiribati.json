@@ -1,0 +1,432 @@
+[
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Matmata? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "matmata": {
+                    "gregorian": "2025-12-31 23:00 +0100",
+                    "iso_week": "2026-W01-3 23:00 +0100",
+                    "julian": "2025-12-18 23:00 +0100 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "matmata": {
+                    "gregorian": "2026-01-01 23:00 +0100",
+                    "iso_week": "2026-W01-4 23:00 +0100",
+                    "julian": "2025-12-19 23:00 +0100 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Matmata time is 2025-12-31 23:00 +0100.": 1.0,
+            "Wrong Matmata time is 2026-01-01 23:00 +0100.": 0.0
+        },
+        "response": "2026-01-01 02:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Matmata? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "matmata": {
+                    "gregorian": "2025-01-01 14:30 +0100",
+                    "iso_week": "2025-W01-3 14:30 +0100",
+                    "julian": "2024-12-19 14:30 +0100 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "matmata": {
+                    "gregorian": "2025-01-02 14:30 +0100",
+                    "iso_week": "2025-W01-4 14:30 +0100",
+                    "julian": "2024-12-20 14:30 +0100 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Matmata time is 2025-01-01 14:30 +0100.": 1.0,
+            "Wrong Matmata time is 2025-01-02 14:30 +0100.": 0.0
+        },
+        "response": "2025-01-01 13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Tarrafal? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "tarrafal": {
+                    "gregorian": "2025-12-31 21:00 -0100",
+                    "iso_week": "2026-W01-3 21:00 -0100",
+                    "julian": "2025-12-18 21:00 -0100 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "tarrafal": {
+                    "gregorian": "2026-01-01 21:00 -0100",
+                    "iso_week": "2026-W01-4 21:00 -0100",
+                    "julian": "2025-12-19 21:00 -0100 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Tarrafal time is 2025-12-31 21:00 -0100.": 1.0,
+            "Wrong Tarrafal time is 2026-01-01 21:00 -0100.": 0.0
+        },
+        "response": "2026-01-01 00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Tarrafal? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "tarrafal": {
+                    "gregorian": "2025-01-01 12:30 -0100",
+                    "iso_week": "2025-W01-3 12:30 -0100",
+                    "julian": "2024-12-19 12:30 -0100 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "tarrafal": {
+                    "gregorian": "2025-01-02 12:30 -0100",
+                    "iso_week": "2025-W01-4 12:30 -0100",
+                    "julian": "2024-12-20 12:30 -0100 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Tarrafal time is 2025-01-01 12:30 -0100.": 1.0,
+            "Wrong Tarrafal time is 2025-01-02 12:30 -0100.": 0.0
+        },
+        "response": "2025-01-01 13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Lamu? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "lamu": {
+                    "gregorian": "2026-01-01 01:00 +0300",
+                    "iso_week": "2026-W01-4 01:00 +0300",
+                    "julian": "2025-12-18 01:00 +0300 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "lamu": {
+                    "gregorian": "2026-01-02 01:00 +0300",
+                    "iso_week": "2026-W01-5 01:00 +0300",
+                    "julian": "2025-12-19 01:00 +0300 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Lamu time is 2026-01-01 01:00 +0300.": 1.0,
+            "Wrong Lamu time is 2026-01-02 01:00 +0300.": 0.0
+        },
+        "response": "2026-01-01 00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Lamu? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "lamu": {
+                    "gregorian": "2025-01-01 16:30 +0300",
+                    "iso_week": "2025-W01-3 16:30 +0300",
+                    "julian": "2024-12-19 16:30 +0300 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "lamu": {
+                    "gregorian": "2025-01-02 16:30 +0300",
+                    "iso_week": "2025-W01-4 16:30 +0300",
+                    "julian": "2024-12-20 16:30 +0300 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Lamu time is 2025-01-01 16:30 +0300.": 1.0,
+            "Wrong Lamu time is 2025-01-02 16:30 +0300.": 0.0
+        },
+        "response": "2025-01-01 08:30\n2025-01-01 07:30\n2024-12-31 23:30\n2024-12-31 22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Fish River Canyon Village? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "fish river canyon village": {
+                    "gregorian": "2026-01-01 00:00 +0200",
+                    "iso_week": "2026-W01-4 00:00 +0200",
+                    "julian": "2025-12-18 00:00 +0200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "fish river canyon village": {
+                    "gregorian": "2026-01-02 00:00 +0200",
+                    "iso_week": "2026-W01-5 00:00 +0200",
+                    "julian": "2025-12-19 00:00 +0200 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Fish River Canyon Village time is 2026-01-01 00:00 +0200.": 1.0,
+            "Wrong Fish River Canyon Village time is 2026-01-02 00:00 +0200.": 0.0
+        },
+        "response": "2026-01-01 00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Fish River Canyon Village? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "fish river canyon village": {
+                    "gregorian": "2025-01-01 15:30 +0200",
+                    "iso_week": "2025-W01-3 15:30 +0200",
+                    "julian": "2024-12-19 15:30 +0200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "fish river canyon village": {
+                    "gregorian": "2025-01-02 15:30 +0200",
+                    "iso_week": "2025-W01-4 15:30 +0200",
+                    "julian": "2024-12-20 15:30 +0200 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Fish River Canyon Village time is 2025-01-01 15:30 +0200.": 1.0,
+            "Wrong Fish River Canyon Village time is 2025-01-02 15:30 +0200.": 0.0
+        },
+        "response": "2025-01-01 13:30\n2025-01-01 14:30\n2025-01-01 15:30\n2025-01-01 16:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Loudima? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "loudima": {
+                    "gregorian": "2025-12-31 23:00 +0100",
+                    "iso_week": "2026-W01-3 23:00 +0100",
+                    "julian": "2025-12-18 23:00 +0100 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "loudima": {
+                    "gregorian": "2026-01-01 23:00 +0100",
+                    "iso_week": "2026-W01-4 23:00 +0100",
+                    "julian": "2025-12-19 23:00 +0100 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Loudima time is 2025-12-31 23:00 +0100.": 1.0,
+            "Wrong Loudima time is 2026-01-01 23:00 +0100.": 0.0
+        },
+        "response": "2026-01-01 08:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Loudima? List all four calendar dates and times.NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "loudima": {
+                    "gregorian": "2025-01-01 14:30 +0100",
+                    "iso_week": "2025-W01-3 14:30 +0100",
+                    "julian": "2024-12-19 14:30 +0100 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "loudima": {
+                    "gregorian": "2025-01-02 14:30 +0100",
+                    "iso_week": "2025-W01-4 14:30 +0100",
+                    "julian": "2024-12-20 14:30 +0100 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "Correct Loudima time is 2025-01-01 14:30 +0100.": 1.0,
+            "Wrong Loudima time is 2025-01-02 14:30 +0100.": 0.0
+        },
+        "response": "2025-01-01 13:30",
+        "isModelResponseCorrect": "TBD"
+    }
+]

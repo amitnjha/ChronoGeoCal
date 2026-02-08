@@ -1,0 +1,911 @@
+[
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Matmata. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Matmata when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 19:30 -0100 in Tarrafal. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Tarrafal when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 20:30 -0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 19:30 -0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Lamu. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Lamu when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "2025-12-06 10:30+0300",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Fish River Canyon Village. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Fish River Canyon Village when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Loudima. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Loudima when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Timbuktu. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Timbuktu when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Djenne. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Djenne when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Ifaty. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Ifaty when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Cape Vidal. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Cape Vidal when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Chobe National Park Outpost. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Chobe National Park Outpost when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Kafue Village. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Kafue Village when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Kariba. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Kariba when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Mombasa Old Town. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Mombasa Old Town when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "2025-12-06T06:30+0300",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Swakopmund Outskirts. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Swakopmund Outskirts when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Jinja Islands Village. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Jinja Islands Village when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Bay of Assassins Village. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Bay of Assassins Village when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Adamstown. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Adamstown when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Ngerulmud. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Ngerulmud when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Langkawi Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Langkawi Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "2025-12-06T03:30+0800",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 02:00 +0530 in Ladakh Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Ladakh Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 03:00 +0530": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 02:00 +0530": 0.0
+        },
+        "response": "2025-12-06%2001:30%20+0530",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 03:00 +0630 in Mrauk U. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Mrauk U when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 04:00 +0630": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 03:00 +0630": 0.0
+        },
+        "response": "2025-12-06T04:00+0630",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 03:30 +0700 in Vang Vieng. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Vang Vieng when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 04:30 +0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 03:30 +0700": 0.0
+        },
+        "response": "2025-12-06%2004:30%20+0700",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Bantayan Island. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Bantayan Island when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "2025-12-06T03:30+0800",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Ulan-Ude Outskirts. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Ulan-Ude Outskirts when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Jingtai Village. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Jingtai Village when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "2025-12-06T03:30+0800",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 02:00 +0530 in Spiti Valley Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Spiti Valley Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 03:00 +0530": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 02:00 +0530": 0.0
+        },
+        "response": "2025-12-06%2001:30%20+0530",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Gadong Village. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Gadong Village when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "2025-12-06T03:30+0800",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Jeju Island Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Jeju Island Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "2025-12-06T04:30:00+09:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Altay Small Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Altay Small Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "2025-12-06T03:30+0800",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Dali Town Outskirts. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Dali Town Outskirts when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Hahoe Village. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Hahoe Village when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "2025-12-06T04:30:00+09:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Takayama Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Takayama Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "2025-12-06T04:30:00+09:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Tengchong Town. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Tengchong Town when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "2025-12-06T03:30:00+08:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 02:15 +0545 in Pokhara Hamlets. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Pokhara Hamlets when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 03:15 +0545": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 02:15 +0545": 0.0
+        },
+        "response": "2025-12-06%2003:15%20+0545",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Hum. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Hum when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "2025-12-06%2002:30%20+0100",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Castellfollit de la Roca. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Castellfollit de la Roca when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Durbuy. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Durbuy when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Melnik. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Melnik when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Bibury. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Bibury when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Hallstatt. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Hallstatt when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Rochefort-en-Terre. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Rochefort-en-Terre when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Santorini Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Santorini Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Civita di Bagnoregio. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Civita di Bagnoregio when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Å. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Å when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Vik. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Vik when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Henningsvær. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Henningsvær when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Nyksund. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Nyksund when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in St. David’s. However, their calculation is incorrect. What is the actual time difference, what time is it actually in St. David’s when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Gimmelwald. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Gimmelwald when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Monemvasia. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Monemvasia when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Rothenburg ob der Tauber. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Rothenburg ob der Tauber when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Orford. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Orford when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Clovelly. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Clovelly when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Portree. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Portree when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Monowi. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Monowi when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 13:30 -0700 in Buford. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Buford when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 14:30 -0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 13:30 -0700": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Freeport. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Freeport when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Tenney. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Tenney when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Centralia. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Centralia when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 13:30 -0700 in Lost Springs. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Lost Springs when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 14:30 -0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 13:30 -0700": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Kenton. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Kenton when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Dorset. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Dorset when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Bar Harbor. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Bar Harbor when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Essex. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Essex when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Virginia City. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Virginia City when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Glen St. Mary. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Glen St. Mary when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Briny Breezes. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Briny Breezes when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Santa Claus. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Santa Claus when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Kimmswick. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Kimmswick when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Marblehead. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Marblehead when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Wamego. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Wamego when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Medicine Park. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Medicine Park when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Stockholm. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Stockholm when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Shelter Island. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Shelter Island when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Puerto Williams. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Puerto Williams when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in El Chaltén. However, their calculation is incorrect. What is the actual time difference, what time is it actually in El Chaltén when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Villa O’Higgins. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Villa O’Higgins when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 16:30 -0400 in Mucuchíes. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Mucuchíes when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 17:30 -0400": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 16:30 -0400": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in San Pedro de Atacama. However, their calculation is incorrect. What is the actual time difference, what time is it actually in San Pedro de Atacama when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Colonia Carlos Pellegrini. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Colonia Carlos Pellegrini when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Isla de Pascua. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Isla de Pascua when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Quellón. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Quellón when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Tierradentro Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Tierradentro Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 16:30 -0400 in Boca Chica. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Boca Chica when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 17:30 -0400": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 16:30 -0400": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Otavalo Hamlets. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Otavalo Hamlets when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Leticia Outskirts. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Leticia Outskirts when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 16:30 -0400 in Pantanal Sanctuary. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Pantanal Sanctuary when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 17:30 -0400": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 16:30 -0400": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Paraty Historic Center. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Paraty Historic Center when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 16:30 -0400 in Humaitá. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Humaitá when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 17:30 -0400": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 16:30 -0400": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Salinas de Garci Mendoza. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Salinas de Garci Mendoza when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Chivay. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Chivay when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Cachoeira do Bom Jesus. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Cachoeira do Bom Jesus when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Areguá. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Areguá when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Cuyo. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Cuyo when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 08:30 +1200 in Funafuti. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Funafuti when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 09:30 +1200": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 08:30 +1200": 0.0
+        },
+        "response": "2025-12-06T07:30:00+12:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 09:30 -1100 in Alofi. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Alofi when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 10:30 -1100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 09:30 -1100": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 08:30 +1200 in Yaren. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Yaren when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 09:30 +1200": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 08:30 +1200": 0.0
+        },
+        "response": "2025-12-06T07:30:00+12:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 09:30 +1300 in Apia Outskirts. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Apia Outskirts when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 10:30 +1300": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 09:30 +1300": 0.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 10:30 -1000 in Rarotonga Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Rarotonga Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-05 11:30 -1000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 10:30 -1000": 0.0
+        },
+        "response": "B",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 07:30 +1100 in Honiara Villages. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Honiara Villages when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 08:30 +1100": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 07:30 +1100": 0.0
+        },
+        "response": "2025-12-06%2008:30%20+1100",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 09:30 +1300 in Dunedin Outskirts. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Dunedin Outskirts when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "difference=+00:00; reference_time=2025-12-06 10:30 +1300": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 09:30 +1300": 0.0
+        },
+        "response": "2025-12-06T10:30:00+13:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

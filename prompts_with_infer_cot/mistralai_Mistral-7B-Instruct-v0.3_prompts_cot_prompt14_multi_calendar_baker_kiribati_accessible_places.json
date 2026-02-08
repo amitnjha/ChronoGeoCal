@@ -1,0 +1,432 @@
+[
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in New York City? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "new york city": {
+                    "gregorian": "2025-12-31 17:00 -0500",
+                    "iso_week": "2026-W01-3 17:00 -0500",
+                    "julian": "2025-12-18 17:00 -0500 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "new york city": {
+                    "gregorian": "2026-01-01 17:00 -0500",
+                    "iso_week": "2026-W01-4 17:00 -0500",
+                    "julian": "2025-12-19 17:00 -0500 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-12-31 17:00 -0500": 1.0,
+            "Wrong New York City time is 2026-01-01 17:00 -0500.": 0.0
+        },
+        "response": "2026-01-01 05:00 (New York City is 5 hours behind Baker Island)\n2026-01-01 10:00 (New York City is 10 hours behind Baker Island)\n2026-01-01 15:00 (New York City is 15 hours behind Baker Island)\n2026-01-01 20:00 (New York City is 20 hours behind Baker Island)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in New York City? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "new york city": {
+                    "gregorian": "2025-01-01 08:30 -0500",
+                    "iso_week": "2025-W01-3 08:30 -0500",
+                    "julian": "2024-12-19 08:30 -0500 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "new york city": {
+                    "gregorian": "2025-01-02 08:30 -0500",
+                    "iso_week": "2025-W01-4 08:30 -0500",
+                    "julian": "2024-12-20 08:30 -0500 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-01-01 08:30 -0500": 1.0,
+            "Wrong New York City time is 2025-01-02 08:30 -0500.": 0.0
+        },
+        "response": "2025-01-01 09:30 (New York City time)\n2025-01-01 08:30 (Eastern Standard Time)\n2024-12-31 17:30 (Hawaii-Aleutian Standard Time)\n2024-12-31 15:30 (Pacific Standard Time)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Los Angeles? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "los angeles": {
+                    "gregorian": "2025-12-31 14:00 -0800",
+                    "iso_week": "2026-W01-3 14:00 -0800",
+                    "julian": "2025-12-18 14:00 -0800 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "los angeles": {
+                    "gregorian": "2026-01-01 14:00 -0800",
+                    "iso_week": "2026-W01-4 14:00 -0800",
+                    "julian": "2025-12-19 14:00 -0800 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-12-31 14:00 -0800": 1.0,
+            "Wrong Los Angeles time is 2026-01-01 14:00 -0800.": 0.0
+        },
+        "response": "2025-12-30 23:00, 2025-12-31 00:00, 2025-12-31 01:00, 2025-12-31 02:00 (UTC-12)\n2025-12-31 17:00 (PST)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Los Angeles? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "los angeles": {
+                    "gregorian": "2025-01-01 05:30 -0800",
+                    "iso_week": "2025-W01-3 05:30 -0800",
+                    "julian": "2024-12-19 05:30 -0800 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "los angeles": {
+                    "gregorian": "2025-01-02 05:30 -0800",
+                    "iso_week": "2025-W01-4 05:30 -0800",
+                    "julian": "2024-12-20 05:30 -0800 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-01-01 05:30 -0800": 1.0,
+            "Wrong Los Angeles time is 2025-01-02 05:30 -0800.": 0.0
+        },
+        "response": "2025-01-01 10:30, 2025-01-31 01:30, 2025-02-01 23:30, 2025-02-02 00:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Chicago? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "chicago": {
+                    "gregorian": "2025-12-31 16:00 -0600",
+                    "iso_week": "2026-W01-3 16:00 -0600",
+                    "julian": "2025-12-18 16:00 -0600 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "chicago": {
+                    "gregorian": "2026-01-01 16:00 -0600",
+                    "iso_week": "2026-W01-4 16:00 -0600",
+                    "julian": "2025-12-19 16:00 -0600 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-12-31 16:00 -0600": 1.0,
+            "Wrong Chicago time is 2026-01-01 16:00 -0600.": 0.0
+        },
+        "response": "2026-01-01 05:00 (Chicago Time)\n2026-01-01 06:00 (Central Standard Time)\n2026-01-01 04:00 (Mountain Standard Time)\n2026-01-01 03:00 (Pacific Standard Time)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Chicago? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "chicago": {
+                    "gregorian": "2025-01-01 07:30 -0600",
+                    "iso_week": "2025-W01-3 07:30 -0600",
+                    "julian": "2024-12-19 07:30 -0600 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "chicago": {
+                    "gregorian": "2025-01-02 07:30 -0600",
+                    "iso_week": "2025-W01-4 07:30 -0600",
+                    "julian": "2024-12-20 07:30 -0600 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-01-01 07:30 -0600": 1.0,
+            "Wrong Chicago time is 2025-01-02 07:30 -0600.": 0.0
+        },
+        "response": "2025-01-01 19:30 (Chicago time is 8 hours behind Baker Island)\n2025-01-02 00:30 (next day, Chicago time is 1 hour behind Baker Island when it reaches midnight)\n2025-01-02 05:30 (next day, Chicago time is 5 hours ahead of Baker Island when it reaches 05:00)\n2025-01-02 10:30 (next day, Chicago time is 10 hours ahead of Baker Island when it reaches 10:00)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Houston? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "houston": {
+                    "gregorian": "2025-12-31 16:00 -0600",
+                    "iso_week": "2026-W01-3 16:00 -0600",
+                    "julian": "2025-12-18 16:00 -0600 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "houston": {
+                    "gregorian": "2026-01-01 16:00 -0600",
+                    "iso_week": "2026-W01-4 16:00 -0600",
+                    "julian": "2025-12-19 16:00 -0600 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-12-31 16:00 -0600": 1.0,
+            "Wrong Houston time is 2026-01-01 16:00 -0600.": 0.0
+        },
+        "response": "2026-01-01 05:00 (Hawaii-Aleutian Standard Time)\n2026-01-01 07:00 (Central Standard Time)\n2026-01-01 08:00 (Eastern Standard Time)\n2026-01-01 13:00 (Greenwich Mean Time)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Houston? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "houston": {
+                    "gregorian": "2025-01-01 07:30 -0600",
+                    "iso_week": "2025-W01-3 07:30 -0600",
+                    "julian": "2024-12-19 07:30 -0600 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "houston": {
+                    "gregorian": "2025-01-02 07:30 -0600",
+                    "iso_week": "2025-W01-4 07:30 -0600",
+                    "julian": "2024-12-20 07:30 -0600 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-01-01 07:30 -0600": 1.0,
+            "Wrong Houston time is 2025-01-02 07:30 -0600.": 0.0
+        },
+        "response": "2025-01-01 19:30 (Houston time)\n2025-01-02 00:30 (Houston time)\n2025-01-02 01:30 (Houston time)\n2025-01-02 02:30 (Houston time)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 10:00 on 2025-12-31 in Baker Island, what date and time is it in Phoenix? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "phoenix": {
+                    "gregorian": "2025-12-31 15:00 -0700",
+                    "iso_week": "2026-W01-3 15:00 -0700",
+                    "julian": "2025-12-18 15:00 -0700 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-12-31 10:00 -1200",
+                    "iso_week": "2026-W01-3 10:00 -1200",
+                    "julian": "2025-12-18 10:00 -1200 (Julian)",
+                    "jd": 2461041.416667,
+                    "utc": "2025-12-31T22:00:00Z"
+                },
+                "phoenix": {
+                    "gregorian": "2026-01-01 15:00 -0700",
+                    "iso_week": "2026-W01-4 15:00 -0700",
+                    "julian": "2025-12-19 15:00 -0700 (Julian)",
+                    "jd": 2461042.416667,
+                    "utc": "2026-01-01T22:00:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-12-31 15:00 -0700": 1.0,
+            "Wrong Phoenix time is 2026-01-01 15:00 -0700.": 0.0
+        },
+        "response": "A, 2026-01-01 05:00 (Phoenix is in the Mountain Time Zone, which is UTC-7. Baker Island is in the Hawaiian Time Zone, which is UTC-10. To find the difference, you subtract 10 from -7, which gives you 17 hours. Since there are only 24 hours in a day, you need to add one day to the date, and subtract 17 hours from the time to get the time in Phoenix on the same day.)\n\nB, 2026-01-01 10:00 (This is the time in Phoenix on the next day, January 1, 2026, since it's 5 hours ahead of the time in Phoenix on the previous day.)\n\nC, 2025-12-31 17:00 (This is the time in Phoenix on the same day, but it's 3 hours earlier than the time in Baker Island.)\n\nD, 2025-12-30 23:00 (This is the time in Phoenix on the day before, December 30, 2025, since it's 19 hours earlier than the time in Baker Island.)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "When it is 01:30 on 2025-01-01 in Baker Island, what date and time is it in Phoenix? List all four calendar dates and times.Think step by step. NO EXPLANATION.",
+        "answers": {
+            "correct": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "phoenix": {
+                    "gregorian": "2025-01-01 06:30 -0700",
+                    "iso_week": "2025-W01-3 06:30 -0700",
+                    "julian": "2024-12-19 06:30 -0700 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                }
+            },
+            "distractor": {
+                "baker": {
+                    "gregorian": "2025-01-01 01:30 -1200",
+                    "iso_week": "2025-W01-3 01:30 -1200",
+                    "julian": "2024-12-19 01:30 -1200 (Julian)",
+                    "jd": 2460677.0625,
+                    "utc": "2025-01-01T13:30:00Z"
+                },
+                "phoenix": {
+                    "gregorian": "2025-01-02 06:30 -0700",
+                    "iso_week": "2025-W01-4 06:30 -0700",
+                    "julian": "2024-12-20 06:30 -0700 (Julian)",
+                    "jd": 2460678.0625,
+                    "utc": "2025-01-02T13:30:00Z"
+                }
+            }
+        },
+        "target_scores": {
+            "2025-01-01 06:30 -0700": 1.0,
+            "Wrong Phoenix time is 2025-01-02 06:30 -0700.": 0.0
+        },
+        "response": "2025-01-02 09:30 (UTC-12 to UTC-07)",
+        "isModelResponseCorrect": "TBD"
+    }
+]

@@ -1,0 +1,911 @@
+[
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Matmata, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Tarrafal, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 07:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 06:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Lamu, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 11:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 10:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Fish River Canyon Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Loudima, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Timbuktu, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Djenne, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Ifaty, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 11:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 10:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Cape Vidal, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Chobe National Park Outpost, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Kafue Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Kariba, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Mombasa Old Town, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 11:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 10:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Swakopmund Outskirts, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Jinja Islands Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 11:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 10:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Bay of Assassins Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 11:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 10:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Adamstown, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ג׳ חשון תשפ״ו‎, 00:00": 0.0,
+            "ג׳ חשון תשפ״ו‎, 23:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Ngerulmud, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 17:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 16:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Langkawi Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Ladakh Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 13:30": 0.0,
+            "ד׳ חשון תשפ״ו‎, 12:30": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Mrauk U, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 14:30": 0.0,
+            "ד׳ חשון תשפ״ו‎, 13:30": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Vang Vieng, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 15:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 14:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Bantayan Island, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Ulan-Ude Outskirts, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Jingtai Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Spiti Valley Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 13:30": 0.0,
+            "ד׳ חשון תשפ״ו‎, 12:30": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Gadong Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Jeju Island Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 17:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 16:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Altay Small Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Dali Town Outskirts, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Hahoe Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 17:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 16:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Takayama Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 17:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 16:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Tengchong Town, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 16:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 15:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Pokhara Hamlets, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 13:45": 0.0,
+            "ד׳ חשון תשפ״ו‎, 12:45": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Castellfollit de la Roca, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Durbuy, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Melnik, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Bibury, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Hallstatt, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Rochefort-en-Terre, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Santorini Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Civita di Bagnoregio, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Å, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Vik, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Henningsvær, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Nyksund, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to St. David’s, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Gimmelwald, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Monemvasia, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 10:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 09:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Rothenburg ob der Tauber, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 09:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 08:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Orford, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Clovelly, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Portree, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 08:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 07:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Monowi, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Buford, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 02:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 01:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Freeport, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Tenney, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Centralia, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Lost Springs, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 02:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 01:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Kenton, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Dorset, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Bar Harbor, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Essex, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Virginia City, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 01:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 00:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Glen St. Mary, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Briny Breezes, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Santa Claus, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Kimmswick, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Marblehead, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Wamego, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Medicine Park, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Stockholm, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Shelter Island, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Puerto Williams, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to El Chaltén, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Villa O’Higgins, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Mucuchíes, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to San Pedro de Atacama, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Colonia Carlos Pellegrini, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Isla de Pascua, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Quellón, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Tierradentro Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Boca Chica, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Otavalo Hamlets, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Leticia Outskirts, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Pantanal Sanctuary, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Paraty Historic Center, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Humaitá, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 04:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 03:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Salinas de Garci Mendoza, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Chivay, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Cachoeira do Bom Jesus, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Areguá, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 05:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 04:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Cuyo, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 03:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 02:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Funafuti, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 20:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 19:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Alofi, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ג׳ חשון תשפ״ו‎, 21:00": 0.0,
+            "ג׳ חשון תשפ״ו‎, 20:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Yaren, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 20:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 19:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Apia Outskirts, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 21:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 20:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Rarotonga Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ג׳ חשון תשפ״ו‎, 22:00": 0.0,
+            "ג׳ חשון תשפ״ו‎, 21:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Honiara Villages, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 19:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 18:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Dunedin Outskirts, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 21:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 20:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    },
+    {
+        "input": "‪On ד׳ חשון תשפ״ו‎ in Hum, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Franz Josef Village, what time does it arrive in both local time and Hebrew calendar date at the destination?‬",
+        "target_scores": {
+            "ד׳ חשון תשפ״ו‎, 21:00": 0.0,
+            "ד׳ חשון תשפ״ו‎, 20:00": 1.0
+        },
+        "response": "C",
+        "isModelResponseCorrect": false
+    }
+]

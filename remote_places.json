@@ -1,0 +1,5266 @@
+[
+  {
+    "country": "Chile",
+    "place": "Puerto Williams",
+    "tz": "America/Punta_Arenas",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Argentina",
+    "place": "Ushuaia",
+    "tz": "America/Argentina/Ushuaia",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Falkland Islands",
+    "place": "Stanley",
+    "tz": "Atlantic/Stanley",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Helena",
+    "place": "Jamestown",
+    "tz": "Atlantic/St_Helena",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "South Georgia",
+    "place": "King Edward Point",
+    "tz": "Atlantic/South_Georgia",
+    "utc_offset": "UTC -2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Fernando de Noronha",
+    "tz": "America/Noronha",
+    "utc_offset": "UTC -2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Kindu",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Uranium City, SK",
+    "tz": "America/Regina",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Fort Chipewyan, AB",
+    "tz": "America/Edmonton",
+    "utc_offset": "UTC -7",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -6",
+      "offset_winter": "UTC -7"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Supai (Havasupai), AZ",
+    "tz": "America/Phoenix",
+    "utc_offset": "UTC -7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Anaktuvuk Pass, AK",
+    "tz": "America/Anchorage",
+    "utc_offset": "UTC -9",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -8",
+      "offset_winter": "UTC -9"
+    }
+  },
+  {
+    "country": "Georgia",
+    "place": "Ushguli",
+    "tz": "Asia/Tbilisi",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Eucla",
+    "tz": "Australia/Eucla",
+    "utc_offset": "UTC +8:45",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Macquarie Island",
+    "tz": "Antarctica/Macquarie",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Oymyakon (Pole of Cold)",
+    "tz": "Asia/Vladivostok",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Pevek",
+    "tz": "Asia/Anadyr",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Greece",
+    "place": "Gavdos",
+    "tz": "Europe/Athens",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-29",
+      "end": "2026-10-25",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Portugal",
+    "place": "Corvo, Azores",
+    "tz": "Atlantic/Azores",
+    "utc_offset": "UTC -1",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-29",
+      "end": "2026-10-25",
+      "offset_summer": "UTC +0",
+      "offset_winter": "UTC -1"
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "McMurdo Station",
+    "tz": "Antarctica/McMurdo",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": true,
+      "start": "2026-09-27",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +13",
+      "offset_winter": "UTC +12"
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Amundsen–Scott (South Pole)",
+    "tz": "Antarctica/McMurdo",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": true,
+      "start": "2026-09-27",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +13",
+      "offset_winter": "UTC +12"
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Vostok Station",
+    "tz": "Antarctica/Vostok",
+    "utc_offset": "UTC +6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Palmer Station",
+    "tz": "Antarctica/Palmer",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Alert, NU",
+    "tz": "America/Toronto",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Eureka, NU",
+    "tz": "America/Pangnirtung",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Grise Fiord, NU",
+    "tz": "America/Pangnirtung",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Resolute, NU",
+    "tz": "America/Resolute",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -5",
+      "offset_winter": "UTC -6"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Pond Inlet, NU",
+    "tz": "America/Iqaluit",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Greenland",
+    "place": "Pituffik (Thule)",
+    "tz": "America/Thule",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -3",
+      "offset_winter": "UTC -4"
+    }
+  },
+  {
+    "country": "Greenland",
+    "place": "Ittoqqortoormiit",
+    "tz": "America/Scoresbysund",
+    "utc_offset": "UTC -1",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-29",
+      "end": "2026-10-25",
+      "offset_summer": "UTC +0",
+      "offset_winter": "UTC -1"
+    }
+  },
+  {
+    "country": "Greenland",
+    "place": "Danmarkshavn",
+    "tz": "America/Danmarkshavn",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Norway",
+    "place": "Longyearbyen",
+    "tz": "Arctic/Longyearbyen",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-29",
+      "end": "2026-10-25",
+      "offset_summer": "UTC +2",
+      "offset_winter": "UTC +1"
+    }
+  },
+  {
+    "country": "Norway",
+    "place": "Jan Mayen",
+    "tz": "Atlantic/Jan_Mayen",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-29",
+      "end": "2026-10-25",
+      "offset_summer": "UTC +2",
+      "offset_winter": "UTC +1"
+    }
+  },
+  {
+    "country": "Pitcairn Is.",
+    "place": "Adamstown",
+    "tz": "Pacific/Pitcairn",
+    "utc_offset": "UTC -8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chile",
+    "place": "Easter Island",
+    "tz": "Pacific/Easter",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": true,
+      "start": "2026-09-05",
+      "end": "2026-04-04",
+      "offset_summer": "UTC -5",
+      "offset_winter": "UTC -6"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Lord Howe Island",
+    "tz": "Australia/Lord_Howe",
+    "utc_offset": "UTC +10:30",
+    "dst": {
+      "observed": true,
+      "start": "2026-10-04",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +11",
+      "offset_winter": "UTC +10:30"
+    }
+  },
+  {
+    "country": "New Zealand",
+    "place": "Chatham Islands",
+    "tz": "Pacific/Chatham",
+    "utc_offset": "UTC +12:45",
+    "dst": {
+      "observed": true,
+      "start": "2026-09-27",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +13:45",
+      "offset_winter": "UTC +12:45"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Cocos Islands",
+    "tz": "Indian/Cocos",
+    "utc_offset": "UTC +6:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French S. Terr.",
+    "place": "Kerguelen Is.",
+    "tz": "Indian/Kerguelen",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Yemen",
+    "place": "Socotra",
+    "tz": "Asia/Aden",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Leh",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Bhutan",
+    "place": "Thimphu",
+    "tz": "Asia/Thimphu",
+    "utc_offset": "UTC +6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Nepal",
+    "place": "Upper Mustang",
+    "tz": "Asia/Kathmandu",
+    "utc_offset": "UTC +5:45",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Egypt",
+    "place": "Siwa Oasis",
+    "tz": "Africa/Cairo",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "2026-04-24",
+      "end": "2026-10-30",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Niue",
+    "place": "Alofi",
+    "tz": "Pacific/Niue",
+    "utc_offset": "UTC -11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tokelau",
+    "place": "Fakaofo",
+    "tz": "Pacific/Fakaofo",
+    "utc_offset": "UTC +13",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French Polynesia",
+    "place": "Papeete, Tahiti",
+    "tz": "Pacific/Tahiti",
+    "utc_offset": "UTC -10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French Polynesia",
+    "place": "Taiohae, Marquesas",
+    "tz": "Pacific/Marquesas",
+    "utc_offset": "UTC -9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French Polynesia",
+    "place": "Rikitea, Gambier",
+    "tz": "Pacific/Gambier",
+    "utc_offset": "UTC -9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Samoa",
+    "place": "Apia",
+    "tz": "Pacific/Apia",
+    "utc_offset": "UTC +13",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "American Samoa",
+    "place": "Pago Pago",
+    "tz": "Pacific/Pago_Pago",
+    "utc_offset": "UTC -11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kiribati",
+    "place": "London, Kiritimati (Christmas Is.)",
+    "tz": "Pacific/Kiritimati",
+    "utc_offset": "UTC +14",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kiribati",
+    "place": "Tarawa",
+    "tz": "Pacific/Tarawa",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kiribati",
+    "place": "Kanton Island",
+    "tz": "Pacific/Kanton",
+    "utc_offset": "UTC +13",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Marshall Islands",
+    "place": "Majuro",
+    "tz": "Pacific/Majuro",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Marshall Islands",
+    "place": "Kwajalein Atoll",
+    "tz": "Pacific/Kwajalein",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Palau",
+    "place": "Ngerulmud",
+    "tz": "Pacific/Palau",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Micronesia",
+    "place": "Pohnpei",
+    "tz": "Pacific/Pohnpei",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Micronesia",
+    "place": "Chuuk (Truk) Lagoon",
+    "tz": "Pacific/Chuuk",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Micronesia",
+    "place": "Kosrae",
+    "tz": "Pacific/Kosrae",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Solomon Islands",
+    "place": "Honiara",
+    "tz": "Pacific/Guadalcanal",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Vanuatu",
+    "place": "Port Vila",
+    "tz": "Pacific/Efate",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Fiji",
+    "place": "Suva",
+    "tz": "Pacific/Fiji",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "New Caledonia",
+    "place": "Noumea",
+    "tz": "Pacific/Noumea",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Cook Islands",
+    "place": "Rarotonga",
+    "tz": "Pacific/Rarotonga",
+    "utc_offset": "UTC -10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tuvalu",
+    "place": "Funafuti",
+    "tz": "Pacific/Funafuti",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Wallis and Futuna",
+    "place": "Mata-Utu",
+    "tz": "Pacific/Wallis",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Nauru",
+    "place": "Yaren",
+    "tz": "Pacific/Nauru",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Guam",
+    "place": "Hagåtña",
+    "tz": "Pacific/Guam",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "place": "Saipan",
+    "tz": "Pacific/Saipan",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Papua New Guinea",
+    "place": "Port Moresby",
+    "tz": "Pacific/Port_Moresby",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Papua New Guinea",
+    "place": "Arawa, Bougainville",
+    "tz": "Pacific/Bougainville",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Jayapura, Papua",
+    "tz": "Asia/Jayapura",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Ambon, Maluku",
+    "tz": "Asia/Jayapura",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Makassar, Sulawesi",
+    "tz": "Asia/Makassar",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Labuan Bajo, Flores",
+    "tz": "Asia/Makassar",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Pontianak, Kalimantan",
+    "tz": "Asia/Pontianak",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "East Timor",
+    "place": "Dili",
+    "tz": "Asia/Dili",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Philippines",
+    "place": "Puerto Princesa, Palawan",
+    "tz": "Asia/Manila",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Philippines",
+    "place": "Batanes Islands",
+    "tz": "Asia/Manila",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Japan",
+    "place": "Ishigaki Island",
+    "tz": "Asia/Tokyo",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Japan",
+    "place": "Ogasawara (Bonin) Islands",
+    "tz": "Asia/Tokyo",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "South Korea",
+    "place": "Ulleungdo Island",
+    "tz": "Asia/Seoul",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Yuzhno-Sakhalinsk",
+    "tz": "Asia/Sakhalin",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Petropavlovsk-Kamchatsky",
+    "tz": "Asia/Kamchatka",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Kurilsk, Kuril Islands",
+    "tz": "Asia/Srednekolymsk",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Anadyr, Chukotka",
+    "tz": "Asia/Anadyr",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Magadan",
+    "tz": "Asia/Magadan",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Birdsville, QLD",
+    "tz": "Australia/Brisbane",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Alice Springs, NT",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Coober Pedy, SA",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "2026-10-04",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Broken Hill, NSW",
+    "tz": "Australia/Broken_Hill",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "2026-10-04",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Kalgoorlie, WA",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Broome, WA",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Thursday Island",
+    "tz": "Australia/Brisbane",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Peru",
+    "place": "Iquitos, Loreto",
+    "tz": "America/Lima",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Colombia",
+    "place": "Leticia, Amazonas",
+    "tz": "America/Bogota",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Tabatinga, AM",
+    "tz": "America/Manaus",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "São Gabriel da Cachoeira, AM",
+    "tz": "America/Manaus",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Cruzeiro do Sul, AC",
+    "tz": "America/Eirunepe",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Bolivia",
+    "place": "Rurrenabaque (Madidi NP)",
+    "tz": "America/La_Paz",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Venezuela",
+    "place": "Canaima National Park",
+    "tz": "America/Caracas",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Guyana",
+    "place": "Lethem (Rupununi)",
+    "tz": "America/Guyana",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Suriname",
+    "place": "Kwamalasamutu",
+    "tz": "America/Paramaribo",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chile",
+    "place": "San Pedro de Atacama",
+    "tz": "America/Santiago",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": true,
+      "start": "2026-09-05",
+      "end": "2026-04-04",
+      "offset_summer": "UTC -3",
+      "offset_winter": "UTC -4"
+    }
+  },
+  {
+    "country": "Chile",
+    "place": "Putre",
+    "tz": "America/Santiago",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": true,
+      "start": "2026-09-05",
+      "end": "2026-04-04",
+      "offset_summer": "UTC -3",
+      "offset_winter": "UTC -4"
+    }
+  },
+  {
+    "country": "Argentina",
+    "place": "El Chaltén",
+    "tz": "America/Argentina/Rio_Gallegos",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Panama",
+    "place": "Yaviza (Darien Gap)",
+    "tz": "America/Panama",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Honduras",
+    "place": "Puerto Lempira (La Mosquitia)",
+    "tz": "America/Tegucigalpa",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mali",
+    "place": "Timbuktu",
+    "tz": "Africa/Bamako",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mali",
+    "place": "Taoudenni",
+    "tz": "Africa/Bamako",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Niger",
+    "place": "Agadez",
+    "tz": "Africa/Niamey",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Niger",
+    "place": "Bilma Oasis",
+    "tz": "Africa/Niamey",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mauritania",
+    "place": "Chinguetti",
+    "tz": "Africa/Nouakchott",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Libya",
+    "place": "Ghat",
+    "tz": "Africa/Tripoli",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chad",
+    "place": "Faya-Largeau",
+    "tz": "Africa/Ndjamena",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chad",
+    "place": "Bardaï (Tibesti)",
+    "tz": "Africa/Ndjamena",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Algeria",
+    "place": "Tamanrasset",
+    "tz": "Africa/Algiers",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Algeria",
+    "place": "Djanet",
+    "tz": "Africa/Algiers",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Ethiopia",
+    "place": "Dallol (Danakil)",
+    "tz": "Asia/Aden",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kenya",
+    "place": "Lodwar (Turkana)",
+    "tz": "Africa/Nairobi",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Namibia",
+    "place": "Skeleton Coast",
+    "tz": "Africa/Windhoek",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Botswana",
+    "place": "Maun (Okavango)",
+    "tz": "Africa/Gaborone",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Madagascar",
+    "place": "Maroantsetra",
+    "tz": "Indian/Antananarivo",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Western Sahara",
+    "place": "Dakhla",
+    "tz": "Africa/El_Aaiun",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": true,
+      "start": "2026-05-17",
+      "end": "2026-02-22",
+      "offset_summer": "UTC +1",
+      "offset_winter": "UTC +0"
+    }
+  },
+  {
+    "country": "Mongolia",
+    "place": "Ölgii (Altai Mountains)",
+    "tz": "Asia/Hovd",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mongolia",
+    "place": "Ulaanbaatar",
+    "tz": "Asia/Ulaanbaatar",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mongolia",
+    "place": "Choibalsan",
+    "tz": "Asia/Choibalsan",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Uzbekistan",
+    "place": "Nukus (Karakalpakstan)",
+    "tz": "Asia/Samarkand",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tajikistan",
+    "place": "Murghab (Pamir Plateau)",
+    "tz": "Asia/Dushanbe",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kyrgyzstan",
+    "place": "Karakol (Tian Shan)",
+    "tz": "Asia/Bishkek",
+    "utc_offset": "UTC +6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kazakhstan",
+    "place": "Baikonur Cosmodrome",
+    "tz": "Asia/Almaty",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kazakhstan",
+    "place": "Aktau (Caspian Sea)",
+    "tz": "Asia/Aqtau",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Norilsk",
+    "tz": "Asia/Krasnoyarsk",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Tiksi (Laptev Sea)",
+    "tz": "Asia/Yakutsk",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Dikson",
+    "tz": "Asia/Krasnoyarsk",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Verkhoyansk",
+    "tz": "Asia/Yakutsk",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Troll Station",
+    "tz": "Antarctica/Troll",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": true,
+      "start": "2026-10-25",
+      "end": "2026-03-29",
+      "offset_summer": "UTC +2",
+      "offset_winter": "UTC +0"
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Casey Station",
+    "tz": "Antarctica/Casey",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Davis Station",
+    "tz": "Antarctica/Davis",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Mawson Station",
+    "tz": "Antarctica/Mawson",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Syowa Station",
+    "tz": "Antarctica/Syowa",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Dumont d'Urville Station",
+    "tz": "Antarctica/DumontDUrville",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Rothera Station",
+    "tz": "Antarctica/Rothera",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UK (Overseas)",
+    "place": "Tristan da Cunha",
+    "tz": "Atlantic/St_Helena",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UK (Overseas)",
+    "place": "Ascension Island",
+    "tz": "Atlantic/St_Helena",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Seychelles",
+    "place": "Aldabra Atoll",
+    "tz": "Indian/Mahe",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mauritius",
+    "place": "Agalega Islands",
+    "tz": "Indian/Mauritius",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Empty Quarter (Rub' al Khali)",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Oman",
+    "place": "Al Mazunah",
+    "tz": "Asia/Muscat",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Death Valley, CA",
+    "tz": "America/Los_Angeles",
+    "utc_offset": "UTC -8",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -7",
+      "offset_winter": "UTC -8"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Big Bend, TX",
+    "tz": "America/Chicago",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -5",
+      "offset_winter": "UTC -6"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Boundary Waters, MN",
+    "tz": "America/Chicago",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -5",
+      "offset_winter": "UTC -6"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Adak Island, AK",
+    "tz": "America/Adak",
+    "utc_offset": "UTC -10",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -9",
+      "offset_winter": "UTC -10"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Utqiaġvik (Barrow), AK",
+    "tz": "America/Anchorage",
+    "utc_offset": "UTC -9",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -8",
+      "offset_winter": "UTC -9"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Old Crow, YT",
+    "tz": "America/Whitehorse",
+    "utc_offset": "UTC -7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Churchill, MB",
+    "tz": "America/Winnipeg",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -5",
+      "offset_winter": "UTC -6"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Nain, NL",
+    "tz": "America/Goose_Bay",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -3",
+      "offset_winter": "UTC -4"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Bella Coola, BC",
+    "tz": "America/Vancouver",
+    "utc_offset": "UTC -8",
+    "dst": {
+      "observed": true,
+      "start": "2026-03-08",
+      "end": "2026-11-01",
+      "offset_summer": "UTC -7",
+      "offset_winter": "UTC -8"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Wiluna, WA",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Halls Creek, WA",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Tibooburra, NSW",
+    "tz": "Australia/Sydney",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": true,
+      "start": "2026-10-04",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +11",
+      "offset_winter": "UTC +10"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Cook, SA",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "2026-10-04",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Innamincka, SA",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "2026-10-04",
+      "end": "2026-04-05",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Libya",
+    "place": "Kufra Oasis",
+    "tz": "Africa/Tripoli",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Sudan",
+    "place": "El Fasher, Darfur",
+    "tz": "Africa/Khartoum",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Algeria",
+    "place": "In Salah",
+    "tz": "Africa/Algiers",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Algeria",
+    "place": "Reggane",
+    "tz": "Africa/Algiers",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mauritania",
+    "place": "Ouadane",
+    "tz": "Africa/Nouakchott",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mali",
+    "place": "Araouane",
+    "tz": "Africa/Bamako",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Niger",
+    "place": "Iferouane (Air Mountains)",
+    "tz": "Africa/Niamey",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Diskit, Nubra Valley",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Kaza, Spiti Valley",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Padum, Zanskar",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Campbell Bay, Great Nicobar",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Nepal",
+    "place": "Lukla (Everest Region)",
+    "tz": "Asia/Kathmandu",
+    "utc_offset": "UTC +5:45",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Nepal",
+    "place": "Manang",
+    "tz": "Asia/Kathmandu",
+    "utc_offset": "UTC +5:45",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Nepal",
+    "place": "Lo Manthang",
+    "tz": "Asia/Kathmandu",
+    "utc_offset": "UTC +5:45",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Pakistan",
+    "place": "Skardu, Baltistan",
+    "tz": "Asia/Karachi",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Pakistan",
+    "place": "Karimabad, Hunza Valley",
+    "tz": "Asia/Karachi",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Bhutan",
+    "place": "Laya",
+    "tz": "Asia/Thimphu",
+    "utc_offset": "UTC +6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "China",
+    "place": "Ngari (Mount Kailash)",
+    "tz": "Asia/Shanghai",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Wamena, Baliem Valley",
+    "tz": "Asia/Jayapura",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Misool, Raja Ampat",
+    "tz": "Asia/Jayapura",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Banda Neira",
+    "tz": "Asia/Jayapura",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Siberut, Mentawai",
+    "tz": "Asia/Jakarta",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Malaysia",
+    "place": "Bario, Kelabit Highlands",
+    "tz": "Asia/Kuching",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Malaysia",
+    "place": "Kapit, Sarawak",
+    "tz": "Asia/Kuching",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Philippines",
+    "place": "Itbayat, Batanes",
+    "tz": "Asia/Manila",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Philippines",
+    "place": "Bongao, Tawi-Tawi",
+    "tz": "Asia/Manila",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Myanmar",
+    "place": "Myeik, Mergui Archipelago",
+    "tz": "Asia/Yangon",
+    "utc_offset": "UTC +6:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Thailand",
+    "place": "Ko Lipe (Tarutao)",
+    "tz": "Asia/Bangkok",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Igloolik, Nunavut",
+    "tz": "America/Iqaluit",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Sanikiluaq, Nunavut",
+    "tz": "America/Iqaluit",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Clyde River, Nunavut",
+    "tz": "America/Iqaluit",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Kugluktuk, Nunavut",
+    "tz": "America/Edmonton",
+    "utc_offset": "UTC -7",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -6",
+      "offset_winter": "UTC -7"
+    }
+  },
+  {
+    "country": "Canada",
+    "place": "Taloyoak, Nunavut",
+    "tz": "America/Cambridge_Bay",
+    "utc_offset": "UTC -7",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -6",
+      "offset_winter": "UTC -7"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Kaktovik, Alaska",
+    "tz": "America/Anchorage",
+    "utc_offset": "UTC -9",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -8",
+      "offset_winter": "UTC -9"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Point Hope, Alaska",
+    "tz": "America/Anchorage",
+    "utc_offset": "UTC -9",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -8",
+      "offset_winter": "UTC -9"
+    }
+  },
+  {
+    "country": "USA",
+    "place": "Gambell, St. Lawrence Island",
+    "tz": "America/Nome",
+    "utc_offset": "UTC -9",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -8",
+      "offset_winter": "UTC -9"
+    }
+  },
+  {
+    "country": "Greenland",
+    "place": "Tasiilaq",
+    "tz": "America/Nuuk",
+    "utc_offset": "UTC -2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC -1",
+      "offset_winter": "UTC -2"
+    }
+  },
+  {
+    "country": "Greenland",
+    "place": "Nanortalik",
+    "tz": "America/Nuuk",
+    "utc_offset": "UTC -2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC -1",
+      "offset_winter": "UTC -2"
+    }
+  },
+  {
+    "country": "Norway",
+    "place": "Ny-Ålesund, Svalbard",
+    "tz": "Arctic/Longyearbyen",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +2",
+      "offset_winter": "UTC +1"
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Tiksi",
+    "tz": "Asia/Khandyga",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Provideniya",
+    "tz": "Asia/Anadyr",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Khatanga",
+    "tz": "Asia/Krasnoyarsk",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Halley VI Research Station",
+    "tz": "Antarctica/Rothera",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Concordia Station",
+    "tz": "Antarctica/Vostok",
+    "utc_offset": "UTC +6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Maitri Station",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antarctica",
+    "place": "Neumayer-Station III",
+    "tz": "UTC",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "South Africa",
+    "place": "Marion Island",
+    "tz": "Indian/Mahe",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Heard Island",
+    "tz": "Indian/Kerguelen",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French Southern Territories",
+    "place": "Île Amsterdam",
+    "tz": "Indian/Kerguelen",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "New Zealand",
+    "place": "Raoul Island",
+    "tz": "Pacific/Auckland",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": true,
+      "start": "September",
+      "end": "April",
+      "offset_summer": "UTC +13",
+      "offset_winter": "UTC +12"
+    }
+  },
+  {
+    "country": "New Zealand",
+    "place": "Waitangi, Chatham Islands",
+    "tz": "Pacific/Chatham",
+    "utc_offset": "UTC +12:45",
+    "dst": {
+      "observed": true,
+      "start": "September",
+      "end": "April",
+      "offset_summer": "UTC +13:45",
+      "offset_winter": "UTC +12:45"
+    }
+  },
+  {
+    "country": "Pitcairn Islands",
+    "place": "Henderson Island",
+    "tz": "Pacific/Pitcairn",
+    "utc_offset": "UTC -8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kiribati",
+    "place": "Banaba Island",
+    "tz": "Pacific/Tarawa",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kiribati",
+    "place": "Tabuaeran (Fanning Island)",
+    "tz": "Pacific/Kiritimati",
+    "utc_offset": "UTC +14",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Marshall Islands",
+    "place": "Enewetak Atoll",
+    "tz": "Pacific/Kwajalein",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Marshall Islands",
+    "place": "Utirik Atoll",
+    "tz": "Pacific/Majuro",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Micronesia",
+    "place": "Kapingamarangi Atoll",
+    "tz": "Pacific/Pohnpei",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Micronesia",
+    "place": "Ulithi Atoll",
+    "tz": "Pacific/Chuuk",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tokelau",
+    "place": "Atafu",
+    "tz": "Pacific/Fakaofo",
+    "utc_offset": "UTC +13",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tonga",
+    "place": "Niuafo'ou",
+    "tz": "Pacific/Tongatapu",
+    "utc_offset": "UTC +13",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tonga",
+    "place": "Niuatoputapu",
+    "tz": "Pacific/Tongatapu",
+    "utc_offset": "UTC +13",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Cook Islands",
+    "place": "Pukapuka Atoll",
+    "tz": "Pacific/Rarotonga",
+    "utc_offset": "UTC -10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Cook Islands",
+    "place": "Penrhyn Atoll",
+    "tz": "Pacific/Rarotonga",
+    "utc_offset": "UTC -10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French Polynesia",
+    "place": "Rapa Iti",
+    "tz": "Pacific/Gambier",
+    "utc_offset": "UTC -9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French Polynesia",
+    "place": "Maupiti",
+    "tz": "Pacific/Tahiti",
+    "utc_offset": "UTC -10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Solomon Islands",
+    "place": "Tikopia",
+    "tz": "Pacific/Guadalcanal",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Solomon Islands",
+    "place": "Anuta",
+    "tz": "Pacific/Guadalcanal",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Papua New Guinea",
+    "place": "Kiunga",
+    "tz": "Pacific/Port_Moresby",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Papua New Guinea",
+    "place": "Wamena, Highlands",
+    "tz": "Asia/Jayapura",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Agats, Asmat",
+    "tz": "Asia/Jayapura",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Simeulue Island",
+    "tz": "Asia/Jakarta",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Indonesia",
+    "place": "Natuna Besar",
+    "tz": "Asia/Jakarta",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Marble Bar",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Warburton",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Hermannsburg",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Borroloola",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "William Creek",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "October",
+      "end": "April",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Marree",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "October",
+      "end": "April",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Quilpie",
+    "tz": "Australia/Brisbane",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Thargomindah",
+    "tz": "Australia/Brisbane",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mauritania",
+    "place": "Tichit",
+    "tz": "Africa/Nouakchott",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mali",
+    "place": "Tessalit",
+    "tz": "Africa/Bamako",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Niger",
+    "place": "Iferouane",
+    "tz": "Africa/Niamey",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chad",
+    "place": "Bardaï, Tibesti",
+    "tz": "Africa/Ndjamena",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chad",
+    "place": "Zouar",
+    "tz": "Africa/Ndjamena",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Ethiopia",
+    "place": "Dallol",
+    "tz": "Africa/Addis_Ababa",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Ethiopia",
+    "place": "Turmi, Omo Valley",
+    "tz": "Africa/Addis_Ababa",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Namibia",
+    "place": "Skeleton Coast (Terrace Bay)",
+    "tz": "Africa/Windhoek",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Namibia",
+    "place": "Opuwo",
+    "tz": "Africa/Windhoek",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Mbandaka",
+    "tz": "Africa/Kinshasa",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Lisala",
+    "tz": "Africa/Kinshasa",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Peru",
+    "place": "Yurimaguas",
+    "tz": "America/Lima",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Peru",
+    "place": "Puerto Maldonado",
+    "tz": "America/Lima",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Colombia",
+    "place": "Puerto Inírida",
+    "tz": "America/Bogota",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Colombia",
+    "place": "Mitú",
+    "tz": "America/Bogota",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "São Gabriel da Cachoeira",
+    "tz": "America/Manaus",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Atalaia do Norte",
+    "tz": "America/Eirunepe",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Trindade Island",
+    "tz": "America/Noronha",
+    "utc_offset": "UTC -2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chile",
+    "place": "Caleta Tortel",
+    "tz": "America/Punta_Arenas",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chile",
+    "place": "Villa O'Higgins",
+    "tz": "America/Punta_Arenas",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Argentina",
+    "place": "Susques",
+    "tz": "America/Argentina/Jujuy",
+    "utc_offset": "UTC -3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mongolia",
+    "place": "Ulaangom",
+    "tz": "Asia/Hovd",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Mongolia",
+    "place": "Dalanzadgad",
+    "tz": "Asia/Ulaanbaatar",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tajikistan",
+    "place": "Khorog",
+    "tz": "Asia/Dushanbe",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tajikistan",
+    "place": "Ishkashim",
+    "tz": "Asia/Dushanbe",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kyrgyzstan",
+    "place": "Naryn",
+    "tz": "Asia/Bishkek",
+    "utc_offset": "UTC +6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kyrgyzstan",
+    "place": "Tash Rabat",
+    "tz": "Asia/Bishkek",
+    "utc_offset": "UTC +6",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Nepal",
+    "place": "Simikot, Humla",
+    "tz": "Asia/Kathmandu",
+    "utc_offset": "UTC +5:45",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Nepal",
+    "place": "Dunai, Dolpa",
+    "tz": "Asia/Kathmandu",
+    "utc_offset": "UTC +5:45",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Tawang, Arunachal Pradesh",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Agatti, Lakshadweep",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "India",
+    "place": "Campbell Bay, Nicobar Islands",
+    "tz": "Asia/Kolkata",
+    "utc_offset": "UTC +5:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "China",
+    "place": "Kashgar",
+    "tz": "Asia/Shanghai",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "China",
+    "place": "Litang, Sichuan",
+    "tz": "Asia/Shanghai",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Alice Springs",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Tennant Creek",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Katherine",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Coober Pedy",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "October",
+      "end": "April",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Yulara",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Nhulunbuy",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Lajamanu",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Yuendumu",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Kaltukatjara",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Wadeye",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Halls Creek",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Fitzroy Crossing",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Newman",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Kiwirrkurra",
+    "tz": "Australia/Perth",
+    "utc_offset": "UTC +8",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Giles Weather Station",
+    "tz": "Australia/Darwin",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Oodnadatta",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "October",
+      "end": "April",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Innamincka",
+    "tz": "Australia/Adelaide",
+    "utc_offset": "UTC +9:30",
+    "dst": {
+      "observed": true,
+      "start": "October",
+      "end": "April",
+      "offset_summer": "UTC +10:30",
+      "offset_winter": "UTC +9:30"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Birdsville",
+    "tz": "Australia/Brisbane",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Yakutsk",
+    "tz": "Asia/Yakutsk",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Anadyr",
+    "tz": "Asia/Anadyr",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Palana",
+    "tz": "Asia/Kamchatka",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Markovo",
+    "tz": "Asia/Anadyr",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Egvekinot",
+    "tz": "Asia/Anadyr",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Bilibino",
+    "tz": "Asia/Anadyr",
+    "utc_offset": "UTC +12",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Chersky",
+    "tz": "Asia/Magadan",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Srednekolymsk",
+    "tz": "Asia/Srednekolymsk",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Oymyakon",
+    "tz": "Asia/Vladivostok",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Suntar",
+    "tz": "Asia/Yakutsk",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Mirny",
+    "tz": "Asia/Yakutsk",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Udachny",
+    "tz": "Asia/Yakutsk",
+    "utc_offset": "UTC +9",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Okhotsk",
+    "tz": "Asia/Magadan",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Ayan",
+    "tz": "Asia/Vladivostok",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Nikolayevsk-on-Amur",
+    "tz": "Asia/Vladivostok",
+    "utc_offset": "UTC +10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Russia",
+    "place": "Severo-Kurilsk",
+    "tz": "Asia/Srednekolymsk",
+    "utc_offset": "UTC +11",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Kisangani",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Buta",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Isiro",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Bunia",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Gbadolite",
+    "tz": "Africa/Kinshasa",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Gemena",
+    "tz": "Africa/Kinshasa",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Congo",
+    "place": "Impfondo",
+    "tz": "Africa/Brazzaville",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Congo",
+    "place": "Ouesso",
+    "tz": "Africa/Brazzaville",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Congo",
+    "place": "Owando",
+    "tz": "Africa/Brazzaville",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Inongo",
+    "tz": "Africa/Kinshasa",
+    "utc_offset": "UTC +1",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Lodja",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Kabinda",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Manono",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "DR Congo",
+    "place": "Kalemie",
+    "tz": "Africa/Lubumbashi",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Iquitos",
+    "tz": "America/Lima",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Colombia",
+    "place": "Leticia",
+    "tz": "America/Bogota",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Tabatinga",
+    "tz": "America/Manaus",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Eirunepé",
+    "tz": "America/Eirunepe",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Cruzeiro do Sul",
+    "tz": "America/Rio_Branco",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Sena Madureira",
+    "tz": "America/Rio_Branco",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Tarauacá",
+    "tz": "America/Rio_Branco",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Humaitá",
+    "tz": "America/Porto_Velho",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Lábrea",
+    "tz": "America/Manaus",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Tefé",
+    "tz": "America/Manaus",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Brazil",
+    "place": "Coari",
+    "tz": "America/Manaus",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Tonga",
+    "place": "Nukuʻalofa",
+    "tz": "Pacific/Tongatapu",
+    "utc_offset": "UTC +13",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Cook Islands",
+    "place": "Avarua",
+    "tz": "Pacific/Rarotonga",
+    "utc_offset": "UTC -10",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Chile",
+    "place": "Hanga Roa",
+    "tz": "Pacific/Easter",
+    "utc_offset": "UTC -6",
+    "dst": {
+      "observed": true,
+      "start": "September",
+      "end": "April",
+      "offset_summer": "UTC -5",
+      "offset_winter": "UTC -6"
+    }
+  },
+  {
+    "country": "Australia",
+    "place": "Flying Fish Cove",
+    "tz": "Indian/Christmas",
+    "utc_offset": "UTC +7",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Helena",
+    "place": "Edinburgh of the Seven Seas",
+    "tz": "Atlantic/St_Helena",
+    "utc_offset": "UTC +0",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "French Southern Territories",
+    "place": "Port-aux-Français",
+    "tz": "Indian/Kerguelen",
+    "utc_offset": "UTC +5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Nassau",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Freeport",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Marsh Harbour",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "George Town",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Alice Town",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Dunmore Town",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Matthew Town",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Clarence Town",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Andros Town",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "place": "Arthur's Town",
+    "tz": "America/Nassau",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Havana",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Santiago de Cuba",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Camagüey",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Holguín",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Guantánamo",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Santa Clara",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Cienfuegos",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Matanzas",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Varadero",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Cuba",
+    "place": "Baracoa",
+    "tz": "America/Havana",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Kingston",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Montego Bay",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Spanish Town",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Port Antonio",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Negril",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Mandeville",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Ocho Rios",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Savanna-la-Mar",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Falmouth",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jamaica",
+    "place": "Portmore",
+    "tz": "America/Jamaica",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Port-au-Prince",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Cap-Haïtien",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Les Cayes",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Jacmel",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Gonaïves",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Saint-Marc",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Port-de-Paix",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Hinche",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Jérémie",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Haiti",
+    "place": "Miragoâne",
+    "tz": "America/Port-au-Prince",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "November",
+      "offset_summer": "UTC -4",
+      "offset_winter": "UTC -5"
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "Santo Domingo",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "Santiago",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "Puerto Plata",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "La Romana",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "Punta Cana",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "Samaná",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "San Cristóbal",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "Higüey",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "San Pedro de Macorís",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "place": "Barahona",
+    "tz": "America/Santo_Domingo",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "San Juan",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Ponce",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Mayagüez",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Bayamón",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Caguas",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Fajardo",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Arecibo",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Culebra",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Vieques",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "place": "Guayama",
+    "tz": "America/Puerto_Rico",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "US Virgin Islands",
+    "place": "Charlotte Amalie",
+    "tz": "America/St_Thomas",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "US Virgin Islands",
+    "place": "Christiansted",
+    "tz": "America/St_Thomas",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "US Virgin Islands",
+    "place": "Cruz Bay",
+    "tz": "America/St_Thomas",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "US Virgin Islands",
+    "place": "Frederiksted",
+    "tz": "America/St_Thomas",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "US Virgin Islands",
+    "place": "Coral Bay",
+    "tz": "America/St_Thomas",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "British Virgin Islands",
+    "place": "Road Town",
+    "tz": "America/Tortola",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "British Virgin Islands",
+    "place": "The Settlement",
+    "tz": "America/Tortola",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "British Virgin Islands",
+    "place": "West End",
+    "tz": "America/Tortola",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "British Virgin Islands",
+    "place": "Cane Garden Bay",
+    "tz": "America/Tortola",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Cayman Islands",
+    "place": "West Bay",
+    "tz": "America/Cayman",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Cayman Islands",
+    "place": "Little Cayman",
+    "tz": "America/Cayman",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turks and Caicos",
+    "place": "Cockburn Town",
+    "tz": "America/Grand_Turk",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turks and Caicos",
+    "place": "Providenciales",
+    "tz": "America/Grand_Turk",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turks and Caicos",
+    "place": "Grand Turk",
+    "tz": "America/Grand_Turk",
+    "utc_offset": "UTC -5",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Anguilla",
+    "place": "The Valley",
+    "tz": "America/Anguilla",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "place": "St. John's",
+    "tz": "America/Antigua",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "place": "Codrington",
+    "tz": "America/Antigua",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "place": "Basseterre",
+    "tz": "America/St_Kitts",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "place": "Charlestown",
+    "tz": "America/St_Kitts",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Montserrat",
+    "place": "Brades",
+    "tz": "America/Montserrat",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Guadeloupe",
+    "place": "Basse-Terre",
+    "tz": "America/Guadeloupe",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Guadeloupe",
+    "place": "Pointe-à-Pitre",
+    "tz": "America/Guadeloupe",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominica",
+    "place": "Roseau",
+    "tz": "America/Dominica",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Dominica",
+    "place": "Portsmouth",
+    "tz": "America/Dominica",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Martinique",
+    "place": "Fort-de-France",
+    "tz": "America/Martinique",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Lucia",
+    "place": "Castries",
+    "tz": "America/St_Lucia",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Lucia",
+    "place": "Soufrière",
+    "tz": "America/St_Lucia",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "place": "Kingstown",
+    "tz": "America/St_Vincent",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "place": "Port Elizabeth",
+    "tz": "America/St_Vincent",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Grenada",
+    "place": "St. George's",
+    "tz": "America/Grenada",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Grenada",
+    "place": "Hillsborough",
+    "tz": "America/Grenada",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Barbados",
+    "place": "Bridgetown",
+    "tz": "America/Barbados",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Barbados",
+    "place": "Speightstown",
+    "tz": "America/Barbados",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "place": "Port of Spain",
+    "tz": "America/Port_of_Spain",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "place": "San Fernando",
+    "tz": "America/Port_of_Spain",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "place": "Scarborough",
+    "tz": "America/Port_of_Spain",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Aruba",
+    "place": "Oranjestad",
+    "tz": "America/Aruba",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Curacao",
+    "place": "Willemstad",
+    "tz": "America/Curacao",
+    "utc_offset": "UTC -4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Istanbul",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Ankara",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Izmir",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Bursa",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Adana",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Gaziantep",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Konya",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Antalya",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Kayseri",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Mersin",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Eskisehir",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Diyarbakir",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Samsun",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Denizli",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Sanliurfa",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Adapazari",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Malatya",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Kahramanmaras",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Erzurum",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Turkey",
+    "place": "Van",
+    "tz": "Europe/Istanbul",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Riyadh",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Jeddah",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Mecca",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Medina",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Dammam",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Taif",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Tabuk",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Buraydah",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Khobar",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Abha",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Najran",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Jazan",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Hail",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Al Jubail",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "place": "Yanbu",
+    "tz": "Asia/Riyadh",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Tehran",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Mashhad",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Isfahan",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Karaj",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Tabriz",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Shiraz",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Ahvaz",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Qom",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Kermanshah",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Urmia",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Rasht",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Zahedan",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Hamadan",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Kerman",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iran",
+    "place": "Yazd",
+    "tz": "Asia/Tehran",
+    "utc_offset": "UTC +3:30",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Baghdad",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Basra",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Mosul",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Erbil",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Kirkuk",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Sulaymaniyah",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Karbala",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Najaf",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Ramadi",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Iraq",
+    "place": "Fallujah",
+    "tz": "Asia/Baghdad",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Dubai",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Abu Dhabi",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Sharjah",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Al Ain",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Ajman",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Ras Al Khaimah",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Fujairah",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Umm Al Quwain",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Khor Fakkan",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "UAE",
+    "place": "Kalba",
+    "tz": "Asia/Dubai",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Israel",
+    "place": "Tel Aviv",
+    "tz": "Asia/Jerusalem",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Israel",
+    "place": "Jerusalem",
+    "tz": "Asia/Jerusalem",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Israel",
+    "place": "Haifa",
+    "tz": "Asia/Jerusalem",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Israel",
+    "place": "Rishon LeZion",
+    "tz": "Asia/Jerusalem",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Israel",
+    "place": "Petah Tikva",
+    "tz": "Asia/Jerusalem",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Palestine",
+    "place": "Gaza City",
+    "tz": "Asia/Gaza",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Palestine",
+    "place": "Ramallah",
+    "tz": "Asia/Hebron",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Palestine",
+    "place": "Hebron",
+    "tz": "Asia/Hebron",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Palestine",
+    "place": "Nablus",
+    "tz": "Asia/Gaza",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Palestine",
+    "place": "Jericho",
+    "tz": "Asia/Hebron",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Jordan",
+    "place": "Amman",
+    "tz": "Asia/Amman",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jordan",
+    "place": "Zarqa",
+    "tz": "Asia/Amman",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Jordan",
+    "place": "Irbid",
+    "tz": "Asia/Amman",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Lebanon",
+    "place": "Beirut",
+    "tz": "Asia/Beirut",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Lebanon",
+    "place": "Tripoli",
+    "tz": "Asia/Beirut",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Lebanon",
+    "place": "Sidon",
+    "tz": "Asia/Beirut",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Syria",
+    "place": "Damascus",
+    "tz": "Asia/Damascus",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Syria",
+    "place": "Aleppo",
+    "tz": "Asia/Damascus",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Syria",
+    "place": "Homs",
+    "tz": "Asia/Damascus",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Syria",
+    "place": "Latakia",
+    "tz": "Asia/Damascus",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Oman",
+    "place": "Muscat",
+    "tz": "Asia/Muscat",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Oman",
+    "place": "Salalah",
+    "tz": "Asia/Muscat",
+    "utc_offset": "UTC +4",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Yemen",
+    "place": "Sanaa",
+    "tz": "Asia/Aden",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Yemen",
+    "place": "Aden",
+    "tz": "Asia/Aden",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Kuwait",
+    "place": "Kuwait City",
+    "tz": "Asia/Kuwait",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Qatar",
+    "place": "Doha",
+    "tz": "Asia/Qatar",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Bahrain",
+    "place": "Manama",
+    "tz": "Asia/Bahrain",
+    "utc_offset": "UTC +3",
+    "dst": {
+      "observed": false
+    }
+  },
+  {
+    "country": "Cyprus",
+    "place": "Nicosia",
+    "tz": "Asia/Nicosia",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Cyprus",
+    "place": "Limassol",
+    "tz": "Asia/Nicosia",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  },
+  {
+    "country": "Cyprus",
+    "place": "Larnaca",
+    "tz": "Asia/Nicosia",
+    "utc_offset": "UTC +2",
+    "dst": {
+      "observed": true,
+      "start": "March",
+      "end": "October",
+      "offset_summer": "UTC +3",
+      "offset_winter": "UTC +2"
+    }
+  }
+]

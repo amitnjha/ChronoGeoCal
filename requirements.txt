@@ -1,0 +1,10 @@
+pyluach
+lunarcalendar
+hijridate
+pandas
+heniautos
+requests
+google-genai
+openai
+orjson
+python-dateutil

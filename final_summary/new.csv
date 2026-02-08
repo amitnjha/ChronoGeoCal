@@ -1,0 +1,28 @@
+prompt,Total Count,False Count,True Count,Accuracy
+prompts_with_accuracy/gemini-3-pro-preview_prompt2_gen_data_hebrew_output.json,     101,       1,     100,99.009900990099013%
+prompts_with_accuracy/gemini-2.5-flash_prompt2_gen_data_hebrew_output.json,     101,      45,      56,55.445544554455445%
+prompts_with_accuracy/gpt-5.1_prompt2_gen_data_hebrew_output.json,     101,      91,      10,9.9009900990099009%
+prompts_with_accuracy/gpt-5.1_prompt2_gen_data_hijri_output.json,     101,      65,      36,35.643564356435647%
+prompts_with_accuracy/Gemini_prompt2_gen_data_hijri_output.json,     101,      60,      41,40.594059405940591%
+prompts_with_accuracy/CohereLabs_aya-expanse-32b_prompt2_gen_data_hebrew_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/CohereLabs_aya-expanse-32b_prompt2_gen_data_hijri_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/CohereLabs_aya-expanse-32b_prompt3_gen_data_hebrew_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/meta-llama_Llama-3.3-70B-Instruct_prompt2_gen_data_hebrew_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/meta-llama_Llama-3.3-70B-Instruct_prompt2_gen_data_hijri_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/meta-llama_Llama-3.3-70B-Instruct_prompt3_gen_data_hebrew_output.json,     101,      67,      34,33.663366336633665%
+prompts_with_accuracy/meta-llama_Llama-3.3-70B-Instruct_prompt6_gen_data_output.json,     101,     100,       1,0.99009900990099009%
+prompts_with_accuracy/meta-llama_Llama-3.3-70B-Instruct_prompt7_bangkok_meeting_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/Qwen_Qwen2.5-72B-Instruct_prompt2_gen_data_hebrew_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/Qwen_Qwen2.5-72B-Instruct_prompt2_gen_data_hijri_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/Qwen_Qwen2.5-72B-Instruct_prompt3_gen_data_hebrew_output.json,     101,     101,       0,0.%
+prompts_with_accuracy/Qwen_Qwen2.5-72B-Instruct_prompt6_gen_data_output.json,     101,      88,      13,12.871287128712872%
+prompts_with_accuracy/Qwen_Qwen2.5-72B-Instruct_prompt7_bangkok_meeting_output.json,     101,      85,      16,15.841584158415841%
+prompts_with_accuracy/CohereLabs_aya-expanse-32b_prompt6_gen_data.json,       0,       0,       0,NaN%
+prompts_with_accuracy/CohereLabs_aya-expanse-32b_prompt7_bangkok_meeting.json,       0,       0,       0,NaN%
+prompts_with_accuracy/gpt-5.1_prompt2_gen_data_hijri_helper_output.json,       101,       85,       16.16%
+prompts_with_accuracy/prompt2_gen_data_hijri_helper_gemini_2.5.json,       101,   44  ,  57,       56.43%
+prompts_with_accuracy/prompt2_model_results_hijri_helper_gemini_3.json,  101, 8, 93, 92.08%
+prompts_with_accuracy/gpt-5.1_prompt2_gen_data_hebrew_helper_output.json,       101,    91,10, 9.9%
+prompts_with_accuracy/prompt2_gen_data_hebrew_helper_gemini_2.5.json,       101,     44 , 57,       56.43%
+prompts_with_accuracy/prompt2_gen_data_hebrew_helper_gemini_3.json,  101,4,97 , 96.4%
+prompts_with_accuracy/prompt2_gen_data_hebrew_helper_gpt5-1.json 101, 91,10,9.9%

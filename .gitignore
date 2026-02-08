@@ -1,0 +1,6 @@
+generated_data
+#*prompt*.json
+__pycache__
+logs/*
+*.log
+

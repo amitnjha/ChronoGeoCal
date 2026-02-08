@@ -1,0 +1,911 @@
+[
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Tarrafal in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-01:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 08:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Tarrafal in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-01:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Lamu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Lamu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Fish River Canyon Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Fish River Canyon Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Igherm in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Igherm in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Timbuktu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Timbuktu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Djenne in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Djenne in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Ifaty in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Ifaty in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Cape Vidal in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Cape Vidal in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Tafraout in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Tafraout in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Agdz in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Agdz in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Chobe National Park Outpost in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Chobe National Park Outpost in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Kafue Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Kafue Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Kariba in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Kariba in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Mombasa Old Town in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Mombasa Old Town in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Swakopmund Outskirts in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Swakopmund Outskirts in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in El Jadida in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in El Jadida in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Jinja Islands Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Jinja Islands Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 08:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Bay of Assassins Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Bay of Assassins Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Adamstown in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 01:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 01:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Adamstown in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 05:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 05:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Ngerulmud in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Ngerulmud in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Langkawi Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": null,
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Langkawi Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Ladakh Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 14:31:00+05:30": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 14:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Ladakh Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:31:00+05:30": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Mrauk U in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:31:00+06:30": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Mrauk U in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 19:31:00+06:30": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 19:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Vang Vieng in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+07:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Vang Vieng in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+07:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Bantayan Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Bantayan Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Ulan-Ude Outskirts in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Ulan-Ude Outskirts in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Jingtai Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Jingtai Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Spiti Valley Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 14:31:00+05:30": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 13:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Spiti Valley Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:31:00+05:30": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Gadong Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Gadong Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Jeju Island Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Jeju Island Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Altay Small Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Altay Small Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Dali Town Outskirts in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Dali Town Outskirts in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Hahoe Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Hahoe Village in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Takayama Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Takayama Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Tengchong Town in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Tengchong Town in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Pokhara Hamlets in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 14:46:00+05:45": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 14:46:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Pokhara Hamlets in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:46:00+05:45": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 18:46:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Hum in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Hum in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Castellfollit de la Roca in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Castellfollit de la Roca in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Durbuy in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Durbuy in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Melnik in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Melnik in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Hallstatt in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Hallstatt in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Rochefort-en-Terre in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Rochefort-en-Terre in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Santorini Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Santorini Villages in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Civita di Bagnoregio in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Civita di Bagnoregio in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Å in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Å in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Vik in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Vik in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Henningsvær in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Henningsvær in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Nyksund in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": null,
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Nyksund in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Gimmelwald in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Gimmelwald in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Monemvasia in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 14:01 in Matmata. What time and date is it in Monemvasia in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is محرم 18 1423. It is currently 10:01 in Matmata. What time and date is it in Rothenburg ob der Tauber in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00+01:00": 0.0
+        },
+        "response": "2002-04-01 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

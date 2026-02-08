@@ -1,0 +1,35 @@
+#/bin/bash
+source ~/myenv/bin/activate
+
+python3 prompt1_gen_data_dst.py
+python3 prompt2_gen_data_hijri.py 
+python3 prompt2_gen_data_hebrew.py
+python3 prompt3_gen_data_hebrew.py
+python3 prompt4_gen_data_dst_end.py
+python3 prompt5_chinese_lunar_time.py
+python3 prompt6_gen_data.py
+python3 prompt7_dynamic_location_meeting.py
+python3 prompt8_gen_data_dst_Chatham_Islands.py > prompt8_gen_data_dst_Chatham_Islands.json
+python3 prompt8_back.py 
+python3 prompt9_timezone_miscalculation.py 
+python3 prompt10_Lord_Howe_Island.py
+python3 prompt11_greg_events.py
+python3 prompt12_caracas_meeting.py 
+python3 prompt13_marquesas_time_difference_gen.py
+python3 prompt14_multi_calendar_baker_kiribati.py
+#python3 prompt2_gen_data_greek.py > prompt2_gen_data_greek.json
+python3 prompt15_dst_calendar.py
+python3 prompt16_hijri_hebrew_dates.py
+python3 prompt17_ramadhan_estimate.py
+python3 prompt18_birthdate_hijri_hebrew.py
+python3 prompt19_holiday_deadline.py
+python3 prompt20_hijri_subscription.py
+python3 prompt21_hebrew_subscription.py
+python3 prompt22_shipping_businessdays.py
+#python3 prompt23_flight_time.py
+python3 prompt24_meeting_time.py
+#python3 prompt25_sunrise_photo.py
+python3 prompt26_international_airports.py
+
+#mv prompt*.json prompts/
+mv prompt*.json prompts_cot/

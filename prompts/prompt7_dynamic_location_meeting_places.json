@@ -1,0 +1,632 @@
+[
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 00:00": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 19:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 05:00": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 10:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 14:00": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 08:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 03:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 21:00": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 15:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 09:00": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 13:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:30": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 18:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 06:00": 0.0
+    }
+  },
+  {
+    "input": "In Bangkok, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Bangkok time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Bangkok time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Bangkok time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 11:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 07:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 17:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 15:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 09:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 03:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 21:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 01:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 22:30": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 06:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 18:00": 0.0
+    }
+  },
+  {
+    "input": "In New York, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 New York time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 New York time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in New York time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 05:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 19:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 17:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 07:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 03:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 21:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 04:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 08:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 06:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 17:30": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 11:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:00": 0.0
+    }
+  },
+  {
+    "input": "In London, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 London time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 London time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in London time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 04:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 20:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 02:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 22:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 03:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 10:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 14:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 05:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 19:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 17:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 07:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 15:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 08:30": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 04:00": 0.0
+    }
+  },
+  {
+    "input": "In Tokyo, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Tokyo time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Tokyo time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Tokyo time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 16:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 08:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 04:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 20:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 01:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 07:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 17:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 19:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 05:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 17:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 06:30": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 02:00": 0.0
+    }
+  },
+  {
+    "input": "In Sydney, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Sydney time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Sydney time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Sydney time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 15:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 09:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 09:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 15:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 04:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 20:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 19:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 05:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 17:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 07:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 22:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:30": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 03:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 21:00": 0.0
+    }
+  },
+  {
+    "input": "In Los Angeles, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Los Angeles time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Los Angeles time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Los Angeles time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-11 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 09:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 15:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 03:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 16:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 08:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 07:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 17:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 05:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 19:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 00:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 10:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:30": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 15:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 09:00": 0.0
+    }
+  },
+  {
+    "input": "In Dubai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Dubai time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Dubai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Dubai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 08:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 10:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 22:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 01:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 17:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 06:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 08:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 15:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 06:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 17:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 01:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 22:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 13:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 16:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 07:30": 0.0
+    }
+  },
+  {
+    "input": "In Mumbai, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Mumbai time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Mumbai time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Mumbai time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 09:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 14:30": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 06:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 18:00": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 18:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 06:00": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 04:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 20:00": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 02:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 22:00": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 03:00": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 09:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 15:00": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 07:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:30": 0.0
+    }
+  },
+  {
+    "input": "In Paris, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Paris time. However, they currently are in Singapore where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Paris time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Paris time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 05:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 19:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in Bangkok where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in New York where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 23:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in London where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 04:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in Tokyo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 11:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in Sydney where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 09:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 15:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in Los Angeles where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-13 04:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-11 20:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in Dubai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 16:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 08:00": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in Mumbai where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 14:30, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 09:30": 0.0
+    }
+  },
+  {
+    "input": "In Singapore, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Singapore time. However, they currently are in Paris where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Singapore time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Singapore time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+    "target_scores": {
+      "actual: 2025-11-12 19:00, misunderstood: 2025-11-12 16:00": 1.0,
+      "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 05:00": 0.0
+    }
+  }
+]
