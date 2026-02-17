@@ -1,4 +1,4 @@
-# ChronoCalendar repository
+# ChronoGeoCal repository
 
 
 Just for the first time. Please create a virtual environment and install required libraries.
@@ -12,7 +12,7 @@ pip3 install -r requirements.txt
 
 ```
 
-1.  `cd ~/ChronoCalendar`
+1.  `cd ~/ChronoGeoCal`
 1.  `source ~/myenv/bin/activate`
 1.  To generate prompts --
         `./run_all_prompts.sh ` This will run generate all the prompt files. Watch the output closely to see of ther are any failures.
