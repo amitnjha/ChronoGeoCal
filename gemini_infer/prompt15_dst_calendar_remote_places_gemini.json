@@ -1,0 +1,92 @@
+[
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Puerto Williams. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Ushuaia. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Stanley. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Jamestown. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with King Edward Point. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Fernando de Noronha. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Kindu. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Uranium City, SK. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Supai (Havasupai), AZ. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in Fort Chipewyan, AB. Video conference with Anaktuvuk Pass, AK. What time does the meeting start in Fort Chipewyan, AB time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]
