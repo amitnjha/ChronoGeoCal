@@ -1,0 +1,902 @@
+[
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Ushuaia in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-03:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2023-10-05 10:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Ushuaia in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00-03:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Stanley in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-03:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-10 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Stanley in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 15:01:00-03:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Jamestown in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 14:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2002-06-06 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Jamestown in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-10 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in King Edward Point in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-02:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-10 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in King Edward Point in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00-02:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-09 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Fernando de Noronha in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-02:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Fernando de Noronha in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00-02:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Kindu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2002-11-02 06:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Kindu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-06 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Uranium City, SK in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-09 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Uranium City, SK in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2002-10-07 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Fort Chipewyan, AB in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-07:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Fort Chipewyan, AB in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-07:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Supai (Havasupai), AZ in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-07:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-09 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Supai (Havasupai), AZ in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-07:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Anaktuvuk Pass, AK in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 05:01:00-09:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Anaktuvuk Pass, AK in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-09:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Ushguli in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 19:01:00+05:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Ushguli in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:01:00+05:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-08 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Eucla in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:46:00+08:45": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-06 23:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Eucla in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 02:46:00+08:45": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-12-07 23:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Macquarie Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:01:00+10:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-11 01:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Macquarie Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:01:00+10:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-08 01:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Oymyakon (Pole of Cold) in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 01:01:00+11:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-09 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Oymyakon (Pole of Cold) in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 05:01:00+11:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 01:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Pevek in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 03:01:00+13:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-09 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Pevek in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 07:01:00+13:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-09 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Gavdos in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Gavdos in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-05 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Corvo, Azores in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 14:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-10 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Corvo, Azores in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-09 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in McMurdo Station in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 02:01:00+12:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-11 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in McMurdo Station in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 06:01:00+12:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Amundsen\u2013Scott (South Pole) in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 02:01:00+12:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2023-09-05 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Amundsen\u2013Scott (South Pole) in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 06:01:00+12:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-07 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Vostok Station in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+07:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-10 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Vostok Station in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 01:01:00+07:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-06 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Alert, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-05:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-10 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Alert, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-05:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Eureka, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-05:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Eureka, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-05:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-08 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Grise Fiord, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-05:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2002-10-06 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Grise Fiord, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-05:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-08 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Resolute, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2021-09-22 06:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Resolute, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-09 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Pond Inlet, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-05:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-11-10 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Pond Inlet, NU in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-05:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-08 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Ittoqqortoormiit in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 14:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-05-09 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Ittoqqortoormiit in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Danmarkshavn in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 14:01:00+00:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2023-09-06 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Danmarkshavn in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+00:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-06 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Longyearbyen in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-10 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Longyearbyen in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Jan Mayen in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-11-05 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Jan Mayen in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-08 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Adamstown in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 06:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Adamstown in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 10:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-30 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Easter Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-10 10:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Easter Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-08 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Lord Howe Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:31:00+10:30": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-08 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Lord Howe Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:31:00+10:30": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 06:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Chatham Islands in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 02:46:00+12:45": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-07 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Chatham Islands in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 06:46:00+12:45": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 06:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Cocos Islands in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:31:00+06:30": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 10:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Cocos Islands in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:31:00+06:30": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-10 00:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Kerguelen Is. in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 19:01:00+05:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-10 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Kerguelen Is. in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:01:00+05:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Socotra in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Socotra in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Leh in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 19:31:00+05:30": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 19:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Leh in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:31:00+05:30": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 04:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Thimphu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+06:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Thimphu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:01:00+06:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-10 00:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Upper Mustang in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 19:46:00+05:45": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2023-08-07 05:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Upper Mustang in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:46:00+05:45": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 04:46:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Siwa Oasis in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Siwa Oasis in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Alofi in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 03:01:00-11:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-11-10 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Alofi in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-11:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-09-06 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Fakaofo in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 03:01:00-11:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-10 01:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Fakaofo in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-11:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-08 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Papeete, Tahiti in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 04:01:00-10:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2023-09-09 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Papeete, Tahiti in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-10:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-10 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Taiohae, Marquesas in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 04:31:00-09:30": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Taiohae, Marquesas in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:31:00-09:30": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2002-02-05 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Rikitea, Gambier in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 05:01:00-09:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-10-10 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Rikitea, Gambier in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-09:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-11-09 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Apia in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 03:01:00-11:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-10 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Apia in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-11:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-10-07 06:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Pago Pago in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 03:01:00-11:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Pago Pago in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-11:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2002-10-05 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in London, Kiritimati (Christmas Is.) in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:01:00+14:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-10 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in London, Kiritimati (Christmas Is.) in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 08:01:00+14:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Tarawa in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 02:01:00+12:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Tarawa in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 06:01:00+12:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 05:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in Puerto Williams. What time and date is it in Kanton Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 03:01:00+13:00": 1.0,
+            "2002-04-01 10:01:00-04:00": 0.0
+        },
+        "response": "2022-09-11 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in Puerto Williams. What time and date is it in Kanton Island in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 07:01:00+13:00": 1.0,
+            "2002-04-01 14:01:00-04:00": 0.0
+        },
+        "response": "2022-08-09 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

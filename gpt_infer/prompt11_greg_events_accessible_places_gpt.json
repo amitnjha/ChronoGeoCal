@@ -1,0 +1,897 @@
+[
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Los Angeles starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Los Angeles time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Chicago starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Chicago time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Houston starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Houston time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Phoenix starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Phoenix time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Philadelphia starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Philadelphia time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in San Antonio starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in San Antonio time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in San Diego starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in San Diego time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Dallas starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Dallas time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in San Jose starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in San Jose time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Austin starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Austin time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Jacksonville starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Jacksonville time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in San Francisco starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in San Francisco time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Columbus starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Columbus time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Indianapolis starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Indianapolis time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Seattle starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Seattle time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Denver starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Denver time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Washington DC starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Washington DC time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Boston starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Boston time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Las Vegas starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Las Vegas time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Atlanta starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Atlanta time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Miami starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Miami time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Honolulu starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Honolulu time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 PM - 1:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Toronto starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Toronto time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Montreal starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Montreal time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Vancouver starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Vancouver time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Calgary starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Calgary time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Ottawa starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ottawa time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens in Ottawa from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Mexico City starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Mexico City time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Guadalajara starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Guadalajara time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Monterrey starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Monterrey time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in London starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in London time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Manchester starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Manchester time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Birmingham starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Birmingham time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Edinburgh starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Edinburgh time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Paris starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Paris time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Lyon starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Lyon time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Marseille starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Marseille time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 04:00 AM - 06:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Berlin starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Berlin time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Frankfurt starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Frankfurt time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Munich starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Munich time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Rome starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Rome time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Milan starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Milan time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Madrid starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Madrid time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Barcelona starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Barcelona time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Amsterdam starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Amsterdam time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Zurich starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Zurich time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Tokyo starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Tokyo time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Osaka starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Osaka time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Kyoto starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kyoto time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Seoul starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Seoul time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Busan starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Busan time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Beijing starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Beijing time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Shanghai starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Shanghai time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM Shanghai time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Hong Kong starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Hong Kong time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Singapore starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Singapore time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Bangkok starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Bangkok time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Ho Chi Minh City starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ho Chi Minh City time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Mumbai starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Mumbai time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:30 PM - 4:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Delhi starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Delhi time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:30 PM - 4:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM in Delhi time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Dubai starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Dubai time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 PM - 3:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM in Dubai time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Istanbul starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Istanbul time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 PM - 2:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Sydney starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Sydney time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 04:00 AM - 06:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Melbourne starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Melbourne time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Auckland starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Auckland time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 PM - 12:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens in Auckland time from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Sao Paulo starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Sao Paulo time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 AM - 8:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Buenos Aires starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Buenos Aires time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 AM - 8:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Johannesburg starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Johannesburg time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 AM - 1:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Cairo starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Cairo time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 AM - 1:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Portland starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Portland time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Salt Lake City starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Salt Lake City time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Orlando starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Orlando time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Nashville starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Nashville time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in New Orleans starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in New Orleans time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Minneapolis starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Minneapolis time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Detroit starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Detroit time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Charlotte starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Charlotte time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Edmonton starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Edmonton time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Winnipeg starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Winnipeg time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Tijuana starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Tijuana time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Cancun starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Cancun time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens in Cancun from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Vienna starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Vienna time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Prague starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Prague time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Lisbon starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Lisbon time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Dublin starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Dublin time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B in Dublin happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Copenhagen starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Copenhagen time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Stockholm starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Stockholm time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Oslo starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Oslo time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Helsinki starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Helsinki time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 AM - 1:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Brussels starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Brussels time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Budapest starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Budapest time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Krakow starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Krakow time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Athens starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Athens time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 AM - 1:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens in Athens time from 6:00 AM to 8:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Tel Aviv starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Tel Aviv time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 AM - 1:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Doha starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Doha time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 PM - 2:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Riyadh starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Riyadh time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 PM - 2:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Kuwait City starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kuwait City time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 PM - 2:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "06:00 AM - 08:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Beirut starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Beirut time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 AM - 1:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Jakarta starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Jakarta time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Manila starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Manila time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in New York City from 2:00 AM to 4:00 AM. Event B in Kuala Lumpur starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kuala Lumpur time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

@@ -1,0 +1,1396 @@
+[
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 1 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-16": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 1
+        },
+        "response": "2024-03-09",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 2 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-13": 1.0,
+            "2026-02-15": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 2
+        },
+        "response": "2023-03-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 3 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-12": 1.0,
+            "2026-02-14": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 3
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 4 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-11": 1.0,
+            "2026-02-13": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 4
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 5 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-10": 1.0,
+            "2026-02-12": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 5
+        },
+        "response": "2024-03-09",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 7 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-06": 1.0,
+            "2026-02-10": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 7
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 8 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-05": 1.0,
+            "2026-02-09": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 8
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 9 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-04": 1.0,
+            "2026-02-08": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 9
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 10 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-03": 1.0,
+            "2026-02-07": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 10
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 12 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-30": 1.0,
+            "2026-02-05": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 12
+        },
+        "response": "2023-03-22",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 14 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-28": 1.0,
+            "2026-02-03": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 14
+        },
+        "response": "2024-03-09",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 15 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-27": 1.0,
+            "2026-02-02": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 15
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 18 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-22": 1.0,
+            "2026-01-30": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 18
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 20 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-20": 1.0,
+            "2026-01-28": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 20
+        },
+        "response": "2024-03-11",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 25 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-13": 1.0,
+            "2026-01-23": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 25
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 30 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-06": 1.0,
+            "2026-01-18": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 30
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 35 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2025-12-30": 1.0,
+            "2026-01-13": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 35
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 40 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2025-12-23": 1.0,
+            "2026-01-08": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 40
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 45 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2025-12-16": 1.0,
+            "2026-01-03": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 45
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 50 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2025-12-09": 1.0,
+            "2025-12-29": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 50
+        },
+        "response": "2024-03-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Ramadan this year. The work requires 60 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2025-11-25": 1.0,
+            "2025-12-19": 0.0
+        },
+        "metadata": {
+            "holiday": "Ramadan",
+            "holiday_date": "2026-02-17",
+            "business_days": 60
+        },
+        "response": "2024-03-11",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 1 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-13": 1.0,
+            "2026-03-15": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 1
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 2 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-12": 1.0,
+            "2026-03-14": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 2
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 3 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-11": 1.0,
+            "2026-03-13": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 3
+        },
+        "response": "2023-04-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 4 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-10": 1.0,
+            "2026-03-12": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 4
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 5 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-09": 1.0,
+            "2026-03-11": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 5
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 7 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-05": 1.0,
+            "2026-03-09": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 7
+        },
+        "response": "2023-04-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 8 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-04": 1.0,
+            "2026-03-08": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 8
+        },
+        "response": "2023-04-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 9 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-03": 1.0,
+            "2026-03-07": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 9
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 10 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-02": 1.0,
+            "2026-03-06": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 10
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 12 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-26": 1.0,
+            "2026-03-04": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 12
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 14 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-24": 1.0,
+            "2026-03-02": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 14
+        },
+        "response": "2023-04-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 15 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-23": 1.0,
+            "2026-03-01": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 15
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 18 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-18": 1.0,
+            "2026-02-26": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 18
+        },
+        "response": "2023-04-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 20 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-16": 1.0,
+            "2026-02-24": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 20
+        },
+        "response": "2023-04-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 25 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-09": 1.0,
+            "2026-02-19": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 25
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 30 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-02": 1.0,
+            "2026-02-14": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 30
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 35 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-26": 1.0,
+            "2026-02-09": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 35
+        },
+        "response": "2023-04-19",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 40 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-19": 1.0,
+            "2026-02-04": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 40
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 45 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-12": 1.0,
+            "2026-01-30": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 45
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 50 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-05": 1.0,
+            "2026-01-25": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 50
+        },
+        "response": "2023-04-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Laylat al-Qadr this year. The work requires 60 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2025-12-22": 1.0,
+            "2026-01-15": 0.0
+        },
+        "metadata": {
+            "holiday": "Laylat al-Qadr",
+            "holiday_date": "2026-03-16",
+            "business_days": 60
+        },
+        "response": "The date of Laylat al-Qadr in 2023 is expected to be on the evening of April 17, 2023. To deliver the project on that date and considering the 60 business days required, you must start the work on the latest date of March 8, 2023.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 1 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-18": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 1
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 2 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-17": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 2
+        },
+        "response": "2024-04-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 3 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-16": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 3
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 4 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-13": 1.0,
+            "2026-03-15": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 4
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 5 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-12": 1.0,
+            "2026-03-14": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 5
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 7 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-10": 1.0,
+            "2026-03-12": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 7
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 8 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-09": 1.0,
+            "2026-03-11": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 8
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 9 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-06": 1.0,
+            "2026-03-10": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 9
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 10 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-05": 1.0,
+            "2026-03-09": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 10
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 12 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-03": 1.0,
+            "2026-03-07": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 12
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 14 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-27": 1.0,
+            "2026-03-05": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 14
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 15 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-26": 1.0,
+            "2026-03-04": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 15
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 18 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-23": 1.0,
+            "2026-03-01": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 18
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 20 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-19": 1.0,
+            "2026-02-27": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 20
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 25 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-12": 1.0,
+            "2026-02-22": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 25
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 30 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-02-05": 1.0,
+            "2026-02-17": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 30
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 35 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-29": 1.0,
+            "2026-02-12": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 35
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 40 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-22": 1.0,
+            "2026-02-07": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 40
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 45 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-15": 1.0,
+            "2026-02-02": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 45
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 50 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-01-08": 1.0,
+            "2026-01-28": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 50
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Fitr this year. The work requires 60 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2025-12-25": 1.0,
+            "2026-01-18": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Fitr",
+            "holiday_date": "2026-03-19",
+            "business_days": 60
+        },
+        "response": "2023-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 1 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-25": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 1
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 2 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-22": 1.0,
+            "2026-05-24": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 2
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 3 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-21": 1.0,
+            "2026-05-23": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 3
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 4 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-20": 1.0,
+            "2026-05-22": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 4
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 5 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-19": 1.0,
+            "2026-05-21": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 5
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 7 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-15": 1.0,
+            "2026-05-19": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 7
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 8 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-14": 1.0,
+            "2026-05-18": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 8
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 9 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-13": 1.0,
+            "2026-05-17": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 9
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 10 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-12": 1.0,
+            "2026-05-16": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 10
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 12 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-08": 1.0,
+            "2026-05-14": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 12
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 14 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-06": 1.0,
+            "2026-05-12": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 14
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 15 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-05": 1.0,
+            "2026-05-11": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 15
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 18 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-30": 1.0,
+            "2026-05-08": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 18
+        },
+        "response": "The date of Eid al-Adha in 2023 is June 28. The latest date to start the work is June 7, 2023.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 20 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-28": 1.0,
+            "2026-05-06": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 20
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 25 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-21": 1.0,
+            "2026-05-01": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 25
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 30 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-14": 1.0,
+            "2026-04-26": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 30
+        },
+        "response": "2023-06-27",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 35 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-07": 1.0,
+            "2026-04-21": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 35
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 40 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-31": 1.0,
+            "2026-04-16": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 40
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 45 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-24": 1.0,
+            "2026-04-11": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 45
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 50 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-17": 1.0,
+            "2026-04-06": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 50
+        },
+        "response": "2023-06-27",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Eid al-Adha this year. The work requires 60 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-03": 1.0,
+            "2026-03-27": 0.0
+        },
+        "metadata": {
+            "holiday": "Eid al-Adha",
+            "holiday_date": "2026-05-26",
+            "business_days": 60
+        },
+        "response": "2023-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 1 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 1
+        },
+        "response": "2024-07-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 2 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-12": 1.0,
+            "2026-06-14": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 2
+        },
+        "response": "2023-07-19",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 3 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-11": 1.0,
+            "2026-06-13": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 3
+        },
+        "response": "2024-07-07, 2024-07-03.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 4 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-10": 1.0,
+            "2026-06-12": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 4
+        },
+        "response": "2023-07-19",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 5 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-09": 1.0,
+            "2026-06-11": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 5
+        },
+        "response": "2024-07-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 7 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-05": 1.0,
+            "2026-06-09": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 7
+        },
+        "response": "2024-07-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 8 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-04": 1.0,
+            "2026-06-08": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 8
+        },
+        "response": "2024-07-08",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 9 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-03": 1.0,
+            "2026-06-07": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 9
+        },
+        "response": "2024-07-07",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 10 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-02": 1.0,
+            "2026-06-06": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 10
+        },
+        "response": "The Islamic New Year for 2023 is on July 19, 2023. The latest Gregorian date you must start the work is July 6, 2023.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 12 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-29": 1.0,
+            "2026-06-04": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 12
+        },
+        "response": "The Islamic New Year in 2023 is on July 19, 2023. The latest Gregorian date to start the work is July 04, 2023.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 14 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-27": 1.0,
+            "2026-06-02": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 14
+        },
+        "response": "2023-07-19",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 15 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-26": 1.0,
+            "2026-06-01": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 15
+        },
+        "response": "The Islamic New Year in 2023 is on July 19, 2023. The latest Gregorian date you must start the work is July 6, 2023.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 18 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-21": 1.0,
+            "2026-05-29": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 18
+        },
+        "response": "2024-07-07",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 20 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-19": 1.0,
+            "2026-05-27": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 20
+        },
+        "response": "2023-07-19",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 25 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-12": 1.0,
+            "2026-05-22": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 25
+        },
+        "response": "The Islamic New Year in 2023 is on July 19, 2023. Considering the 25 business days required and the weekend breaks, the latest start date is June 19, 2023. \n\nSo the answer is:\n\n2023-06-19",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aMy client requires the project to be delivered exactly on the first day of Islamic New Year this year. The work requires 30 business days, and I take Saturday and Sunday off. Please determine the date of that holiday, and then calculate the latest Gregorian date I must start the work.Give answer in YYYY-MM-DD format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-05-05": 1.0,
+            "2026-05-17": 0.0
+        },
+        "metadata": {
+            "holiday": "Islamic New Year",
+            "holiday_date": "2026-06-16",
+            "business_days": 30
+        },
+        "response": "2024-07-07",
+        "isModelResponseCorrect": "TBD"
+    }
+]

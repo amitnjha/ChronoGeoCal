@@ -1,0 +1,902 @@
+[
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Los Angeles must start exactly when A ends. If B lasts 2 hours, when does B end in Los Angeles? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Chicago must start exactly when A ends. If B lasts 2 hours, when does B end in Chicago? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Houston must start exactly when A ends. If B lasts 2 hours, when does B end in Houston? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Phoenix must start exactly when A ends. If B lasts 2 hours, when does B end in Phoenix? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 MST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Philadelphia must start exactly when A ends. If B lasts 2 hours, when does B end in Philadelphia? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in San Antonio must start exactly when A ends. If B lasts 2 hours, when does B end in San Antonio? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in San Diego must start exactly when A ends. If B lasts 2 hours, when does B end in San Diego? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Dallas must start exactly when A ends. If B lasts 2 hours, when does B end in Dallas? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in San Jose must start exactly when A ends. If B lasts 2 hours, when does B end in San Jose? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Austin must start exactly when A ends. If B lasts 2 hours, when does B end in Austin? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Jacksonville must start exactly when A ends. If B lasts 2 hours, when does B end in Jacksonville? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in San Francisco must start exactly when A ends. If B lasts 2 hours, when does B end in San Francisco? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Columbus must start exactly when A ends. If B lasts 2 hours, when does B end in Columbus? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Indianapolis must start exactly when A ends. If B lasts 2 hours, when does B end in Indianapolis? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Seattle must start exactly when A ends. If B lasts 2 hours, when does B end in Seattle? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Denver must start exactly when A ends. If B lasts 2 hours, when does B end in Denver? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 15:00 MDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Washington DC must start exactly when A ends. If B lasts 2 hours, when does B end in Washington DC? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Boston must start exactly when A ends. If B lasts 2 hours, when does B end in Boston? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Las Vegas must start exactly when A ends. If B lasts 2 hours, when does B end in Las Vegas? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Atlanta must start exactly when A ends. If B lasts 2 hours, when does B end in Atlanta? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Miami must start exactly when A ends. If B lasts 2 hours, when does B end in Miami? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Honolulu must start exactly when A ends. If B lasts 2 hours, when does B end in Honolulu? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 11:00 HST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Toronto must start exactly when A ends. If B lasts 2 hours, when does B end in Toronto? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Montreal must start exactly when A ends. If B lasts 2 hours, when does B end in Montreal? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Vancouver must start exactly when A ends. If B lasts 2 hours, when does B end in Vancouver? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Calgary must start exactly when A ends. If B lasts 2 hours, when does B end in Calgary? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 15:00 MDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Ottawa must start exactly when A ends. If B lasts 2 hours, when does B end in Ottawa? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Mexico City must start exactly when A ends. If B lasts 2 hours, when does B end in Mexico City? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 15:00 CST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Guadalajara must start exactly when A ends. If B lasts 2 hours, when does B end in Guadalajara? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 15:00 CST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Monterrey must start exactly when A ends. If B lasts 2 hours, when does B end in Monterrey? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 15:00 CST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in London must start exactly when A ends. If B lasts 2 hours, when does B end in London? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 22:00 BST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Manchester must start exactly when A ends. If B lasts 2 hours, when does B end in Manchester? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 22:00 BST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Birmingham must start exactly when A ends. If B lasts 2 hours, when does B end in Birmingham? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 22:00 BST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Edinburgh must start exactly when A ends. If B lasts 2 hours, when does B end in Edinburgh? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 22:00 BST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Paris must start exactly when A ends. If B lasts 2 hours, when does B end in Paris? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Lyon must start exactly when A ends. If B lasts 2 hours, when does B end in Lyon? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Marseille must start exactly when A ends. If B lasts 2 hours, when does B end in Marseille? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Berlin must start exactly when A ends. If B lasts 2 hours, when does B end in Berlin? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Frankfurt must start exactly when A ends. If B lasts 2 hours, when does B end in Frankfurt? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Munich must start exactly when A ends. If B lasts 2 hours, when does B end in Munich? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Rome must start exactly when A ends. If B lasts 2 hours, when does B end in Rome? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Milan must start exactly when A ends. If B lasts 2 hours, when does B end in Milan? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Madrid must start exactly when A ends. If B lasts 2 hours, when does B end in Madrid? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Barcelona must start exactly when A ends. If B lasts 2 hours, when does B end in Barcelona? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Amsterdam must start exactly when A ends. If B lasts 2 hours, when does B end in Amsterdam? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Zurich must start exactly when A ends. If B lasts 2 hours, when does B end in Zurich? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Tokyo must start exactly when A ends. If B lasts 2 hours, when does B end in Tokyo? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 06:00 JST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Osaka must start exactly when A ends. If B lasts 2 hours, when does B end in Osaka? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 06:00 JST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Kyoto must start exactly when A ends. If B lasts 2 hours, when does B end in Kyoto? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 06:00 JST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Seoul must start exactly when A ends. If B lasts 2 hours, when does B end in Seoul? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 06:00 KST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Busan must start exactly when A ends. If B lasts 2 hours, when does B end in Busan? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 06:00 KST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Beijing must start exactly when A ends. If B lasts 2 hours, when does B end in Beijing? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 05:00 CST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Shanghai must start exactly when A ends. If B lasts 2 hours, when does B end in Shanghai? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 05:00 CST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Hong Kong must start exactly when A ends. If B lasts 2 hours, when does B end in Hong Kong? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 05:00 HKT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Singapore must start exactly when A ends. If B lasts 2 hours, when does B end in Singapore? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 05:00 +08": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Bangkok must start exactly when A ends. If B lasts 2 hours, when does B end in Bangkok? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 04:00 +07": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Ho Chi Minh City must start exactly when A ends. If B lasts 2 hours, when does B end in Ho Chi Minh City? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 04:00 +07": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Mumbai must start exactly when A ends. If B lasts 2 hours, when does B end in Mumbai? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 02:30 IST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Delhi must start exactly when A ends. If B lasts 2 hours, when does B end in Delhi? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 02:30 IST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Dubai must start exactly when A ends. If B lasts 2 hours, when does B end in Dubai? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 01:00 +04": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Istanbul must start exactly when A ends. If B lasts 2 hours, when does B end in Istanbul? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 +03": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Sydney must start exactly when A ends. If B lasts 2 hours, when does B end in Sydney? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 08:00 AEDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Melbourne must start exactly when A ends. If B lasts 2 hours, when does B end in Melbourne? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 08:00 AEDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Auckland must start exactly when A ends. If B lasts 2 hours, when does B end in Auckland? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 10:00 NZDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Sao Paulo must start exactly when A ends. If B lasts 2 hours, when does B end in Sao Paulo? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 18:00 -03": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Buenos Aires must start exactly when A ends. If B lasts 2 hours, when does B end in Buenos Aires? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 18:00 -03": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Johannesburg must start exactly when A ends. If B lasts 2 hours, when does B end in Johannesburg? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 SAST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Cairo must start exactly when A ends. If B lasts 2 hours, when does B end in Cairo? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 EEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Portland must start exactly when A ends. If B lasts 2 hours, when does B end in Portland? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Salt Lake City must start exactly when A ends. If B lasts 2 hours, when does B end in Salt Lake City? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 15:00 MDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Orlando must start exactly when A ends. If B lasts 2 hours, when does B end in Orlando? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Nashville must start exactly when A ends. If B lasts 2 hours, when does B end in Nashville? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in New Orleans must start exactly when A ends. If B lasts 2 hours, when does B end in New Orleans? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Minneapolis must start exactly when A ends. If B lasts 2 hours, when does B end in Minneapolis? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Detroit must start exactly when A ends. If B lasts 2 hours, when does B end in Detroit? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Charlotte must start exactly when A ends. If B lasts 2 hours, when does B end in Charlotte? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 17:00 EDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Edmonton must start exactly when A ends. If B lasts 2 hours, when does B end in Edmonton? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 15:00 MDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Winnipeg must start exactly when A ends. If B lasts 2 hours, when does B end in Winnipeg? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 CDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Tijuana must start exactly when A ends. If B lasts 2 hours, when does B end in Tijuana? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 14:00 PDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Cancun must start exactly when A ends. If B lasts 2 hours, when does B end in Cancun? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 16:00 EST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Vienna must start exactly when A ends. If B lasts 2 hours, when does B end in Vienna? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Prague must start exactly when A ends. If B lasts 2 hours, when does B end in Prague? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Lisbon must start exactly when A ends. If B lasts 2 hours, when does B end in Lisbon? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 22:00 WEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Dublin must start exactly when A ends. If B lasts 2 hours, when does B end in Dublin? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 22:00 IST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Copenhagen must start exactly when A ends. If B lasts 2 hours, when does B end in Copenhagen? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Stockholm must start exactly when A ends. If B lasts 2 hours, when does B end in Stockholm? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Oslo must start exactly when A ends. If B lasts 2 hours, when does B end in Oslo? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Helsinki must start exactly when A ends. If B lasts 2 hours, when does B end in Helsinki? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 EEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Brussels must start exactly when A ends. If B lasts 2 hours, when does B end in Brussels? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Budapest must start exactly when A ends. If B lasts 2 hours, when does B end in Budapest? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Krakow must start exactly when A ends. If B lasts 2 hours, when does B end in Krakow? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-05 23:00 CEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Athens must start exactly when A ends. If B lasts 2 hours, when does B end in Athens? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 EEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Tel Aviv must start exactly when A ends. If B lasts 2 hours, when does B end in Tel Aviv? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 IDT": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Doha must start exactly when A ends. If B lasts 2 hours, when does B end in Doha? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 +03": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Riyadh must start exactly when A ends. If B lasts 2 hours, when does B end in Riyadh? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 +03": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Kuwait City must start exactly when A ends. If B lasts 2 hours, when does B end in Kuwait City? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 +03": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Beirut must start exactly when A ends. If B lasts 2 hours, when does B end in Beirut? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 00:00 EEST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Jakarta must start exactly when A ends. If B lasts 2 hours, when does B end in Jakarta? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 04:00 WIB": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Manila must start exactly when A ends. If B lasts 2 hours, when does B end in Manila? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 05:00 PST": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Lord Howe Island (Australia) is unique: DST shifts clocks by only 30 minutes (not 1 hour), changing between UTC+10:30 and UTC+11. On 2025-10-05, clocks spring forward. Event A ends at 15:00. Event B in Kuala Lumpur must start exactly when A ends. If B lasts 2 hours, when does B end in Kuala Lumpur? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-10-06 05:00 +08": 1.0,
+            "Distractor: assume clocks shift 1 hour": 0.0
+        },
+        "response": "2025-10-05 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

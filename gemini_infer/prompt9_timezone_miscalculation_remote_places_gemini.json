@@ -1,0 +1,902 @@
+[
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Ushuaia. However, their calculation is incorrect. What is the actual time in Ushuaia when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Stanley. However, their calculation is incorrect. What is the actual time in Stanley when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Jamestown. However, their calculation is incorrect. What is the actual time in Jamestown when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "17:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "17:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in King Edward Point. However, their calculation is incorrect. What is the actual time in King Edward Point when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "15:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "15:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Fernando de Noronha. However, their calculation is incorrect. What is the actual time in Fernando de Noronha when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "15:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "15:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Kindu. However, their calculation is incorrect. What is the actual time in Kindu when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "19:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Uranium City, SK. However, their calculation is incorrect. What is the actual time in Uranium City, SK when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "07:00 pm": 0.0
+        },
+        "response": "11:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Fort Chipewyan, AB. However, their calculation is incorrect. What is the actual time in Fort Chipewyan, AB when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "10:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Supai (Havasupai), AZ. However, their calculation is incorrect. What is the actual time in Supai (Havasupai), AZ when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "10:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Anaktuvuk Pass, AK. However, their calculation is incorrect. What is the actual time in Anaktuvuk Pass, AK when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "08:30": 1.0,
+            "6:00pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Ushguli. However, their calculation is incorrect. What is the actual time in Ushguli when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "21:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Eucla. However, their calculation is incorrect. What is the actual time in Eucla when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:15": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "02:15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Macquarie Island. However, their calculation is incorrect. What is the actual time in Macquarie Island when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Oymyakon (Pole of Cold). However, their calculation is incorrect. What is the actual time in Oymyakon (Pole of Cold) when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Pevek. However, their calculation is incorrect. What is the actual time in Pevek when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Gavdos. However, their calculation is incorrect. What is the actual time in Gavdos when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Corvo, Azores. However, their calculation is incorrect. What is the actual time in Corvo, Azores when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "16:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "16:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in McMurdo Station. However, their calculation is incorrect. What is the actual time in McMurdo Station when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Amundsen\u2013Scott (South Pole). However, their calculation is incorrect. What is the actual time in Amundsen\u2013Scott (South Pole) when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "7:00pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Vostok Station. However, their calculation is incorrect. What is the actual time in Vostok Station when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "22:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "23:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Palmer Station. However, their calculation is incorrect. What is the actual time in Palmer Station when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Alert, NU. However, their calculation is incorrect. What is the actual time in Alert, NU when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Eureka, NU. However, their calculation is incorrect. What is the actual time in Eureka, NU when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Grise Fiord, NU. However, their calculation is incorrect. What is the actual time in Grise Fiord, NU when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "10:00pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Resolute, NU. However, their calculation is incorrect. What is the actual time in Resolute, NU when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Pond Inlet, NU. However, their calculation is incorrect. What is the actual time in Pond Inlet, NU when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "07:00 pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Pituffik (Thule). However, their calculation is incorrect. What is the actual time in Pituffik (Thule) when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Ittoqqortoormiit. However, their calculation is incorrect. What is the actual time in Ittoqqortoormiit when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "15:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "16:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Danmarkshavn. However, their calculation is incorrect. What is the actual time in Danmarkshavn when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "17:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "17:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Longyearbyen. However, their calculation is incorrect. What is the actual time in Longyearbyen when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "18:30": 1.0,
+            "1:00 pm": 0.0
+        },
+        "response": "19:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Jan Mayen. However, their calculation is incorrect. What is the actual time in Jan Mayen when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "18:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "17:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Adamstown. However, their calculation is incorrect. What is the actual time in Adamstown when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "09:30": 1.0,
+            "10:00pm": 0.0
+        },
+        "response": "09:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Easter Island. However, their calculation is incorrect. What is the actual time in Easter Island when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Lord Howe Island. However, their calculation is incorrect. What is the actual time in Lord Howe Island when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "04:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Chatham Islands. However, their calculation is incorrect. What is the actual time in Chatham Islands when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "07:15": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "07:15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Cocos Islands. However, their calculation is incorrect. What is the actual time in Cocos Islands when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "00:00": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Kerguelen Is.. However, their calculation is incorrect. What is the actual time in Kerguelen Is. when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "22:30": 1.0,
+            "10:00pm": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Socotra. However, their calculation is incorrect. What is the actual time in Socotra when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "1:00pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Leh. However, their calculation is incorrect. What is the actual time in Leh when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "23:00": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "23:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Thimphu. However, their calculation is incorrect. What is the actual time in Thimphu when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "23:30": 1.0,
+            "7:00pm": 0.0
+        },
+        "response": "23:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Upper Mustang. However, their calculation is incorrect. What is the actual time in Upper Mustang when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "23:15": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "23:15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Siwa Oasis. However, their calculation is incorrect. What is the actual time in Siwa Oasis when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "19:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Alofi. However, their calculation is incorrect. What is the actual time in Alofi when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Fakaofo. However, their calculation is incorrect. What is the actual time in Fakaofo when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "07:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Papeete, Tahiti. However, their calculation is incorrect. What is the actual time in Papeete, Tahiti when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "07:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "07:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Taiohae, Marquesas. However, their calculation is incorrect. What is the actual time in Taiohae, Marquesas when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "08:00": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "08:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Rikitea, Gambier. However, their calculation is incorrect. What is the actual time in Rikitea, Gambier when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "08:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Apia. However, their calculation is incorrect. What is the actual time in Apia when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Pago Pago. However, their calculation is incorrect. What is the actual time in Pago Pago when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "5:00pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in London, Kiritimati (Christmas Is.). However, their calculation is incorrect. What is the actual time in London, Kiritimati (Christmas Is.) when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "07:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "07:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Tarawa. However, their calculation is incorrect. What is the actual time in Tarawa when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Kanton Island. However, their calculation is incorrect. What is the actual time in Kanton Island when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Majuro. However, their calculation is incorrect. What is the actual time in Majuro when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Kwajalein Atoll. However, their calculation is incorrect. What is the actual time in Kwajalein Atoll when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "1:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Ngerulmud. However, their calculation is incorrect. What is the actual time in Ngerulmud when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Pohnpei. However, their calculation is incorrect. What is the actual time in Pohnpei when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Chuuk (Truk) Lagoon. However, their calculation is incorrect. What is the actual time in Chuuk (Truk) Lagoon when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Kosrae. However, their calculation is incorrect. What is the actual time in Kosrae when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Honiara. However, their calculation is incorrect. What is the actual time in Honiara when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Port Vila. However, their calculation is incorrect. What is the actual time in Port Vila when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Suva. However, their calculation is incorrect. What is the actual time in Suva when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Noumea. However, their calculation is incorrect. What is the actual time in Noumea when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Rarotonga. However, their calculation is incorrect. What is the actual time in Rarotonga when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "07:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "07:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Funafuti. However, their calculation is incorrect. What is the actual time in Funafuti when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Mata-Utu. However, their calculation is incorrect. What is the actual time in Mata-Utu when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "1:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Yaren. However, their calculation is incorrect. What is the actual time in Yaren when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "1:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Hag\u00e5t\u00f1a. However, their calculation is incorrect. What is the actual time in Hag\u00e5t\u00f1a when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Saipan. However, their calculation is incorrect. What is the actual time in Saipan when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Port Moresby. However, their calculation is incorrect. What is the actual time in Port Moresby when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "10:00pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Arawa, Bougainville. However, their calculation is incorrect. What is the actual time in Arawa, Bougainville when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Jayapura, Papua. However, their calculation is incorrect. What is the actual time in Jayapura, Papua when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Ambon, Maluku. However, their calculation is incorrect. What is the actual time in Ambon, Maluku when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Makassar, Sulawesi. However, their calculation is incorrect. What is the actual time in Makassar, Sulawesi when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "01:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in Labuan Bajo, Flores. However, their calculation is incorrect. What is the actual time in Labuan Bajo, Flores when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "01:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Pontianak, Kalimantan. However, their calculation is incorrect. What is the actual time in Pontianak, Kalimantan when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "00:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "00:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Dili. However, their calculation is incorrect. What is the actual time in Dili when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Puerto Princesa, Palawan. However, their calculation is incorrect. What is the actual time in Puerto Princesa, Palawan when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "01:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Batanes Islands. However, their calculation is incorrect. What is the actual time in Batanes Islands when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "01:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Ishigaki Island. However, their calculation is incorrect. What is the actual time in Ishigaki Island when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Ogasawara (Bonin) Islands. However, their calculation is incorrect. What is the actual time in Ogasawara (Bonin) Islands when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Ulleungdo Island. However, their calculation is incorrect. What is the actual time in Ulleungdo Island when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Yuzhno-Sakhalinsk. However, their calculation is incorrect. What is the actual time in Yuzhno-Sakhalinsk when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Petropavlovsk-Kamchatsky. However, their calculation is incorrect. What is the actual time in Petropavlovsk-Kamchatsky when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Kurilsk, Kuril Islands. However, their calculation is incorrect. What is the actual time in Kurilsk, Kuril Islands when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 9 hours after 10:00 in Anadyr, Chukotka. However, their calculation is incorrect. What is the actual time in Anadyr, Chukotka when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "05:30": 1.0,
+            "07:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Magadan. However, their calculation is incorrect. What is the actual time in Magadan when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Birdsville, QLD. However, their calculation is incorrect. What is the actual time in Birdsville, QLD when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Alice Springs, NT. However, their calculation is incorrect. What is the actual time in Alice Springs, NT when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:00": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "03:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Coober Pedy, SA. However, their calculation is incorrect. What is the actual time in Coober Pedy, SA when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:00": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "03:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Broken Hill, NSW. However, their calculation is incorrect. What is the actual time in Broken Hill, NSW when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:00": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "03:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 2 hours after 10:00 in Kalgoorlie, WA. However, their calculation is incorrect. What is the actual time in Kalgoorlie, WA when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "01:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 8 hours after 10:00 in Broome, WA. However, their calculation is incorrect. What is the actual time in Broome, WA when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "01:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Thursday Island. However, their calculation is incorrect. What is the actual time in Thursday Island when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 6 hours after 10:00 in Iquitos, Loreto. However, their calculation is incorrect. What is the actual time in Iquitos, Loreto when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 4 hours after 10:00 in Leticia, Amazonas. However, their calculation is incorrect. What is the actual time in Leticia, Amazonas when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Tabatinga, AM. However, their calculation is incorrect. What is the actual time in Tabatinga, AM when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 12 hours after 10:00 in S\u00e3o Gabriel da Cachoeira, AM. However, their calculation is incorrect. What is the actual time in S\u00e3o Gabriel da Cachoeira, AM when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Cruzeiro do Sul, AC. However, their calculation is incorrect. What is the actual time in Cruzeiro do Sul, AC when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 3 hours after 10:00 in Rurrenabaque (Madidi NP). However, their calculation is incorrect. What is the actual time in Rurrenabaque (Madidi NP) when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "1:00pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 Puerto Williams time, which is 7 hours after 10:00 in Canaima National Park. However, their calculation is incorrect. What is the actual time in Canaima National Park when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    }
+]

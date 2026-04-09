@@ -1,0 +1,1599 @@
+[
+    {
+        "input": "\u202aIf I fly from New York City to Los Angeles (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Los Angeles when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Los Angeles",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Los Angeles (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Los Angeles when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Los Angeles",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Los Angeles (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Los Angeles when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Los Angeles",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Los Angeles (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Los Angeles when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Los Angeles",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "response": "2024-07-15 20:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Los Angeles (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Los Angeles when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Los Angeles",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-15 20:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Los Angeles (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Los Angeles when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Los Angeles",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Chicago (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Chicago when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Chicago",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "response": "2024-03-01 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Chicago (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Chicago when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Chicago",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Chicago (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Chicago when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Chicago",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "2024-03-01 20:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Chicago (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Chicago when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Chicago",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Chicago (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Chicago when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 03:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Chicago",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 03:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Chicago (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Chicago when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Chicago",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "2024-07-16 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Houston (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Houston when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Houston",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Houston (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Houston when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Houston",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Houston (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Houston when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Houston",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "2024-03-01 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Houston (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Houston when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Houston",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Houston (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Houston when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 03:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Houston",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 03:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Houston (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Houston when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Houston",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "2024-07-16 05:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Phoenix (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Phoenix when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Phoenix",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 10:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Phoenix (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Phoenix when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 13:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Phoenix",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 13:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Phoenix (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Phoenix when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 19:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Phoenix",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 19:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Phoenix (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Phoenix when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Phoenix",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Phoenix (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Phoenix when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Phoenix",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Phoenix (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Phoenix when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Phoenix",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "response": "2024-07-16 02:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Philadelphia (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Philadelphia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Philadelphia",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Philadelphia (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Philadelphia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Philadelphia",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "response": "2024-03-01 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Philadelphia (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Philadelphia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Philadelphia",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "2024-03-01 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Philadelphia (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Philadelphia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Philadelphia",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Philadelphia (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Philadelphia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Philadelphia",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "response": "2024-07-16 00:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Philadelphia (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Philadelphia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 10:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Philadelphia",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 10:30:00"
+        },
+        "response": "2024-07-16 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Antonio (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Antonio when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Antonio",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Antonio (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Antonio when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Antonio",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Antonio (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Antonio when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Antonio",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "2024-03-01 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Antonio (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Antonio when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Antonio",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Antonio (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Antonio when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 03:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Antonio",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 03:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Antonio (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Antonio when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Antonio",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "2024-07-16 12:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Diego (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Diego when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Diego",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Diego (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Diego when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Diego",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Diego (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Diego when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Diego",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "2024-03-01 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Diego (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Diego when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Diego",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Diego (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Diego when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Diego",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-16 02:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Diego (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Diego when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Diego",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "response": "2024-07-16 08:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Dallas (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Dallas when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Dallas",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Dallas (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Dallas when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Dallas",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Dallas (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Dallas when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Dallas",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "2024-03-01 20:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Dallas (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Dallas when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Dallas",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Dallas (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Dallas when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 03:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Dallas",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 03:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Dallas (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Dallas when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Dallas",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "2024-07-16 13:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Jose (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Jose when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Jose",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Jose (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Jose when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Jose",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Jose (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Jose when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Jose",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "2024-03-01 14:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Jose (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Jose when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Jose",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Jose (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Jose when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Jose",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-16 02:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Jose (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Jose when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Jose",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "response": "2024-07-16 05:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Austin (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Austin when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Austin",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Austin (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Austin when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Austin",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Austin (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Austin when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Austin",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "2024-03-01 20:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Austin (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Austin when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Austin",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Austin (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Austin when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 03:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Austin",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 03:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Austin (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Austin when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Austin",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "2024-07-16 05:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Jacksonville (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Jacksonville when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Jacksonville",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Jacksonville (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Jacksonville when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Jacksonville",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Jacksonville (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Jacksonville when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Jacksonville",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "2024-03-01 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Jacksonville (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Jacksonville when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Jacksonville",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Jacksonville (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Jacksonville when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Jacksonville",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Jacksonville (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Jacksonville when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 10:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Jacksonville",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 10:30:00"
+        },
+        "response": "2024-07-16 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Francisco (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Francisco when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Francisco",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Francisco (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Francisco when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Francisco",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Francisco (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in San Francisco when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Francisco",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Francisco (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Francisco when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Francisco",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Francisco (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Francisco when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Francisco",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-15 20:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to San Francisco (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in San Francisco when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "San Francisco",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "response": "2024-07-16 02:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Columbus (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Columbus when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Columbus",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Columbus (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Columbus when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Columbus",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "response": "2024-03-01 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Columbus (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Columbus when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Columbus",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "2024-03-01 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Columbus (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Columbus when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Columbus",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Columbus (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Columbus when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Columbus",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Columbus (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Columbus when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 10:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Columbus",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 10:30:00"
+        },
+        "response": "2024-07-16 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Indianapolis (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Indianapolis when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Indianapolis",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Indianapolis (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Indianapolis when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Indianapolis",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "response": "2024-03-01 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Indianapolis (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Indianapolis when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Indianapolis",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "2024-03-01 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Indianapolis (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Indianapolis when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Indianapolis",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Indianapolis (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Indianapolis when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Indianapolis",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Indianapolis (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Indianapolis when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 10:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Indianapolis",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 10:30:00"
+        },
+        "response": "2024-07-16 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Seattle (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Seattle when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Seattle",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Seattle (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Seattle when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Seattle",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Seattle (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Seattle when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Seattle",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "2024-03-01 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Seattle (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Seattle when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Seattle",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "response": "2024-07-15 23:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Seattle (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Seattle when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Seattle",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-16 02:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Seattle (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Seattle when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Seattle",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "response": "2024-07-16 02:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Denver (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Denver when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Denver",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 10:00:00"
+        },
+        "response": "2024-03-01 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Denver (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Denver when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 13:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Denver",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 13:00:00"
+        },
+        "response": "2024-03-01 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Denver (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Denver when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 19:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Denver",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 19:00:00"
+        },
+        "response": "2024-03-01 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Denver (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Denver when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Denver",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 23:30:00"
+        },
+        "response": "2024-07-15 22:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Denver (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Denver when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 02:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Denver",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 02:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Denver (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Denver when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 08:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Denver",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 08:30:00"
+        },
+        "response": "2024-07-16 06:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Washington DC (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Washington DC when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Washington DC",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "2024-03-01 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Washington DC (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Washington DC when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Washington DC",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "response": "2024-03-01 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Washington DC (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Washington DC when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Washington DC",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "2024-03-01 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from New York City to Washington DC (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Washington DC when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "New York City",
+            "to": "Washington DC",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "2024-07-16 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

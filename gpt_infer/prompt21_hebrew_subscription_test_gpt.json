@@ -1,0 +1,1502 @@
+[
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is January 18, 1990.",
+        "target_scores": {
+            "1990-02-07": 1.0,
+            "1990-02-05": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 7,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is January 24, 2024.",
+        "target_scores": {
+            "1990-03-09": 1.0,
+            "1990-03-05": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 7,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is February 5, 5751.",
+        "target_scores": {
+            "1990-04-08": 1.0,
+            "1990-04-02": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 7,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is January 17, 1990.",
+        "target_scores": {
+            "1990-02-14": 1.0,
+            "1990-02-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 14,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on January 7, 2021.",
+        "target_scores": {
+            "1990-03-16": 1.0,
+            "1990-03-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 14,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is January 22, 2023.",
+        "target_scores": {
+            "1990-04-15": 1.0,
+            "1990-04-09": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 14,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will occur on January 25, 1990.",
+        "target_scores": {
+            "1990-02-21": 1.0,
+            "1990-02-19": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 21,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is January 25, 2023.",
+        "target_scores": {
+            "1990-03-23": 1.0,
+            "1990-03-19": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 21,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment would be on May 14, 2023.",
+        "target_scores": {
+            "1990-04-22": 1.0,
+            "1990-04-16": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 21,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on January 4, 1990.",
+        "target_scores": {
+            "1990-03-02": 1.0,
+            "1990-02-28": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 30,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on 4 Adar 5750. The Gregorian date for that is March 11, 1990.",
+        "target_scores": {
+            "1990-04-01": 1.0,
+            "1990-03-28": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 30,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment would be on February 18, 2023.",
+        "target_scores": {
+            "1990-05-01": 1.0,
+            "1990-04-25": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 30,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is January 24, 1990.",
+        "target_scores": {
+            "1990-03-17": 1.0,
+            "1990-03-15": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 45,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is 7 Elul 5780.",
+        "target_scores": {
+            "1990-04-16": 1.0,
+            "1990-04-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 45,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is December 28, 2023.",
+        "target_scores": {
+            "1990-05-16": 1.0,
+            "1990-05-10": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 45,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is February 25, 2023.",
+        "target_scores": {
+            "1990-04-01": 1.0,
+            "1990-03-30": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 60,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is 21 Adar 5781.",
+        "target_scores": {
+            "1990-05-01": 1.0,
+            "1990-04-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 60,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is 4 Adar 5781.",
+        "target_scores": {
+            "1990-05-31": 1.0,
+            "1990-05-25": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 60,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is January 17, 2023.",
+        "target_scores": {
+            "1990-04-16": 1.0,
+            "1990-04-14": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 75,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The third payment will be on March 11, 5751.",
+        "target_scores": {
+            "1990-05-16": 1.0,
+            "1990-05-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 75,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is **April 16, 2024**.",
+        "target_scores": {
+            "1990-06-15": 1.0,
+            "1990-06-09": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 75,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The date for the 2nd payment is 29 Adar 5750.",
+        "target_scores": {
+            "1990-05-01": 1.0,
+            "1990-04-29": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 90,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is February 12, 1991.",
+        "target_scores": {
+            "1990-05-31": 1.0,
+            "1990-05-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 90,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [4 Tevet 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is April 5, 1990.",
+        "target_scores": {
+            "1990-06-30": 1.0,
+            "1990-06-24": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "4 Tevet 5750",
+            "start_greg": "1990-01-01",
+            "trial_days": 90,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is May 20, 1990.",
+        "target_scores": {
+            "1990-05-22": 1.0,
+            "1990-05-20": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 7,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is **May 9, 1990**.",
+        "target_scores": {
+            "1990-06-21": 1.0,
+            "1990-06-17": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 7,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is May 3, 5751.",
+        "target_scores": {
+            "1990-07-21": 1.0,
+            "1990-07-15": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 7,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is May 6, 1990.",
+        "target_scores": {
+            "1990-05-29": 1.0,
+            "1990-05-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 14,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on June 9, 2023.",
+        "target_scores": {
+            "1990-06-28": 1.0,
+            "1990-06-24": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 14,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is 25 Nisan 5751.",
+        "target_scores": {
+            "1990-07-28": 1.0,
+            "1990-07-22": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 14,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The second payment will be on May 10, 1990.",
+        "target_scores": {
+            "1990-06-05": 1.0,
+            "1990-06-03": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 21,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on June 1, 1990.",
+        "target_scores": {
+            "1990-07-05": 1.0,
+            "1990-07-01": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 21,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment would be on **8 Nisan 5751**.",
+        "target_scores": {
+            "1990-08-04": 1.0,
+            "1990-07-29": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 21,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on May 20, 5750.",
+        "target_scores": {
+            "1990-06-14": 1.0,
+            "1990-06-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 30,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is 20 Elul 5780.",
+        "target_scores": {
+            "1990-07-14": 1.0,
+            "1990-07-10": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 30,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will occur on May 23, 2023.",
+        "target_scores": {
+            "1990-08-13": 1.0,
+            "1990-08-07": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 30,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment would be on May 30, 1990.",
+        "target_scores": {
+            "1990-06-29": 1.0,
+            "1990-06-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 45,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is 20 Av 5780.",
+        "target_scores": {
+            "1990-07-29": 1.0,
+            "1990-07-25": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 45,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on May 22, 2021.",
+        "target_scores": {
+            "1990-08-28": 1.0,
+            "1990-08-22": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 45,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The second payment would be on June 20, 1990.",
+        "target_scores": {
+            "1990-07-14": 1.0,
+            "1990-07-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 60,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is 20 Av 5780.",
+        "target_scores": {
+            "1990-08-13": 1.0,
+            "1990-08-09": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 60,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on 20 Nisan 5751. In the Gregorian calendar, this corresponds to April 3, 1991.",
+        "target_scores": {
+            "1990-09-12": 1.0,
+            "1990-09-06": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 60,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is June 29, 1990.",
+        "target_scores": {
+            "1990-07-29": 1.0,
+            "1990-07-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 75,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on **21 Elul 5789**.",
+        "target_scores": {
+            "1990-08-28": 1.0,
+            "1990-08-24": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 75,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is **16 July 1990**.",
+        "target_scores": {
+            "1990-09-27": 1.0,
+            "1990-09-21": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 75,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment date would be 21 Tamuz 5750, which corresponds to July 4, 1990, in the Gregorian calendar.",
+        "target_scores": {
+            "1990-08-13": 1.0,
+            "1990-08-11": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 90,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on **24 Elul 5786**.",
+        "target_scores": {
+            "1990-09-12": 1.0,
+            "1990-09-08": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 90,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [20 Nisan 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is **18 A\u011fustos 5750**.",
+        "target_scores": {
+            "1990-10-12": 1.0,
+            "1990-10-06": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "20 Nisan 5750",
+            "start_greg": "1990-04-15",
+            "trial_days": 90,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on **August 8, 1990**.",
+        "target_scores": {
+            "1990-08-07": 1.0,
+            "1990-08-05": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 7,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is July 3, 2023.",
+        "target_scores": {
+            "1990-09-06": 1.0,
+            "1990-09-02": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 7,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on July 28, 2023.",
+        "target_scores": {
+            "1990-10-06": 1.0,
+            "1990-09-30": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 7,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The second payment will be on July 23, 5750.",
+        "target_scores": {
+            "1990-08-14": 1.0,
+            "1990-08-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 14,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is July 25, 2023.",
+        "target_scores": {
+            "1990-09-13": 1.0,
+            "1990-09-09": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 14,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is July 29, 2023.",
+        "target_scores": {
+            "1990-10-13": 1.0,
+            "1990-10-07": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 14,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on July 20, 1990.",
+        "target_scores": {
+            "1990-08-21": 1.0,
+            "1990-08-19": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 21,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is July 7, 5751.",
+        "target_scores": {
+            "1990-09-20": 1.0,
+            "1990-09-16": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 21,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on July 5, 5751.",
+        "target_scores": {
+            "1990-10-20": 1.0,
+            "1990-10-14": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 21,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is July 25, 1990.",
+        "target_scores": {
+            "1990-08-30": 1.0,
+            "1990-08-28": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 30,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on August 6, 5750.",
+        "target_scores": {
+            "1990-09-29": 1.0,
+            "1990-09-25": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 30,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is **July 8, 5751**.",
+        "target_scores": {
+            "1990-10-29": 1.0,
+            "1990-10-23": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 30,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is August 6, 1990.",
+        "target_scores": {
+            "1990-09-14": 1.0,
+            "1990-09-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 45,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is **July 15, 1990**.",
+        "target_scores": {
+            "1990-10-14": 1.0,
+            "1990-10-10": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 45,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is October 24, 1990.",
+        "target_scores": {
+            "1990-11-13": 1.0,
+            "1990-11-07": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 45,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on October 22, 1990.",
+        "target_scores": {
+            "1990-09-29": 1.0,
+            "1990-09-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 60,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is August 24, 1990.",
+        "target_scores": {
+            "1990-10-29": 1.0,
+            "1990-10-25": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 60,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is April 19, 1991.",
+        "target_scores": {
+            "1990-11-28": 1.0,
+            "1990-11-22": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 60,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is August 2, 1990.",
+        "target_scores": {
+            "1990-10-14": 1.0,
+            "1990-10-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 75,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is November 9, 2023.",
+        "target_scores": {
+            "1990-11-13": 1.0,
+            "1990-11-09": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 75,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is **July 12, 1991**.",
+        "target_scores": {
+            "1990-12-13": 1.0,
+            "1990-12-07": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 75,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment will be October 6, 1990.",
+        "target_scores": {
+            "1990-10-29": 1.0,
+            "1990-10-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 90,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment would be on September 18, 2023.",
+        "target_scores": {
+            "1990-11-28": 1.0,
+            "1990-11-24": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 90,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [8 Tamuz 5750]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on 4 September 1990.",
+        "target_scores": {
+            "1990-12-28": 1.0,
+            "1990-12-22": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "8 Tamuz 5750",
+            "start_greg": "1990-07-01",
+            "trial_days": 90,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is November 25, 1990.",
+        "target_scores": {
+            "1990-11-21": 1.0,
+            "1990-11-19": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 7,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is November 10, 1990.",
+        "target_scores": {
+            "1990-12-21": 1.0,
+            "1990-12-17": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 7,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on April 1, 1991.",
+        "target_scores": {
+            "1991-01-20": 1.0,
+            "1991-01-14": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 7,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on **11 March 1991**.",
+        "target_scores": {
+            "1990-11-28": 1.0,
+            "1990-11-26": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 14,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on **26 Tevet 5781**.",
+        "target_scores": {
+            "1990-12-28": 1.0,
+            "1990-12-24": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 14,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is 26 Tevet 5782.",
+        "target_scores": {
+            "1991-01-27": 1.0,
+            "1991-01-21": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 14,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on **17 Cheshvan 5751**, which corresponds to **November 4, 1990** in the Gregorian calendar.",
+        "target_scores": {
+            "1990-12-05": 1.0,
+            "1990-12-03": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 21,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on November 11, 2023.",
+        "target_scores": {
+            "1991-01-04": 1.0,
+            "1990-12-31": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 21,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment would be on **3 Tevet 5782**.",
+        "target_scores": {
+            "1991-02-03": 1.0,
+            "1991-01-28": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 21,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is 26 Kislev 5751.",
+        "target_scores": {
+            "1990-12-14": 1.0,
+            "1990-12-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 30,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is **August 31, 1991**.",
+        "target_scores": {
+            "1991-01-13": 1.0,
+            "1991-01-09": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 30,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on **26 Tishrei 5752**, which corresponds to **October 25, 1991** in the Gregorian calendar.",
+        "target_scores": {
+            "1991-02-12": 1.0,
+            "1991-02-06": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 30,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is December 10, 1990.",
+        "target_scores": {
+            "1990-12-29": 1.0,
+            "1990-12-27": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 45,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The date of the 3rd payment will be 9 Tevet 5787.",
+        "target_scores": {
+            "1991-01-28": 1.0,
+            "1991-01-24": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 45,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is 26 Tammuz 5783.",
+        "target_scores": {
+            "1991-02-27": 1.0,
+            "1991-02-21": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 45,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The date for the 2nd payment will be **27 Kislev 5752**.",
+        "target_scores": {
+            "1991-01-13": 1.0,
+            "1991-01-11": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 60,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is February 25, 1991.",
+        "target_scores": {
+            "1991-02-12": 1.0,
+            "1991-02-08": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 60,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 4th payment is March 27, 1992.",
+        "target_scores": {
+            "1991-03-14": 1.0,
+            "1991-03-08": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 60,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is **November 27, 1990**.",
+        "target_scores": {
+            "1991-01-28": 1.0,
+            "1991-01-26": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 75,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 3rd payment will be on December 25, 1990.",
+        "target_scores": {
+            "1991-02-27": 1.0,
+            "1991-02-23": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 75,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on **29 Shevat 5752**, which corresponds to **February 4, 1992** in the Gregorian calendar.",
+        "target_scores": {
+            "1991-03-29": 1.0,
+            "1991-03-23": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 75,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on 26 Tevet 5752, which corresponds to January 10, 1992.",
+        "target_scores": {
+            "1991-02-12": 1.0,
+            "1991-02-10": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 90,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is January 23, 1992.",
+        "target_scores": {
+            "1991-03-14": 1.0,
+            "1991-03-10": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 90,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [26 Tishrei 5751]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on **12 Tevet 5752**.",
+        "target_scores": {
+            "1991-04-13": 1.0,
+            "1991-04-07": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "26 Tishrei 5751",
+            "start_greg": "1990-10-15",
+            "trial_days": 90,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [25 Tevet 5752]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The 2nd payment will be on January 25, 5752.",
+        "target_scores": {
+            "1992-02-07": 1.0,
+            "1992-02-05": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "25 Tevet 5752",
+            "start_greg": "1992-01-01",
+            "trial_days": 7,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [25 Tevet 5752]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 3rd payment is January 15, 1993.",
+        "target_scores": {
+            "1992-03-08": 1.0,
+            "1992-03-04": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "25 Tevet 5752",
+            "start_greg": "1992-01-01",
+            "trial_days": 7,
+            "bill_number": 3
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [25 Tevet 5752]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "response": "The 4th payment will be on **25 Tevet 5753**. In the Gregorian calendar, that date is **January 18, 1993**.",
+        "target_scores": {
+            "1992-04-07": 1.0,
+            "1992-04-01": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "25 Tevet 5752",
+            "start_greg": "1992-01-01",
+            "trial_days": 7,
+            "bill_number": 4
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [25 Tevet 5752]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hebrew day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "response": "The Gregorian date for the 2nd payment is January 18, 1992.",
+        "target_scores": {
+            "1992-02-14": 1.0,
+            "1992-02-12": 0.0
+        },
+        "metadata": {
+            "start_hebrew": "25 Tevet 5752",
+            "start_greg": "1992-01-01",
+            "trial_days": 14,
+            "bill_number": 2
+        },
+        "isModelResponseCorrect": "TBD"
+    }
+]

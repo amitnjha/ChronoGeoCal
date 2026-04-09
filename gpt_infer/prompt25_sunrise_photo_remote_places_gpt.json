@@ -1,0 +1,1938 @@
+[
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "08:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 08:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 09:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "10:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 05:06:00 to 2026-03-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "10:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "11:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "08:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "07:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 07:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "12:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "13:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "08:15:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 08:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in London, UK wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 06:02:00 to 2026-03-15 06:06:00": 1.0,
+            "2026-03-15 06:02:00 to 2026-03-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:15:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-03-15 06:02:00 to 2026-03-15 06:06:00"
+        },
+        "response": "2026-03-15 06:06:00 to 2026-03-15 09:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "08:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 08:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "09:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "09:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 09:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "10:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "10:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "11:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "08:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "07:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 07:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "12:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-14 19:38:00 to 2026-06-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "13:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "08:15:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 08:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in London, UK wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 05:38:00 to 2026-06-15 06:38:00": 1.0,
+            "2026-06-15 05:27:00 to 2026-06-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "09:15:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-06-15 05:38:00 to 2026-06-15 06:38:00"
+        },
+        "response": "2026-06-15 05:38:00 to 2026-06-15 09:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "08:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 08:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "09:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "09:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 09:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "10:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "10:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "11:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "08:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "07:30:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 07:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "12:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "13:00:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "08:15:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 00:10:00 to 2026-09-15 03:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in London, UK wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 05:10:00 to 2026-09-15 06:10:00": 1.0,
+            "2026-09-15 04:52:00 to 2026-09-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "09:15:00",
+            "status": "HAS_OVERLAP",
+            "correct_window": "2026-09-15 05:10:00 to 2026-09-15 06:10:00"
+        },
+        "response": "2026-09-15 05:10:00 to 2026-09-15 09:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "08:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 08:30:00"
+        },
+        "response": "2026-12-16 04:43:00 to 2026-12-16 08:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "09:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 09:00:00"
+        },
+        "response": "2026-12-15 23:43:00 to 2026-12-16 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "09:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 09:30:00"
+        },
+        "response": "2026-12-16 06:43:00 to 2026-12-16 09:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "10:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 10:00:00"
+        },
+        "response": "2026-12-16 04:43:00 to 2026-12-16 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "10:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 10:30:00"
+        },
+        "response": "2026-12-15 23:43:00 to 2026-12-16 05:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "11:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 11:00:00"
+        },
+        "response": "2026-12-16 04:43:00 to 2026-12-16 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "08:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 08:00:00"
+        },
+        "response": "2026-12-15 04:43:00 to 2026-12-15 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "07:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 07:30:00"
+        },
+        "response": "2026-12-15 06:43:00 to 2026-12-15 07:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "12:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 12:00:00"
+        },
+        "response": "2026-12-15 05:43:00 to 2026-12-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "13:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 13:00:00"
+        },
+        "response": "2026-12-16 05:43:00 to 2026-12-16 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "08:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 08:15:00"
+        },
+        "response": "2026-12-15 05:43:00 to 2026-12-15 08:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in London, UK wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in London, UK local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 04:17:00 to 2026-12-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "London",
+            "country_b": "UK",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "09:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 04:17:00 to 2026-12-15 09:15:00"
+        },
+        "response": "2026-12-16 04:43:00 to 2026-12-16 09:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "08:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 08:30:00"
+        },
+        "response": "2026-03-15 16:06:00 to 2026-03-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 09:00:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 09:30:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "10:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 10:00:00"
+        },
+        "response": "2026-03-15 16:06:00 to 2026-03-15 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "10:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 10:30:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 15:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "11:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 11:00:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 23:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "08:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 08:00:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "07:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 07:30:00"
+        },
+        "response": "2026-03-15 16:06:00 to 2026-03-15 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "12:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 12:00:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 23:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "13:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 13:00:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 23:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "08:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 08:15:00"
+        },
+        "response": "2026-03-15 16:06:00 to 2026-03-15 17:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Tokyo, Japan wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 15:20:00 to 2026-03-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 15:20:00 to 2026-03-15 09:15:00"
+        },
+        "response": "2026-03-15 15:06:00 to 2026-03-15 15:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "08:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 08:30:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 15:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "09:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 09:00:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "09:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 09:30:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "10:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 10:00:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "10:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 10:30:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 10:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "11:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 11:00:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 20:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "08:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 08:00:00"
+        },
+        "response": "2026-06-15 14:38:00 to 2026-06-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "07:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 07:30:00"
+        },
+        "response": "2026-06-15 00:38:00 to 2026-06-15 07:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "12:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 12:00:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 23:59:59",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "13:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 13:00:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "08:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 08:15:00"
+        },
+        "response": "2026-06-15 13:38:00 to 2026-06-15 16:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-06-15 00:38:00 in New York, USA on 2026-06-15. A photographer in Tokyo, Japan wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-06-15 14:56:00 to 2026-06-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-06-15",
+            "sunrise_a": "2026-06-15 00:38:00",
+            "photographer_end": "09:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-06-15 14:56:00 to 2026-06-15 09:15:00"
+        },
+        "response": "2026-06-15 14:38:00 to 2026-06-15 17:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "08:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 08:30:00"
+        },
+        "response": "2026-09-15 14:10:00 to 2026-09-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "09:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 09:00:00"
+        },
+        "response": "2026-09-15 13:10:00 to 2026-09-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "09:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 09:30:00"
+        },
+        "response": "2026-09-15 13:10:00 to 2026-09-15 13:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "10:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 10:00:00"
+        },
+        "response": "2026-09-15 13:10:00 to 2026-09-15 20:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "10:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 10:30:00"
+        },
+        "response": "2026-09-15 13:10:00 to 2026-09-15 14:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "11:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 11:00:00"
+        },
+        "response": "2026-09-15 14:10:00 to 2026-09-15 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "08:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 08:00:00"
+        },
+        "response": "2026-09-15 13:10:00 to 2026-09-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "07:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 07:30:00"
+        },
+        "response": "2026-09-15 14:10:00 to 2026-09-15 22:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "12:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 12:00:00"
+        },
+        "response": "2026-09-15 13:10:00 to 2026-09-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "13:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 13:00:00"
+        },
+        "response": "2026-09-15 14:10:00 to 2026-09-15 23:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "08:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 08:15:00"
+        },
+        "response": "2026-09-15 14:10:00 to 2026-09-15 23:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-09-15 00:10:00 in New York, USA on 2026-09-15. A photographer in Tokyo, Japan wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-09-15 14:32:00 to 2026-09-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-09-15",
+            "sunrise_a": "2026-09-15 00:10:00",
+            "photographer_end": "09:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-09-15 14:32:00 to 2026-09-15 09:15:00"
+        },
+        "response": "2026-09-15 00:10:00 to 2026-09-15 09:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "08:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 08:30:00"
+        },
+        "response": "2026-12-15 12:43:00 to 2026-12-15 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "09:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 09:00:00"
+        },
+        "response": "2026-12-16 12:43:00 to 2026-12-16 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "09:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 09:30:00"
+        },
+        "response": "2026-12-16 12:43:00 to 2026-12-16 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "10:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 10:00:00"
+        },
+        "response": "2026-12-16 11:43:00 to 2026-12-16 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 10:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 10:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "10:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 10:30:00"
+        },
+        "response": "2026-12-16 11:43:00 to 2026-12-16 13:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 11:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "11:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 11:00:00"
+        },
+        "response": "2026-12-16 10:43:00 to 2026-12-16 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 08:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 08:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "08:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 08:00:00"
+        },
+        "response": "2026-12-16 12:43:00 to 2026-12-16 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 07:30:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 07:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "07:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 07:30:00"
+        },
+        "response": "2026-12-16 12:43:00 to 2026-12-16 15:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 12:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "12:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 12:00:00"
+        },
+        "response": "2026-12-16 12:43:00 to 2026-12-16 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 13:00:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "13:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 13:00:00"
+        },
+        "response": "2026-12-16 12:43:00 to 2026-12-16 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 08:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 08:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "08:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 08:15:00"
+        },
+        "response": "2026-12-15 11:43:00 to 2026-12-15 16:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-12-15 23:43:00 in New York, USA on 2026-12-15. A photographer in Tokyo, Japan wants sunrise photos until 09:15:00. What time window works for both to photograph sunrise in Tokyo, Japan local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-12-15 14:08:00 to 2026-12-15 09:15:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Tokyo",
+            "country_b": "Japan",
+            "greg_date": "2026-12-15",
+            "sunrise_a": "2026-12-15 23:43:00",
+            "photographer_end": "09:15:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-12-15 14:08:00 to 2026-12-15 09:15:00"
+        },
+        "response": "2026-12-15 11:43:00 to 2026-12-15 12:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Sydney, Australia wants sunrise photos until 08:30:00. What time window works for both to photograph sunrise in Sydney, Australia local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 16:03:00 to 2026-03-15 08:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Sydney",
+            "country_b": "Australia",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "08:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 16:03:00 to 2026-03-15 08:30:00"
+        },
+        "response": "2026-03-15 16:06:00 to 2026-03-15 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Sydney, Australia wants sunrise photos until 09:00:00. What time window works for both to photograph sunrise in Sydney, Australia local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 16:03:00 to 2026-03-15 09:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Sydney",
+            "country_b": "Australia",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 16:03:00 to 2026-03-15 09:00:00"
+        },
+        "response": "2026-03-15 16:06:00 to 2026-03-15 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Sydney, Australia wants sunrise photos until 09:30:00. What time window works for both to photograph sunrise in Sydney, Australia local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 16:03:00 to 2026-03-15 09:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Sydney",
+            "country_b": "Australia",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "09:30:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 16:03:00 to 2026-03-15 09:30:00"
+        },
+        "response": "2026-03-15 17:06:00 to 2026-03-15 19:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aThe sun rises at 2026-03-15 01:06:00 in New York, USA on 2026-03-15. A photographer in Sydney, Australia wants sunrise photos until 10:00:00. What time window works for both to photograph sunrise in Sydney, Australia local time? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-03-15 16:03:00 to 2026-03-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York",
+            "country_a": "USA",
+            "city_b": "Sydney",
+            "country_b": "Australia",
+            "greg_date": "2026-03-15",
+            "sunrise_a": "2026-03-15 01:06:00",
+            "photographer_end": "10:00:00",
+            "status": "NO_OVERLAP",
+            "correct_window": "2026-03-15 16:03:00 to 2026-03-15 10:00:00"
+        },
+        "response": "2026-03-15 16:06:00 to 2026-03-15 20:00:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

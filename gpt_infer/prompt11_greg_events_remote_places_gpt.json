@@ -1,0 +1,894 @@
+[
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ushuaia starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ushuaia time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Stanley starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Stanley time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Jamestown starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Jamestown time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 AM - 9:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in King Edward Point starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in King Edward Point time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 AM - 7:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Fernando de Noronha starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Fernando de Noronha time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 AM - 7:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Kindu starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kindu time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Uranium City, SK starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Uranium City, SK time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Fort Chipewyan, AB starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Fort Chipewyan, AB time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 AM - 2:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Supai (Havasupai), AZ starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Supai (Havasupai), AZ time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 AM - 2:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Anaktuvuk Pass, AK starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Anaktuvuk Pass, AK time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 PM - 12:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ushguli starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ushguli time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 AM - 1:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Eucla starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Eucla time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:45 PM - 5:45 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Macquarie Island starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Macquarie Island time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Oymyakon (Pole of Cold) starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Oymyakon (Pole of Cold) time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Pevek starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Pevek time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Gavdos starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Gavdos time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Corvo, Azores starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Corvo, Azores time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 AM - 8:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in McMurdo Station starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in McMurdo Station time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Amundsen\u2013Scott (South Pole) starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Amundsen\u2013Scott (South Pole) time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Vostok Station starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Vostok Station time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 PM - 2:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Palmer Station starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Palmer Station time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 AM - 6:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Alert, NU starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Alert, NU time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Eureka, NU starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Eureka, NU time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Grise Fiord, NU starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Grise Fiord, NU time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Resolute, NU starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Resolute, NU time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 AM - 3:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Pond Inlet, NU starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Pond Inlet, NU time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Pituffik (Thule) starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Pituffik (Thule) time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ittoqqortoormiit starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ittoqqortoormiit time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 AM - 7:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Danmarkshavn starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Danmarkshavn time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 AM - 9:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM in Danmarkshavn time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Longyearbyen starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Longyearbyen time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 AM - 10:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Jan Mayen starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Jan Mayen time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 AM - 10:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Adamstown starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Adamstown time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:00 PM - 1:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Easter Island starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Easter Island time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Lord Howe Island starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Lord Howe Island time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Chatham Islands starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Chatham Islands time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:45 PM - 10:45 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM Chatham Islands time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Cocos Islands starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Cocos Islands time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:30 PM - 3:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Kerguelen Is. starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kerguelen Is. time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:00 PM - 2:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Socotra starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Socotra time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 AM - 12:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Leh starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Leh time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30 PM - 2:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Thimphu starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Thimphu time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "1:00 PM - 3:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Upper Mustang starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Upper Mustang time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:45 PM - 2:45 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Siwa Oasis starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Siwa Oasis time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 AM - 11:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Alofi starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Alofi time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Fakaofo starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Fakaofo time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Papeete, Tahiti starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Papeete, Tahiti time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 PM - 11:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Taiohae, Marquesas starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Taiohae, Marquesas time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:30 PM - 11:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Rikitea, Gambier starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Rikitea, Gambier time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "10:00 PM - 12:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Apia starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Apia time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Pago Pago starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Pago Pago time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in London, Kiritimati (Christmas Is.) starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in London, Kiritimati (Christmas Is.) time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 PM - 11:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Tarawa starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Tarawa time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Kanton Island starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kanton Island time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "8:00 PM - 10:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Majuro starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Majuro time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "06:00 AM - 08:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Kwajalein Atoll starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kwajalein Atoll time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ngerulmud starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ngerulmud time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Pohnpei starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Pohnpei time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Chuuk (Truk) Lagoon starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Chuuk (Truk) Lagoon time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Kosrae starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kosrae time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Honiara starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Honiara time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Port Vila starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Port Vila time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Suva starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Suva time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Noumea starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Noumea time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Rarotonga starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Rarotonga time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "9:00 PM - 11:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Funafuti starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Funafuti time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B occurs from 4:00 AM to 6:00 AM in Funafuti time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Mata-Utu starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Mata-Utu time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Yaren starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Yaren time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Hag\u00e5t\u00f1a starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Hag\u00e5t\u00f1a time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "06:00 AM - 08:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Saipan starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Saipan time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Port Moresby starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Port Moresby time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Arawa, Bougainville starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Arawa, Bougainville time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Jayapura, Papua starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Jayapura, Papua time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ambon, Maluku starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ambon, Maluku time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Makassar, Sulawesi starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Makassar, Sulawesi time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 PM - 5:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Labuan Bajo, Flores starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Labuan Bajo, Flores time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 PM - 5:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Pontianak, Kalimantan starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Pontianak, Kalimantan time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 PM - 4:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Dili starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Dili time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Puerto Princesa, Palawan starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Puerto Princesa, Palawan time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 PM - 5:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Batanes Islands starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Batanes Islands time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 PM - 5:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ishigaki Island starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ishigaki Island time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ogasawara (Bonin) Islands starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ogasawara (Bonin) Islands time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Ulleungdo Island starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Ulleungdo Island time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:00 PM - 6:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Yuzhno-Sakhalinsk starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Yuzhno-Sakhalinsk time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Petropavlovsk-Kamchatsky starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Petropavlovsk-Kamchatsky time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Kurilsk, Kuril Islands starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kurilsk, Kuril Islands time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Anadyr, Chukotka starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Anadyr, Chukotka time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "7:00 PM - 9:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Magadan starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Magadan time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "6:00 PM - 8:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Birdsville, QLD starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Birdsville, QLD time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Alice Springs, NT starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Alice Springs, NT time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "4:30 PM - 6:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Coober Pedy, SA starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Coober Pedy, SA time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:30 PM - 7:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Broken Hill, NSW starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Broken Hill, NSW time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:30 PM - 7:30 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B in Broken Hill, NSW happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Kalgoorlie, WA starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Kalgoorlie, WA time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 PM - 5:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Broome, WA starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Broome, WA time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 PM - 5:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Thursday Island starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Thursday Island time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "5:00 PM - 7:00 PM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Iquitos, Loreto starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Iquitos, Loreto time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Leticia, Amazonas starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Leticia, Amazonas time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "Event B happens from 4:00 AM - 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Tabatinga, AM starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Tabatinga, AM time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in S\u00e3o Gabriel da Cachoeira, AM starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in S\u00e3o Gabriel da Cachoeira, AM time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Cruzeiro do Sul, AC starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Cruzeiro do Sul, AC time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Rurrenabaque (Madidi NP) starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Rurrenabaque (Madidi NP) time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is 2026-01-08. Event A happens in Puerto Williams from 2:00 AM to 4:00 AM. Event B in Canaima National Park starts exactly when Event A ends and lasts 2 hours. What time does Event B happen in Canaima National Park time? GIVE RESPONSE IN HH:MM AM/PM - HH:MM AM/PM format. NO EXPLANATIONS.",
+        "target_scores": {
+            "3:00 AM - 5:00 AM": 1.0,
+            "2:00 AM - 4:00 AM": 0.0
+        },
+        "response": "04:00 AM - 06:00 AM",
+        "isModelResponseCorrect": "TBD"
+    }
+]

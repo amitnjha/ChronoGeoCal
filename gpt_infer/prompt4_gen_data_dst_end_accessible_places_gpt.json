@@ -1,0 +1,902 @@
+[
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Los Angeles, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (which becomes 1:00 AM after falling back one hour). With a 6-hour flight duration, it arrives in Los Angeles at 7:00 AM local time, which is 2:00 PM UTC. The Hebrew calendar date at that time will still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Chicago, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026). After falling back one hour, the departure time is effectively 1:00 AM local time in New York City.\n\nAdding the 6-hour flight duration, the arrival time in Chicago (CST) is 7:00 AM local time.\n\nIn Hebrew calendar, the arrival date is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nSo, the flight arrives at 7:00 AM CST on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Houston, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. After falling back one hour, the departure time is effectively 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nFlight duration: 6 hours\n\nArrival time in New York City: 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nHouston is in Central Standard Time, which is one hour behind New York City. \n\nArrival time in Houston: 6:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nSo, the arrival time is 6:00 AM local time in Houston on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Phoenix, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which falls back to 1:00 AM. \n\nSo, the departure time is 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nAdding 6 hours to that, the arrival time in Phoenix (which is in Mountain Standard Time) would be 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nIn local time in Phoenix, the arrival time is 7:00 AM on the same Hebrew calendar date, \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Philadelphia, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 6, 2022, and arrives in Philadelphia at 8:00 AM local time. The Hebrew calendar date at the destination is \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to San Antonio, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM local time (which is actually 1:00 AM after falling back one hour) on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6, and has a duration of 6 hours. \n\nArrival time in San Antonio (local time): 7:00 AM (Central Standard Time).\n\nHebrew calendar date at San Antonio upon arrival: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to San Diego, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, and since daylight saving time ends, the clock falls back to 1:00 AM. The flight takes off at 1:00 AM local time.\n\nAfter 6 hours, the arrival time in San Diego (PST) is 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nIn the Hebrew calendar, the date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nFinal answer: 7:00 AM local time in San Diego on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Dallas, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight arrives in Dallas at 2:00 AM on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to San Jose, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 in New York City, which falls back to 1:00 AM due to the end of daylight saving time. \n\nThe flight duration is 6 hours. \n\n1:00 AM + 6 hours = 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 in San Jose.\n\nIn Hebrew calendar terms, that would be: \n7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Austin, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (fall back to 1:00 AM). The departure time in New York City is 1:00 AM. \n\nAdding 6 hours to this time, the flight arrives at 7:00 AM CST in Austin.\n\nThe date in the Hebrew calendar at the time of arrival remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nSo, the final answer is:\nArrival time: 7:00 AM CST\nArrival date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Jacksonville, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026) after falling back an hour, so the departure time is effectively 1:00 AM local time. The flight duration is 6 hours. \n\n1:00 AM + 6 hours = 7:00 AM. \n\nIn Jacksonville, the local time will be 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026). \n\nThe arrival time is 7:00 AM in local time, and the date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to San Francisco, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 6, 2026) in New York City. Since daylight saving time ends, the clock falls back to 1:00 AM. The actual departure time is therefore 1:00 AM.\n\nThe flight duration is 6 hours, so it arrives at 7:00 AM NYC time.\n\nSan Francisco is 3 hours behind New York City. Thus, the arrival time in San Francisco local time is 4:00 AM.\n\nThe Hebrew calendar date remains the same as it is during the flight, so the arrival date in Hebrew is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\n**Arrival Time:** 4:00 AM (PST)  \n**Date:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Columbus, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e and falls back to 1:00 AM due to the end of daylight saving time. Therefore, the flight effectively departs at 1:00 AM.\n\nAdding the 6-hour flight duration:\n\n1:00 AM + 6 hours = 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nIn Columbus, which is in the Eastern Standard Time (EST) zone, the time is the same.\n\nArrival time: 7:00 AM local time.\n\nDate: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Indianapolis, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at 2:00 AM (when clocks fall back to 1:00 AM). \n\nDeparture time in local time: 1:00 AM \nFlight duration: 6 hours \n\nArrival time in local time (Indianapolis): 7:00 AM \n\nHebrew calendar date at the destination: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Seattle, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6, which falls back to 1:00 AM. \n\nDeparture time: 1:00 AM (local New York time)  \nFlight duration: 6 hours  \nArrival time: 7:00 AM (local Seattle time, which is 3 hours behind New York)\n\nJewish calendar date in Seattle at arrival: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.  \n\nArrival time: 7:00 AM (local Seattle time)  \nArrival date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Denver, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM (fall back to 1:00 AM) on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City. \n\nAdding 6 hours to the departure time:\n1:00 AM + 6 hours = 7:00 AM (New York time).\n\nSince Denver is in the Mountain Time Zone, which is 2 hours behind New York:\n7:00 AM - 2 hours = 5:00 AM (Denver local time).\n\nThe Hebrew calendar date remains the same:\nArrival time in Denver: 5:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Washington DC, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, and clocks fall back one hour to 1:00 AM. Thus, the flight departs at 1:00 AM local time.\n\nAdding 6 hours, the flight arrives at 7:00 AM local time in Washington DC.\n\nIn Hebrew calendar, the arrival date is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nArrival time: 7:00 AM local time in Washington DC on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Boston, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (when clocks fall back to 1:00 AM), which is now effectively at 1:00 AM. \n\nThe flight duration is 6 hours. \n\nArrival time in Boston (local time): 7:00 AM\nHebrew calendar date at the destination: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Las Vegas, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. After falling back one hour, it leaves at 1:00 AM. \n\nFlight duration is 6 hours. \n\nArrival time in Las Vegas (PST) is 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nIn local time, the arrival is 7:00 AM PST, and the Hebrew calendar date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Atlanta, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, which falls back to 1:00 AM. \n\nDeparture time: 1:00 AM (New York time).\nDuration: 6 hours.\n\nArrival time in New York: 7:00 AM (New York time).\n\nAtlanta is in the same time zone, so the arrival time in Atlanta is also 7:00 AM.\n\nHebrew calendar date at arrival in Atlanta: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. ",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Miami, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 6, 2026) in New York City. Clocks fall back one hour at that time, so the flight effectively departs at 1:00 AM. \n\nThe flight duration is 6 hours, so it arrives at 7:00 AM local time in Miami (Eastern Time). \n\nIn Hebrew calendar:\n- The Hebrew date changes after nightfall; therefore, it arrives still on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\n**Arrival Time: 7:00 AM local time in Miami (Eastern Time) on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.**",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Honolulu, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 04:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 03:00": 1.0
+        },
+        "response": "The flight arrives in Honolulu at 4:00 PM on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Toronto, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (falling back to 1:00 AM). \n\nDeparture time: 1:00 AM \nDuration: 6 hours \n\nArrival time in Toronto: 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nLocal time: 7:00 AM \nHebrew calendar date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Montreal, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM, which falls back to 1:00 AM. \n\nAdding 6 hours to 1:00 AM gives an arrival time of 7:00 AM Montreal local time. \n\nIn Hebrew calendar date, the arrival is on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6. \n\nFinal answer: 7:00 AM local time in Montreal; \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Vancouver, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM New York time (falling back to 1:00 AM). The flight duration is 6 hours, so it arrives at 7:00 AM New York time.\n\nConverting 7:00 AM New York time to Vancouver time (which is 3 hours earlier), the arrival time is 4:00 AM in Vancouver.\n\nIn Hebrew calendar, the arrival date would still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, since the time is before sunset in Vancouver. \n\n**Arrival time:** 4:00 AM  \n**Arrival date in Hebrew calendar:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Calgary, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which is when daylight saving time ends, so the clocks fall back to 1:00 AM. Therefore, the flight actually departs at 1:00 AM local New York time.\n\n6 hours later, the flight arrives at:\n\n1:00 AM + 6 hours = 7:00 AM New York time.\n\nCalgary is in the Mountain Time Zone, which is 2 hours behind New York time (Eastern Time). Therefore, the local time in Calgary at the time of arrival is:\n\n7:00 AM - 2 hours = 5:00 AM Calgary time.\n\nThe date in Calgary remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nFinal answer: \n\nArrival time: 5:00 AM Calgary time  \nHebrew calendar date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Ottawa, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, and since daylight saving time ends, the clocks are set back to 1:00 AM. Therefore, the flight departs at 1:00 AM local time. \n\nAdding the 6-hour flight duration, the arrival time in Ottawa will be 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Mexico City, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 7, 2026), which falls back to 1:00 AM due to daylight saving time ending. \n\n1:00 AM (local time) + 6 hours flight duration = 7:00 AM local time in Mexico City.\n\nMexico City is in the Central Time Zone (UTC-6). \n\nAt the time of departure, New York City is in Eastern Standard Time (UTC-5). \n\nSo, the local time in Mexico City at arrival is:\n\n7:00 AM (CST) on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e corresponds to 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nFinal arrival information:\n**Time:** 7:00 AM  \n**Hebrew date:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Guadalajara, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (when clocks fall back to 1:00 AM). \n\nAdding 6 hours to the departure time: \n1:00 AM + 6 hours = 7:00 AM (New York time).\n\nGuadalajara is in the Central Time Zone (CST), which is 1 hour behind New York during standard time. \n7:00 AM New York time is 6:00 AM Guadalajara time.\n\nThe Hebrew calendar date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (the same date). \n\n**Arrival Time:** 6:00 AM in Guadalajara time.  \n**Hebrew Date:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Monterrey, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (which becomes 1:00 AM when the clocks fall back). \n\nDeparture time: 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e  \nDuration: 6 hours  \n\nArrival time: 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u0632\u200e  \n\nIn Monterrey, the local time at arrival will be 7:00 AM.  \n\nThe Hebrew calendar date will still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to London, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 13:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 (November 27, 2026), which is when clocks fall back to 1:00 AM. \n\nFlight duration: 6 hours.  \nDeparture time: 1:00 AM local time (New York City).  \nArrival time in New York: 7:00 AM (local time).\n\nLondon is 5 hours ahead of New York City.  \nArrival time in London: 12:00 PM (local time).\n\nHebrew calendar date in London at that time: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.  \n\n**Final Arrival Details:**  \nArrival Time in London: 12:00 PM local time  \nHebrew Date: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Manchester, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 13:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (local time) on November 6, 2022. \n\nThe flight duration is 6 hours, so it arrives at 8:00 AM (local time) on November 6, 2022. \n\nIn Hebrew calendar, it would still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nArrival time: 8:00 AM (local time) on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Birmingham, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 13:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (local New York time), which will be adjusted to 1:00 AM due to the end of daylight saving time. After 6 hours, the flight arrives at 7:00 AM local Birmingham time on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Edinburgh, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 13:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 (November 6, 2026). \n\nFlight duration: 6 hours. \n\nArrival time in Edinburgh: 8:00 AM local time on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 (November 6, 2026).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Paris, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026, in the Gregorian calendar). After falling back one hour, the departure time is effectively 1:00 AM. \n\nAdding 6 hours of flight time results in:\n\n1:00 AM + 6 hours = 7:00 AM local time in Paris.\n\nIn the Hebrew calendar, it will be \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nArrival time: 7:00 AM Paris local time on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Lyon, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which is when the clocks fall back to 1:00 AM. The flight duration is 6 hours. \n\nTherefore, the arrival time in Lyon (CET) will be:\n\n1:00 AM + 6 hours = 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nIn local time (CET), the flight arrives at 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nIn Hebrew calendar date, it remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Marseille, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 7, 2021 (when the clocks fall back one hour). \n\nAdding the 6-hour flight duration, the arrival time in Marseille will be 8:00 AM local time on the same day (November 7, 2021).\n\nIn terms of the Hebrew calendar, the date will still be 3 Kislev \u05ea\u05e9\u05e4\u05f4\u05d1\u200e (5782). \n\nArrival time: 8:00 AM local time, 3 Kislev \u05ea\u05e9\u05e4\u05f4\u05d1\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Berlin, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at 2:00 AM, which falls back to 1:00 AM due to the end of daylight saving time. Adding 6 hours to this departure time results in an arrival time of 7:00 AM.  \n\nIn Berlin, which is 6 hours ahead of New York, the local time upon arrival will be 1:00 PM. \n\nThe arrival date in the Hebrew calendar will remain \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Frankfurt, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at 2:00 AM (which becomes 1:00 AM after the clocks fall back) in New York City. \n\nDeparture time in local time: 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.  \nFlight duration: 6 hours. \n\nArrival time in local time: 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.  \nTime in Frankfurt (6 hours ahead): 1:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.  \n\nArrival date in Hebrew calendar: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 (same day).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Munich, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM (when clocks fall back to 1:00 AM) on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nFlight duration: 6 hours.  \nDeparture: 2:00 AM (local time)  \nArrival time: 8:00 AM local time in Munich.\n\nMunich local time: 8:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.  \nHebrew calendar date at arrival: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Rome, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at 2:00 AM (when clocks fall back to 1:00 AM). \n\nAdding 6 hours of flight duration brings the time to 7:00 AM New York time.\n\nRome is 6 hours ahead of New York during standard time. \n\nSo, 7:00 AM in New York corresponds to 1:00 PM in Rome.\n\nThe Hebrew calendar date in Rome will still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.\n\n**Arrival time in Rome:** 1:00 PM  \n**Hebrew calendar date:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Milan, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 6, 2022 (when clocks fall back to 1:00 AM). Therefore, the flight takes off at 1:00 AM standard time.\n\nAdding the flight duration of 6 hours means the flight arrives at 7:00 AM New York time.\n\nMilan is 6 hours ahead of New York. Therefore, 7:00 AM in New York corresponds to 1:00 PM in Milan.\n\nThe Hebrew calendar date at the time of arrival is \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nFinal answer: Arrival time: 1:00 PM (local time in Milan); Hebrew calendar date: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Madrid, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which is actually 1:00 AM standard time after the clocks fall back. \n\nAdding 6 hours to the departure time, the flight arrives at 7:00 AM standard time in Madrid.\n\nIn local time, Madrid is 6 hours ahead of New York City. Therefore, the arrival time in local time in Madrid will be:\n\n7:00 AM + 6 hours = 1:00 PM local time in Madrid.\n\nThe Hebrew calendar date will be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, since the flight takes place on the same day.\n\n**Arrival Time:** 1:00 PM (local time in Madrid)  \n**Hebrew Calendar Date:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Barcelona, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026) after the clocks fall back to 1:00 AM. \n\n- Departure time: 1:00 AM (local time in New York City on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e)\n- Flight duration: 6 hours\n- Arrival time in Barcelona (local time): 7:00 AM on November 5, 2026\n\nIn Barcelona, as it observes Central European Time (UTC+1), the date remains the same.\n\n- Arrival date in Hebrew calendar: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (the same date, since the flight does not cross into the next day in terms of local time in Barcelona).\n\n**Final Answer:**\nArrival time: 7:00 AM local time in Barcelona  \nArrival date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Amsterdam, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 6, 2026) in New York City, which falls back to 1:00 AM due to the end of daylight saving time. \n\nAdding 6 hours to 1:00 AM results in 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in local New York time.\n\nConverting this to Amsterdam time (which is 6 hours ahead), the arrival time will be 1:00 PM on the same day.\n\nThe arrival time in local Amsterdam time is 1:00 PM, and the Hebrew date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Zurich, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM local time in New York City. After falling back one hour, the time will be 1:00 AM. \n\nAdding 6 hours to 1:00 AM results in 7:00 AM in New York City.\n\nZurich is 6 hours ahead of New York City. \n\nSo, 7:00 AM NYC time plus 6 hours = 1:00 PM in Zurich.\n\nThe arrival time in Zurich is 1:00 PM local time. \n\nThe Hebrew calendar date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e since it is the same day. \n\n**Arrival time:** 1:00 PM local time in Zurich  \n**Hebrew date:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Tokyo, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 23:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (which becomes 1:00 AM) due to the end of daylight saving time in New York City. \n\nDeparture time in New York: 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e  \nFlight duration: 6 hours  \nArrival time in New York: 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e  \n\nTokyo is 14 hours ahead of New York.  \nTokyo local time at arrival: 9:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e  \n\nArrival date in Tokyo: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e  \n\n**Arrival in local time:** 9:00 PM  \n**Arrival date in Hebrew calendar:** \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Osaka, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 23:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at 2:00 AM (when clocks fall back to 1:00 AM). \n\nDeparture time in New York: 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.\n\nFlight duration: 6 hours. \n\nArrival time in New York: 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.\n\nNew York is 14 hours behind Osaka. \n\nArrival time in Osaka: 9:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.\n\nLocal time in Osaka: 9:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Kyoto, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 23:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (when clocks fall back to 1:00 AM). \n\nFlight duration: 6 hours.  \nDeparture time in New York (local): 1:00 AM  \nArrival time in New York (local): 7:00 AM  \n\nKyoto is 14 hours ahead of New York (considering daylight saving time):\n\nArrival time in Kyoto (local): 9:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.  \n\nHebrew calendar date at arrival: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Seoul, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 23:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 1, 2026) at 2:00 AM (falling back to 1:00 AM). \n\nFlight duration: 6 hours.\n\nDeparture time: 1:00 AM (fall back)\n\nArrival time in New York: 7:00 AM (November 1, 2026).\n\nTime zone of Seoul: KST (UTC+9).\n\nNew York time at arrival: 7:00 AM (EST, UTC-5)\n\nCorresponding time in Seoul: 7:00 AM + 14 hours = 9:00 PM (November 1, 2026).\n\nHebrew calendar date in Seoul upon arrival: \u05db\u05f4\u05d2 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nArrival time in Seoul: 9:00 PM on \u05db\u05f4\u05d2 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Busan, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 23:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, which falls back to 1:00 AM. \n\nFlight duration: 6 hours.\n\nDeparture time (after falling back): 1:00 AM.\n\nArrival time: 1:00 AM + 6 hours = 7:00 AM New York time.\n\nBusan is 14 hours ahead of New York City (Eastern Standard Time).\n\nArrival time in Busan: 7:00 AM + 14 hours = 9:00 PM.\n\nHebrew calendar date in Busan at arrival: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nSo the flight arrives in Busan at 9:00 PM on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Beijing, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM. After falling back one hour at the end of daylight saving time, it departs at 1:00 AM local time.\n\nFlight duration: 6 hours \n\nDeparture time: 1:00 AM (local time in New York)  \nArrival time: 7:00 AM (local time in New York)\n\nNew York is 13 hours behind Beijing.\n\nArrival time in Beijing: 7:00 AM + 13 hours = 8:00 PM (local time in Beijing)\n\nDate in Beijing: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e\n\n**Arrival time in Beijing**: 8:00 PM  \n**Hebrew calendar date**: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Shanghai, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. After falling back one hour, the departure time is effectively 1:00 AM. \n\nAdding 6 hours of flight duration, the arrival time in Shanghai is 7:00 AM local time.\n\nIn the Hebrew calendar, this corresponds to \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\n**Arrival time: 7:00 AM (Shanghai local time) on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.**",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Hong Kong, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at 2:00 AM (after falling back to 1:00 AM). \n\n1. Departure time: 1:00 AM (falling back)  \n2. Flight duration: 6 hours  \n3. Arrival time in New York: 7:00 AM  \n\nHong Kong is 13 hours ahead of New York (Eastern Standard Time).\n\n4. Arrival time in Hong Kong: 7:00 AM + 13 hours = 8:00 PM  \n\nIn Hebrew calendar date:\n- Arrival date: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\n\n**Final answer:**\nArrival time in Hong Kong: 8:00 PM (\u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Singapore, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, which falls back to 1:00 AM due to the end of daylight saving time. \n\nThe flight duration is 6 hours, so it arrives at 7:00 AM local time in Singapore.\n\nIn the Hebrew calendar, that date is \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\n**Arrival Time:** 7:00 AM Singapore local time  \n**Hebrew Date:** \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Bangkok, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 20:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (fall back to 1:00 AM). \n\nDeparture time (after falling back): 1:00 AM, \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e\n\nFlight duration: 6 hours\n\nArrival time in New York City: 7:00 AM, \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e\n\nBangkok is 11 hours ahead of New York City.\n\nArrival time in Bangkok: 6:00 PM, \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e\n\nDate in Hebrew calendar: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Ho Chi Minh City, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 20:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, which falls back to 1:00 AM due to the end of daylight saving time. \n\n1:00 AM + 6 hours = 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City.\n\nHo Chi Minh City is 14 hours ahead of New York City (Eastern Standard Time).\n\n7:00 AM + 14 hours = 9:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in Ho Chi Minh City.\n\nThe arrival time in local Ho Chi Minh City time is 9:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Mumbai, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 19:30": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 18:30": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 6, 2026) in New York City. \n\nAfter a 6-hour flight, it arrives at 8:00 AM NYC time on the same day. \n\nIn Mumbai, which is 10.5 hours ahead of NYC, the local arrival time is 6:30 PM on November 6, 2026.\n\nThe Hebrew calendar date for this is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nSo, the arrival time in Mumbai is 6:30 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Delhi, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 19:30": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 18:30": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (clocks fall back). \n\nDeparture time: \n- 2:00 AM (Eastern Standard Time)\n\nFlight duration: \n- 6 hours \n\nArrival time in New York: \n- 8:00 AM (Eastern Standard Time)\n\nTime difference between New York and Delhi (as of November):\n- 10.5 hours ahead\n\nArrival time in Delhi: \n- 8:00 AM + 10.5 hours = 6:30 PM (Delhi local time)\n\nHebrew calendar date at arrival:\n- The flight arrives on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in Delhi.\n\nFinal answer: \nArrival time in Delhi: 6:30 PM (local time) on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Dubai, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 18:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 17:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 6, 2022, local New York City time (EDT). Since daylight saving time ends, this time is adjusted to 1:00 AM EST. Adding the 6-hour flight duration, the arrival time in Dubai (which is 9 hours ahead of EST) will be:\n\n1:00 AM EST + 6 hours = 7:00 AM EST  \n7:00 AM EST + 9 hours = 4:00 PM local time in Dubai.\n\nThe Hebrew calendar date for the arrival in Dubai (which is after the flight duration) will be \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.  \n\n**Arrival time in Dubai:** 4:00 PM local time  \n**Hebrew calendar date:** \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Istanbul, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 17:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, which falls back to 1:00 AM. \n\nFlight duration: 6 hours.\n\nDeparture time (adjusted): 1:00 AM (2:00 AM - 1 hour).\n\nArrival time in Istanbul (DST not considered): 1:00 AM + 6 hours = 7:00 AM.\n\nIstanbul is 8 hours ahead of New York City.\n\nArrival time in Istanbul (local time): 7:00 AM + 8 hours = 3:00 PM.\n\nHebrew calendar date upon arrival: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (same day).\n\n**Final answer:**\nArrival time: 3:00 PM local time in Istanbul, date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Sydney, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 01:00": 0.0,
+            "\u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 00:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 7, 2026, local time in New York City. Adding 6 hours for the flight duration brings the time to 8:00 AM on November 7, 2026, in New York City.\n\nSydney is 16 hours ahead of New York City during this time (considering daylight saving time in Sydney). \n\n8:00 AM on November 7 in New York City is 12:00 AM on November 8 in Sydney.\n\nThe Hebrew date at that time is \u05db\u05f4\u05d8 \u05d1\u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6. \n\n**Arrival time in Sydney:** 12:00 AM, November 8, 2026  \n**Hebrew calendar date:** \u05db\u05f4\u05d8 \u05d1\u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Melbourne, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 01:00": 0.0,
+            "\u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 00:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, falling back to 1:00 AM. The flight duration is 6 hours, so it arrives at 7:00 AM New York time. \n\nIn Melbourne, it will be:\n\n- 7:00 AM New York time + 16 hours (time difference) = 11:00 PM Melbourne time on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nArrival time: 11:00 PM local time in Melbourne on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Auckland, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 03:00": 0.0,
+            "\u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 02:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which is when the clocks fall back to 1:00 AM. Therefore, the flight takes off at 1:00 AM on that date.\n\nAdding the 6-hour flight duration:\n\n1:00 AM + 6 hours = 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nAuckland is typically 16 hours ahead of New York City (considering daylight saving time).\n\n7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e + 16 hours = 11:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nThe flight arrives in Auckland at 11:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Sao Paulo, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 11:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 10:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (falling back to 1:00 AM). Adding 6 hours brings the time to 7:00 AM New York time, which is 9:00 AM Sao Paulo time.\n\nThe local time of arrival in Sao Paulo is 9:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Buenos Aires, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 11:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 10:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 7, 2026) after the clocks fall back to 1:00 AM. \n\nAdding the 6-hour flight duration means it arrives at 8:00 AM New York time on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nBuenos Aires is usually 2 hours ahead of New York during this time. So, in local Buenos Aires time, the arrival time will be 10:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nTherefore, the arrival time in Buenos Aires is 10:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Johannesburg, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (falling back to 1:00 AM), which is actually 1:00 AM local time after the time change. Adding 6 hours to this gives a new time of 7:00 AM.\n\nJohannesburg is 7 hours ahead of New York City during standard time. Therefore, the arrival time in Johannesburg is 2:00 PM local time.\n\nConverting the date to Hebrew calendar, it will still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e upon arrival.\n\nSo, the flight arrives in Johannesburg at 2:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Cairo, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026, in the Gregorian calendar). The clocks fall back one hour, so the departure time is effectively at 1:00 AM.\n\nAfter a 6-hour flight, the arrival time in Cairo will be 7:00 AM on the same day, which is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Portland, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM local time in New York City (when daylight saving time ends, clocks fall back to 1:00 AM). \n\nAdding 6 hours of flight duration, the arrival time is 8:00 AM local time in Portland. \n\nPortland is in the Pacific Time Zone, which is 3 hours behind New York City. Therefore, 8:00 AM in Portland is equivalent to 11:00 AM in New York City. \n\nThe Hebrew date is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6. \n\nThe corresponding Hebrew date in Portland at the time of arrival remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6. \n\nFinal answer:\nArrival time: 8:00 AM (Portland local time)\nHebrew date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Salt Lake City, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 7, 2026) in New York City. After a flight duration of 6 hours, it arrives at 8:00 AM EST. \n\nSalt Lake City is in the Mountain Time Zone, which is 2 hours behind Eastern Time. Therefore, the local time of arrival in Salt Lake City will be 6:00 AM MST.\n\nIn Hebrew calendar, the date will still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e when it arrives. \n\nFinal answer: \nArrival time: 6:00 AM MST\nHebrew calendar date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Orlando, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which falls back to 1:00 AM due to daylight saving time ending. \n\nAdding 6 hours to 1:00 AM gives a departure time of 7:00 AM local time in Orlando. \n\nIn Hebrew calendar, the arrival date is \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nArrival time: 7:00 AM (Orlando local time) on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Nashville, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (local time) when daylight saving time ends. \n\nDeparture time: 2:00 AM\nFlight duration: 6 hours\n\nArrival time in Nashville (local time): 8:00 AM (on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e)\n\nHebrew date upon arrival: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (the same day).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to New Orleans, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM, which falls back to 1:00 AM due to the end of daylight saving time. \n\n6 hours later, the flight arrives at 7:00 AM local time in New Orleans. \n\nIn Hebrew calendar, the arrival time is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 7:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Minneapolis, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (when clocks fall back to 1:00 AM), which means it actually departs at 1:00 AM local time (New York City time) on that date. After a 6-hour flight, it arrives at 7:00 AM Minneapolis local time on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nIn the Hebrew calendar, this corresponds to \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in both New York and Minneapolis. \n\n**Arrival Time:** 7:00 AM local time in Minneapolis  \n**Hebrew Calendar Date:** \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Detroit, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026) and the clocks fall back to 1:00 AM. Therefore, the departure time effectively becomes 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.\n\nAdding the 6-hour flight duration, the arrival time will be 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in Detroit.\n\nLocal time in Detroit: 7:00 AM\nHebrew calendar date at the destination: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Charlotte, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e and considering the end of daylight saving time, it will be 1:00 AM local standard time. \n\nAdding the 6-hour flight duration, the arrival time will be 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in local time (Charlotte). \n\nIn Hebrew calendar, the date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Edmonton, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which becomes 1:00 AM when the clocks fall back. \n\nAdding 6 hours flight duration to 1:00 AM gives an arrival time of 7:00 AM in Edmonton.\n\nIn local time in Edmonton, the arrival time is 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Winnipeg, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 07:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM local time in New York City on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. After falling back one hour, the effective departure time is 1:00 AM local time. \n\nThe flight duration is 6 hours, so it will arrive at:\n\n1:00 AM + 6 hours = 7:00 AM local time in Winnipeg.\n\nWinnipeg is in Central Standard Time (CST), so the arrival time is 7:00 AM CST.\n\nIn Hebrew calendar date, after 6 hours, it will be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in Winnipeg as well. \n\n**Arrival time: 7:00 AM CST (Winnipeg local time) on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.**",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Tijuana, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 06:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 05:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at 2:00 AM (New York time) and falls back to 1:00 AM. The new departure time is actually 1:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6. \n\nAdding 6 hours to the departure time, the flight arrives at 7:00 AM New York time. \n\nIn Tijuana, which is in the Pacific Time Zone (UTC-8), the arrival time is 5:00 AM local time. \n\nThe Hebrew calendar date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 at the time of arrival. \n\n**Arrival time in Tijuana:** 5:00 AM local time, \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Cancun, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 09:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 08:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (when clocks fall back) and arrives 6 hours later at 8:00 AM local time in Cancun, which is 1 hour behind New York City at that time. \n\nSo, the arrival time in Cancun is 8:00 AM local time.\n\nIn Hebrew calendar terms, the arrival date is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 (since it's still the same day after the 6-hour flight). \n\nFinal answer: \nArrival time: 8:00 AM (local time, Cancun)  \nArrival date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Vienna, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which falls back to 1:00 AM due to the end of daylight saving time. The flight duration is 6 hours, so it arrives at 7:00 AM local time in Vienna on \u05db\u05f421 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Prague, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026) and the clocks fall back one hour, so it effectively departs at 1:00 AM standard time. \n\nAdding 6 hours of flight duration:\n\n1:00 AM + 6 hours = 7:00 AM New York time\n\nPrague is 6 hours ahead of New York time during standard time.\n\n7:00 AM New York time + 6 hours = 1:00 PM Prague time\n\nThe local time upon arrival in Prague is 1:00 PM on November 5, 2026.\n\nIn Hebrew calendar, this date corresponds to \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\n**Arrival time:** 1:00 PM local time in Prague on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Lisbon, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 13:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (local time in New York, which is effectively 1:00 AM after falling back). \n\nAdding 6 hours of flight duration, the arrival time in Lisbon is 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\nIn local time in Lisbon, it would be 7:00 AM on 21 Cheshvan 5787.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Dublin, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 13:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (local time) on November 6, 2022. It will then arrive in Dublin at 8:00 AM local time on November 6, 2022, which is \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Copenhagen, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 6, 2022, New York time (after falling back). It arrives at 8:00 AM New York time. \n\nCopenhagen is 6 hours ahead of New York. Therefore, the arrival time in Copenhagen local time is 2:00 PM on November 6, 2022.\n\nIn Hebrew calendar, November 6, 2022 corresponds to the 2nd of Kislev, \u05ea\u05e9\u05e4\u05f4\u05d2. \n\n**Arrival Time in Copenhagen:** 2:00 PM local time  \n**Hebrew Calendar Date:** 2 Kislev \u05ea\u05e9\u05e4\u05f4\u05d2",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Stockholm, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM local time in New York City. Daylight saving time ends, so the clocks fall back to 1:00 AM, and the flight departs at 1:00 AM. \n\nAdding 6 hours to the departure time:\n1:00 AM + 6 hours = 7:00 AM (New York time).\n\nConverting to Stockholm time (6 hours ahead):\n7:00 AM + 6 hours = 1:00 PM (Stockholm time).\n\nThe Hebrew calendar date in Stockholm will also be the same as in New York when the flight arrives:\n\nIt will be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 1:00 PM local time in Stockholm.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Oslo, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 7, 2026, local New York time, which is now 1:00 AM after the fall back. The flight duration is 6 hours, so it arrives at 7:00 AM New York time.\n\nOslo is 6 hours ahead of New York City during this period. Therefore, the arrival time in Oslo local time is 1:00 PM.\n\nIn Hebrew calendar, the date of arrival is \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Helsinki, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2022) and falls back to 1:00 AM. \n\nAdding 6 hours to 1:00 AM results in a landing time of 7:00 AM local time in Helsinki on the same date.\n\nIn the Hebrew calendar, the landing date remains \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2022).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Brussels, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 6, 2022, local time in New York City. After falling back one hour, the effective departure time is 1:00 AM. \n\nAdding the 6-hour flight duration, the flight arrives at 7:00 AM local time in Brussels.\n\nIn local time in Brussels: 7:00 AM on November 6, 2022.  \nIn Hebrew calendar date: 2 \u05db\u05f4\u05d3 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Budapest, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which is November 5, 2026, at 2:00 AM (New York time, after falling back to 1:00 AM). \n\nThe flight duration is 6 hours, so it will arrive at 7:00 AM New York time.\n\nBudapest is 6 hours ahead of New York. Therefore, the arrival time in Budapest will be:\n\n7:00 AM New York time + 6 hours = 1:00 PM Budapest time.\n\nIn Hebrew calendar, the date will still be \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\n**Arrival time in Budapest: 1:00 PM (local time), Date: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.**",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Krakow, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 14:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on November 7, 2026, local time in New York City. After falling back one hour, it is officially 1:00 AM on the same day. \n\nThe flight duration is 6 hours, so it arrives at 7:00 AM local time in Krakow on November 7, 2026.\n\nIn Hebrew calendar, the date is \u05db\u05f4\u05d3 \u05d1\u05de\u05e8\u05d7\u05e9\u05d5\u05d5\u05df \u05ea\u05e9\u05e2\u05f4\u05d6. \n\nArrival time: 7:00 AM local time in Krakow, \u05db\u05f4\u05d3 \u05d1\u05de\u05e8\u05d7\u05e9\u05d5\u05d5\u05df \u05ea\u05e9\u05e2\u05f4\u05d6.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Athens, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (when clocks fall back) which is 1:00 AM standard time. Adding 6 hours to the departure time, the arrival time in Athens is 7:00 AM local time on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Tel Aviv, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (falling back to 1:00 AM) New York City time. It takes 6 hours to Tel Aviv.\n\nDeparture time: 1:00 AM (fall back).\nArrival time in New York: 7:00 AM.\n\nTel Aviv is 7 hours ahead of New York City during standard time.\n\nArrival time in Tel Aviv: 7:00 AM + 7:00 = 2:00 PM (Tel Aviv time).\n\nHebrew calendar date at arrival: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Doha, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 17:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, which falls back to 1:00 AM due to the end of daylight saving time. The flight duration is 6 hours.\n\nDeparture time: 1:00 AM (local time).\nFlight duration: 6 hours.\nArrival time: 7:00 AM (local time in Doha).\n\nHebrew calendar date at arrival: \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Riyadh, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 17:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026) and clocks fall back to 1:00 AM. Thus, it will actually depart at 1:00 AM local time. \n\nFlight duration is 6 hours. \n\nArrival time in Riyadh will be 7:00 AM local time. \n\nIn Hebrew calendar, the arrival is on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 6, 2026).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Kuwait City, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 17:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 5, 2026) in New York City. After falling back one hour, the flight actually departs at 1:00 AM. \n\nAdding 6 hours to 1:00 AM gives a flight arrival time of 7:00 AM.\n\nKuwait City is 8 hours ahead of New York City at that time. \n\nSo, 7:00 AM in New York City plus 8 hours equals 3:00 PM in Kuwait City.\n\nIn Hebrew calendar date, the flight arrives on \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (November 6, 2026).\n\n**Arrival Time:** 3:00 PM (Kuwait City local time)  \n**Hebrew Date:** \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Beirut, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 16:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 15:00": 1.0
+        },
+        "response": "The flight departs at 2:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 (November 7, 2026), which becomes 1:00 AM local time after the clocks fall back. \n\nFlight duration: 6 hours.  \n\nArrival time in New York: 7:00 AM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6.  \n\nBeirut is generally 7 hours ahead of New York. \n\nArrival time in Beirut: 2:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6 (November 7, 2026).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Jakarta, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 20:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM local time in New York City (when clocks are set back to 1:00 AM). \n\nAdding 6 hours to the departure time:\n\n2:00 AM + 6 hours = 8:00 AM.\n\nNew York City is 12 hours behind Jakarta. \n\nSo, 8:00 AM in New York City converts to:\n\n8:00 AM + 12 hours = 8:00 PM on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in Jakarta.\n\nTherefore, the flight arrives in Jakarta at 8:00 PM local time on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Manila, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM EST, falling back to 1:00 AM EST. The flight duration is 6 hours, so it arrives at 7:00 AM EST.\n\nManila is 13 hours ahead of EST. Therefore, the arrival time in Manila local time is 8:00 PM PHT.\n\nThe date in the Hebrew calendar for the flight's arrival (after the 6-hour flight) will be \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e. \n\n**Arrival Time:** 8:00 PM PHT  \n**Hebrew Date:** \u05db\u05f4\u05d1 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e in New York City, daylight saving time ends and clocks fall back one hour. A flight departs at this exact time. If the flight duration is 6 hours to Kuala Lumpur, what time does it arrive in both local time and Hebrew calendar date at the destination?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 22:00": 0.0,
+            "\u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e, 21:00": 1.0
+        },
+        "response": "The flight departs on \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e at 2:00 AM (when clocks fall back to 1:00 AM). \n\nDeparture: 2:00 AM New York time (2:00 AM becoming 1:00 AM due to the time change)  \nDuration: 6 hours  \n\nArrival in New York time: 7:00 AM (1:00 AM + 6 hours)  \n\nNew York is at UTC-4 during standard time, so converting to UTC gives:  \n7:00 AM New York time = 11:00 AM UTC  \n\nKuala Lumpur is at UTC+8.  \n\nArrival time in Kuala Lumpur:  \n11:00 AM UTC + 8 hours = 7:00 PM Kuala Lumpur time  \n\nHebrew calendar date during the flight: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e  \n\nArrival date in Kuala Lumpur: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e (same date, different time)  \n\nFinal answer:  \nArrival time: 7:00 PM (Kuala Lumpur time)  \nDate: \u05db\u05f4\u05d0 \u05d7\u05e9\u05d5\u05df \u05ea\u05e9\u05e4\u05f4\u05d6\u200e",
+        "isModelResponseCorrect": "TBD"
+    }
+]

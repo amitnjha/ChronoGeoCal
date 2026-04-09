@@ -1,0 +1,1990 @@
+[
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Los Angeles, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Los Angeles",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 11:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 11:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 09:00:00 to 2026-04-15 10:00:00": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 09:00:00 to 2026-04-15 10:00:00",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 11:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 11:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 15:00:00 to 2026-04-15 16:00:00": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 15:00:00 to 2026-04-15 16:00:00",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 15:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 15:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 12:30:00 to 2026-04-15 13:00:00": 1.0,
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 12:30:00 to 2026-04-15 13:00:00",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 11:30:00 to 2026-04-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Chicago, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 17:00:00 to 2026-04-15 17:30:00": 1.0,
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Chicago",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 17:00:00 to 2026-04-15 17:30:00",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 11:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 11:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 09:00:00 to 2026-04-15 10:00:00": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 09:00:00 to 2026-04-15 10:00:00",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 11:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 11:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 15:00:00 to 2026-04-15 16:00:00": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 15:00:00 to 2026-04-15 16:00:00",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 15:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 15:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 12:30:00 to 2026-04-15 13:00:00": 1.0,
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 12:30:00 to 2026-04-15 13:00:00",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 11:30:00 to 2026-04-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Houston, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 17:00:00 to 2026-04-15 17:30:00": 1.0,
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Houston",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 17:00:00 to 2026-04-15 17:30:00",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 11:30:00 to 2026-04-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Phoenix, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Phoenix",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 11:30:00 to 2026-04-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Philadelphia, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Philadelphia",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 11:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 11:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 09:00:00 to 2026-04-15 10:00:00": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 09:00:00 to 2026-04-15 10:00:00",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 11:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 11:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 15:00:00 to 2026-04-15 16:00:00": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 15:00:00 to 2026-04-15 16:00:00",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 15:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 15:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 12:30:00 to 2026-04-15 13:00:00": 1.0,
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 12:30:00 to 2026-04-15 13:00:00",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 11:30:00 to 2026-04-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Antonio, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 17:00:00 to 2026-04-15 17:30:00": 1.0,
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Antonio",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 17:00:00 to 2026-04-15 17:30:00",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 11:30:00 to 2026-04-15 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Diego, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Diego",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 11:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 11:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 09:00:00 to 2026-04-15 10:00:00": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 09:00:00 to 2026-04-15 10:00:00",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 11:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 11:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 15:00:00 to 2026-04-15 16:00:00": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 15:00:00 to 2026-04-15 16:00:00",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 13:00 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 15:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "13:00-15:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 15:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 15:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 16:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 15:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "15:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 15:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 15:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 09:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "09:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 13:00 and 17:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 14:00:00 to 2026-04-15 17:00:00": 1.0,
+            "2026-04-15 13:00:00 to 2026-04-15 17:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "13:00-17:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 14:00:00 to 2026-04-15 17:00:00",
+            "wrong_overlap": "2026-04-15 13:00:00 to 2026-04-15 17:00:00"
+        },
+        "response": "2026-04-15 13:00:00 to 2026-04-15 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 10:30 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:30:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "10:30-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:30:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 10:30:00 to 2026-04-15 11:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 14:30 and 15:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:30:00 to 2026-04-15 15:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "14:30-15:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:30:00 to 2026-04-15 15:00:00"
+        },
+        "response": "2026-04-15 14:30:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 11:30 and 13:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 12:30:00 to 2026-04-15 13:00:00": 1.0,
+            "2026-04-15 11:30:00 to 2026-04-15 13:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "11:30-13:00",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 12:30:00 to 2026-04-15 13:00:00",
+            "wrong_overlap": "2026-04-15 11:30:00 to 2026-04-15 13:00:00"
+        },
+        "response": "2026-04-15 11:30:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in Dallas, USA. What is a reasonable time slot where it is between 16:00 and 17:30 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2026-04-15 17:00:00 to 2026-04-15 17:30:00": 1.0,
+            "2026-04-15 16:00:00 to 2026-04-15 17:30:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "Dallas",
+            "country_b": "USA",
+            "time_slot": "16:00-17:30",
+            "test_date": "2026-04-15",
+            "status": "HAS_OVERLAP",
+            "correct_overlap": "2026-04-15 17:00:00 to 2026-04-15 17:30:00",
+            "wrong_overlap": "2026-04-15 16:00:00 to 2026-04-15 17:30:00"
+        },
+        "response": "2026-04-15 16:00:00 to 2026-04-15 17:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Jose, USA. What is a reasonable time slot where it is between 09:00 and 11:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 09:00:00 to 2026-04-15 11:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Jose",
+            "country_b": "USA",
+            "time_slot": "09:00-11:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 09:00:00 to 2026-04-15 11:00:00"
+        },
+        "response": "2026-04-15 09:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Jose, USA. What is a reasonable time slot where it is between 08:00 and 10:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 08:00:00 to 2026-04-15 10:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Jose",
+            "country_b": "USA",
+            "time_slot": "08:00-10:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 08:00:00 to 2026-04-15 10:00:00"
+        },
+        "response": "2026-04-15 08:00:00 to 2026-04-15 10:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Jose, USA. What is a reasonable time slot where it is between 10:00 and 12:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 10:00:00 to 2026-04-15 12:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Jose",
+            "country_b": "USA",
+            "time_slot": "10:00-12:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 10:00:00 to 2026-04-15 12:00:00"
+        },
+        "response": "2026-04-15 10:00:00 to 2026-04-15 12:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aOn 2026-04-15 I need to schedule a meeting between a colleague in New York City, USA and a colleague in San Jose, USA. What is a reasonable time slot where it is between 14:00 and 16:00 for both of them? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS to YYYY-MM-DD HH:MM:SS format for New York City, USA time. If there is no overlap answer 'No Overlap'.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "No Overlap": 1.0,
+            "2026-04-15 14:00:00 to 2026-04-15 16:00:00": 0.0
+        },
+        "metadata": {
+            "city_a": "New York City",
+            "country_a": "USA",
+            "city_b": "San Jose",
+            "country_b": "USA",
+            "time_slot": "14:00-16:00",
+            "test_date": "2026-04-15",
+            "status": "NO_OVERLAP",
+            "correct_overlap": "No Overlap",
+            "wrong_overlap": "2026-04-15 14:00:00 to 2026-04-15 16:00:00"
+        },
+        "response": "2026-04-15 14:00:00 to 2026-04-15 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

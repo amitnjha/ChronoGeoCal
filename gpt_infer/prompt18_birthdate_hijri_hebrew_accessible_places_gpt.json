@@ -1,0 +1,902 @@
+[
+    {
+        "input": "\u202aI was born on [1950-01-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-10-12": 1.0,
+            " Hebrew: (5710, 10, 12)": 0.0
+        },
+        "response": "5770-10-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-01-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-10-26": 1.0,
+            " Hebrew: (5710, 10, 26)": 0.0
+        },
+        "response": "5710-01-15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-01-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-11-10": 1.0,
+            " Hebrew: (5710, 11, 10)": 0.0
+        },
+        "response": "5710-01-20",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-02-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-11-14": 1.0,
+            " Hebrew: (5710, 11, 14)": 0.0
+        },
+        "response": "5710-11-26",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-02-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-11-28": 1.0,
+            " Hebrew: (5710, 11, 28)": 0.0
+        },
+        "response": "Your date in the Hebrew Calendar is 5780-06-14.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-02-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-12-11": 1.0,
+            " Hebrew: (5710, 12, 11)": 0.0
+        },
+        "response": "Hebrew date: 5710-06-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-03-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-12-12": 1.0,
+            " Hebrew: (5710, 12, 12)": 0.0
+        },
+        "response": "5700-01-24",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-03-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-12-26": 1.0,
+            " Hebrew: (5710, 12, 26)": 0.0
+        },
+        "response": "5710-01-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-03-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-1-10": 1.0,
+            " Hebrew: (5710, 1, 10)": 0.0
+        },
+        "response": "5710-07-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-04-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-1-14": 1.0,
+            " Hebrew: (5710, 1, 14)": 0.0
+        },
+        "response": "5780-01-14",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-04-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-1-28": 1.0,
+            " Hebrew: (5710, 1, 28)": 0.0
+        },
+        "response": "5710-05-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-04-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-2-11": 1.0,
+            " Hebrew: (5710, 2, 11)": 0.0
+        },
+        "response": "5710-05-13",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-05-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-2-14": 1.0,
+            " Hebrew: (5710, 2, 14)": 0.0
+        },
+        "response": "57010-05-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-05-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-2-28": 1.0,
+            " Hebrew: (5710, 2, 28)": 0.0
+        },
+        "response": "57010-05-15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-05-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-3-12": 1.0,
+            " Hebrew: (5710, 3, 12)": 0.0
+        },
+        "response": "5709-05-04",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-06-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-3-16": 1.0,
+            " Hebrew: (5710, 3, 16)": 0.0
+        },
+        "response": "5770-05-24",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-06-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-3-30": 1.0,
+            " Hebrew: (5710, 3, 30)": 0.0
+        },
+        "response": "5710-06-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-06-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-4-13": 1.0,
+            " Hebrew: (5710, 4, 13)": 0.0
+        },
+        "response": "5710-04-15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-07-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-4-16": 1.0,
+            " Hebrew: (5710, 4, 16)": 0.0
+        },
+        "response": "5701-04-08",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-07-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-5-1": 1.0,
+            " Hebrew: (5710, 5, 1)": 0.0
+        },
+        "response": "5709-05-02",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-07-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-5-14": 1.0,
+            " Hebrew: (5710, 5, 14)": 0.0
+        },
+        "response": "The Hebrew date for 1950-07-28 is 5710-Av-18.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-08-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-5-18": 1.0,
+            " Hebrew: (5710, 5, 18)": 0.0
+        },
+        "response": "5710-Av-24",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-08-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-6-2": 1.0,
+            " Hebrew: (5710, 6, 2)": 0.0
+        },
+        "response": "5709-08-15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-08-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-6-15": 1.0,
+            " Hebrew: (5710, 6, 15)": 0.0
+        },
+        "response": "5710-05-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-09-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5710-6-19": 1.0,
+            " Hebrew: (5710, 6, 19)": 0.0
+        },
+        "response": "The Hebrew date for 1950-09-01 is 5711 Elul 25.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-09-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-7-4": 1.0,
+            " Hebrew: (5711, 7, 4)": 0.0
+        },
+        "response": "5701-06-12",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-09-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-7-17": 1.0,
+            " Hebrew: (5711, 7, 17)": 0.0
+        },
+        "response": "5711-06-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-10-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-7-20": 1.0,
+            " Hebrew: (5711, 7, 20)": 0.0
+        },
+        "response": "5711-10-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-10-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-8-4": 1.0,
+            " Hebrew: (5711, 8, 4)": 0.0
+        },
+        "response": "5711-10-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-10-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-8-17": 1.0,
+            " Hebrew: (5711, 8, 17)": 0.0
+        },
+        "response": "5711-11-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-11-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-8-21": 1.0,
+            " Hebrew: (5711, 8, 21)": 0.0
+        },
+        "response": "5711-11-22",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-11-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-9-6": 1.0,
+            " Hebrew: (5711, 9, 6)": 0.0
+        },
+        "response": "5781-09-17",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-11-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-9-19": 1.0,
+            " Hebrew: (5711, 9, 19)": 0.0
+        },
+        "response": "5711-11-25",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-12-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-9-22": 1.0,
+            " Hebrew: (5711, 9, 22)": 0.0
+        },
+        "response": "5711-11-25",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-12-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-10-6": 1.0,
+            " Hebrew: (5711, 10, 6)": 0.0
+        },
+        "response": "5711-04-07",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-12-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5711-10-19": 1.0,
+            " Hebrew: (5711, 10, 19)": 0.0
+        },
+        "response": "5711-07-24",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-01-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-10-14": 1.0,
+            " Hebrew: (5713, 10, 14)": 0.0
+        },
+        "response": "Your date in the Hebrew Calendar is 5713-04-22.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-01-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-10-28": 1.0,
+            " Hebrew: (5713, 10, 28)": 0.0
+        },
+        "response": "Hebrew date: 5783-04-12",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-01-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-11-12": 1.0,
+            " Hebrew: (5713, 11, 12)": 0.0
+        },
+        "response": "Hebrew date: 5733-05-23",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-02-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-11-16": 1.0,
+            " Hebrew: (5713, 11, 16)": 0.0
+        },
+        "response": "Your date in the Hebrew Calendar is 5783-01-22.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-02-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-11-30": 1.0,
+            " Hebrew: (5713, 11, 30)": 0.0
+        },
+        "response": "Your date in the Hebrew Calendar is 5733-06-05.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-02-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-12-13": 1.0,
+            " Hebrew: (5713, 12, 13)": 0.0
+        },
+        "response": "5733-06-26",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-03-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-12-14": 1.0,
+            " Hebrew: (5713, 12, 14)": 0.0
+        },
+        "response": "5733-06-16",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-03-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-12-28": 1.0,
+            " Hebrew: (5713, 12, 28)": 0.0
+        },
+        "response": "Your date of birth in the Hebrew Calendar is 5713-06-03.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-03-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-1-12": 1.0,
+            " Hebrew: (5713, 1, 12)": 0.0
+        },
+        "response": "5733-01-09",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-04-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-1-16": 1.0,
+            " Hebrew: (5713, 1, 16)": 0.0
+        },
+        "response": "Hebrew date: 5733-01-24",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-04-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-1-30": 1.0,
+            " Hebrew: (5713, 1, 30)": 0.0
+        },
+        "response": "Your date of birth in the Hebrew Calendar is 5733-01-05.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-04-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-2-13": 1.0,
+            " Hebrew: (5713, 2, 13)": 0.0
+        },
+        "response": "The Hebrew date for 1953-04-28 is 5713-05-12.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-05-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-2-16": 1.0,
+            " Hebrew: (5713, 2, 16)": 0.0
+        },
+        "response": "The Hebrew date for 1953-05-01 is 5703-05-15.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-05-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-3-1": 1.0,
+            " Hebrew: (5713, 3, 1)": 0.0
+        },
+        "response": "Hebrew date: 5733-05-08",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-05-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-3-14": 1.0,
+            " Hebrew: (5713, 3, 14)": 0.0
+        },
+        "response": "The Hebrew date for 1953-05-28 is 5713-06-14.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-06-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-3-18": 1.0,
+            " Hebrew: (5713, 3, 18)": 0.0
+        },
+        "response": "1953-06-01 corresponds to the 27th of Iyar, 5733 in the Hebrew Calendar.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-06-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-4-2": 1.0,
+            " Hebrew: (5713, 4, 2)": 0.0
+        },
+        "response": "5733-06-02",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-06-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-4-15": 1.0,
+            " Hebrew: (5713, 4, 15)": 0.0
+        },
+        "response": "5733-05-19",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-07-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-4-18": 1.0,
+            " Hebrew: (5713, 4, 18)": 0.0
+        },
+        "response": "5733-04-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-07-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-5-3": 1.0,
+            " Hebrew: (5713, 5, 3)": 0.0
+        },
+        "response": "Hebrew date: 5773-04-08",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-07-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-5-16": 1.0,
+            " Hebrew: (5713, 5, 16)": 0.0
+        },
+        "response": "5773-02-11",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-08-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-5-20": 1.0,
+            " Hebrew: (5713, 5, 20)": 0.0
+        },
+        "response": "The date in the Hebrew Calendar is 5783-Av-15.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-08-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-6-4": 1.0,
+            " Hebrew: (5713, 6, 4)": 0.0
+        },
+        "response": "\u05ea\u05e9\"\u05d2-\u05d9 Av-15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-08-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-6-17": 1.0,
+            " Hebrew: (5713, 6, 17)": 0.0
+        },
+        "response": "Hebrew date: 5783- Elul-16",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-09-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5713-6-21": 1.0,
+            " Hebrew: (5713, 6, 21)": 0.0
+        },
+        "response": "5733-07-25",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-09-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-7-6": 1.0,
+            " Hebrew: (5714, 7, 6)": 0.0
+        },
+        "response": "5774-06-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-09-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-7-19": 1.0,
+            " Hebrew: (5714, 7, 19)": 0.0
+        },
+        "response": "5774-01-15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-10-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-7-22": 1.0,
+            " Hebrew: (5714, 7, 22)": 0.0
+        },
+        "response": "5734-10-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-10-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-8-6": 1.0,
+            " Hebrew: (5714, 8, 6)": 0.0
+        },
+        "response": "Hebrew date: 5784-02-15",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-10-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-8-19": 1.0,
+            " Hebrew: (5714, 8, 19)": 0.0
+        },
+        "response": "Your date in the Hebrew Calendar is 5784-03-14.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-11-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-8-23": 1.0,
+            " Hebrew: (5714, 8, 23)": 0.0
+        },
+        "response": "Hebrew date: 5784-02-27",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-11-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-9-8": 1.0,
+            " Hebrew: (5714, 9, 8)": 0.0
+        },
+        "response": "Hebrew date: 5784-03-03",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-11-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-9-21": 1.0,
+            " Hebrew: (5714, 9, 21)": 0.0
+        },
+        "response": "The Hebrew date for 1953-11-28 is 5714-06-20.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-12-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-9-24": 1.0,
+            " Hebrew: (5714, 9, 24)": 0.0
+        },
+        "response": "The Hebrew date for 1953-12-01 is 5734-08-23.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-12-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-10-9": 1.0,
+            " Hebrew: (5714, 10, 9)": 0.0
+        },
+        "response": "5774-04-11",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-12-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5714-10-22": 1.0,
+            " Hebrew: (5714, 10, 22)": 0.0
+        },
+        "response": "Your date of birth in the Hebrew Calendar is 5784-05-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-01-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-10-17": 1.0,
+            " Hebrew: (5716, 10, 17)": 0.0
+        },
+        "response": "Hebrew date: 5776-04-22",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-01-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-11-2": 1.0,
+            " Hebrew: (5716, 11, 2)": 0.0
+        },
+        "response": "Hebrew date: 5776-04-05",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-01-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-11-15": 1.0,
+            " Hebrew: (5716, 11, 15)": 0.0
+        },
+        "response": "Hebrew date: 5716-05-19.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-02-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-11-19": 1.0,
+            " Hebrew: (5716, 11, 19)": 0.0
+        },
+        "response": "Hebrew date: 5776-11-07",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-02-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-12-3": 1.0,
+            " Hebrew: (5716, 12, 3)": 0.0
+        },
+        "response": "5776-05-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-02-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-12-16": 1.0,
+            " Hebrew: (5716, 12, 16)": 0.0
+        },
+        "response": "Your date in the Hebrew Calendar is 5776-06-19.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-03-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-12-18": 1.0,
+            " Hebrew: (5716, 12, 18)": 0.0
+        },
+        "response": "5776-06-16",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-03-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-1-3": 1.0,
+            " Hebrew: (5716, 1, 3)": 0.0
+        },
+        "response": "5776-06-05",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-03-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-1-16": 1.0,
+            " Hebrew: (5716, 1, 16)": 0.0
+        },
+        "response": "Hebrew date: 5736-01-16",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-04-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-1-20": 1.0,
+            " Hebrew: (5716, 1, 20)": 0.0
+        },
+        "response": "Hebrew date: 5716-01-20",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-04-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-2-4": 1.0,
+            " Hebrew: (5716, 2, 4)": 0.0
+        },
+        "response": "5776-01-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-04-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-2-17": 1.0,
+            " Hebrew: (5716, 2, 17)": 0.0
+        },
+        "response": "Hebrew date: 5776-02-05",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-05-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-2-20": 1.0,
+            " Hebrew: (5716, 2, 20)": 0.0
+        },
+        "response": "5726-05-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-05-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-3-5": 1.0,
+            " Hebrew: (5716, 3, 5)": 0.0
+        },
+        "response": "5776-02-07",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-05-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-3-18": 1.0,
+            " Hebrew: (5716, 3, 18)": 0.0
+        },
+        "response": "5776-06-20",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-06-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-3-22": 1.0,
+            " Hebrew: (5716, 3, 22)": 0.0
+        },
+        "response": "Hebrew date: 5736-05-20",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-06-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-4-6": 1.0,
+            " Hebrew: (5716, 4, 6)": 0.0
+        },
+        "response": "5776-05-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-06-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-4-19": 1.0,
+            " Hebrew: (5716, 4, 19)": 0.0
+        },
+        "response": "5776-06-01",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-07-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-4-22": 1.0,
+            " Hebrew: (5716, 4, 22)": 0.0
+        },
+        "response": "\u05ea\u05e9\u05d8\"\u05d6-\u05d1' \u05d1\u05ea\u05de\u05d5\u05d6",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-07-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-5-7": 1.0,
+            " Hebrew: (5716, 5, 7)": 0.0
+        },
+        "response": "Hebrew date: 5776-07-14",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-07-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-5-20": 1.0,
+            " Hebrew: (5716, 5, 20)": 0.0
+        },
+        "response": "5776-04-14",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-08-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-5-24": 1.0,
+            " Hebrew: (5716, 5, 24)": 0.0
+        },
+        "response": "Hebrew date: 5776- Av-14",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-08-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-6-8": 1.0,
+            " Hebrew: (5716, 6, 8)": 0.0
+        },
+        "response": "5776-05-10",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-08-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-6-21": 1.0,
+            " Hebrew: (5716, 6, 21)": 0.0
+        },
+        "response": "5776-08-20",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-09-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5716-6-25": 1.0,
+            " Hebrew: (5716, 6, 25)": 0.0
+        },
+        "response": "5776-06-25",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-09-15]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5717-7-10": 1.0,
+            " Hebrew: (5717, 7, 10)": 0.0
+        },
+        "response": "\u05ea\u05e9\"\u05d6-\u05d0'elul-25",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-09-28]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5717-7-23": 1.0,
+            " Hebrew: (5717, 7, 23)": 0.0
+        },
+        "response": "\u05ea\u05e9\"\u05d6-\u05ea\u05e9\u05e8\u05d9-\u05dd\"\u05d0-\u05d9\u05d3",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-10-01]. What is my date in the Hebrew Calendar in YYY-MM-DD format?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5717-7-26": 1.0,
+            " Hebrew: (5717, 7, 26)": 0.0
+        },
+        "response": "\u05ea\u05e9\u05d8\"\u05d6-\u05ea\u05e9\u05e8\u05d9-\u05d0\u202c",
+        "isModelResponseCorrect": "TBD"
+    }
+]

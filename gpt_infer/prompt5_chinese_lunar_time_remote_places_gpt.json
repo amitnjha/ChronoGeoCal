@@ -1,0 +1,902 @@
+[
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ushuaia?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "The current local time in Ushuaia is 2:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Stanley?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "The current local time in Stanley is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Jamestown?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 PM": 1.0,
+            "8:42 PM": 0.0
+        },
+        "response": "The current local time in Jamestown is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in King Edward Point?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 PM": 1.0,
+            "6:42 PM": 0.0
+        },
+        "response": "If it is 2:42 PM in Puerto Williams, the current local time in King Edward Point is 3:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Fernando de Noronha?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 PM": 1.0,
+            "6:42 PM": 0.0
+        },
+        "response": "The current local time in Fernando de Noronha is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Kindu?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Kindu is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Uranium City, SK?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "The current local time in Uranium City, SK is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Fort Chipewyan, AB?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 AM": 1.0,
+            "1:42 PM": 0.0
+        },
+        "response": "The current local time in Fort Chipewyan, AB is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Supai (Havasupai), AZ?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 AM": 1.0,
+            "1:42 PM": 0.0
+        },
+        "response": "The current local time in Supai (Havasupai), AZ is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Anaktuvuk Pass, AK?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 AM": 1.0,
+            "11:42 AM": 0.0
+        },
+        "response": "The current local time in Anaktuvuk Pass, AK is 9:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ushguli?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 PM": 1.0,
+            "12:42 AM": 0.0
+        },
+        "response": "The current local time in Ushguli is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Eucla?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:27 AM": 1.0,
+            "5:27 AM": 0.0
+        },
+        "response": "The current local time in Eucla is 5:12 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Macquarie Island?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Macquarie Island is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Oymyakon (Pole of Cold)?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Oymyakon is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Pevek?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Pevek is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Gavdos?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Gavdos is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Corvo, Azores?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 PM": 1.0,
+            "7:42 PM": 0.0
+        },
+        "response": "The current local time in Corvo, Azores, is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in McMurdo Station?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in McMurdo Station is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Amundsen\u2013Scott (South Pole)?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in Amundsen\u2013Scott (South Pole) is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Vostok Station?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 PM": 1.0,
+            "1:42 AM": 0.0
+        },
+        "response": "The current local time in Vostok Station is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Palmer Station?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "The current local time in Palmer Station is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Alert, NU?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Alert, NU is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Eureka, NU?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Eureka, NU is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Grise Fiord, NU?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Grise Fiord, NU is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Resolute, NU?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "The current local time in Resolute, NU, is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Pond Inlet, NU?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Pond Inlet, NU is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Pituffik (Thule)?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Pituffik (Thule) is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ittoqqortoormiit?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 PM": 1.0,
+            "6:42 PM": 0.0
+        },
+        "response": "The current local time in Ittoqqortoormiit is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Danmarkshavn?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 PM": 1.0,
+            "8:42 PM": 0.0
+        },
+        "response": "The current local time in Danmarkshavn is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Longyearbyen?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 PM": 1.0,
+            "9:42 PM": 0.0
+        },
+        "response": "The current local time in Longyearbyen is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Jan Mayen?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 PM": 1.0,
+            "9:42 PM": 0.0
+        },
+        "response": "The current local time in Jan Mayen is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Adamstown?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 AM": 1.0,
+            "12:42 PM": 0.0
+        },
+        "response": "The current local time in Adamstown is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Easter Island?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Easter Island is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Lord Howe Island?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Lord Howe Island is 6:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Chatham Islands?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:27 AM": 1.0,
+            "10:27 AM": 0.0
+        },
+        "response": "The current local time in Chatham Islands is 8:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Cocos Islands?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:12 AM": 1.0,
+            "3:12 AM": 0.0
+        },
+        "response": "The current local time in Cocos Islands is 10:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Kerguelen Is.?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 PM": 1.0,
+            "1:42 AM": 0.0
+        },
+        "response": "The current local time in Kerguelen Is. is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Socotra?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Socotra is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Leh?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:12 PM": 1.0,
+            "2:12 AM": 0.0
+        },
+        "response": "The current local time in Leh is 11:12 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Thimphu?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 PM": 1.0,
+            "2:42 AM": 0.0
+        },
+        "response": "The current local time in Thimphu is 1:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Upper Mustang?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:27 PM": 1.0,
+            "2:27 AM": 0.0
+        },
+        "response": "The current local time in Upper Mustang is 10:12 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Siwa Oasis?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Siwa Oasis is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Alofi?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in Alofi is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Fakaofo?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in Fakaofo is 1:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Papeete, Tahiti?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 AM": 1.0,
+            "10:42 AM": 0.0
+        },
+        "response": "The local time in Papeete, Tahiti is 8:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Taiohae, Marquesas?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:12 AM": 1.0,
+            "11:12 AM": 0.0
+        },
+        "response": "The current local time in Taiohae, Marquesas is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Rikitea, Gambier?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 AM": 1.0,
+            "11:42 AM": 0.0
+        },
+        "response": "The current local time in Rikitea, Gambier is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Apia?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in Apia is 10:42 AM on the following day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Pago Pago?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in Pago Pago is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in London, Kiritimati (Christmas Is.)?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 AM": 1.0,
+            "10:42 AM": 0.0
+        },
+        "response": "The current local time in London is 5:42 PM, and in Kiritimati (Christmas Island), it is 8:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Tarawa?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Tarawa is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Kanton Island?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in Kanton Island is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Majuro?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Majuro is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Kwajalein Atoll?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Kwajalein Atoll is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ngerulmud?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Ngerulmud is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Pohnpei?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Pohnpei is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Chuuk (Truk) Lagoon?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Chuuk (Truk) Lagoon is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Kosrae?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Kosrae is 10:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Honiara?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Honiara is 6:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Port Vila?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Port Vila is 6:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Suva?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Suva is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Noumea?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Noumea is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Rarotonga?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 AM": 1.0,
+            "10:42 AM": 0.0
+        },
+        "response": "The current local time in Rarotonga is 12:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Funafuti?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Funafuti is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Mata-Utu?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Mata-Utu is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Yaren?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Yaren is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Hag\u00e5t\u00f1a?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Hag\u00e5t\u00f1a is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Saipan?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Saipan is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Port Moresby?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Port Moresby is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Arawa, Bougainville?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Arawa, Bougainville, is 6:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Jayapura, Papua?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Jayapura, Papua is 5:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ambon, Maluku?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Ambon, Maluku is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Makassar, Sulawesi?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 AM": 1.0,
+            "4:42 AM": 0.0
+        },
+        "response": "The current local time in Makassar, Sulawesi is 5:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Labuan Bajo, Flores?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 AM": 1.0,
+            "4:42 AM": 0.0
+        },
+        "response": "The current local time in Labuan Bajo, Flores is 4:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Pontianak, Kalimantan?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 AM": 1.0,
+            "3:42 AM": 0.0
+        },
+        "response": "The current local time in Pontianak, Kalimantan is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Dili?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Dili is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Puerto Princesa, Palawan?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 AM": 1.0,
+            "4:42 AM": 0.0
+        },
+        "response": "The current local time in Puerto Princesa, Palawan is 4:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Batanes Islands?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 AM": 1.0,
+            "4:42 AM": 0.0
+        },
+        "response": "The current local time in Batanes Islands is 4:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ishigaki Island?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Ishigaki Island is 5:42 AM the following day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ogasawara (Bonin) Islands?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in the Ogasawara (Bonin) Islands is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Ulleungdo Island?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Ulleungdo Island is 6:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Yuzhno-Sakhalinsk?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Yuzhno-Sakhalinsk is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Petropavlovsk-Kamchatsky?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Petropavlovsk-Kamchatsky is 10:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Kurilsk, Kuril Islands?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Kurilsk, Kuril Islands would be 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Anadyr, Chukotka?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "5:42 AM": 1.0,
+            "8:42 AM": 0.0
+        },
+        "response": "The current local time in Anadyr, Chukotka is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Magadan?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Magadan is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Birdsville, QLD?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Birdsville, QLD is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Alice Springs, NT?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:12 AM": 1.0,
+            "6:12 AM": 0.0
+        },
+        "response": "The current local time in Alice Springs, NT is 5:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Coober Pedy, SA?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:12 AM": 1.0,
+            "7:12 AM": 0.0
+        },
+        "response": "The current local time in Coober Pedy, SA is 5:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Broken Hill, NSW?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:12 AM": 1.0,
+            "7:12 AM": 0.0
+        },
+        "response": "The current local time in Broken Hill, NSW is 5:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Kalgoorlie, WA?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 AM": 1.0,
+            "4:42 AM": 0.0
+        },
+        "response": "The current local time in Kalgoorlie, WA is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Broome, WA?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 AM": 1.0,
+            "4:42 AM": 0.0
+        },
+        "response": "The current local time in Broome, WA is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Thursday Island?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Thursday Island is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Iquitos, Loreto?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Iquitos, Loreto is 5:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Leticia, Amazonas?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Leticia, Amazonas is 3:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Tabatinga, AM?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Tabatinga, AM is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in S\u00e3o Gabriel da Cachoeira, AM?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in S\u00e3o Gabriel da Cachoeira, AM is 3:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Cruzeiro do Sul, AC?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Cruzeiro do Sul, AC is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Rurrenabaque (Madidi NP)?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Rurrenabaque (Madidi NP) is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in Puerto Williams, what is the current local time in Canaima National Park?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Canaima National Park is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

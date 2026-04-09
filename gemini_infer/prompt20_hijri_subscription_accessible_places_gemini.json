@@ -1,0 +1,1383 @@
+[
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-08-16": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 1
+        },
+        "response": "August 16, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-15": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 2
+        },
+        "response": "15 September 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-14": 1.0,
+            "2021-10-15": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 3
+        },
+        "response": "October 14, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-13": 1.0,
+            "2021-11-14": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 4
+        },
+        "response": "November 13, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-11": 1.0,
+            "2022-01-13": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 6
+        },
+        "response": "9 February 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-04-09": 1.0,
+            "2022-04-13": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 9
+        },
+        "response": "April 9, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-07": 1.0,
+            "2022-07-12": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 12
+        },
+        "response": "7 July 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-01": 1.0,
+            "2023-01-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 18
+        },
+        "response": "January 1, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-06-26": 1.0,
+            "2023-07-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 24
+        },
+        "response": "June 26, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-08-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 1
+        },
+        "response": "August 23, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 2
+        },
+        "response": "September 22, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-21": 1.0,
+            "2021-10-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 3
+        },
+        "response": "October 21, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-20": 1.0,
+            "2021-11-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 4
+        },
+        "response": "November 20, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-18": 1.0,
+            "2022-01-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 6
+        },
+        "response": "January 18, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-04-16": 1.0,
+            "2022-04-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 9
+        },
+        "response": "16 April 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-14": 1.0,
+            "2022-07-19": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 12
+        },
+        "response": "15 July 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-08": 1.0,
+            "2023-01-15": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 18
+        },
+        "response": "January 8, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-07-03": 1.0,
+            "2023-07-14": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 24
+        },
+        "response": "July 3, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-08-30": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 1
+        },
+        "response": "30 August 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 2
+        },
+        "response": "29 September 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-28": 1.0,
+            "2021-10-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 3
+        },
+        "response": "November 8, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-27": 1.0,
+            "2021-11-28": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 4
+        },
+        "response": "28 November 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-25": 1.0,
+            "2022-01-27": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 6
+        },
+        "response": "January 25, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-04-23": 1.0,
+            "2022-04-27": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 9
+        },
+        "response": "April 23, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-21": 1.0,
+            "2022-07-26": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 12
+        },
+        "response": "July 21, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-15": 1.0,
+            "2023-01-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 18
+        },
+        "response": "January 15, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-07-10": 1.0,
+            "2023-07-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 24
+        },
+        "response": "July 10, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 1
+        },
+        "response": "September 8, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-07": 1.0,
+            "2021-10-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 2
+        },
+        "response": "October 9, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 3
+        },
+        "response": "5 December 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-12-05": 1.0,
+            "2021-12-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 4
+        },
+        "response": "December 5, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-02-02": 1.0,
+            "2022-02-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 6
+        },
+        "response": "3 February 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-05-02": 1.0,
+            "2022-05-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 9
+        },
+        "response": "3 May 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-30": 1.0,
+            "2022-08-04": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 12
+        },
+        "response": "28 August 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-23": 1.0,
+            "2023-01-31": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 18
+        },
+        "response": "23 January 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-07-19": 1.0,
+            "2023-07-30": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 24
+        },
+        "response": "July 19, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 1
+        },
+        "response": "September 23, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-22": 1.0,
+            "2021-10-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 2
+        },
+        "response": "22 October 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-21": 1.0,
+            "2021-11-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 3
+        },
+        "response": "November 21, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-12-20": 1.0,
+            "2021-12-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 4
+        },
+        "response": "20 December 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-02-17": 1.0,
+            "2022-02-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 6
+        },
+        "response": "February 17, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-05-17": 1.0,
+            "2022-05-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 9
+        },
+        "response": "17 May 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-08-14": 1.0,
+            "2022-08-19": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 12
+        },
+        "response": "14 August 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-07": 1.0,
+            "2023-02-15": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 18
+        },
+        "response": "7 February 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-08-03": 1.0,
+            "2023-08-14": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 24
+        },
+        "response": "18 August 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 1
+        },
+        "response": "8 October 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 2
+        },
+        "response": "7 November 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-12-06": 1.0,
+            "2021-12-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 3
+        },
+        "response": "January 4, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-05": 1.0,
+            "2022-01-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 4
+        },
+        "response": "2 February 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-03-05": 1.0,
+            "2022-03-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 6
+        },
+        "response": "March 5, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-06-01": 1.0,
+            "2022-06-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 9
+        },
+        "response": "June 1, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-08-29": 1.0,
+            "2022-09-03": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 12
+        },
+        "response": "30 August 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-22": 1.0,
+            "2023-03-02": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 18
+        },
+        "response": "March 23, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-08-18": 1.0,
+            "2023-08-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 24
+        },
+        "response": "1.  **Subscription Start Date:** 1 Muharram 1443 AH = 9 August 2021 CE.\n2.  **Trial End Date:** 60 days after 9 August 2021 CE = 8 October 2021 CE.\n3.  **First Payment Date (P1):** Billing is monthly on the same Hijri day (1st of the month) after the trial.\n    *   1 Rabi' al-Awwal 1443 AH = 7 October 2021 CE (This is before the trial ends).\n    *   1 Rabi' al-Thani 1443 AH = 6 November 2021 CE (This is after the trial ends).\n    *   Therefore, the 1st payment (P1) is on 1 Rabi' al-Thani 1443 AH.\n4.  **24th Payment Date (P24):** This is 23 months after P1.\n    *   P1 is on 1 Rabi' al-Thani 1443 AH (Rabi' al-Thani is the 4th month of the Hijri year).\n    *   To find the 24th payment, we advance 23 months from the month of P1.\n    *   Current month number: 4.\n    *   Total months from start of 1443 AH (if it started from Muharram): 4 + 23 = 27 months.\n    *   Year: floor((27 - 1) / 12) = floor(26 / 12) = 2 years. So, 1443 + 2 = 1445 AH.\n    *   Month: (27 - 1) % 12 + 1 = 26 % 12 + 1 = 2 + 1 = 3rd month. The 3rd Hijri month is Rabi' al-Awwal.\n    *   So, the 24th payment (P24) is on 1 Rabi' al-Awwal 1445 AH.\n5.  **Convert to Gregorian Date:** 1 Rabi' al-Awwal 1445 AH = 17 September 2023 CE.\n\n17 September 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 1
+        },
+        "response": "November 6, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 2
+        },
+        "response": "November 22, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-12-21": 1.0,
+            "2021-12-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 3
+        },
+        "response": "20 December 2021 CE",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-20": 1.0,
+            "2022-01-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 4
+        },
+        "response": "January 21, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-03-20": 1.0,
+            "2022-03-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 6
+        },
+        "response": "March 19, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-06-16": 1.0,
+            "2022-06-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 9
+        },
+        "response": "June 16, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-09-13": 1.0,
+            "2022-09-18": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 12
+        },
+        "response": "August 24, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-09": 1.0,
+            "2023-03-17": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 18
+        },
+        "response": "7 April 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 75-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-09-02": 1.0,
+            "2023-09-13": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 75,
+            "bill_number": 24
+        },
+        "response": "August 31, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 1
+        },
+        "response": "7 November 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-12-06": 1.0,
+            "2021-12-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 2
+        },
+        "response": "December 6, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-05": 1.0,
+            "2022-01-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 3
+        },
+        "response": "6 January 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-02-03": 1.0,
+            "2022-02-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 4
+        },
+        "response": "February 4, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-04-03": 1.0,
+            "2022-04-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 6
+        },
+        "response": "2 May 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-01": 1.0,
+            "2022-07-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 9
+        },
+        "response": "July 1, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-09-28": 1.0,
+            "2022-10-03": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 12
+        },
+        "response": "March 28, 2033",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-24": 1.0,
+            "2023-04-01": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 18
+        },
+        "response": "March 24, 2023 CE",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [1 Muharram 1443 AH]. It has a 90-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-09-17": 1.0,
+            "2023-09-28": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 90,
+            "bill_number": 24
+        },
+        "response": "18 September 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-08-25": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 1
+        },
+        "response": "August 25, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-24": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 2
+        },
+        "response": "September 24, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-23": 1.0,
+            "2021-10-24": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 3
+        },
+        "response": "25 October 2021 AD",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-22": 1.0,
+            "2021-11-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 4
+        },
+        "response": "November 22, 2021 AD",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-20": 1.0,
+            "2022-01-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 6
+        },
+        "response": "January 20, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-04-18": 1.0,
+            "2022-04-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 9
+        },
+        "response": "19 April 2022 AD",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-16": 1.0,
+            "2022-07-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 12
+        },
+        "response": "16 July 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-10": 1.0,
+            "2023-01-17": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 18
+        },
+        "response": "10 January 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-07-05": 1.0,
+            "2023-07-16": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 24
+        },
+        "response": "July 6, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-01": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 1
+        },
+        "response": "1 September 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-01": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 2
+        },
+        "response": "October 2, 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-30": 1.0,
+            "2021-10-31": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 3
+        },
+        "response": "31 October 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-29": 1.0,
+            "2021-11-30": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 4
+        },
+        "response": "29 November 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-01-27": 1.0,
+            "2022-01-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 6
+        },
+        "response": "27 January 2022 AD",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-04-25": 1.0,
+            "2022-04-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 9
+        },
+        "response": "25 April 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-23": 1.0,
+            "2022-07-28": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 12
+        },
+        "response": "August 22, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-17": 1.0,
+            "2023-01-24": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 18
+        },
+        "response": "18 January 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-07-12": 1.0,
+            "2023-07-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 24
+        },
+        "response": "July 12, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 1
+        },
+        "response": "8 September 2021 AD",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-10-07": 1.0,
+            "2021-10-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 2
+        },
+        "response": "7 October 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 3
+        },
+        "response": "16 November 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-12-05": 1.0,
+            "2021-12-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 4
+        },
+        "response": "6 December 2021",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-02-02": 1.0,
+            "2022-02-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 6
+        },
+        "response": "February 3, 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-05-02": 1.0,
+            "2022-05-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 9
+        },
+        "response": "11 May 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-07-30": 1.0,
+            "2022-08-04": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 12
+        },
+        "response": "30 July 2022",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 18th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-23": 1.0,
+            "2023-01-31": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 18
+        },
+        "response": "February 1, 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 24th payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-07-19": 1.0,
+            "2023-07-30": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 24
+        },
+        "response": "20 July 2023",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI started a subscription on [10 Muharram 1443 AH]. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2021-09-17": 0.0
+        },
+        "metadata": {
+            "start_hijri": "10 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 1
+        },
+        "response": "17 September 2021",
+        "isModelResponseCorrect": "TBD"
+    }
+]

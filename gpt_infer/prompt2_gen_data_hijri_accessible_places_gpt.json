@@ -1,0 +1,902 @@
+[
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Los Angeles in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-10 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Los Angeles in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Chicago in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Chicago in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Houston in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-11 10:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Houston in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-07 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Phoenix in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-07:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-11-09 08:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Phoenix in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-07:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-09 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in San Antonio in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 10:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in San Antonio in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in San Diego in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-10 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in San Diego in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Dallas in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 10:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Dallas in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2002-11-05 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in San Jose in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-10 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in San Jose in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-08 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Austin in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-11 10:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Austin in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-13 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in San Francisco in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-11-10 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in San Francisco in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Seattle in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Seattle in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Denver in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-07:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2002-01-01 08:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Denver in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-07:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Las Vegas in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-08 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Las Vegas in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2023-08-07 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Honolulu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 05:01:00-10:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-08 05:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Honolulu in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-10:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Vancouver in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 07:01:00-08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 07:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Vancouver in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 11:01:00-08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-09 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Calgary in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 08:01:00-07:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2002-10-06 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Calgary in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 12:01:00-07:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Mexico City in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-09-10 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Mexico City in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-18 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Guadalajara in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-09-10 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Guadalajara in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-09 13:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Monterrey in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 09:01:00-06:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-09-07 09:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Monterrey in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 13:01:00-06:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2021-09-07 14:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in London in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+01:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in London in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+01:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Manchester in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+01:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2021-10-10 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Manchester in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+01:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Birmingham in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+01:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2021-08-17 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Birmingham in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+01:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Edinburgh in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 16:01:00+01:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2023-01-10 15:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Edinburgh in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:01:00+01:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-09 19:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Paris in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-10 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Paris in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Lyon in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Lyon in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-08 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Marseille in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Marseille in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-12 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Berlin in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2002-01-30 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Berlin in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Frankfurt in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-10 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Frankfurt in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Munich in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-09-09 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Munich in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2002-05-30 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Rome in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-11-10 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Rome in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Milan in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Milan in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2023-08-08 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Madrid in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2002-02-05 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Madrid in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2002-01-03 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Barcelona in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2002-03-02 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Barcelona in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Amsterdam in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Amsterdam in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Zurich in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 17:01:00+02:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2002-02-05 16:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Zurich in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 21:01:00+02:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 20:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Tokyo in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-08 00:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Tokyo in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 04:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Osaka in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2021-10-16 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Osaka in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Kyoto in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 12:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Kyoto in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2002-09-06 05:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Seoul in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 00:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Seoul in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Busan in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:01:00+09:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 23:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Busan in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 04:01:00+09:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 05:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Beijing in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Beijing in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 03:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-08 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Shanghai in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-09-10 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Shanghai in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 03:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-10 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Hong Kong in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Hong Kong in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 03:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Singapore in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:01:00+08:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2023-09-06 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Singapore in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 03:01:00+08:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2021-11-15 04:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Bangkok in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+07:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 23:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Bangkok in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 02:01:00+07:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-06 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Ho Chi Minh City in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+07:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-07 11:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Ho Chi Minh City in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 02:01:00+07:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-10-09 03:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Mumbai in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:31:00+05:30": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-08-10 19:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Mumbai in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:31:00+05:30": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-06 00:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Delhi in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 20:31:00+05:30": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-10-07 20:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Delhi in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-02 00:31:00+05:30": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2002-10-04 00:31:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Dubai in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 19:01:00+04:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2022-09-10 18:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Dubai in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 23:01:00+04:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-08-09 22:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 10:01 in New York City. What time and date is it in Istanbul in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 18:01:00+03:00": 1.0,
+            "2002-04-01 10:01:00-05:00": 0.0
+        },
+        "response": "2002-11-04 17:01:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Today is \u0645\u062d\u0631\u0645 18 1423. It is currently 14:01 in New York City. What time and date is it in Istanbul in Gregorian Calendar? GIVE RESPONSE IN YYYY-MM-DD HH:MI:SS format.NO EXPLANATIONS.",
+        "target_scores": {
+            "2002-04-01 22:01:00+03:00": 1.0,
+            "2002-04-01 14:01:00-05:00": 0.0
+        },
+        "response": "2022-09-10 21:01:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Chicago begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Chicago in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Chicago [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Chicago [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The first meeting in Chicago starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Houston begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Houston in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Houston [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Houston [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The first meeting in Houston starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Phoenix begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Phoenix in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 00:00:00\u20132026-03-08 02:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Phoenix [2026-03-08 00:00:00\u20132026-03-08 01:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Phoenix [2026-03-08 01:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The first meeting in Phoenix starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Philadelphia begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Philadelphia in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Philadelphia [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Philadelphia [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The first meeting in Philadelphia starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in San Antonio begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in San Antonio in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], San Antonio [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], San Antonio [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The first meeting in San Antonio starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in San Diego begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in San Diego in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], San Diego [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], San Diego [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The first meeting in San Diego starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Dallas begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Dallas in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Dallas [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Dallas [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Dallas is 04:00 DST, and the end time is 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in San Jose begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in San Jose in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], San Jose [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], San Jose [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The first meeting in San Jose starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Austin begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Austin in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Austin [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Austin [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The first meeting in Austin starts on 2026-03-08 at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Jacksonville begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Jacksonville in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Jacksonville [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Jacksonville [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The Jacksonville meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in San Francisco begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in San Francisco in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], San Francisco [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], San Francisco [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The first meeting in San Francisco starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Columbus begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Columbus in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Columbus [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Columbus [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The first meeting in Columbus starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Indianapolis begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Indianapolis in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Indianapolis [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Indianapolis [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The Indianapolis meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Seattle begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Seattle in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Seattle [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Seattle [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The Seattle meeting starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Denver begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Denver in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 00:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Denver [2026-03-08 00:00:00\u20132026-03-08 01:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Denver [2026-03-08 01:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The Denver meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Washington DC begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Washington DC in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Washington DC [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Washington DC [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The meeting in Washington DC starts at 04:00 and ends at 06:00 on 2026-03-08 in DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Boston begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Boston in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Boston [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Boston [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The Boston meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Las Vegas begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Las Vegas in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Las Vegas [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Las Vegas [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Las Vegas is 04:00 DST, and the end time is 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Atlanta begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Atlanta in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Atlanta [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Atlanta [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The meeting in Atlanta starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Miami begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Miami in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Miami [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Miami [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The meeting in Miami starts at 04:00 and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Honolulu begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Honolulu in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 21:00:00\u20132026-03-07 23:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Honolulu [2026-03-07 21:00:00\u20132026-03-07 22:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Honolulu [2026-03-07 22:00:00\u20132026-03-08 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Honolulu starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Toronto begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Toronto in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Toronto [2026-03-08 03:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Toronto [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The Toronto meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Montreal begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Montreal in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Montreal [2026-03-08 03:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Montreal [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The Montreal meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Vancouver begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Vancouver in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Vancouver [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Vancouver [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The Vancouver meeting starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Calgary begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Calgary in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 00:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Calgary [2026-03-08 00:00:00\u20132026-03-08 01:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Calgary [2026-03-08 01:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The Calgary meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ottawa begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ottawa in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Ottawa [2026-03-08 03:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Ottawa [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The Ottawa meeting starts at 04:00 and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Mexico City begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Mexico City in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Mexico City [2026-03-08 01:00:00\u20132026-03-08 02:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Mexico City [2026-03-08 02:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The first meeting in Mexico City starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Guadalajara begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Guadalajara in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Guadalajara [2026-03-08 01:00:00\u20132026-03-08 02:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Guadalajara [2026-03-08 02:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The meeting in Guadalajara starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Monterrey begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Monterrey in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Monterrey [2026-03-08 01:00:00\u20132026-03-08 02:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Monterrey [2026-03-08 02:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The first meeting in Monterrey starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in London begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in London in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], London [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], London [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The first meeting in London starts at 09:00 DST and ends at 11:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Manchester begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Manchester in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Manchester [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Manchester [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The Manchester meeting starts at 09:00 DST and ends at 11:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Birmingham begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Birmingham in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Birmingham [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Birmingham [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The Birmingham meeting starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Edinburgh begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Edinburgh in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Edinburgh [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Edinburgh [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The meeting in Edinburgh starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Paris begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Paris in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Paris [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Paris [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The first meeting in Paris starts at 09:00 DST and ends at 11:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Lyon begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Lyon in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Lyon [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Lyon [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The first meeting in Lyon starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Marseille begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Marseille in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Marseille [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Marseille [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Marseille starts on 2026-03-08 at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Berlin begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Berlin in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Berlin [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Berlin [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "Start time in Berlin: 09:00 DST  \nEnd time in Berlin: 11:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Frankfurt begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Frankfurt in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Frankfurt [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Frankfurt [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The first meeting in Frankfurt starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Munich begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Munich in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Munich [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Munich [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Munich starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Rome begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Rome in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Rome [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Rome [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Rome is 09:00 DST, and the end time is 11:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Milan begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Milan in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Milan [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Milan [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Milan starts at 05:00 and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Madrid begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Madrid in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Madrid [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Madrid [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The first meeting in Madrid starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Barcelona begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Barcelona in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Barcelona [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Barcelona [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Barcelona starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Amsterdam begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Amsterdam in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Amsterdam [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Amsterdam [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Amsterdam starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Zurich begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Zurich in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Zurich [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Zurich [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Zurich starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Tokyo begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Tokyo in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 16:00:00\u20132026-03-08 18:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Tokyo [2026-03-08 16:00:00\u20132026-03-08 17:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Tokyo [2026-03-08 17:00:00\u20132026-03-08 19:00:00].": 0.0
+        },
+        "response": "The Tokyo meeting starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Osaka begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Osaka in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 16:00:00\u20132026-03-08 18:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Osaka [2026-03-08 16:00:00\u20132026-03-08 17:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Osaka [2026-03-08 17:00:00\u20132026-03-08 19:00:00].": 0.0
+        },
+        "response": "The Osaka meeting starts at 17:00 and ends at 19:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kyoto begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kyoto in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 16:00:00\u20132026-03-08 18:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Kyoto [2026-03-08 16:00:00\u20132026-03-08 17:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Kyoto [2026-03-08 17:00:00\u20132026-03-08 19:00:00].": 0.0
+        },
+        "response": "The first meeting in Kyoto starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Seoul begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Seoul in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 16:00:00\u20132026-03-08 18:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Seoul [2026-03-08 16:00:00\u20132026-03-08 17:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Seoul [2026-03-08 17:00:00\u20132026-03-08 19:00:00].": 0.0
+        },
+        "response": "The first meeting in Seoul starts at 05:00 and ends at 07:00 (DST).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Busan begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Busan in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 16:00:00\u20132026-03-08 18:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Busan [2026-03-08 16:00:00\u20132026-03-08 17:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Busan [2026-03-08 17:00:00\u20132026-03-08 19:00:00].": 0.0
+        },
+        "response": "The meeting in Busan starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Beijing begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Beijing in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Beijing [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Beijing [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Beijing is 17:00 DST on 2026-03-08. The end time of the first meeting in Beijing is 19:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Shanghai begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Shanghai in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Shanghai [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Shanghai [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The meeting in Shanghai starts at 05:00 and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Hong Kong begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Hong Kong in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Hong Kong [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Hong Kong [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Hong Kong is 05:00 on 2026-03-08 DST, and the end time is 07:00 on 2026-03-08 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Singapore begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Singapore in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Singapore [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Singapore [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Singapore is 05:00 on 2026-03-08, and the end time is 07:00 on 2026-03-08, both in DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Bangkok begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Bangkok in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 14:00:00\u20132026-03-08 16:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Bangkok [2026-03-08 14:00:00\u20132026-03-08 15:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Bangkok [2026-03-08 15:00:00\u20132026-03-08 17:00:00].": 0.0
+        },
+        "response": "The meeting in Bangkok starts at 04:00 and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ho Chi Minh City begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ho Chi Minh City in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 14:00:00\u20132026-03-08 16:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Ho Chi Minh City [2026-03-08 14:00:00\u20132026-03-08 15:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Ho Chi Minh City [2026-03-08 15:00:00\u20132026-03-08 17:00:00].": 0.0
+        },
+        "response": "The first meeting in Ho Chi Minh City starts at 04:00 and ends at 06:00 on 2026-03-08 (DST).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Mumbai begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Mumbai in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 12:30:00\u20132026-03-08 14:30:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Mumbai [2026-03-08 12:30:00\u20132026-03-08 13:30:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Mumbai [2026-03-08 13:30:00\u20132026-03-08 15:30:00].": 0.0
+        },
+        "response": "The meeting in Mumbai starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Delhi begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Delhi in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 12:30:00\u20132026-03-08 14:30:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Delhi [2026-03-08 12:30:00\u20132026-03-08 13:30:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Delhi [2026-03-08 13:30:00\u20132026-03-08 15:30:00].": 0.0
+        },
+        "response": "The meeting in Delhi starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Dubai begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Dubai in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 11:00:00\u20132026-03-08 13:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Dubai [2026-03-08 11:00:00\u20132026-03-08 12:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Dubai [2026-03-08 12:00:00\u20132026-03-08 14:00:00].": 0.0
+        },
+        "response": "The first meeting in Dubai starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Istanbul begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Istanbul in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 10:00:00\u20132026-03-08 12:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Istanbul [2026-03-08 10:00:00\u20132026-03-08 11:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Istanbul [2026-03-08 11:00:00\u20132026-03-08 13:00:00].": 0.0
+        },
+        "response": "The Istanbul meeting starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Sydney begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Sydney in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Sydney [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Sydney [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The first meeting in Sydney starts at 05:00 and ends at 07:00 on 2026-03-08 in DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Melbourne begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Melbourne in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Melbourne [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Melbourne [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The meeting in Melbourne starts at 07:00 and ends at 09:00 on 2026-03-08 in DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Auckland begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Auckland in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Auckland [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Auckland [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Auckland is 04:00 on 2026-03-08, and the end time is 06:00 on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Sao Paulo begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Sao Paulo in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 04:00:00\u20132026-03-08 06:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Sao Paulo [2026-03-08 04:00:00\u20132026-03-08 05:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Sao Paulo [2026-03-08 05:00:00\u20132026-03-08 07:00:00].": 0.0
+        },
+        "response": "The first meeting in S\u00e3o Paulo starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Buenos Aires begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Buenos Aires in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 04:00:00\u20132026-03-08 06:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Buenos Aires [2026-03-08 04:00:00\u20132026-03-08 05:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Buenos Aires [2026-03-08 05:00:00\u20132026-03-08 07:00:00].": 0.0
+        },
+        "response": "The first meeting in Buenos Aires starts at 05:00 and ends at 07:00 in DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Johannesburg begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Johannesburg in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Johannesburg [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Johannesburg [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The meeting in Johannesburg starts at 04:00 and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Cairo begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Cairo in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Cairo [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Cairo [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The first meeting in Cairo starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Portland begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Portland in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Portland [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Portland [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The first meeting in Portland starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Salt Lake City begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Salt Lake City in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 00:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Salt Lake City [2026-03-08 00:00:00\u20132026-03-08 01:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Salt Lake City [2026-03-08 01:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Salt Lake City is 04:00 DST, and it ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Orlando begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Orlando in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Orlando [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Orlando [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Orlando is 04:00 and the end time is 06:00 (DST).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Nashville begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Nashville in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Nashville [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Nashville [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The first meeting in Nashville starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in New Orleans begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in New Orleans in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], New Orleans [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], New Orleans [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in New Orleans is 04:00 DST, and the end time is 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Minneapolis begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Minneapolis in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Minneapolis [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Minneapolis [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The first meeting in Minneapolis starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Detroit begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Detroit in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Detroit [2026-03-08 03:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Detroit [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The meeting in Detroit starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Charlotte begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Charlotte in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Charlotte [2026-03-08 02:00:00\u20132026-03-08 04:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Charlotte [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The meeting in Charlotte starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Edmonton begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Edmonton in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 00:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Edmonton [2026-03-08 00:00:00\u20132026-03-08 01:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Edmonton [2026-03-08 01:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The first meeting in Edmonton starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Winnipeg begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Winnipeg in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Winnipeg [2026-03-08 01:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Winnipeg [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The first meeting in Winnipeg starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Tijuana begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Tijuana in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Tijuana [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Tijuana [2026-03-08 00:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The meeting in Tijuana starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Cancun begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Cancun in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 02:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Cancun [2026-03-08 02:00:00\u20132026-03-08 03:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Cancun [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Cancun is 03:00 DST, and the end time is 05:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Vienna begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Vienna in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Vienna [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Vienna [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Vienna starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Prague begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Prague in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Prague [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Prague [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Prague starts at 05:00 and ends at 07:00 on 2026-03-08 in DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Lisbon begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Lisbon in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Lisbon [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Lisbon [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The meeting in Lisbon starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Dublin begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Dublin in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Dublin [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Dublin [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The meeting in Dublin starts at 04:00 and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Copenhagen begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Copenhagen in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Copenhagen [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Copenhagen [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "Start time: 04:00 DST (Copenhagen)  \nEnd time: 06:00 DST (Copenhagen)",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Stockholm begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Stockholm in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Stockholm [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Stockholm [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The first meeting in Stockholm starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Oslo begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Oslo in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Oslo [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Oslo [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The Oslo meeting starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Helsinki begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Helsinki in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Helsinki [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Helsinki [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The meeting in Helsinki starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Brussels begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Brussels in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Brussels [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Brussels [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Brussels starts on 2026-03-08 at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Budapest begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Budapest in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Budapest [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Budapest [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Budapest starts at 04:00 and ends at 06:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Krakow begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Krakow in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Krakow [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Krakow [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The meeting in Krakow starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Athens begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Athens in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Athens [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Athens [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The first meeting in Athens starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Tel Aviv begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Tel Aviv in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Tel Aviv [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Tel Aviv [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The first meeting in Tel Aviv starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Doha begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Doha in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 10:00:00\u20132026-03-08 12:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Doha [2026-03-08 10:00:00\u20132026-03-08 11:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Doha [2026-03-08 11:00:00\u20132026-03-08 13:00:00].": 0.0
+        },
+        "response": "The meeting in Doha starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Riyadh begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Riyadh in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 10:00:00\u20132026-03-08 12:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Riyadh [2026-03-08 10:00:00\u20132026-03-08 11:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Riyadh [2026-03-08 11:00:00\u20132026-03-08 13:00:00].": 0.0
+        },
+        "response": "The meeting in Riyadh starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kuwait City begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kuwait City in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 10:00:00\u20132026-03-08 12:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Kuwait City [2026-03-08 10:00:00\u20132026-03-08 11:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Kuwait City [2026-03-08 11:00:00\u20132026-03-08 13:00:00].": 0.0
+        },
+        "response": "The first meeting in Kuwait City starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Beirut begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Beirut in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Beirut [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Beirut [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Beirut is 05:00 DST, and the end time is 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Jakarta begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Jakarta in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 14:00:00\u20132026-03-08 16:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Jakarta [2026-03-08 14:00:00\u20132026-03-08 15:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Jakarta [2026-03-08 15:00:00\u20132026-03-08 17:00:00].": 0.0
+        },
+        "response": "The meeting in Jakarta starts at 05:00 and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Manila begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Manila in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Manila [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Manila [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Manila is 03:00 DST on 2026-03-08, and it ends at 05:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kuala Lumpur begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kuala Lumpur in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Kuala Lumpur [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Kuala Lumpur [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The first meeting in Kuala Lumpur starts at 05:00 and ends at 07:00 on 2026-03-08 in DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in New York City. A video conference with Los Angeles starts exactly when DST takes effect and ends 2 hours later. Another meeting in Taipei begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Taipei in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: New York City [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Los Angeles [2026-03-07 23:00:00\u20132026-03-08 00:00:00], Taipei [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: New York City [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Los Angeles [2026-03-08 00:00:00\u20132026-03-08 03:00:00], Taipei [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The meeting in Taipei starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

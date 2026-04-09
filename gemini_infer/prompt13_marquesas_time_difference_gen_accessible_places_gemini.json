@@ -1,0 +1,902 @@
+[
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in New York City. However, their calculation is incorrect. What is the actual time difference, what time is it actually in New York City when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 16:30 -0500 in New York City when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Los Angeles. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Los Angeles when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands Time (-0930) and Los Angeles Time (PST, -0800) is 1 hour 30 minutes. Los Angeles is 1 hour 30 minutes ahead of the Marquesas Islands.\n\nWhen the event starts at 2025-12-05 12:00 -0930 in the Marquesas Islands, it is actually 2025-12-05 13:30 -0800 in Los Angeles.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Chicago. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Chicago when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time.\n\n1.  **Convert Marquesas Islands time to UTC:**\n    12:00 Marquesas Time + 9 hours 30 minutes (offset to UTC) = 21:30 UTC.\n    So, the event starts at 2025-12-05 21:30 UTC.\n\n2.  **Determine Chicago's time zone offset on that date:**\n    On 2025-12-05, Chicago observes Central Standard Time (CST), which is UTC-06:00.\n\n3.  **Calculate the actual time in Chicago when the event starts:**\n    21:30 UTC - 6 hours (Chicago's offset from UTC) = 15:30.\n    Therefore, the event starts at **2025-12-05 15:30 -0600 in Chicago**.\n\n4.  **Calculate the actual time difference between Marquesas Islands Time and Chicago Time (CST):**\n    Chicago offset: -06:00\n    Marquesas offset: -09:30\n    Difference = (-06:00) - (-09:30) = -06:00 + 09:30 = +03:30.\n    So, Chicago is 3 hours and 30 minutes ahead of Marquesas Islands. This is the **actual time difference**.\n\nThe person's calculation is incorrect because they stated the event is \"1 hour after 2025-12-05 14:30 -0600 in Chicago\". While \"1 hour after 14:30 -0600\" correctly results in the event's start time of 15:30 -0600, the **actual time difference** between the time zones for the same moment is 3 hours and 30 minutes, not 1 hour.\n\n**Actual time difference:** Chicago is 3 hours and 30 minutes ahead of Marquesas Islands.\n**Time it is actually in Chicago when the event starts:** 2025-12-05 15:30 -0600.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Houston. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Houston when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands (-0930) and Houston (-0600) is 3 hours and 30 minutes.\nThe event actually starts in Houston at 2025-12-05 15:30 -0600.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 13:30 -0700 in Phoenix. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Phoenix when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 14:30 -0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 13:30 -0700": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 14:30 -0700 in Phoenix when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Philadelphia. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Philadelphia when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nThe actual time in Philadelphia when the event starts is 2025-12-05 16:30 -0500.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in San Antonio. However, their calculation is incorrect. What is the actual time difference, what time is it actually in San Antonio when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands time zone (-0930) and the San Antonio time zone (-0600) is 3 hours and 30 minutes.\n\nThe actual time in San Antonio when the event starts is 2025-12-05 15:30 -0600.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in San Diego. However, their calculation is incorrect. What is the actual time difference, what time is it actually in San Diego when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands (-0930) and San Diego (-0800) is 1 hour 30 minutes. (San Diego is 1 hour 30 minutes ahead of Marquesas Islands).\n\nWhen the event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, it is actually 2025-12-05 13:30 -0800 in San Diego.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Dallas. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Dallas when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands (-0930) and Dallas (-0600) is 3 hours and 30 minutes.\n\nIt is actually 2025-12-05 15:30 -0600 in Dallas when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in San Jose. However, their calculation is incorrect. What is the actual time difference, what time is it actually in San Jose when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nWhen the event starts, it is 2025-12-05 13:30 -0800 in San Jose.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Austin. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Austin when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nThe actual time in Austin when the event starts is 2025-12-05 15:30 -0600.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Jacksonville. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Jacksonville when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands Time (UTC-09:30) and Jacksonville (Eastern Standard Time, UTC-05:00, for December 5th) is 4 hours and 30 minutes. Jacksonville is 4 hours and 30 minutes ahead of Marquesas Islands time.\n\nWhen the event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, it is actually 2025-12-05 16:30 -0500 in Jacksonville.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in San Francisco. However, their calculation is incorrect. What is the actual time difference, what time is it actually in San Francisco when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference (between the Marquesas Islands and San Francisco time zones) is 1 hour 30 minutes.\n\nWhen the event starts, it is 2025-12-06 05:30 -0800 in San Francisco.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Columbus. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Columbus when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands Time (UTC-09:30) and Columbus (Eastern Standard Time, UTC-05:00 in December) is 4 hours 30 minutes. Columbus is 4 hours 30 minutes ahead of Marquesas.\n\nWhen the event starts, it will be: 2025-12-05 16:30 -0500 in Columbus.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Indianapolis. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Indianapolis when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time.\nTo convert this to UTC: 12:00 + 9 hours 30 minutes = 21:30 UTC.\n\nThe Indianapolis time given for comparison is 2025-12-05 15:30 -0500.\nTo convert this to UTC: 15:30 + 5 hours 0 minutes = 20:30 UTC.\n\nThe actual time difference between the event start (21:30 UTC) and the given Indianapolis time (20:30 UTC) is:\n21:30 UTC - 20:30 UTC = 1 hour.\n\nThe actual time in Indianapolis when the event starts is:\n21:30 UTC converted to Indianapolis time (-0500): 21:30 - 5 hours = 16:30 -0500.\n\nThe actual time difference is 1 hour.\nIt is actually 2025-12-05 16:30 -0500 in Indianapolis when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Seattle. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Seattle when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 13:30 -0800 in Seattle when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 13:30 -0700 in Denver. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Denver when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 14:30 -0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 13:30 -0700": 0.0
+        },
+        "response": "The actual time difference (between the Marquesas Islands time zone and Denver time zone) is 2 hours 30 minutes.\n\nThe actual time it is in Denver when the event starts is 2025-12-05 14:30 -0700.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Washington DC. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Washington DC when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 16:30 -0500 in Washington DC when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Boston. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Boston when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference is 4 hours and 30 minutes.\nIt is actually 2025-12-05 16:30 -0500 in Boston when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Las Vegas. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Las Vegas when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 13:30 -0800 in Las Vegas when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Atlanta. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Atlanta when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference is 4 hours 30 minutes.\nIt is actually 2025-12-05 16:30 -0500 in Atlanta when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Miami. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Miami when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "Actual time difference: 1 hour\nTime in Miami when the event starts: 2025-12-05 16:30 -0500",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 10:30 -1000 in Honolulu. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Honolulu when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 11:30 -1000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 10:30 -1000": 0.0
+        },
+        "response": "The actual time difference (between the Marquesas and Honolulu time zones) is 30 minutes.\nWhen the event starts, it is 2025-12-05 11:30 -1000 in Honolulu.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Toronto. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Toronto when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference between Toronto (-0500) and Marquesas Islands (-0930) is 4 hours and 30 minutes.\n\nWhen the event starts, it is 2025-12-05 16:30 -0500 in Toronto.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Montreal. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Montreal when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "Actual time difference: 1 hour\nTime it is actually in Montreal when the event starts: 2025-12-05 16:30 -0500",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Vancouver. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Vancouver when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nWhen the event starts, it is 2025-12-05 13:30 -0800 in Vancouver.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 13:30 -0700 in Calgary. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Calgary when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 14:30 -0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 13:30 -0700": 0.0
+        },
+        "response": "The actual time difference is 2 hours 30 minutes.\nIt is actually 2025-12-05 14:30 -0700 in Calgary when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Ottawa. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Ottawa when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The event starts at 2025-12-05 16:30 -0500 in Ottawa.\n\nThe actual time difference between the Marquesas Islands time zone (UTC-09:30) and Ottawa's time zone (UTC-05:00) is 4 hours and 30 minutes. (Ottawa is 4 hours and 30 minutes ahead of the Marquesas Islands).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Mexico City. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Mexico City when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time in Mexico City when the event starts is determined as follows:\n\n1.  **Convert Marquesas Islands time to UTC:**\n    The event starts at 2025-12-05 12:00 -0930.\n    UTC = Local Time - Offset = 12:00 - (-09:30) = 12:00 + 09:30 = 21:30 UTC.\n    So, the event starts on 2025-12-05 21:30 UTC.\n\n2.  **Convert UTC to Mexico City time:**\n    Mexico City observes UTC-06:00 in December (Central Standard Time, as it generally no longer observes Daylight Saving Time).\n    Mexico City Time = UTC + Offset = 21:30 - 06:00 = 15:30.\n    So, the event starts on 2025-12-05 15:30 -0600 in Mexico City.\n\nNow, let's address the specific questions:\n\n*   **What time is it actually in Mexico City when the event starts?**\n    2025-12-05 15:30 -0600\n\n*   **What is the actual time difference?**\n    The question refers to the initial statement \"which is 1 hour after 2025-12-05 14:30 -0600 in Mexico City\".\n    The actual event start time in Mexico City is 15:30 -0600.\n    The stated reference time in Mexico City is 14:30 -0600.\n    The difference between 15:30 and 14:30 is exactly 1 hour.\n\n    Therefore, the statement that the event starts \"1 hour after 2025-12-05 14:30 -0600 in Mexico City\" is factually correct as 15:30 is indeed 1 hour after 14:30. The premise that \"their calculation is incorrect\" is not supported by standard time zone calculations for the given information.\n\nActual time difference: 1 hour\nActual time in Mexico City when the event starts: 2025-12-05 15:30 -0600",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Guadalajara. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Guadalajara when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference is 3 hours and 30 minutes.\nIt is actually 2025-12-05 15:30 -0600 in Guadalajara when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Monterrey. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Monterrey when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nThe event actually starts at 2025-12-05 15:30 -0600 in Monterrey.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in London. However, their calculation is incorrect. What is the actual time difference, what time is it actually in London when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "Actual time difference: 9 hours 30 minutes\nTime in London when the event starts: 2025-12-05 21:30 +0000",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Manchester. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Manchester when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "The actual time difference (between the Marquesas Islands time zone and Manchester time zone) is 9 hours 30 minutes.\nWhen the event starts, it is actually 2025-12-05 21:30 in Manchester.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Birmingham. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Birmingham when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "Actual time difference: 9 hours 30 minutes\nTime in Birmingham when the event starts: 2025-12-05 21:30 +0000",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Edinburgh. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Edinburgh when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 21:30 +0000 in Edinburgh when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Paris. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Paris when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 22:30 +0100 in Paris when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Lyon. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Lyon when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference (Lyon ahead of Marquesas) is 10 hours and 30 minutes.\n\nIt is actually 2025-12-05 22:30 +0100 in Lyon when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Marseille. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Marseille when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 10 hours 30 minutes.\nIt is actually 2025-12-05 22:30 +0100 in Marseille when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Berlin. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Berlin when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The event starts at 2025-12-05 21:30 UTC.\nThe stated Berlin time 2025-12-05 21:30 +0100 is 2025-12-05 20:30 UTC.\n\nThe actual time difference between the event start and the stated Berlin time is 1 hour.\nThe event starts 1 hour after the stated Berlin time.\n\nWhen the event starts, it is 2025-12-05 22:30 +0100 in Berlin.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Frankfurt. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Frankfurt when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference (timezone difference between Marquesas Islands Time and Central European Time) is 10 hours 30 minutes.\n\nWhen the event starts, it is 2025-12-05 22:30 +0100 in Frankfurt.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Munich. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Munich when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 10 hours 30 minutes.\nIt is actually 2025-12-05 22:30 +0100 in Munich when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Rome. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Rome when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 10 hours 30 minutes (Rome is ahead of Marquesas Islands time).\nIt is actually 2025-12-05 22:30 +0100 in Rome when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Milan. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Milan when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nWhen the event starts, it is 2025-12-05 22:30 +0100 in Milan.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Madrid. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Madrid when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 10 hours 30 minutes.\nIt is actually 2025-12-05 22:30 +0100 in Madrid when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Barcelona. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Barcelona when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time.\nTo convert this to UTC: 12:00 + 09:30 = 21:30 UTC on 2025-12-05.\n\nBarcelona uses CET (Central European Time) which is UTC+1 in December.\nThe actual time in Barcelona when the event starts is:\n2025-12-05 21:30 UTC + 01:00 = 2025-12-05 22:30 +0100.\n\nThe person stated that the Marquesas event time \"is 1 hour after 2025-12-05 21:30 +0100 in Barcelona.\"\nThis means the event happens at a time equivalent to 2025-12-05 21:30 +0100 plus 1 hour in Barcelona.\n2025-12-05 21:30 +0100 + 1 hour = 2025-12-05 22:30 +0100.\n\nThe person's calculation of the equivalent Barcelona time (22:30 +0100) is correct, and their statement that it is 1 hour after 21:30 +0100 is also correct.\nHowever, the problem states \"their calculation is incorrect.\" This implies the \"1 hour\" difference might be referring to a different calculation. A common \"time difference\" question might compare the *local clock readings* for the same universal moment across time zones.\n\nThe local clock reading for the event in Marquesas Islands is 12:00.\nThe local clock reading for the event in Barcelona is 22:30.\nThe difference between these local clock readings (22:30 - 12:00) is 10 hours and 30 minutes. If the person mistakenly thought this difference was 1 hour, that would be an incorrect calculation.\n\nActual time difference (between Marquesas local time and Barcelona local time of the event): 10 hours 30 minutes.\nTime in Barcelona when the event starts: 2025-12-05 22:30 +0100.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Amsterdam. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Amsterdam when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 22:30 +0100 in Amsterdam when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Zurich. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Zurich when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time.\nTo convert this to UTC: 12:00 + 09:30 = 21:30 UTC.\n\nZurich uses Central European Time (CET), which is UTC+01:00 in December.\nTo find the actual time in Zurich when the event starts, convert the UTC time to Zurich time:\n21:30 UTC + 01:00 = 22:30 +0100.\nSo, the event starts at **2025-12-05 22:30 +0100 in Zurich**.\n\nNow, let's analyze the stated \"1 hour after\" claim:\nThe person states the Marquesas event time \"is 1 hour after 2025-12-05 21:30 +0100 in Zurich\".\nLet's convert 2025-12-05 21:30 +0100 (Zurich) to UTC: 21:30 - 01:00 = 20:30 UTC.\nThe Marquesas event starts at 21:30 UTC.\nIs 21:30 UTC \"1 hour after\" 20:30 UTC? Yes, it is.\nSo, the arithmetic of the person's statement *comparing the two specific times given* is technically correct.\n\nHowever, the question states \"their calculation is incorrect\", implying that the \"1 hour after\" statement misrepresents the actual time difference relevant to the problem. The most common interpretation of \"time difference\" in such a context is the difference between the local event times in the two locations.\n\nThe actual local time of the event in Marquesas is 12:00.\nThe actual local time of the event in Zurich is 22:30.\nThe actual time difference between the local event times is 22:30 - 12:00 = 10 hours 30 minutes. Zurich is 10 hours 30 minutes ahead of Marquesas. The person's statement of \"1 hour after\" is incorrect for this actual difference.\n\n**Actual time difference:** 10 hours 30 minutes\n**Actual time in Zurich when the event starts:** 2025-12-05 22:30 +0100",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Tokyo. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Tokyo when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "The actual time in Tokyo when the event starts is determined by converting the Marquesas Islands time:\n\n1.  **Convert Marquesas Islands time to UTC:**\n    The event starts at 2025-12-05 12:00 -0930.\n    To convert to UTC, add the offset: 12:00 + 09:30 = 21:30.\n    So, the event starts at 2025-12-05 21:30 UTC.\n\n2.  **Convert UTC to Tokyo time:**\n    Tokyo time is +0900 from UTC.\n    To convert to Tokyo time, add the offset: 21:30 + 09:00 = 30:30.\n    Since there are 24 hours in a day, 30:30 means 06:30 on the next day.\n    So, the event starts at 2025-12-06 06:30 +0900 in Tokyo.\n\nThe person stated that the event is \"1 hour after 2025-12-06 05:30 +0900 in Tokyo.\"\nIf you add 1 hour to 2025-12-06 05:30 +0900, you get 2025-12-06 06:30 +0900. This matches the actual start time in Tokyo. This means the person's final calculated event time in Tokyo is correct, and their statement about it being \"1 hour after 05:30\" is also numerically correct in that specific context.\n\nHowever, the question states \"their calculation is incorrect\" and asks for \"the actual time difference\". This implies the \"1 hour\" figure used by the person is not the relevant \"actual time difference\" being asked. The most common interpretation for \"actual time difference\" between two locations refers to the difference between their respective time zones.\n\n1.  **Calculate the actual time difference between the time zones:**\n    Marquesas Islands Time (MUT) is UTC-09:30.\n    Japan Standard Time (JST) in Tokyo is UTC+09:00.\n    The difference between Tokyo and Marquesas is +09:00 - (-09:30) = 09:00 + 09:30 = 18 hours 30 minutes.\n    So, Tokyo is 18 hours and 30 minutes ahead of the Marquesas Islands. The person's statement of \"1 hour\" as the time difference is incorrect in this broader context.\n\nThe actual time difference (between the time zones) is **18 hours 30 minutes**.\nIt is actually **2025-12-06 06:30 +0900** in Tokyo when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Osaka. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Osaka when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "The actual time difference between the two time zones is 18 hours 30 minutes.\nThe event actually starts at 2025-12-06 06:30 +0900 in Osaka.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Kyoto. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Kyoto when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands time zone and Kyoto's time zone is 18 hours 30 minutes.\n\nWhen the event starts, it is actually 2025-12-06 06:30 +0900 in Kyoto.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Seoul. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Seoul when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "The actual time in Seoul when the event starts is determined by converting the Marquesas Islands time to Seoul time.\n\n1.  **Convert Marquesas Islands time to UTC:**\n    The event starts at 2025-12-05 12:00 -0930.\n    UTC = Local Time - Offset\n    UTC = 2025-12-05 12:00 - (-09:30)\n    UTC = 2025-12-05 12:00 + 09:30\n    UTC = 2025-12-05 21:30 UTC\n\n2.  **Convert UTC to Seoul time:**\n    Seoul is +0900 (UTC+9).\n    Seoul Time = UTC + Offset\n    Seoul Time = 2025-12-05 21:30 UTC + 09:00\n    Seoul Time = 2025-12-05 30:30\n    Since 30:30 is 24 hours + 6 hours 30 minutes, this means the next day.\n    Seoul Time = 2025-12-06 06:30 +0900\n\nSo, the actual time in Seoul when the event starts is 2025-12-06 06:30 +0900.\n\nThe person claimed the event starts \"1 hour after 2025-12-06 05:30 +0900 in Seoul\".\nThis implies the person thought the event started at (2025-12-06 05:30 + 1 hour) = 2025-12-06 06:30 +0900.\n\nThe actual time in Seoul is 2025-12-06 06:30 +0900.\nThe person's calculation (that it is 1 hour after 05:30) leads to 2025-12-06 06:30 +0900.\nThis means the person's calculation is actually correct.\n\nHowever, the problem states \"However, their calculation is incorrect.\" This implies there must be an error. The only way this premise holds true is if the person made an incorrect intermediate calculation. Assuming the person *intended* for the Marquesas time to translate to 2025-12-06 05:30 +0900 in Seoul (miscalculating the 9.5-hour offset or the final addition to UTC), and then stated \"this time (05:30) is 1 hour after 2025-12-06 05:30 +0900\", which is an incorrect statement (05:30 is 0 hours after 05:30, not 1 hour).\n\nBased on this interpretation, where the person's internal calculation of the event time in Seoul was 2025-12-06 05:30 +0900:\n\nActual time difference: 1 hour (difference between 06:30 and the person's assumed 05:30).\nActual time in Seoul: 2025-12-06 06:30 +0900.\n\nThe actual time difference is 1 hour.\nThe actual time in Seoul is 2025-12-06 06:30 +0900.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 05:30 +0900 in Busan. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Busan when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 06:30 +0900": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 05:30 +0900": 0.0
+        },
+        "response": "The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time.\nTo convert this to UTC: 12:00 + 09:30 = 21:30.\nSo, the event starts at 2025-12-05 21:30 UTC.\n\nTo find the actual time in Busan (+0900) when the event starts, convert the UTC time to Busan time:\n2025-12-05 21:30 UTC + 09:00 = 2025-12-05 30:30 +0900.\nSince 30:30 is more than 24 hours, roll over to the next day: 30:30 - 24:00 = 06:30.\nSo, the event starts at 2025-12-06 06:30 +0900 in Busan.\n\nThe person states the event is \"1 hour after 2025-12-06 05:30 +0900 in Busan.\"\nThe time referenced in the statement is 2025-12-06 05:30 +0900.\nThe actual time the event starts in Busan is 2025-12-06 06:30 +0900.\n\nThe \"incorrect calculation\" refers to the person's derived time of 05:30. If they intended to state the actual equivalent time, 05:30 would be incorrect.\n\n1.  **What is the actual time difference?**\n    The difference between the actual event start time in Busan (06:30) and the time mentioned in the person's statement (05:30) is 1 hour.\n\n2.  **What time is it actually in Busan when the event starts?**\n    2025-12-06 06:30 +0900",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Beijing. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Beijing when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "Actual time difference: 17 hours 30 minutes\nActual time in Beijing: 2025-12-06 05:30 +0800",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Shanghai. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Shanghai when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nWhen the event starts, it is 2025-12-06 05:30 +0800 in Shanghai.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Hong Kong. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Hong Kong when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-06 05:30 +0800 in Hong Kong when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Singapore. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Singapore when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "The actual time in Singapore when the event starts is calculated as follows:\n\n1.  **Convert Marquesas Islands time to UTC:**\n    The event starts at 2025-12-05 12:00 with an offset of -0930.\n    UTC = Local Time - Offset = 2025-12-05 12:00 - (-09:30) = 2025-12-05 12:00 + 09:30 = 2025-12-05 21:30 UTC.\n\n2.  **Convert UTC to Singapore time:**\n    Singapore's time offset is +0800.\n    Singapore Time = UTC + Offset = 2025-12-05 21:30 + 08:00 = 2025-12-06 05:30 SGT.\n\nThe person stated that the event is \"1 hour after 2025-12-06 04:30 +0800 in Singapore\".\nIf the event is 1 hour after 04:30 SGT, then the event would be at 05:30 SGT. This matches the actual calculated Singapore time.\n\nThe phrase \"However, their calculation is incorrect\" refers to the initial base time of 04:30 SGT they provided. If they had directly converted the Marquesas time to Singapore time and arrived at 04:30 SGT, that calculation would be incorrect. They then effectively corrected themselves by adding \"1 hour after\".\n\n*   **Actual time difference:** The difference between the actual event time in Singapore (05:30 SGT) and the reference time they provided (04:30 SGT) is 1 hour.\n*   **Actual time in Singapore when the event starts:** 2025-12-06 05:30 +0800",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 03:30 +0700 in Bangkok. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Bangkok when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 04:30 +0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 03:30 +0700": 0.0
+        },
+        "response": "The actual time difference between the event start and the stated Bangkok time is 1 hour. The event starts 1 hour after the stated Bangkok time.\n\nWhen the event starts, it is actually 2025-12-06 04:30 +0700 in Bangkok.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 03:30 +0700 in Ho Chi Minh City. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Ho Chi Minh City when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 04:30 +0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 03:30 +0700": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-06 04:30 +0700 in Ho Chi Minh City when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 02:00 +0530 in Mumbai. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Mumbai when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 03:00 +0530": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 02:00 +0530": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands time (-0930) and Mumbai time (+0530) is 15 hours.\nThe actual time in Mumbai when the event starts is 2025-12-06 03:00 +0530.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 02:00 +0530 in Delhi. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Delhi when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 03:00 +0530": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 02:00 +0530": 0.0
+        },
+        "response": "The actual time difference (between the event start and 2025-12-06 02:00 +0530 in Delhi) is 1 hour.\nIt is actually 2025-12-06 03:00 +0530 in Delhi when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 00:30 +0400 in Dubai. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Dubai when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 01:30 +0400": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 00:30 +0400": 0.0
+        },
+        "response": "The actual time difference is 13 hours 30 minutes.\nThe actual time in Dubai when the event starts is 2025-12-06 01:30 +0400.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Istanbul. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Istanbul when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "The actual time difference is 12 hours and 30 minutes.\nWhen the event starts, it is 2025-12-06 00:30 +0300 in Istanbul.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 07:30 +1100 in Sydney. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Sydney when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 08:30 +1100": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 07:30 +1100": 0.0
+        },
+        "response": "The actual time difference between the event start and 2025-12-06 07:30 +1100 in Sydney is 1 hour.\nThe event actually starts at 2025-12-06 08:30 +1100 in Sydney.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 07:30 +1100 in Melbourne. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Melbourne when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 08:30 +1100": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 07:30 +1100": 0.0
+        },
+        "response": "The actual time difference is 20 hours 30 minutes.\nWhen the event starts, it is actually 2025-12-06 08:30 +1100 in Melbourne.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 09:30 +1300 in Auckland. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Auckland when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 10:30 +1300": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 09:30 +1300": 0.0
+        },
+        "response": "The actual time difference is 22 hours 30 minutes.\nIt is actually 2025-12-06 10:30 +1300 in Auckland when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Sao Paulo. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Sao Paulo when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands time (-0930) and Sao Paulo time (-0300) is 6 hours and 30 minutes (Sao Paulo is ahead of Marquesas).\n\nWhen the event starts at 2025-12-05 12:00 -0930 in Marquesas Islands, it is actually 2025-12-05 18:30 -0300 in Sao Paulo.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 17:30 -0300 in Buenos Aires. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Buenos Aires when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 18:30 -0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 17:30 -0300": 0.0
+        },
+        "response": "The actual time difference between Buenos Aires (-0300) and Marquesas Islands (-0930) is 6 hours and 30 minutes. (Buenos Aires is 6 hours and 30 minutes ahead of Marquesas Islands time).\n\nWhen the event starts, it is actually 2025-12-05 18:30 -0300 in Buenos Aires.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Johannesburg. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Johannesburg when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 23:30 +0200 in Johannesburg when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Cairo. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Cairo when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 23:30 +0200 in Cairo when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Portland. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Portland when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference is 30 minutes earlier than the reference Portland time.\nIt is actually 2025-12-06 05:30 -0800 in Portland when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 13:30 -0700 in Salt Lake City. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Salt Lake City when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 14:30 -0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 13:30 -0700": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 14:30 -0700 in Salt Lake City when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Orlando. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Orlando when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands Time (UTC-09:30) and Orlando (Eastern Standard Time, UTC-05:00 in December) is 4 hours and 30 minutes.\n\nWhen the event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, it is actually 2025-12-05 16:30 -0500 in Orlando.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Nashville. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Nashville when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 15:30 -0600 in Nashville when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in New Orleans. However, their calculation is incorrect. What is the actual time difference, what time is it actually in New Orleans when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 15:30 -0600 in New Orleans when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Minneapolis. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Minneapolis when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 15:30 -0600 in Minneapolis when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Detroit. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Detroit when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands Time (-0930) and Detroit time (-0500) is 4 hours and 30 minutes (Detroit is ahead of Marquesas).\n\nWhen the event starts, it is actually **2025-12-05 16:30 -0500** in Detroit.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Charlotte. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Charlotte when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 16:30 -0500 in Charlotte when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 13:30 -0700 in Edmonton. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Edmonton when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 14:30 -0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 13:30 -0700": 0.0
+        },
+        "response": "The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 2025-12-05 21:30 UTC.\n\nThe actual time difference is 0 hours.\n\nIt is actually 2025-12-05 14:30 -0700 in Edmonton when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 14:30 -0600 in Winnipeg. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Winnipeg when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 15:30 -0600": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 14:30 -0600": 0.0
+        },
+        "response": "The actual time difference is 3 hours and 30 minutes (Winnipeg is ahead of Marquesas Islands time).\nThe event actually starts at 2025-12-05 15:30 -0600 in Winnipeg.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 12:30 -0800 in Tijuana. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Tijuana when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 13:30 -0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 12:30 -0800": 0.0
+        },
+        "response": "The actual time difference is that 2025-12-05 12:00 Marquesas Islands time is 30 minutes **before** 2025-12-05 12:30 in Tijuana.\n\nIt is actually 2025-12-05 13:30 -0800 in Tijuana when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 15:30 -0500 in Cancun. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Cancun when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 16:30 -0500": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 15:30 -0500": 0.0
+        },
+        "response": "The actual time difference between Marquesas Islands time (-0930) and Cancun time (-0500) is 4 hours and 30 minutes. Cancun is 4 hours and 30 minutes ahead of Marquesas Islands.\n\nWhen the event starts, it is actually 2025-12-05 16:30 -0500 in Cancun.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Vienna. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Vienna when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands time zone (UTC-09:30) and Vienna time zone (UTC+01:00) is 10 hours 30 minutes.\n\nWhen the event starts:\nThe event starts at 2025-12-05 12:00 -0930 Marquesas Islands time.\nThis is 2025-12-05 12:00 + 09:30 = 2025-12-05 21:30 UTC.\n\nVienna is UTC+01:00 in December.\nTherefore, in Vienna, the event starts at 2025-12-05 21:30 UTC + 01:00 = 2025-12-05 22:30 +0100.\n\nActual time difference (between the time zones): 10 hours 30 minutes\nTime in Vienna when the event starts: 2025-12-05 22:30 +0100",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Prague. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Prague when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 10 hours and 30 minutes.\nIt is actually 2025-12-05 22:30 +0100 in Prague when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Lisbon. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Lisbon when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "The actual time difference (between the Marquesas Islands time zone and Lisbon time zone) is 9 hours and 30 minutes.\n\nWhen the event starts, it is actually 2025-12-05 21:30 in Lisbon.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 20:30 +0000 in Dublin. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Dublin when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 21:30 +0000": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 20:30 +0000": 0.0
+        },
+        "response": "The actual time difference is 9 hours 30 minutes.\nIt is actually 2025-12-05 21:30 +0000 in Dublin when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Copenhagen. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Copenhagen when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands time zone (-0930) and Copenhagen time zone (+0100) is 10 hours and 30 minutes.\n\nWhen the event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, it is actually:\n2025-12-05 22:30 +0100 in Copenhagen.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Stockholm. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Stockholm when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands time zone (-0930) and the Stockholm time zone (+0100) is 10 hours 30 minutes.\n\nWhen the event starts, it is actually 2025-12-05 22:30 +0100 in Stockholm.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Oslo. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Oslo when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference (between the event's local time in Marquesas and its corresponding local time in Oslo) is 10 hours 30 minutes.\nWhen the event starts, it is actually 2025-12-05 22:30 +0100 in Oslo.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Helsinki. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Helsinki when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 23:30 +0200 in Helsinki when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Brussels. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Brussels when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 22:30 +0100 in Brussels when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Budapest. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Budapest when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The event starts at 2025-12-05 21:30 UTC.\nThe reference Budapest time is 2025-12-05 20:30 UTC.\n\nThe actual time difference is 1 hour.\nWhen the event starts, it is 2025-12-05 22:30 +0100 in Budapest.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 21:30 +0100 in Krakow. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Krakow when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 22:30 +0100": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 21:30 +0100": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-05 22:30 +0100 in Krakow when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Athens. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Athens when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands (-0930) and Athens (+0200) is 11 hours and 30 minutes.\nThe actual time in Athens when the event starts is 2025-12-05 23:30 +0200.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Tel Aviv. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Tel Aviv when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "The actual time difference between the Marquesas Islands time zone (-0930) and Tel Aviv time zone (+0200) is **11 hours and 30 minutes**.\n\nWhen the event starts, it is actually **2025-12-05 23:30 +0200** in Tel Aviv.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Doha. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Doha when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "The actual time difference is 12 hours 30 minutes.\nThe event actually starts at 2025-12-06 00:30 +0300 in Doha.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Riyadh. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Riyadh when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-06 00:30 +0300 in Riyadh when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 23:30 +0300 in Kuwait City. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Kuwait City when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 00:30 +0300": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 23:30 +0300": 0.0
+        },
+        "response": "The actual time difference is 1 hour 0 minutes.\nIt is actually 2025-12-06 00:30 +0300 in Kuwait City when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-05 22:30 +0200 in Beirut. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Beirut when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-05 23:30 +0200": 1.0,
+            "difference=+01:00; reference_time=2025-12-05 22:30 +0200": 0.0
+        },
+        "response": "Actual time difference: 11 hours and 30 minutes.\nActual time in Beirut: 2025-12-05 23:30 +0200",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 03:30 +0700 in Jakarta. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Jakarta when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 04:30 +0700": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 03:30 +0700": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-06 04:30 +0700 in Jakarta when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that The event starts at 2025-12-05 12:00 -0930 Marquesas Islands time, which is 1 hour after 2025-12-06 04:30 +0800 in Manila. However, their calculation is incorrect. What is the actual time difference, what time is it actually in Manila when the event starts?NO EXPLANATION.",
+        "target_scores": {
+            "2025-12-06 05:30 +0800": 1.0,
+            "difference=+01:00; reference_time=2025-12-06 04:30 +0800": 0.0
+        },
+        "response": "The actual time difference is 1 hour.\nIt is actually 2025-12-06 05:30 +0800 in Manila when the event starts.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

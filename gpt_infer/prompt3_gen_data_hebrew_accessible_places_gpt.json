@@ -1,0 +1,902 @@
+[
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to New York City time? Convert the final answer in the Hebrew calendar date and New York City local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, from 6:00 AM to 6:00 AM in New York City.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to New York City time? Convert the final answer in the Hebrew calendar date and New York City local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM on the next day, 16 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, in New York City local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Chicago time? Convert the final answer in the Hebrew calendar date and Chicago local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Chicago time? Convert the final answer in the Hebrew calendar date and Chicago local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Houston time? Convert the final answer in the Hebrew calendar date and Houston local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Houston time? Convert the final answer in the Hebrew calendar date and Houston local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Phoenix time? Convert the final answer in the Hebrew calendar date and Phoenix local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Phoenix time? Convert the final answer in the Hebrew calendar date and Phoenix local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 5:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Philadelphia time? Convert the final answer in the Hebrew calendar date and Philadelphia local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM Philadelphia time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Philadelphia time? Convert the final answer in the Hebrew calendar date and Philadelphia local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM in Philadelphia time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Antonio time? Convert the final answer in the Hebrew calendar date and San Antonio local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Antonio time? Convert the final answer in the Hebrew calendar date and San Antonio local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 2:00 AM to 3:00 AM in San Antonio.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Diego time? Convert the final answer in the Hebrew calendar date and San Diego local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 6:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Diego time? Convert the final answer in the Hebrew calendar date and San Diego local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, from 6:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Dallas time? Convert the final answer in the Hebrew calendar date and Dallas local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM CDT.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Dallas time? Convert the final answer in the Hebrew calendar date and Dallas local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM in Dallas time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Jose time? Convert the final answer in the Hebrew calendar date and San Jose local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 6:00 AM San Jose time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Jose time? Convert the final answer in the Hebrew calendar date and San Jose local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 7:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Austin time? Convert the final answer in the Hebrew calendar date and Austin local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Austin time? Convert the final answer in the Hebrew calendar date and Austin local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Jacksonville time? Convert the final answer in the Hebrew calendar date and Jacksonville local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Jacksonville time? Convert the final answer in the Hebrew calendar date and Jacksonville local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Francisco time? Convert the final answer in the Hebrew calendar date and San Francisco local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "Event A and Event B overlap from 6:00 AM to 6:00 AM in San Francisco time. Therefore, there is no overlap. The final answer is: \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to San Francisco time? Convert the final answer in the Hebrew calendar date and San Francisco local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Columbus time? Convert the final answer in the Hebrew calendar date and Columbus local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 7:00 AM to 9:00 AM Columbus time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Columbus time? Convert the final answer in the Hebrew calendar date and Columbus local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Indianapolis time? Convert the final answer in the Hebrew calendar date and Indianapolis local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 7:00 AM to 9:00 AM in Indianapolis time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Indianapolis time? Convert the final answer in the Hebrew calendar date and Indianapolis local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "Event overlap occurs from 7:00 AM to 9:00 AM in Indianapolis time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Seattle time? Convert the final answer in the Hebrew calendar date and Seattle local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Seattle time? Convert the final answer in the Hebrew calendar date and Seattle local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Denver time? Convert the final answer in the Hebrew calendar date and Denver local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 00:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Denver time? Convert the final answer in the Hebrew calendar date and Denver local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 00:00:00": 0.0
+        },
+        "response": "Event overlap occurs from 6:00 AM to 6:00 AM in Denver time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Washington DC time? Convert the final answer in the Hebrew calendar date and Washington DC local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Washington DC time? Convert the final answer in the Hebrew calendar date and Washington DC local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM - 6:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Boston time? Convert the final answer in the Hebrew calendar date and Boston local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Boston time? Convert the final answer in the Hebrew calendar date and Boston local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM Boston time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Las Vegas time? Convert the final answer in the Hebrew calendar date and Las Vegas local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Las Vegas time? Convert the final answer in the Hebrew calendar date and Las Vegas local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 6:00 AM in Las Vegas local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Atlanta time? Convert the final answer in the Hebrew calendar date and Atlanta local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Atlanta time? Convert the final answer in the Hebrew calendar date and Atlanta local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "The overlapping time period in Atlanta is from 6:00 AM to 9:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Miami time? Convert the final answer in the Hebrew calendar date and Miami local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Miami time? Convert the final answer in the Hebrew calendar date and Miami local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Honolulu time? Convert the final answer in the Hebrew calendar date and Honolulu local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 20:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM in Honolulu time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Honolulu time? Convert the final answer in the Hebrew calendar date and Honolulu local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 20:00:00": 0.0
+        },
+        "response": "The overlapping time period in Honolulu is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 7:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Toronto time? Convert the final answer in the Hebrew calendar date and Toronto local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 8:00 AM to 9:00 AM in Toronto.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Toronto time? Convert the final answer in the Hebrew calendar date and Toronto local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Montreal time? Convert the final answer in the Hebrew calendar date and Montreal local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 9:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Montreal time? Convert the final answer in the Hebrew calendar date and Montreal local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM in Montreal time, which is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Vancouver time? Convert the final answer in the Hebrew calendar date and Vancouver local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 5:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Vancouver time? Convert the final answer in the Hebrew calendar date and Vancouver local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 7:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Calgary time? Convert the final answer in the Hebrew calendar date and Calgary local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 00:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM Calgary time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Calgary time? Convert the final answer in the Hebrew calendar date and Calgary local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 00:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 8:00 AM to 9:00 AM Calgary time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Ottawa time? Convert the final answer in the Hebrew calendar date and Ottawa local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "The events overlap from 8:00 AM to 9:00 AM in Ottawa time on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Ottawa time? Convert the final answer in the Hebrew calendar date and Ottawa local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 9:00 AM Ottawa time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Mexico City time? Convert the final answer in the Hebrew calendar date and Mexico City local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 00:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 7:00 AM to 9:00 AM in Mexico City time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Mexico City time? Convert the final answer in the Hebrew calendar date and Mexico City local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 00:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM Mexico City time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Guadalajara time? Convert the final answer in the Hebrew calendar date and Guadalajara local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 00:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM Guadalajara time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Guadalajara time? Convert the final answer in the Hebrew calendar date and Guadalajara local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 00:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM in Guadalajara time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Monterrey time? Convert the final answer in the Hebrew calendar date and Monterrey local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 00:00:00": 0.0
+        },
+        "response": "The events overlap from 8:00 AM to 9:00 AM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Monterrey time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Monterrey time? Convert the final answer in the Hebrew calendar date and Monterrey local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 00:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM in Monterrey.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to London time? Convert the final answer in the Hebrew calendar date and London local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 11:00 AM to 12:00 PM London time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to London time? Convert the final answer in the Hebrew calendar date and London local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 07:00:00": 0.0
+        },
+        "response": "The events overlap from 11:00 AM to 12:00 PM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in London time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Manchester time? Convert the final answer in the Hebrew calendar date and Manchester local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 11:00 AM to 12:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Manchester time? Convert the final answer in the Hebrew calendar date and Manchester local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 07:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 11:00 AM to 12:00 PM Manchester time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Birmingham time? Convert the final answer in the Hebrew calendar date and Birmingham local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "The overlap occurs on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 11:00 AM to 12:00 PM Birmingham time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Birmingham time? Convert the final answer in the Hebrew calendar date and Birmingham local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 07:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 11:00 AM to 12:00 PM Birmingham time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Edinburgh time? Convert the final answer in the Hebrew calendar date and Edinburgh local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "The events overlap from 11:00 AM to 12:00 PM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Edinburgh time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Edinburgh time? Convert the final answer in the Hebrew calendar date and Edinburgh local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 07:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 11:00 AM to 12:00 PM Edinburgh time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Paris time? Convert the final answer in the Hebrew calendar date and Paris local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 2:00 PM (Paris time).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Paris time? Convert the final answer in the Hebrew calendar date and Paris local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The overlap period is 12:00 PM to 1:00 PM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Paris time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Lyon time? Convert the final answer in the Hebrew calendar date and Lyon local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 3:00 PM in Lyon.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Lyon time? Convert the final answer in the Hebrew calendar date and Lyon local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The events overlap from 12:00 PM to 1:00 PM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Lyon local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Marseille time? Convert the final answer in the Hebrew calendar date and Marseille local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 2:00 PM in Marseille.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Marseille time? Convert the final answer in the Hebrew calendar date and Marseille local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 3:00 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Berlin time? Convert the final answer in the Hebrew calendar date and Berlin local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "The events overlap from 12:00 PM to 3:00 PM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Berlin local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Berlin time? Convert the final answer in the Hebrew calendar date and Berlin local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 3:00 PM Berlin local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Frankfurt time? Convert the final answer in the Hebrew calendar date and Frankfurt local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 2:00 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Frankfurt time? Convert the final answer in the Hebrew calendar date and Frankfurt local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 12:00 PM to 3:00 PM in Frankfurt local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Munich time? Convert the final answer in the Hebrew calendar date and Munich local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "The overlapping time period is 8:00 AM to 9:00 AM on \u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Munich local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Munich time? Convert the final answer in the Hebrew calendar date and Munich local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 12:00 PM to 1:00 PM Munich time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Rome time? Convert the final answer in the Hebrew calendar date and Rome local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 12:00 PM to 1:00 PM Rome time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Rome time? Convert the final answer in the Hebrew calendar date and Rome local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The overlap occurs on the 15th of Tishrei, 5785, from 12:00 PM to 1:00 PM Rome local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Milan time? Convert the final answer in the Hebrew calendar date and Milan local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, from 12:00 PM to 3:00 PM Milan time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Milan time? Convert the final answer in the Hebrew calendar date and Milan local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 3:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Madrid time? Convert the final answer in the Hebrew calendar date and Madrid local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 3:00 PM Madrid time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Madrid time? Convert the final answer in the Hebrew calendar date and Madrid local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 2:00 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Barcelona time? Convert the final answer in the Hebrew calendar date and Barcelona local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 3:00 PM in Barcelona time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Barcelona time? Convert the final answer in the Hebrew calendar date and Barcelona local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, from 3:00 PM to 6:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Amsterdam time? Convert the final answer in the Hebrew calendar date and Amsterdam local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "The events overlap from \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 12:00 PM to 1:00 PM in Amsterdam local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Amsterdam time? Convert the final answer in the Hebrew calendar date and Amsterdam local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 3:00 PM to 6:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Zurich time? Convert the final answer in the Hebrew calendar date and Zurich local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "The overlap period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 12:00 PM to 1:00 PM in Zurich time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Zurich time? Convert the final answer in the Hebrew calendar date and Zurich local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 PM to 1:00 PM Zurich time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Tokyo time? Convert the final answer in the Hebrew calendar date and Tokyo local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 15:00:00": 0.0
+        },
+        "response": "Event overlap: \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 PM to 12:00 AM (the next day) in Tokyo.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Tokyo time? Convert the final answer in the Hebrew calendar date and Tokyo local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 15:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM Tokyo time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Osaka time? Convert the final answer in the Hebrew calendar date and Osaka local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 15:00:00": 0.0
+        },
+        "response": "The overlapping time period in Osaka time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 9:00 AM to 10:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Osaka time? Convert the final answer in the Hebrew calendar date and Osaka local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 15:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 PM to 9:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Kyoto time? Convert the final answer in the Hebrew calendar date and Kyoto local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 15:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, from 9:00 PM to 12:00 AM Kyoto time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Kyoto time? Convert the final answer in the Hebrew calendar date and Kyoto local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 15:00:00": 0.0
+        },
+        "response": "The events overlap from 9:00 AM to 10:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Kyoto time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Seoul time? Convert the final answer in the Hebrew calendar date and Seoul local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 15:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in New York City. Event B occurs from 6:00 AM to 9:00 AM in Los Angeles. During what time period do these events overlap when both are converted to Seoul time? Convert the final answer in the Hebrew calendar date and Seoul local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 15:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 PM to 1:00 AM (next day) in Seoul time.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

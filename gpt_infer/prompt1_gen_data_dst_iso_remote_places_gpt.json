@@ -1,0 +1,902 @@
+[
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ushuaia begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ushuaia in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 06:00:00\u20132026-03-08 08:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ushuaia [2026-03-08 06:00:00\u20132026-03-08 07:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ushuaia [2026-03-08 07:00:00\u20132026-03-08 09:00:00].": 0.0
+        },
+        "response": "The first meeting in Ushuaia starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Stanley begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Stanley in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 06:00:00\u20132026-03-08 08:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Stanley [2026-03-08 06:00:00\u20132026-03-08 07:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Stanley [2026-03-08 07:00:00\u20132026-03-08 09:00:00].": 0.0
+        },
+        "response": "The first meeting in Stanley starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Jamestown begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Jamestown in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Jamestown [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Jamestown [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The first meeting in Jamestown starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in King Edward Point begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in King Edward Point in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], King Edward Point [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], King Edward Point [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The first meeting in King Edward Point starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Fernando de Noronha begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Fernando de Noronha in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Fernando de Noronha [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Fernando de Noronha [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The first meeting in Fort Chipewyan, AB starts at 02:00 DST on 2026-03-08 and ends at 04:00 DST. The meeting in Fernando de Noronha starts at 04:00 DST and ends at 06:00 DST.  \n\nSo:\n\n- Start time in Fernando de Noronha: 04:00 DST\n- End time in Fernando de Noronha: 06:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kindu begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kindu in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 11:00:00\u20132026-03-08 13:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Kindu [2026-03-08 11:00:00\u20132026-03-08 12:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Kindu [2026-03-08 12:00:00\u20132026-03-08 14:00:00].": 0.0
+        },
+        "response": "The first meeting in Kindu starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Uranium City, SK begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Uranium City, SK in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00\u20132026-03-08 05:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Uranium City, SK [2026-03-08 03:00:00\u20132026-03-08 04:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Uranium City, SK [2026-03-08 04:00:00\u20132026-03-08 06:00:00].": 0.0
+        },
+        "response": "The first meeting in Uranium City, SK starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Supai (Havasupai), AZ begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Supai (Havasupai), AZ in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 02:00:00\u20132026-03-08 04:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Supai (Havasupai), AZ [2026-03-08 02:00:00\u20132026-03-08 03:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Supai (Havasupai), AZ [2026-03-08 03:00:00\u20132026-03-08 05:00:00].": 0.0
+        },
+        "response": "Start time in Supai (Havasupai), AZ: 04:00 DST  \nEnd time in Supai (Havasupai), AZ: 06:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Anaktuvuk Pass, AK begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Anaktuvuk Pass, AK in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 00:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Anaktuvuk Pass, AK [2026-03-08 00:00:00\u20132026-03-08 01:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Anaktuvuk Pass, AK [2026-03-08 01:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The first meeting in Anaktuvuk Pass, AK starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ushguli begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ushguli in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 13:00:00\u20132026-03-08 15:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ushguli [2026-03-08 13:00:00\u20132026-03-08 14:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ushguli [2026-03-08 14:00:00\u20132026-03-08 16:00:00].": 0.0
+        },
+        "response": "The first meeting in Ushguli starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Eucla begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Eucla in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 17:45:00\u20132026-03-08 19:45:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Eucla [2026-03-08 17:45:00\u20132026-03-08 18:45:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Eucla [2026-03-08 18:45:00\u20132026-03-08 20:45:00].": 0.0
+        },
+        "response": "The first meeting in Eucla starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Macquarie Island begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Macquarie Island in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Macquarie Island [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Macquarie Island [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Macquarie Island starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Oymyakon (Pole of Cold) begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Oymyakon (Pole of Cold) in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:00:00\u20132026-03-08 21:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Oymyakon (Pole of Cold) [2026-03-08 19:00:00\u20132026-03-08 20:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Oymyakon (Pole of Cold) [2026-03-08 20:00:00\u20132026-03-08 22:00:00].": 0.0
+        },
+        "response": "The first meeting in Oymyakon starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Pevek begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Pevek in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Pevek [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Pevek [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Pevek starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Gavdos begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Gavdos in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 11:00:00\u20132026-03-08 13:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Gavdos [2026-03-08 11:00:00\u20132026-03-08 12:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Gavdos [2026-03-08 12:00:00\u20132026-03-08 14:00:00].": 0.0
+        },
+        "response": "The first meeting in Gavdos starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Corvo, Azores begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Corvo, Azores in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 08:00:00\u20132026-03-08 10:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Corvo, Azores [2026-03-08 08:00:00\u20132026-03-08 09:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Corvo, Azores [2026-03-08 09:00:00\u20132026-03-08 11:00:00].": 0.0
+        },
+        "response": "The first meeting in Corvo, Azores starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in McMurdo Station begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in McMurdo Station in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 22:00:00\u20132026-03-09 00:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], McMurdo Station [2026-03-08 22:00:00\u20132026-03-08 23:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], McMurdo Station [2026-03-08 23:00:00\u20132026-03-09 01:00:00].": 0.0
+        },
+        "response": "The first meeting in McMurdo Station starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Amundsen\u2013Scott (South Pole) begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Amundsen\u2013Scott (South Pole) in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 22:00:00\u20132026-03-09 00:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Amundsen\u2013Scott (South Pole) [2026-03-08 22:00:00\u20132026-03-08 23:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Amundsen\u2013Scott (South Pole) [2026-03-08 23:00:00\u20132026-03-09 01:00:00].": 0.0
+        },
+        "response": "The first meeting in Amundsen\u2013Scott (South Pole) starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Vostok Station begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Vostok Station in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 14:00:00\u20132026-03-08 16:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Vostok Station [2026-03-08 14:00:00\u20132026-03-08 15:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Vostok Station [2026-03-08 15:00:00\u20132026-03-08 17:00:00].": 0.0
+        },
+        "response": "The first meeting in Fort Chipewyan starts at 02:00 DST and ends at 04:00 DST. The meeting in Vostok Station begins at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Palmer Station begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Palmer Station in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 06:00:00\u20132026-03-08 08:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Palmer Station [2026-03-08 06:00:00\u20132026-03-08 07:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Palmer Station [2026-03-08 07:00:00\u20132026-03-08 09:00:00].": 0.0
+        },
+        "response": "The first meeting in Palmer Station starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Alert, NU begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Alert, NU in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Alert, NU [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Alert, NU [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The first meeting in Alert, NU starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Eureka, NU begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Eureka, NU in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Eureka, NU [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Eureka, NU [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Eureka, NU is 04:00 DST, and the end time is 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Grise Fiord, NU begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Grise Fiord, NU in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Grise Fiord, NU [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Grise Fiord, NU [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The first meeting in Grise Fiord, NU starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Resolute, NU begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Resolute, NU in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 04:00:00\u20132026-03-08 06:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Resolute, NU [2026-03-08 04:00:00\u20132026-03-08 05:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Resolute, NU [2026-03-08 05:00:00\u20132026-03-08 07:00:00].": 0.0
+        },
+        "response": "The first meeting in Resolute, NU starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Pond Inlet, NU begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Pond Inlet, NU in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Pond Inlet, NU [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Pond Inlet, NU [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Pond Inlet, NU is 04:00 DST on 2026-03-08, and the end time is 06:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Pituffik (Thule) begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Pituffik (Thule) in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 06:00:00\u20132026-03-08 08:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Pituffik (Thule) [2026-03-08 06:00:00\u20132026-03-08 07:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Pituffik (Thule) [2026-03-08 07:00:00\u20132026-03-08 09:00:00].": 0.0
+        },
+        "response": "The first meeting in Pituffik (Thule) starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ittoqqortoormiit begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ittoqqortoormiit in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 07:00:00\u20132026-03-08 09:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ittoqqortoormiit [2026-03-08 07:00:00\u20132026-03-08 08:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ittoqqortoormiit [2026-03-08 08:00:00\u20132026-03-08 10:00:00].": 0.0
+        },
+        "response": "The first meeting in Ittoqqortoormiit starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Danmarkshavn begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Danmarkshavn in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 09:00:00\u20132026-03-08 11:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Danmarkshavn [2026-03-08 09:00:00\u20132026-03-08 10:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Danmarkshavn [2026-03-08 10:00:00\u20132026-03-08 12:00:00].": 0.0
+        },
+        "response": "The first meeting in Danmarkshavn starts at 04:00 and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Longyearbyen begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Longyearbyen in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 10:00:00\u20132026-03-08 12:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Longyearbyen [2026-03-08 10:00:00\u20132026-03-08 11:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Longyearbyen [2026-03-08 11:00:00\u20132026-03-08 13:00:00].": 0.0
+        },
+        "response": "The first meeting in Longyearbyen starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Jan Mayen begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Jan Mayen in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 10:00:00\u20132026-03-08 12:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Jan Mayen [2026-03-08 10:00:00\u20132026-03-08 11:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Jan Mayen [2026-03-08 11:00:00\u20132026-03-08 13:00:00].": 0.0
+        },
+        "response": "The first meeting in Jan Mayen starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Adamstown begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Adamstown in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 01:00:00\u20132026-03-08 03:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Adamstown [2026-03-08 01:00:00\u20132026-03-08 02:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Adamstown [2026-03-08 02:00:00\u20132026-03-08 04:00:00].": 0.0
+        },
+        "response": "The first meeting in Adamstown starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Easter Island begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Easter Island in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 04:00:00\u20132026-03-08 06:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Easter Island [2026-03-08 04:00:00\u20132026-03-08 05:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Easter Island [2026-03-08 05:00:00\u20132026-03-08 07:00:00].": 0.0
+        },
+        "response": "The first meeting in Easter Island starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Lord Howe Island begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Lord Howe Island in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Lord Howe Island [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Lord Howe Island [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Lord Howe Island starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Chatham Islands begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Chatham Islands in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 22:45:00\u20132026-03-09 00:45:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Chatham Islands [2026-03-08 22:45:00\u20132026-03-08 23:45:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Chatham Islands [2026-03-08 23:45:00\u20132026-03-09 01:45:00].": 0.0
+        },
+        "response": "The first meeting in Chatham Islands starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Cocos Islands begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Cocos Islands in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:30:00\u20132026-03-08 17:30:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Cocos Islands [2026-03-08 15:30:00\u20132026-03-08 16:30:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Cocos Islands [2026-03-08 16:30:00\u20132026-03-08 18:30:00].": 0.0
+        },
+        "response": "The start time of the first meeting in the Cocos Islands is 05:00 DST on 2026-03-08, and it ends at 07:00 DST on the same day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kerguelen Is. begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kerguelen Is. in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 14:00:00\u20132026-03-08 16:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Kerguelen Is. [2026-03-08 14:00:00\u20132026-03-08 15:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Kerguelen Is. [2026-03-08 15:00:00\u20132026-03-08 17:00:00].": 0.0
+        },
+        "response": "The first meeting in Kerguelen Is. starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Socotra begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Socotra in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 12:00:00\u20132026-03-08 14:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Socotra [2026-03-08 12:00:00\u20132026-03-08 13:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Socotra [2026-03-08 13:00:00\u20132026-03-08 15:00:00].": 0.0
+        },
+        "response": "The first meeting in Socotra starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Leh begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Leh in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 14:30:00\u20132026-03-08 16:30:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Leh [2026-03-08 14:30:00\u20132026-03-08 15:30:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Leh [2026-03-08 15:30:00\u20132026-03-08 17:30:00].": 0.0
+        },
+        "response": "The meeting in Leh starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Thimphu begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Thimphu in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 15:00:00\u20132026-03-08 17:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Thimphu [2026-03-08 15:00:00\u20132026-03-08 16:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Thimphu [2026-03-08 16:00:00\u20132026-03-08 18:00:00].": 0.0
+        },
+        "response": "The first meeting in Thimphu starts at 16:00 DST and ends at 18:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Upper Mustang begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Upper Mustang in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 14:45:00\u20132026-03-08 16:45:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Upper Mustang [2026-03-08 14:45:00\u20132026-03-08 15:45:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Upper Mustang [2026-03-08 15:45:00\u20132026-03-08 17:45:00].": 0.0
+        },
+        "response": "The first meeting in Upper Mustang starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Siwa Oasis begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Siwa Oasis in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 11:00:00\u20132026-03-08 13:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Siwa Oasis [2026-03-08 11:00:00\u20132026-03-08 12:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Siwa Oasis [2026-03-08 12:00:00\u20132026-03-08 14:00:00].": 0.0
+        },
+        "response": "The first meeting in Siwa Oasis starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Alofi begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Alofi in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 22:00:00\u20132026-03-08 00:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Alofi [2026-03-07 22:00:00\u20132026-03-07 23:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Alofi [2026-03-07 23:00:00\u20132026-03-08 01:00:00].": 0.0
+        },
+        "response": "The first meeting in Alofi starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Fakaofo begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Fakaofo in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 22:00:00\u20132026-03-09 00:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Fakaofo [2026-03-08 22:00:00\u20132026-03-08 23:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Fakaofo [2026-03-08 23:00:00\u20132026-03-09 01:00:00].": 0.0
+        },
+        "response": "The first meeting in Fakaofo starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Papeete, Tahiti begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Papeete, Tahiti in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Papeete, Tahiti [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Papeete, Tahiti [2026-03-08 00:00:00\u20132026-03-08 02:00:00].": 0.0
+        },
+        "response": "The first meeting in Papeete, Tahiti starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Taiohae, Marquesas begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Taiohae, Marquesas in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:30:00\u20132026-03-08 01:30:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Taiohae, Marquesas [2026-03-07 23:30:00\u20132026-03-08 00:30:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Taiohae, Marquesas [2026-03-08 00:30:00\u20132026-03-08 02:30:00].": 0.0
+        },
+        "response": "Start: 04:00 DST  \nEnd: 06:00 DST  ",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Rikitea, Gambier begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Rikitea, Gambier in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 00:00:00\u20132026-03-08 02:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Rikitea, Gambier [2026-03-08 00:00:00\u20132026-03-08 01:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Rikitea, Gambier [2026-03-08 01:00:00\u20132026-03-08 03:00:00].": 0.0
+        },
+        "response": "The first meeting in Rikitea, Gambier starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Apia begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Apia in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 22:00:00\u20132026-03-09 00:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Apia [2026-03-08 22:00:00\u20132026-03-08 23:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Apia [2026-03-08 23:00:00\u20132026-03-09 01:00:00].": 0.0
+        },
+        "response": "The meeting in Apia starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Pago Pago begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Pago Pago in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 22:00:00\u20132026-03-08 00:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Pago Pago [2026-03-07 22:00:00\u20132026-03-07 23:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Pago Pago [2026-03-07 23:00:00\u20132026-03-08 01:00:00].": 0.0
+        },
+        "response": "The first meeting in Pago Pago starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in London, Kiritimati (Christmas Is.) begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in London, Kiritimati (Christmas Is.) in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 23:00:00\u20132026-03-09 01:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], London, Kiritimati (Christmas Is.) [2026-03-08 23:00:00\u20132026-03-09 00:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], London, Kiritimati (Christmas Is.) [2026-03-09 00:00:00\u20132026-03-09 02:00:00].": 0.0
+        },
+        "response": "Start time: 04:00 DST on 2026-03-08  \nEnd time: 06:00 DST on 2026-03-08",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Tarawa begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Tarawa in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Tarawa [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Tarawa [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Tarawa starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kanton Island begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kanton Island in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 22:00:00\u20132026-03-09 00:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Kanton Island [2026-03-08 22:00:00\u20132026-03-08 23:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Kanton Island [2026-03-08 23:00:00\u20132026-03-09 01:00:00].": 0.0
+        },
+        "response": "The meeting in Kanton Island starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Majuro begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Majuro in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Majuro [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Majuro [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Majuro starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kwajalein Atoll begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kwajalein Atoll in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Kwajalein Atoll [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Kwajalein Atoll [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Kwajalein Atoll starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ngerulmud begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ngerulmud in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ngerulmud [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ngerulmud [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The first meeting in Ngerulmud starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Pohnpei begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Pohnpei in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Pohnpei [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Pohnpei [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Pohnpei starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Chuuk (Truk) Lagoon begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Chuuk (Truk) Lagoon in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:00:00\u20132026-03-08 21:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Chuuk (Truk) Lagoon [2026-03-08 19:00:00\u20132026-03-08 20:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Chuuk (Truk) Lagoon [2026-03-08 20:00:00\u20132026-03-08 22:00:00].": 0.0
+        },
+        "response": "The first meeting in Chuuk (Truk) Lagoon starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kosrae begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kosrae in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Kosrae [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Kosrae [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "Start time in Kosrae: 18:00 DST  \nEnd time in Kosrae: 20:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Honiara begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Honiara in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Honiara [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Honiara [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Honiara starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Port Vila begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Port Vila in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Port Vila [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Port Vila [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Port Vila starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Suva begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Suva in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Suva [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Suva [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Suva is 04:00 DST on 2026-03-08, and the end time is 06:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Noumea begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Noumea in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Noumea [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Noumea [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Noumea starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Rarotonga begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Rarotonga in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-07 23:00:00\u20132026-03-08 01:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Rarotonga [2026-03-07 23:00:00\u20132026-03-08 00:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Rarotonga [2026-03-08 00:00:00\u20132026-03-08 02:00:00].": 0.0
+        },
+        "response": "The first meeting in Rarotonga starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Funafuti begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Funafuti in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Funafuti [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Funafuti [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "Start time in Funafuti: 04:00 on 2026-03-08  \nEnd time in Funafuti: 06:00 on 2026-03-08",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Mata-Utu begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Mata-Utu in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Mata-Utu [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Mata-Utu [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Mata-Utu starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Yaren begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Yaren in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Yaren [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Yaren [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Yaren starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Hag\u00e5t\u00f1a begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Hag\u00e5t\u00f1a in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:00:00\u20132026-03-08 21:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Hag\u00e5t\u00f1a [2026-03-08 19:00:00\u20132026-03-08 20:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Hag\u00e5t\u00f1a [2026-03-08 20:00:00\u20132026-03-08 22:00:00].": 0.0
+        },
+        "response": "Start time in Hag\u00e5t\u00f1a: 04:00 DST  \nEnd time in Hag\u00e5t\u00f1a: 06:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Saipan begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Saipan in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:00:00\u20132026-03-08 21:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Saipan [2026-03-08 19:00:00\u20132026-03-08 20:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Saipan [2026-03-08 20:00:00\u20132026-03-08 22:00:00].": 0.0
+        },
+        "response": "The first meeting in Saipan starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Port Moresby begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Port Moresby in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:00:00\u20132026-03-08 21:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Port Moresby [2026-03-08 19:00:00\u20132026-03-08 20:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Port Moresby [2026-03-08 20:00:00\u20132026-03-08 22:00:00].": 0.0
+        },
+        "response": "Start time: 08:00 DST  \nEnd time: 10:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Arawa, Bougainville begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Arawa, Bougainville in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Arawa, Bougainville [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Arawa, Bougainville [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Arawa, Bougainville will start at 04:00 DST and end at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Jayapura, Papua begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Jayapura, Papua in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Jayapura, Papua [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Jayapura, Papua [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The first meeting in Jayapura, Papua starts at 16:00 DST and ends at 18:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ambon, Maluku begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ambon, Maluku in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ambon, Maluku [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ambon, Maluku [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The first meeting in Ambon, Maluku starts at 06:00 DST and ends at 08:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Makassar, Sulawesi begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Makassar, Sulawesi in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 17:00:00\u20132026-03-08 19:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Makassar, Sulawesi [2026-03-08 17:00:00\u20132026-03-08 18:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Makassar, Sulawesi [2026-03-08 18:00:00\u20132026-03-08 20:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Makassar, Sulawesi is 04:00 DST, and the end time is 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Labuan Bajo, Flores begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Labuan Bajo, Flores in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 17:00:00\u20132026-03-08 19:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Labuan Bajo, Flores [2026-03-08 17:00:00\u20132026-03-08 18:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Labuan Bajo, Flores [2026-03-08 18:00:00\u20132026-03-08 20:00:00].": 0.0
+        },
+        "response": "The first meeting in Labuan Bajo, Flores starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Pontianak, Kalimantan begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Pontianak, Kalimantan in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 16:00:00\u20132026-03-08 18:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Pontianak, Kalimantan [2026-03-08 16:00:00\u20132026-03-08 17:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Pontianak, Kalimantan [2026-03-08 17:00:00\u20132026-03-08 19:00:00].": 0.0
+        },
+        "response": "The first meeting in Fort Chipewyan starts at 02:00 DST and ends at 04:00 DST. The meeting in Pontianak begins at 04:00 DST and ends at 06:00 DST. \n\nStart time: 04:00 DST  \nEnd time: 06:00 DST  ",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Dili begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Dili in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Dili [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Dili [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The video conference with Puerto Williams starts at 02:00 DST and ends at 04:00 DST. The meeting in Dili begins at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Puerto Princesa, Palawan begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Puerto Princesa, Palawan in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 17:00:00\u20132026-03-08 19:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Puerto Princesa, Palawan [2026-03-08 17:00:00\u20132026-03-08 18:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Puerto Princesa, Palawan [2026-03-08 18:00:00\u20132026-03-08 20:00:00].": 0.0
+        },
+        "response": "The first meeting in Puerto Princesa, Palawan starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Batanes Islands begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Batanes Islands in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 17:00:00\u20132026-03-08 19:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Batanes Islands [2026-03-08 17:00:00\u20132026-03-08 18:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Batanes Islands [2026-03-08 18:00:00\u20132026-03-08 20:00:00].": 0.0
+        },
+        "response": "The first meeting in Batanes Islands starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ishigaki Island begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ishigaki Island in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ishigaki Island [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ishigaki Island [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The first meeting in Ishigaki Island starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ogasawara (Bonin) Islands begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ogasawara (Bonin) Islands in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ogasawara (Bonin) Islands [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ogasawara (Bonin) Islands [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The first meeting in Ogasawara (Bonin) Islands starts at 04:00 DST on 2026-03-08 and ends at 06:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Ulleungdo Island begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Ulleungdo Island in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:00:00\u20132026-03-08 20:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Ulleungdo Island [2026-03-08 18:00:00\u20132026-03-08 19:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Ulleungdo Island [2026-03-08 19:00:00\u20132026-03-08 21:00:00].": 0.0
+        },
+        "response": "The first meeting in Ulleungdo Island starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Yuzhno-Sakhalinsk begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Yuzhno-Sakhalinsk in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Yuzhno-Sakhalinsk [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Yuzhno-Sakhalinsk [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Yuzhno-Sakhalinsk starts at 04:00 DST and ends at 06:00 DST on 2026-03-08.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Petropavlovsk-Kamchatsky begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Petropavlovsk-Kamchatsky in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Petropavlovsk-Kamchatsky [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Petropavlovsk-Kamchatsky [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "The first meeting in Fort Chipewyan starts at 02:00 DST on March 8, 2026, and ends at 04:00 DST. The meeting in Petropavlovsk-Kamchatsky starts at 04:00 DST and ends at 06:00 DST. \n\nTherefore, the start and end times of the first meeting in Petropavlovsk-Kamchatsky in DST are:\n\n**Start: 04:00 DST**  \n**End: 06:00 DST**",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kurilsk, Kuril Islands begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kurilsk, Kuril Islands in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Kurilsk, Kuril Islands [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Kurilsk, Kuril Islands [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Kurilsk, Kuril Islands starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Anadyr, Chukotka begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Anadyr, Chukotka in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 21:00:00\u20132026-03-08 23:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Anadyr, Chukotka [2026-03-08 21:00:00\u20132026-03-08 22:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Anadyr, Chukotka [2026-03-08 22:00:00\u20132026-03-09 00:00:00].": 0.0
+        },
+        "response": "Start time of the first meeting in Anadyr, Chukotka: 04:00 DST  \nEnd time of the first meeting in Anadyr, Chukotka: 06:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Magadan begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Magadan in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 20:00:00\u20132026-03-08 22:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Magadan [2026-03-08 20:00:00\u20132026-03-08 21:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Magadan [2026-03-08 21:00:00\u20132026-03-08 23:00:00].": 0.0
+        },
+        "response": "The first meeting in Magadan starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Birdsville, QLD begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Birdsville, QLD in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:00:00\u20132026-03-08 21:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Birdsville, QLD [2026-03-08 19:00:00\u20132026-03-08 20:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Birdsville, QLD [2026-03-08 20:00:00\u20132026-03-08 22:00:00].": 0.0
+        },
+        "response": "The meeting in Birdsville, QLD starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Alice Springs, NT begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Alice Springs, NT in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 18:30:00\u20132026-03-08 20:30:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Alice Springs, NT [2026-03-08 18:30:00\u20132026-03-08 19:30:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Alice Springs, NT [2026-03-08 19:30:00\u20132026-03-08 21:30:00].": 0.0
+        },
+        "response": "The first meeting in Alice Springs, NT starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Coober Pedy, SA begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Coober Pedy, SA in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:30:00\u20132026-03-08 21:30:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Coober Pedy, SA [2026-03-08 19:30:00\u20132026-03-08 20:30:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Coober Pedy, SA [2026-03-08 20:30:00\u20132026-03-08 22:30:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Coober Pedy, SA is 05:00 DST, and the end time is 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Broken Hill, NSW begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Broken Hill, NSW in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:30:00\u20132026-03-08 21:30:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Broken Hill, NSW [2026-03-08 19:30:00\u20132026-03-08 20:30:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Broken Hill, NSW [2026-03-08 20:30:00\u20132026-03-08 22:30:00].": 0.0
+        },
+        "response": "The first meeting in Broken Hill, NSW starts at 17:00 DST on 2026-03-08 and ends at 19:00 DST on the same day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Kalgoorlie, WA begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Kalgoorlie, WA in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 17:00:00\u20132026-03-08 19:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Kalgoorlie, WA [2026-03-08 17:00:00\u20132026-03-08 18:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Kalgoorlie, WA [2026-03-08 18:00:00\u20132026-03-08 20:00:00].": 0.0
+        },
+        "response": "The first meeting in Kalgoorlie, WA starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Broome, WA begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Broome, WA in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 17:00:00\u20132026-03-08 19:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Broome, WA [2026-03-08 17:00:00\u20132026-03-08 18:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Broome, WA [2026-03-08 18:00:00\u20132026-03-08 20:00:00].": 0.0
+        },
+        "response": "The first meeting in Broome, WA starts at 05:00 DST and ends at 07:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Thursday Island begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Thursday Island in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 19:00:00\u20132026-03-08 21:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Thursday Island [2026-03-08 19:00:00\u20132026-03-08 20:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Thursday Island [2026-03-08 20:00:00\u20132026-03-08 22:00:00].": 0.0
+        },
+        "response": "Start time: 11:00 AM DST  \nEnd time: 1:00 PM DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Iquitos, Loreto begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Iquitos, Loreto in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 04:00:00\u20132026-03-08 06:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Iquitos, Loreto [2026-03-08 04:00:00\u20132026-03-08 05:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Iquitos, Loreto [2026-03-08 05:00:00\u20132026-03-08 07:00:00].": 0.0
+        },
+        "response": "The start time of the first meeting in Iquitos, Loreto is 04:00 DST, and the end time is 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Leticia, Amazonas begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Leticia, Amazonas in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 04:00:00\u20132026-03-08 06:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Leticia, Amazonas [2026-03-08 04:00:00\u20132026-03-08 05:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Leticia, Amazonas [2026-03-08 05:00:00\u20132026-03-08 07:00:00].": 0.0
+        },
+        "response": "The first meeting in Leticia, Amazonas starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Tabatinga, AM begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Tabatinga, AM in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Tabatinga, AM [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Tabatinga, AM [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "Start time in Tabatinga, AM: 2026-03-08 at 05:00 DST  \nEnd time in Tabatinga, AM: 2026-03-08 at 07:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in S\u00e3o Gabriel da Cachoeira, AM begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in S\u00e3o Gabriel da Cachoeira, AM in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], S\u00e3o Gabriel da Cachoeira, AM [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], S\u00e3o Gabriel da Cachoeira, AM [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The first meeting in S\u00e3o Gabriel da Cachoeira, AM starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Cruzeiro do Sul, AC begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Cruzeiro do Sul, AC in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 04:00:00\u20132026-03-08 06:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Cruzeiro do Sul, AC [2026-03-08 04:00:00\u20132026-03-08 05:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Cruzeiro do Sul, AC [2026-03-08 05:00:00\u20132026-03-08 07:00:00].": 0.0
+        },
+        "response": "Start time in Cruzeiro do Sul, AC: 04:00 DST  \nEnd time in Cruzeiro do Sul, AC: 06:00 DST",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Rurrenabaque (Madidi NP) begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Rurrenabaque (Madidi NP) in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Rurrenabaque (Madidi NP) [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Rurrenabaque (Madidi NP) [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The start time of the meeting in Rurrenabaque is 04:00 DST, and the end time is 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Canaima National Park begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Canaima National Park in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Canaima National Park [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Canaima National Park [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The first meeting in Canaima National Park starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, daylight saving time (DST) begins in Fort Chipewyan, AB. A video conference with Puerto Williams starts exactly when DST takes effect and ends 2 hours later. Another meeting in Lethem (Rupununi) begins the moment the first meeting ends and lasts for 2 hours. What are the start and end times of first meeting  in Lethem (Rupununi) in DST? NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 05:00:00\u20132026-03-08 07:00:00": 1.0,
+            "Meeting 1: Fort Chipewyan, AB [2026-03-08 02:00:00\u20132026-03-08 04:00:00], Puerto Williams [2026-03-08 06:00:00\u20132026-03-08 07:00:00], Lethem (Rupununi) [2026-03-08 05:00:00\u20132026-03-08 06:00:00]. Meeting 2: Fort Chipewyan, AB [2026-03-08 04:00:00\u20132026-03-08 06:00:00], Puerto Williams [2026-03-08 07:00:00\u20132026-03-08 09:00:00], Lethem (Rupununi) [2026-03-08 06:00:00\u20132026-03-08 08:00:00].": 0.0
+        },
+        "response": "The first meeting in Lethem (Rupununi) starts at 04:00 DST and ends at 06:00 DST.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

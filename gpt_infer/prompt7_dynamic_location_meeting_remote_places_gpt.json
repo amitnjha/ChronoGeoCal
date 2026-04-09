@@ -1,0 +1,902 @@
+[
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ushuaia where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 12:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Stanley where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 12:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Jamestown where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 09:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 15:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 18:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in King Edward Point where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 11:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Fernando de Noronha where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 11:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Kindu where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 07:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 17:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Uranium City, SK where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 15:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 09:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Fort Chipewyan, AB where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 16:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 08:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 18:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Supai (Havasupai), AZ where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 16:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 08:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Anaktuvuk Pass, AK where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 18:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 06:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ushguli where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 05:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 19:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Eucla where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:15, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:45": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Macquarie Island where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Oymyakon (Pole of Cold) where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Pevek where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Gavdos where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 07:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 17:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Corvo, Azores where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 10:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 14:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in McMurdo Station where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Amundsen\u2013Scott (South Pole) where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Vostok Station where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 04:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 20:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Palmer Station where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 12:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Alert, NU where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Eureka, NU where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Grise Fiord, NU where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Resolute, NU where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 15:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 09:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Pond Inlet, NU where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Pituffik (Thule) where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ittoqqortoormiit where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 11:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 13:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Danmarkshavn where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 09:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 15:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Longyearbyen where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 08:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Jan Mayen where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 08:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 16:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Adamstown where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 17:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 07:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Easter Island where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Lord Howe Island where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Chatham Islands where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 19:15, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:45": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Cocos Islands where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 02:30, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 21:30": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Kerguelen Is. where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 04:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 20:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Socotra where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 06:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 18:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Leh where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 03:30, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 20:30": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Thimphu where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 03:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 21:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Upper Mustang where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 03:15, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 20:45": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Siwa Oasis where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 07:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 17:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Alofi where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 04:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Fakaofo where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Papeete, Tahiti where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 19:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 05:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Taiohae, Marquesas where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 18:30, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 05:30": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Rikitea, Gambier where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 18:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 06:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Apia where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Pago Pago where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 04:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in London, Kiritimati (Christmas Is.) where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 19:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 05:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Tarawa where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Kanton Island where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 20:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 04:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Majuro where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Kwajalein Atoll where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ngerulmud where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Pohnpei where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Chuuk (Truk) Lagoon where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Kosrae where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Honiara where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Port Vila where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Suva where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Noumea where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Rarotonga where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 19:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 05:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Funafuti where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Mata-Utu where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Yaren where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Hag\u00e5t\u00f1a where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Saipan where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Port Moresby where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Arawa, Bougainville where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Jayapura, Papua where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ambon, Maluku where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Makassar, Sulawesi where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Labuan Bajo, Flores where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Pontianak, Kalimantan where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 02:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 22:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Dili where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Puerto Princesa, Palawan where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Batanes Islands where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ishigaki Island where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ogasawara (Bonin) Islands where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Ulleungdo Island where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 00:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Yuzhno-Sakhalinsk where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Petropavlovsk-Kamchatsky where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Kurilsk, Kuril Islands where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Anadyr, Chukotka where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 21:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 03:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Magadan where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 02:00": 0.0
+        },
+        "response": "actual: 2568-11-12 14:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Birdsville, QLD where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Alice Springs, NT where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:30, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 00:30": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Coober Pedy, SA where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:30, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:30": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Broken Hill, NSW where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 22:30, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:30": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 18:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Kalgoorlie, WA where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Broome, WA where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 01:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 23:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Thursday Island where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-11 23:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-13 01:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Iquitos, Loreto where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 12:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Leticia, Amazonas where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Tabatinga, AM where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in S\u00e3o Gabriel da Cachoeira, AM where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 14:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Cruzeiro do Sul, AC where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 14:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 10:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 18:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Rurrenabaque (Madidi NP) where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In Puerto Williams, the date is 2568/11/12 Buddhist Era. Someone says, meet me in 2 hours at 14:00 Puerto Williams time. However, they currently are in Canaima National Park where it is 10:00. Due to a misunderstanding, you think they mean 2 hours from 14:00 Puerto Williams time, but they mean 2 hours from now. When do they actually expect to meet, and when did you think the meeting was in Puerto Williams time? FORMAT THE RESPONSE AS actual: YYYY-MM-DD HH:MI, misunderstood: YYYY-MM-DD HH:MI in gregorian calendar.NO EXPLANATIONS.",
+        "target_scores": {
+            "actual: 2025-11-12 13:00, misunderstood: 2025-11-12 16:00": 1.0,
+            "actual: 2025-11-12 12:00, misunderstood: 2025-11-12 11:00": 0.0
+        },
+        "response": "actual: 2568-11-12 16:00, misunderstood: 2568-11-12 16:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

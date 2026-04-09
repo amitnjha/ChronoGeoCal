@@ -1,0 +1,902 @@
+[
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Los Angeles. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Chicago. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Houston. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Phoenix. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 05:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Philadelphia. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with San Antonio. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with San Diego. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 05:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Dallas. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with San Jose. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 05:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Austin. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Jacksonville. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with San Francisco. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 05:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Columbus. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Indianapolis. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Seattle. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Denver. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 04:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Washington DC. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Boston. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Las Vegas. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 05:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Atlanta. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Miami. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Honolulu. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Toronto. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Montreal. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Vancouver. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 05:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Calgary. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 04:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Ottawa. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Mexico City. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Guadalajara. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Monterrey. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with London. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Manchester. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Birmingham. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Edinburgh. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Paris. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Lyon. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Marseille. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Berlin. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Frankfurt. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Munich. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Rome. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Milan. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Madrid. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Barcelona. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Amsterdam. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Zurich. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Tokyo. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Osaka. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 15:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Kyoto. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Seoul. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-07 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Busan. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Beijing. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Shanghai. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Hong Kong. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Singapore. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Bangkok. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Ho Chi Minh City. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Mumbai. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Delhi. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "The meeting starts at 2026-03-08 03:30:00 in New York City time zone.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Dubai. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Istanbul. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Sydney. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Melbourne. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-07 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Auckland. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-07 20:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Sao Paulo. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Buenos Aires. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Johannesburg. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 08:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Cairo. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Portland. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Salt Lake City. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Orlando. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Nashville. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with New Orleans. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Minneapolis. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 03:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Detroit. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Charlotte. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Edmonton. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 04:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Winnipeg. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Tijuana. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 05:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Cancun. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Vienna. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Prague. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Lisbon. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Dublin. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Copenhagen. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Stockholm. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Oslo. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Helsinki. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Brussels. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Budapest. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Krakow. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Athens. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Tel Aviv. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Doha. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Riyadh. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Kuwait City. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Beirut. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 09:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Jakarta. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Manila. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On 2026-03-08 at 02:00, DST begins in New York City. Video conference with Kuala Lumpur. What time does the meeting start in New York City time zone? USE GREGORIAN CALENDAR IN YYYY-MM-DD HH:MM:SS FORMAT. NO EXPLANATIONS.",
+        "target_scores": {
+            "2026-03-08 03:00:00": 1.0,
+            "2026-03-08 02:00:00": 0.0
+        },
+        "response": "2026-03-08 02:00:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

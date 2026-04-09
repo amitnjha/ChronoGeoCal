@@ -1,0 +1,902 @@
+[
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Puerto Williams time? Convert the final answer in the Hebrew calendar date and Puerto Williams local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Puerto Williams time? Convert the final answer in the Hebrew calendar date and Puerto Williams local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM in Puerto Williams. This means the overlap is from \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 6:00 AM to \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Stanley time? Convert the final answer in the Hebrew calendar date and Stanley local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Stanley time? Convert the final answer in the Hebrew calendar date and Stanley local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM Stanley time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Jamestown time? Convert the final answer in the Hebrew calendar date and Jamestown local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 05:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Jamestown time? Convert the final answer in the Hebrew calendar date and Jamestown local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 05:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 7:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to King Edward Point time? Convert the final answer in the Hebrew calendar date and King Edward Point local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 03:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 6:00 AM (24-hour format) in King Edward Point local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to King Edward Point time? Convert the final answer in the Hebrew calendar date and King Edward Point local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 03:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, from 6:00 AM to 6:00 AM in King Edward Point time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Fernando de Noronha time? Convert the final answer in the Hebrew calendar date and Fernando de Noronha local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 03:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 10:00 AM to 11:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Fernando de Noronha time? Convert the final answer in the Hebrew calendar date and Fernando de Noronha local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 03:00:00": 0.0
+        },
+        "response": "The overlapping time period is 6:00 AM to 6:00 AM on the following day, \u05d3\u05f4\u05d8 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Fernando de Noronha local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Kindu time? Convert the final answer in the Hebrew calendar date and Kindu local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 2:00 AM to 6:00 AM Kindu time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Kindu time? Convert the final answer in the Hebrew calendar date and Kindu local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 07:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 6:00 AM to 6:00 AM in Kindu time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Uranium City, SK time? Convert the final answer in the Hebrew calendar date and Uranium City, SK local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 7:00 AM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Uranium City, SK time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Uranium City, SK time? Convert the final answer in the Hebrew calendar date and Uranium City, SK local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Fort Chipewyan, AB time? Convert the final answer in the Hebrew calendar date and Fort Chipewyan, AB local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM (next day) on the Hebrew calendar date \u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, in Fort Chipewyan, AB local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Fort Chipewyan, AB time? Convert the final answer in the Hebrew calendar date and Fort Chipewyan, AB local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 23:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, from 8:00 AM to 9:00 AM in Fort Chipewyan, AB local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Supai (Havasupai), AZ time? Convert the final answer in the Hebrew calendar date and Supai (Havasupai), AZ local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 22:00:00": 0.0
+        },
+        "response": "The overlapping time period in Supai (Havasupai), AZ time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 5:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Supai (Havasupai), AZ time? Convert the final answer in the Hebrew calendar date and Supai (Havasupai), AZ local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 22:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, from 6:00 AM to 9:00 AM in Supai (Havasupai), AZ local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Anaktuvuk Pass, AK time? Convert the final answer in the Hebrew calendar date and Anaktuvuk Pass, AK local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 21:00:00": 0.0
+        },
+        "response": "Event overlap occurs from 6:00 AM to 6:00 AM in Anaktuvuk Pass, AK time on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Anaktuvuk Pass, AK time? Convert the final answer in the Hebrew calendar date and Anaktuvuk Pass, AK local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 21:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 5:00 AM to 6:00 AM in Anaktuvuk Pass, AK local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Ushguli time? Convert the final answer in the Hebrew calendar date and Ushguli local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 09:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 12:00 PM to 1:00 PM in Ushguli time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Ushguli time? Convert the final answer in the Hebrew calendar date and Ushguli local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 09:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM the next day in Ushguli time. The final answer is  \u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Eucla time? Convert the final answer in the Hebrew calendar date and Eucla local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 13:45:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 10:00 AM to 12:00 PM in Eucla time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Eucla time? Convert the final answer in the Hebrew calendar date and Eucla local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 13:45:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, from 9:00 AM to 10:00 AM Eucla local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Macquarie Island time? Convert the final answer in the Hebrew calendar date and Macquarie Island local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 15:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 11:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Macquarie Island time? Convert the final answer in the Hebrew calendar date and Macquarie Island local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 16:00:00": 0.0
+        },
+        "response": "The events overlap on the Hebrew calendar date of \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 7:00 AM to 9:00 AM Macquarie Island local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Oymyakon (Pole of Cold) time? Convert the final answer in the Hebrew calendar date and Oymyakon (Pole of Cold) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 15:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 12:00 PM Oymyakon time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Oymyakon (Pole of Cold) time? Convert the final answer in the Hebrew calendar date and Oymyakon (Pole of Cold) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 15:00:00": 0.0
+        },
+        "response": "The overlapping time period in Oymyakon time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 6:00 AM to 6:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pevek time? Convert the final answer in the Hebrew calendar date and Pevek local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 17:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 1:00 PM Pevek time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pevek time? Convert the final answer in the Hebrew calendar date and Pevek local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 17:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 1:00 PM to 2:00 PM in Pevek local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Gavdos time? Convert the final answer in the Hebrew calendar date and Gavdos local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 6:00 AM Gavdos time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Gavdos time? Convert the final answer in the Hebrew calendar date and Gavdos local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 6:00 AM Gavdos time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Corvo, Azores time? Convert the final answer in the Hebrew calendar date and Corvo, Azores local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 05:00:00": 0.0
+        },
+        "response": "The overlap occurs from 6:00 AM to 6:00 AM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Corvo, Azores time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Corvo, Azores time? Convert the final answer in the Hebrew calendar date and Corvo, Azores local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 05:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM Corvo, Azores time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to McMurdo Station time? Convert the final answer in the Hebrew calendar date and McMurdo Station local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 17:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 12:00 PM in McMurdo Station local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to McMurdo Station time? Convert the final answer in the Hebrew calendar date and McMurdo Station local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 18:00:00": 0.0
+        },
+        "response": "The overlapping time period is 6:00 AM to 6:00 AM (next day) on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in McMurdo Station time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Amundsen\u2013Scott (South Pole) time? Convert the final answer in the Hebrew calendar date and Amundsen\u2013Scott (South Pole) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 17:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, from 6:00 AM to 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Amundsen\u2013Scott (South Pole) time? Convert the final answer in the Hebrew calendar date and Amundsen\u2013Scott (South Pole) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 18:00:00": 0.0
+        },
+        "response": "The overlapping event occurs from 6:00 AM to 6:00 AM in Amundsen\u2013Scott (South Pole) time. The final answer is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Vostok Station time? Convert the final answer in the Hebrew calendar date and Vostok Station local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 10:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM Vostok Station time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Vostok Station time? Convert the final answer in the Hebrew calendar date and Vostok Station local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 10:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 6:00 PM Vostok Station time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Palmer Station time? Convert the final answer in the Hebrew calendar date and Palmer Station local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Palmer Station time? Convert the final answer in the Hebrew calendar date and Palmer Station local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 9:00 AM in Palmer Station time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Alert, NU time? Convert the final answer in the Hebrew calendar date and Alert, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "The overlapping time period in Alert, NU time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 7:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Alert, NU time? Convert the final answer in the Hebrew calendar date and Alert, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 2:00 AM to 3:00 AM Alert, NU time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Eureka, NU time? Convert the final answer in the Hebrew calendar date and Eureka, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Eureka, NU time? Convert the final answer in the Hebrew calendar date and Eureka, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM in Eureka, NU time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Grise Fiord, NU time? Convert the final answer in the Hebrew calendar date and Grise Fiord, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "The overlapping time period is from \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 10:00 AM to 12:00 PM in Grise Fiord, NU.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Grise Fiord, NU time? Convert the final answer in the Hebrew calendar date and Grise Fiord, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM Grise Fiord, NU time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Resolute, NU time? Convert the final answer in the Hebrew calendar date and Resolute, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 00:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 4:00 AM to 6:00 AM in Resolute, NU time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Resolute, NU time? Convert the final answer in the Hebrew calendar date and Resolute, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 00:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Resolute, NU time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pond Inlet, NU time? Convert the final answer in the Hebrew calendar date and Pond Inlet, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 01:00:00": 0.0
+        },
+        "response": "Event overlap occurs from 6:00 AM to 6:30 AM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Pond Inlet, NU time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pond Inlet, NU time? Convert the final answer in the Hebrew calendar date and Pond Inlet, NU local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 01:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM Pond Inlet, NU time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pituffik (Thule) time? Convert the final answer in the Hebrew calendar date and Pituffik (Thule) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 02:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM Pituffik (Thule) local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pituffik (Thule) time? Convert the final answer in the Hebrew calendar date and Pituffik (Thule) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 02:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 9:00 AM to 10:00 AM in Pituffik (Thule) local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Ittoqqortoormiit time? Convert the final answer in the Hebrew calendar date and Ittoqqortoormiit local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 04:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 10:00 AM to 12:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Ittoqqortoormiit time? Convert the final answer in the Hebrew calendar date and Ittoqqortoormiit local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 04:00:00": 0.0
+        },
+        "response": "\u05d9\u05f4\u05d3 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Danmarkshavn time? Convert the final answer in the Hebrew calendar date and Danmarkshavn local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 05:00:00": 0.0
+        },
+        "response": "Event overlap occurs from 6:00 AM to 6:00 AM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Danmarkshavn time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Danmarkshavn time? Convert the final answer in the Hebrew calendar date and Danmarkshavn local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 05:00:00": 0.0
+        },
+        "response": "The events overlap from 6:00 AM to 6:30 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Danmarkshavn local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Longyearbyen time? Convert the final answer in the Hebrew calendar date and Longyearbyen local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "Event overlap: 10:00 AM to 11:00 AM, \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Longyearbyen time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Longyearbyen time? Convert the final answer in the Hebrew calendar date and Longyearbyen local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 07:00:00": 0.0
+        },
+        "response": "The overlapping time period is from 2:00 AM to 6:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Longyearbyen local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Jan Mayen time? Convert the final answer in the Hebrew calendar date and Jan Mayen local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, from 12:00 PM to 1:00 PM in Jan Mayen local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Jan Mayen time? Convert the final answer in the Hebrew calendar date and Jan Mayen local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 07:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 2:00 PM to 3:00 PM Jan Mayen time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Adamstown time? Convert the final answer in the Hebrew calendar date and Adamstown local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 21:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 from 10:00 AM to 12:00 PM in Adamstown time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Adamstown time? Convert the final answer in the Hebrew calendar date and Adamstown local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 21:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM in Adamstown.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Easter Island time? Convert the final answer in the Hebrew calendar date and Easter Island local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 23:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 6:00 AM to 9:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Easter Island time? Convert the final answer in the Hebrew calendar date and Easter Island local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 00:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 6:00 AM to 6:00 AM the next day in Easter Island local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Lord Howe Island time? Convert the final answer in the Hebrew calendar date and Lord Howe Island local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 15:30:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 10:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Lord Howe Island time? Convert the final answer in the Hebrew calendar date and Lord Howe Island local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 16:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 11:00 AM to 12:00 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Chatham Islands time? Convert the final answer in the Hebrew calendar date and Chatham Islands local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 17:45:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 11:00 AM to 12:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Chatham Islands time? Convert the final answer in the Hebrew calendar date and Chatham Islands local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 18:45:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 1:00 AM to 2:00 AM in Chatham Islands local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Cocos Islands time? Convert the final answer in the Hebrew calendar date and Cocos Islands local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 11:30:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Cocos Islands time? Convert the final answer in the Hebrew calendar date and Cocos Islands local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 11:30:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 11:00 AM to 12:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Kerguelen Is. time? Convert the final answer in the Hebrew calendar date and Kerguelen Is. local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 10:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM Kerguelen Is. local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Kerguelen Is. time? Convert the final answer in the Hebrew calendar date and Kerguelen Is. local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 10:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 11:00 AM to 12:00 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Socotra time? Convert the final answer in the Hebrew calendar date and Socotra local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 08:00:00": 0.0
+        },
+        "response": "The overlapping time period is 7:00 AM to 9:00 AM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Socotra local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Socotra time? Convert the final answer in the Hebrew calendar date and Socotra local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The events overlap on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 from 3:00 PM to 6:00 PM Socotra time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Leh time? Convert the final answer in the Hebrew calendar date and Leh local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 10:30:00": 0.0
+        },
+        "response": "Event overlap: 6:00 AM to 6:00 AM Leh time on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Leh time? Convert the final answer in the Hebrew calendar date and Leh local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 10:30:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, from 6:00 AM to 6:00 AM Leh time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Thimphu time? Convert the final answer in the Hebrew calendar date and Thimphu local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 11:00:00": 0.0
+        },
+        "response": "Event overlap: \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM Thimphu time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Thimphu time? Convert the final answer in the Hebrew calendar date and Thimphu local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 11:00:00": 0.0
+        },
+        "response": "The overlapping period is 6:00 AM to 6:30 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Thimphu local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Upper Mustang time? Convert the final answer in the Hebrew calendar date and Upper Mustang local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 10:45:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 1:45 PM to 3:15 PM Upper Mustang time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Upper Mustang time? Convert the final answer in the Hebrew calendar date and Upper Mustang local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 10:45:00": 0.0
+        },
+        "response": "Event overlap: \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 8:00 AM to 9:00 AM Upper Mustang time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Siwa Oasis time? Convert the final answer in the Hebrew calendar date and Siwa Oasis local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 07:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 11:00 AM to 12:00 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Siwa Oasis time? Convert the final answer in the Hebrew calendar date and Siwa Oasis local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 08:00:00": 0.0
+        },
+        "response": "The events overlap from 10:00 AM to 11:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Siwa Oasis local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Alofi time? Convert the final answer in the Hebrew calendar date and Alofi local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 18:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, from 9:00 AM to 10:00 AM Alofi time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Alofi time? Convert the final answer in the Hebrew calendar date and Alofi local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 18:00:00": 0.0
+        },
+        "response": "The overlapping time period is 6:00 AM to 6:00 AM Alofi time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Fakaofo time? Convert the final answer in the Hebrew calendar date and Fakaofo local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 18:00:00": 0.0
+        },
+        "response": "The overlapping time period in Fakaofo time is 12:00 AM to 1:00 AM \u05d3' \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Fakaofo time? Convert the final answer in the Hebrew calendar date and Fakaofo local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 18:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 12:00 PM Fakaofo time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Papeete, Tahiti time? Convert the final answer in the Hebrew calendar date and Papeete, Tahiti local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 19:00:00": 0.0
+        },
+        "response": "The overlapping time period is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, from 9:00 AM to 10:00 AM in Papeete, Tahiti time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Papeete, Tahiti time? Convert the final answer in the Hebrew calendar date and Papeete, Tahiti local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 19:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 AM to 1:00 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Taiohae, Marquesas time? Convert the final answer in the Hebrew calendar date and Taiohae, Marquesas local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 19:30:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 11:00 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Taiohae, Marquesas time? Convert the final answer in the Hebrew calendar date and Taiohae, Marquesas local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 19:30:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 10:00 AM to 12:00 PM Taiohae, Marquesas time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Rikitea, Gambier time? Convert the final answer in the Hebrew calendar date and Rikitea, Gambier local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 20:00:00": 0.0
+        },
+        "response": "The overlapping time period is from 6:00 AM to 6:00 AM (next day) in Rikitea, Gambier time. The date in the Hebrew calendar is \u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Rikitea, Gambier time? Convert the final answer in the Hebrew calendar date and Rikitea, Gambier local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 20:00:00": 0.0
+        },
+        "response": "The overlapping time period in Rikitea, Gambier time is from 6:00 AM to 9:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Apia time? Convert the final answer in the Hebrew calendar date and Apia local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 18:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 11:00 AM to 2:00 PM Apia time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Apia time? Convert the final answer in the Hebrew calendar date and Apia local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 18:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 12:00 AM to 3:00 AM in Apia.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pago Pago time? Convert the final answer in the Hebrew calendar date and Pago Pago local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-12 18:00:00": 0.0
+        },
+        "response": "Event A and Event B overlap from 6:00 AM to 6:00 AM in Pago Pago time on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to Pago Pago time? Convert the final answer in the Hebrew calendar date and Pago Pago local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-16 18:00:00": 0.0
+        },
+        "response": "The events overlap from 1:00 AM to 2:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in Pago Pago time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to London, Kiritimati (Christmas Is.) time? Convert the final answer in the Hebrew calendar date and London, Kiritimati (Christmas Is.) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2025-04-13 19:00:00": 0.0
+        },
+        "response": "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 9:00 AM to 10:00 AM Kiritimati time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "In the Hebrew calendar, today is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. Event A occurs from 2:00 AM to 6:00 AM in Puerto Williams. Event B occurs from 6:00 AM to 9:00 AM in Ushuaia. During what time period do these events overlap when both are converted to London, Kiritimati (Christmas Is.) time? Convert the final answer in the Hebrew calendar date and London, Kiritimati (Christmas Is.) local time. PLEASE ONLY PROVIDE THE ANSWER. NO EXPLANATIONS.",
+        "target_scores": {
+            "No overlap": 1.0,
+            "Overlap occurs at 2024-10-17 19:00:00": 0.0
+        },
+        "response": "The events overlap from 10:00 AM to 11:00 AM on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 in London, Kiritimati (Christmas Is.) local time.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

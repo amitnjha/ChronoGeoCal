@@ -1,0 +1,1502 @@
+[
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial duration: 7 days\n3. End of free trial: 8 Muharram 1443 AH\n4. First payment date: 1 Safar 1443 AH\n5. Next payment date (2nd payment): 1 Rabi' al-Awwal 1443 AH\n\nNow, converting Hijri dates to Gregorian:\n\n1 Muharram 1443 AH = 2021-08-09  \n8 Muharram 1443 AH = 2021-08-16  \n1 Safar 1443 AH = 2021-09-07  \n1 Rabi' al-Awwal 1443 AH = 2021-10-06  \n\nTherefore, the date for the 2nd payment is:\n\n**2021-10-06**",
+        "target_scores": {
+            "2021-09-08": 1.0,
+            "2021-09-15": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. Free trial: 7 days - 1 Muharram to 8 Muharram 1443 AH.\n3. First payment: 8 Muharram 1443 AH.\n4. Billing monthly on the same Hijri day:\n\n   - Second payment: 8 Safar 1443 AH.\n   - Third payment: 8 Rabi' al-Awwal 1443 AH.\n\n5. Convert Rabi' al-Awwal 8, 1443 AH to Gregorian date:\n\n   - 1 Muharram 1443 AH = 2021-08-09.\n   - Rabi' al-Awwal is the 3rd month in the Islamic calendar.\n\n   Calculation of days from Muharram:\n   - Muharram: 30 days.\n   - Safar: 29 days.\n   - Rabi' al-Awwal: 8 days.\n\n   Total days from 1 Muharram to 8 Rabi' al-Awwal: 30 + 29 + 8 = 67 days.\n\n6. Adding 67 days to 2021-08-09:\n\n   - 2021-08-09 + 67 days = 2021-10-15.\n\nFinal result:\n2021-10-15",
+        "target_scores": {
+            "2021-10-07": 1.0,
+            "2021-10-15": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial: 7 days\n3. Billing starts after the trial: 8 Muharram 1443 AH\n4. Monthly billing on 8 Muharram: \n   - 1st payment: 8 Muharram 1443 AH\n   - 2nd payment: 8 Safar 1443 AH\n   - 3rd payment: 8 Rabi' al-Awwal 1443 AH\n   - 4th payment: 8 Rabi' al-Thani 1443 AH\n\nNow convert 8 Rabi' al-Thani 1443 AH to Gregorian date:\n\n- 1 Muharram 1443 AH is August 9, 2021 (Gregorian)\n- 8 Rabi' al-Thani (4 months ahead, considering the Islamic calendar consists of 30 days for Rabi' al-Thani)\n\nCalculating:\n- 8 Muharram: August 9, 2021\n- 8 Safar: September 8, 2021\n- 8 Rabi' al-Awwal: October 8, 2021\n- 8 Rabi' al-Thani: November 8, 2021\n\nFinal result for the 4th payment date:\n\n**2021-11-08**",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-14": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial: 7 days\n3. First payment: 1 Safar 1443 AH (after trial)\n4. Monthly payments thereafter: 1 of every month \n\nPayments:\n- 2nd payment: 1 Rabi' al-Awwal 1443 AH\n- 3rd payment: 1 Rabi' al-Thani 1443 AH\n- 4th payment: 1 Jumada al-Awwal 1443 AH\n- 5th payment: 1 Jumada al-Thani 1443 AH\n- 6th payment: 1 Rajab 1443 AH\n\nConvert 1 Rajab 1443 AH to Gregorian date:\n- 1 Muharram 1443 AH = August 10, 2021\n- 1 Rajab 1443 AH = February 21, 2022\n\n6th payment date: **2022-02-21**",
+        "target_scores": {
+            "2022-01-04": 1.0,
+            "2022-01-13": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial duration: 7 days\n3. First payment date: 1 Safar 1443 AH\n4. Monthly payments: 1 Safar, 1 Rabi' al-Awwal, 1 Rabi' al-Thani, 1 Jumada al-Awwal, 1 Jumada al-Thani, 1 Rajab, 1 Sha'ban, 1 Ramadan, 1 Shawwal.\n5. 1st payment: 1 Safar 1443 AH\n6. 2nd payment: 1 Rabi' al-Awwal 1443 AH\n7. 3rd payment: 1 Rabi' al-Thani 1443 AH\n8. 4th payment: 1 Jumada al-Awwal 1443 AH\n9. 5th payment: 1 Jumada al-Thani 1443 AH\n10. 6th payment: 1 Rajab 1443 AH\n11. 7th payment: 1 Sha'ban 1443 AH\n12. 8th payment: 1 Ramadan 1443 AH\n13. 9th payment: 1 Shawwal 1443 AH\n\nConverting 1 Shawwal 1443 AH to Gregorian date:\n9th payment date: 2022-05-02\n\nFinal answer: **2022-05-02**",
+        "target_scores": {
+            "2022-04-02": 1.0,
+            "2022-04-13": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 1 Muharram 1443 AH corresponds to August 9, 2021 (Gregorian calendar).\n2. The free trial period lasts for 7 days, ending on August 16, 2021.\n3. The first payment is on August 16, 2021.\n4. Monthly payments occur on the same day thereafter, so the following payment dates are:\n   - 2nd payment: September 16, 2021\n   - 3rd payment: October 16, 2021\n   - 4th payment: November 16, 2021\n   - 5th payment: December 16, 2021\n   - 6th payment: January 16, 2022\n   - 7th payment: February 16, 2022\n   - 8th payment: March 16, 2022\n   - 9th payment: April 16, 2022\n   - 10th payment: May 16, 2022\n   - 11th payment: June 16, 2022\n   - 12th payment: July 16, 2022\n\nFinal date: **2022-07-16**",
+        "target_scores": {
+            "2022-06-30": 1.0,
+            "2022-07-12": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. Free trial duration: 14 days.\n3. End of free trial: 15 Muharram 1443 AH.\n4. First payment date: 1 Safar 1443 AH (one month after 1 Muharram).\n5. Second payment date: 1 Rabi' al-Awwal 1443 AH.\n\nNow, convert the Hijri dates to Gregorian:\n\n- 1 Muharram 1443 AH = 2021-08-10\n- 1 Safar 1443 AH = 2021-09-08\n- 1 Rabi' al-Awwal 1443 AH = 2021-10-07\n\nFinal answer: **2021-10-07**",
+        "target_scores": {
+            "2021-09-08": 1.0,
+            "2021-09-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 1 Muharram 1443 AH corresponds to 2021-08-09 (Gregorian).\n2. The 14-day free trial ends on 15 Muharram 1443 AH, which corresponds to 2021-08-23 (Gregorian).\n3. The first payment is on 1 Safar 1443 AH, which corresponds to 2021-09-07 (Gregorian).\n4. The second payment is on 1 Rabi' al-Awwal 1443 AH, which corresponds to 2021-10-06 (Gregorian).\n5. The third payment is on 1 Rabi' al-Thani 1443 AH, which corresponds to 2021-11-05 (Gregorian).\n\nFinal answer: 2021-11-05",
+        "target_scores": {
+            "2021-10-07": 1.0,
+            "2021-10-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH = August 10, 2021\n2. Free trial ends: 14 days later = August 24, 2021\n3. First payment: September 1, 2021\n4. Second payment: October 1, 2021\n5. Third payment: November 1, 2021\n6. Fourth payment: December 1, 2021\n\nThe Gregorian date for the 4th payment is **2021-12-01**.",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial ends: 15 Muharram 1443 AH\n3. First payment: 1 Safar 1443 AH\n4. Second payment: 1 Rabi' al-Awwal 1443 AH\n5. Third payment: 1 Rabi' al-Thani 1443 AH\n6. Fourth payment: 1 Jumada al-Awwal 1443 AH\n7. Fifth payment: 1 Jumada al-Thani 1443 AH\n8. Sixth payment: 1 Rajab 1443 AH\n\nConverting 1 Rajab 1443 AH to Gregorian date:\n\n- 1 Muharram 1443 AH = 9 August 2021 (Gregorian)\n- Each month in Hijri is approximately 29.5 days.\n\nCalculating the dates:\n\n1. Muharram: 9 August 2021\n2. Safar: 7 September 2021\n3. Rabi' al-Awwal: 6 October 2021\n4. Rabi' al-Thani: 5 November 2021\n5. Jumada al-Awwal: 5 December 2021\n6. Jumada al-Thani: 4 January 2022\n7. Rajab: 3 February 2022\n\nSo, the date for the 6th payment is:\n\n**2022-02-03**",
+        "target_scores": {
+            "2022-01-04": 1.0,
+            "2022-01-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. Trial period of 14 days:\n   - 1 Muharram + 14 days = 15 Muharram 1443 AH.\n3. First billing date after trial (15 Muharram):\n   - 15 Muharram 1443 AH.\n4. Billing occurs monthly on 15 Muharram.\n5. Count 9 payments:\n   - 1st payment: 15 Muharram 1443 AH\n   - 2nd payment: 15 Safar 1443 AH\n   - 3rd payment: 15 Rabi' al-Awwal 1443 AH\n   - 4th payment: 15 Rabi' al-Thani 1443 AH\n   - 5th payment: 15 Jumada al-Awwal 1443 AH\n   - 6th payment: 15 Jumada al-Thani 1443 AH\n   - 7th payment: 15 Rajab 1443 AH\n   - 8th payment: 15 Sha'ban 1443 AH\n   - 9th payment: 15 Ramadan 1443 AH\n6. Convert 15 Ramadan 1443 AH to Gregorian date:\n   - 15 Ramadan 1443 AH = 2022-04-16.\n\nFinal answer: **2022-04-16**",
+        "target_scores": {
+            "2022-04-02": 1.0,
+            "2022-04-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. Free trial period: 14 days.\n3. First payment starts after 14 days: 15 Muharram 1443 AH.\n4. Monthly payments occur on the same Hijri date (15 of each Hijri month).\n\nNow calculate the dates of the payments:\n- 1st payment: 15 Muharram 1443 AH\n- 2nd payment: 15 Safar 1443 AH\n- 3rd payment: 15 Rabi' al-Awwal 1443 AH\n- 4th payment: 15 Rabi' al-Thani 1443 AH\n- 5th payment: 15 Jumada al-Awwal 1443 AH\n- 6th payment: 15 Jumada al-Thani 1443 AH\n- 7th payment: 15 Rajab 1443 AH\n- 8th payment: 15 Sha'ban 1443 AH\n- 9th payment: 15 Ramadan 1443 AH\n- 10th payment: 15 Shawwal 1443 AH\n- 11th payment: 15 Dhul-Qi'dah 1443 AH\n- 12th payment: 15 Dhul-Hijjah 1443 AH\n\nNow convert 15 Dhul-Hijjah 1443 AH to the Gregorian calendar:\n15 Dhul-Hijjah 1443 AH translates to 2022-07-14.\n\nFinal answer: **2022-07-14**",
+        "target_scores": {
+            "2022-06-30": 1.0,
+            "2022-07-19": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. 21-day free trial ends on: 22 Muharram 1443 AH\n3. First payment date: 1 Safar 1443 AH\n4. Second payment date: 1 Rabi' al-Awwal 1443 AH\n\nNow convert these dates to Gregorian calendar:\n\n- 1 Muharram 1443 AH = 2021-08-09\n- 22 Muharram 1443 AH = 2021-08-30\n- 1 Safar 1443 AH = 2021-09-08\n- 1 Rabi' al-Awwal 1443 AH = 2021-10-08\n\nTherefore, the date for the 2nd payment is:\n\n**2021-10-08**",
+        "target_scores": {
+            "2021-09-08": 1.0,
+            "2021-09-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial duration: 21 days\n3. End of trial: 1 Muharram + 21 days = 22 Muharram 1443 AH\n4. First payment date: 22 Muharram 1443 AH\n5. Monthly billing on the same Hijri day:\n   - Second payment: 22 Safar 1443 AH\n   - Third payment: 22 Rabi' al-Awwal 1443 AH\n\n6. Convert 22 Rabi' al-Awwal 1443 AH to Gregorian date:\n   - 22 Rabi' al-Awwal 1443 AH corresponds to 2021-10-27.\n\nFinal answer: **2021-10-27**",
+        "target_scores": {
+            "2021-10-07": 1.0,
+            "2021-10-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial: 21 days\n3. First payment: 1 Safar 1443 AH\n4. Monthly billing occurs on the same Hijri date.\n\nNow, calculate the Gregorian dates:\n\n1. 1 Muharram 1443 AH = August 10, 2021\n2. 1 Safar 1443 AH = September 9, 2021 (First payment)\n3. 1 Rabi' al-Awwal 1443 AH = October 9, 2021 (Second payment)\n4. 1 Rabi' al-Thani 1443 AH = November 8, 2021 (Third payment)\n5. 1 Jumada al-Awwal 1443 AH = December 8, 2021 (Fourth payment)\n\nFinal answer for 4th payment date:\n\n**2021-12-08**",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-28": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 1 Muharram 1443 AH corresponds to 2021-08-09 in Gregorian calendar.\n2. The free trial lasts for 21 days:  \n   2021-08-09 + 21 days = 2021-08-30.\n3. The first payment is on 30 August 2021, and then monthly on the same Hijri day (1 Muharram).\n4. The monthly payments will be on the same day of the subsequent Hijri months (1 Safar, 1 Rabi' al-Awwal, etc.).\n5. Add 5 months to the first payment date for the 6th payment:\n   - 1st payment: 2021-08-30  \n   - 2nd payment: 2021-09-30  \n   - 3rd payment: 2021-10-30  \n   - 4th payment: 2021-11-30  \n   - 5th payment: 2021-12-30  \n   - 6th payment: 2022-01-30  \n6. 1 Muharram 1443 AH = 30 July 2021. Convert 1 Jumada al-Awwal 1443.\n   1 Jumada al-Awwal 1443 corresponds to 2021-12-29.  \n\n7. Therefore, 6th payment date is 2022-01-30.\n\nFinal answer: **2022-01-30**",
+        "target_scores": {
+            "2022-01-04": 1.0,
+            "2022-01-27": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. Free trial duration: 21 days.\n3. Monthly billing date: same Hijri day (1st of each month).\n4. First payment after free trial: 1 Safar 1443 AH.\n5. Subsequent payments: 1 of each following month.\n\n- 1st payment: 1 Safar 1443 AH\n- 2nd payment: 1 Rabi' al-Awwal 1443 AH\n- 3rd payment: 1 Rabi' al-Thani 1443 AH\n- 4th payment: 1 Jumada al-Awwal 1443 AH\n- 5th payment: 1 Jumada al-Thani 1443 AH\n- 6th payment: 1 Rajab 1443 AH\n- 7th payment: 1 Sha'ban 1443 AH\n- 8th payment: 1 Ramadan 1443 AH\n- 9th payment: 1 Shawwal 1443 AH\n\nConversion from Hijri to Gregorian for 1 Shawwal 1443 AH:\n1 Shawwal 1443 AH = 2022-05-02\n\nFinal answer: 2022-05-02",
+        "target_scores": {
+            "2022-04-02": 1.0,
+            "2022-04-27": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. Free trial: 21 days.\n3. First payment: 1 Safar 1443 AH.\n4. Monthly payments occur on the 1st of each month.\n\nCalculating the 12th payment:\n- 1st payment: 1 Safar 1443 AH\n- 12 payments = 11 months after 1 Safar 1443 AH = 1 Jumada al-Awwal 1444 AH\n\nConverting 1 Jumada al-Awwal 1444 AH to Gregorian date:\n- 1 Muharram 1443 AH = August 10, 2021.\n- 1 Safar 1443 AH = September 8, 2021.\n- 1 Jumada al-Awwal 1444 AH = December 7, 2022.\n\nFinal answer:\n**2022-12-07**",
+        "target_scores": {
+            "2022-06-30": 1.0,
+            "2022-07-26": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. 30-day free trial ends: 1 Safar 1443 AH.\n3. First payment date: 1 Safar 1443 AH.\n4. Second payment date: 1 Rabi' al-Awwal 1443 AH.\n\nNow, convert the Hijri dates to Gregorian:\n1. Muharram 1, 1443 AH = August 10, 2021\n2. Safar 1, 1443 AH = September 8, 2021\n3. Rabi' al-Awwal 1, 1443 AH = October 7, 2021\n\nTherefore, the second payment date in Gregorian format is:\n\n**2021-10-07**",
+        "target_scores": {
+            "2021-10-07": 1.0,
+            "2021-10-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH  \n2. Free trial duration: 30 days  \n3. End of free trial: 1 Safar 1443 AH  \n4. First payment date: 1 Safar 1443 AH  \n5. Second payment date: 1 Rabi' al-Awwal 1443 AH  \n6. Third payment date: 1 Rabi' al-Thani 1443 AH  \n\nNow, convert 1 Rabi' al-Thani 1443 AH to the Gregorian calendar:\n\n1. 1 Muharram 1443 AH corresponds to 9 August 2021  \n2. Rabi' al-Thani is the 4th month of the Islamic calendar.  \n3. Count the months: Muharram (1), Safar (2), Rabi' al-Awwal (3), Rabi' al-Thani (4)  \n4. Total months from 1 Muharram to 1 Rabi' al-Thani: 3 months.  \n5. Approximately 30 days per month: 90 days after 9 August 2021 is 7 November 2021.\n\nTherefore, the Gregorian date for the 3rd payment is:\n\n2021-11-07",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH (Gregorian date: 2021-08-09).\n2. Trial period: 30 days (End of trial: 1 Safar 1443 AH, Gregorian date: 2021-09-07).\n3. First payment: 1 Safar 1443 AH (Gregorian date: 2021-09-07).\n4. Second payment: 1 Rabi' al-Awwal 1443 AH (Gregorian date: 2021-10-06).\n5. Third payment: 1 Rabi' al-Thani 1443 AH (Gregorian date: 2021-11-05).\n6. Fourth payment: 1 Jumada al-Awwal 1443 AH (Gregorian date: 2021-12-05).\n\nFinal answer: **2021-12-05**",
+        "target_scores": {
+            "2021-12-05": 1.0,
+            "2021-12-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. 30-day free trial ends on: 1 Safar 1443 AH.\n3. First payment date: 1 Safar 1443 AH.\n4. Monthly payments: 1 Safar, 1 Rabi\u2019 I, 1 Rabi\u2019 II, 1 Jumada I, 1 Jumada II, 1 Rajab.\n5. 6th payment date: 1 Rajab 1443 AH.\n6. Convert 1 Rajab 1443 AH to Gregorian: 2022-02-01.\n\nFinal date: **2022-02-01**.",
+        "target_scores": {
+            "2022-02-02": 1.0,
+            "2022-02-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. 30-day free trial ends on: 1 Safar 1443 AH\n3. First payment: 1 Safar 1443 AH\n4. 2nd payment: 1 Rabi' al-Awwal 1443 AH\n5. 3rd payment: 1 Rabi' al-Thani 1443 AH\n6. 4th payment: 1 Jumada al-Awwal 1443 AH\n7. 5th payment: 1 Jumada al-Thani 1443 AH\n8. 6th payment: 1 Rajab 1443 AH\n9. 7th payment: 1 Sha'ban 1443 AH\n10. 8th payment: 1 Ramadan 1443 AH\n11. 9th payment: 1 Shawwal 1443 AH\n\nConverting 1 Shawwal 1443 AH to Gregorian date:\n\n1. Shawwal 1443 AH corresponds to 2022.\n2. Shawwal starts on May 3, 2022.\n\nFinal result: 2022-05-03",
+        "target_scores": {
+            "2022-05-02": 1.0,
+            "2022-05-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date (1 Muharram 1443 AH) corresponds to Gregorian date: 2021-08-09.\n2. Free trial duration: 30 days.\n3. First billing date: 2021-09-08 (1 Safar 1443 AH).\n4. Monthly payment occurs on the same Hijri day (1st of the month).\n5. Payment dates:\n   - 1st payment: 2021-09-08\n   - 2nd payment: 2021-10-08\n   - 3rd payment: 2021-11-08\n   - 4th payment: 2021-12-08\n   - 5th payment: 2022-01-08\n   - 6th payment: 2022-02-08\n   - 7th payment: 2022-03-08\n   - 8th payment: 2022-04-08\n   - 9th payment: 2022-05-08\n   - 10th payment: 2022-06-08\n   - 11th payment: 2022-07-08\n   - 12th payment: 2022-08-08\n\n12th payment Gregorian date: 2022-08-08.",
+        "target_scores": {
+            "2022-07-30": 1.0,
+            "2022-08-04": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. 45-day free trial period ends on: 15 Safar 1443 AH.\n3. First payment occurs on: 1 Rabi' al-Awwal 1443 AH.\n4. Second payment occurs on: 1 Safar 1444 AH.\n\nConverting the Hijri dates to Gregorian dates:\n- 1 Muharram 1443 AH corresponds to 2021-08-10.\n- Therefore, 1 Safar 1444 AH corresponds to 2022-09-27.\n\nFinal answer: **2022-09-27**.",
+        "target_scores": {
+            "2021-10-07": 1.0,
+            "2021-10-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH.\n2. Free trial period: 45 days.\n3. End of free trial: 1 Muharram 1443 + 45 days = 15 Safar 1443 AH.\n4. 1st payment: 15 Safar 1443.\n5. 2nd payment: 15 Rabi' al-Awwal 1443.\n6. 3rd payment: 15 Rabi' al-Thani 1443.\n\nNow, convert these Hijri dates to Gregorian:\n\n1. 1 Muharram 1443 AH = August 10, 2021 (Gregorian).\n2. 15 Safar 1443 = September 24, 2021 (Gregorian).\n3. 15 Rabi' al-Awwal 1443 = October 24, 2021 (Gregorian).\n4. 15 Rabi' al-Thani 1443 = November 23, 2021 (Gregorian).\n\n3rd payment date in Gregorian: **2021-11-23**.",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 1 Muharram 1443 AH corresponds to August 9, 2021.\n2. 45-day free trial ends on September 22, 2021.\n3. First payment is on September 22, 2021.\n4. Second payment is on October 22, 2021.\n5. Third payment is on November 22, 2021.\n6. Fourth payment is on December 22, 2021.\n\nFinal answer: **2021-12-22**",
+        "target_scores": {
+            "2021-12-05": 1.0,
+            "2021-12-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial period: 45 days\n3. End of free trial: 1 Muharram 1443 AH + 45 days = 15 Safar 1443 AH\n4. First payment date: 15 Safar 1443 AH (1st month after trial)\n5. 6th payment date: 5 additional months after first payment\n6. 1st payment: 15 Safar 1443 AH\n7. 2nd payment: 15 Rabi' al-Awwal 1443 AH\n8. 3rd payment: 15 Rabi' al-Thani 1443 AH\n9. 4th payment: 15 Jumada al-Awwal 1443 AH\n10. 5th payment: 15 Jumada al-Thani 1443 AH\n11. 6th payment: 15 Rajab 1443 AH\n\nConverting 15 Rajab 1443 AH to Gregorian date:\n- 1443 AH corresponds to 2021-2022 AD.\n- Rajab 15, 1443 AH is approximately 2022-02-15.\n\nFinal answer: **2022-02-15**",
+        "target_scores": {
+            "2022-02-02": 1.0,
+            "2022-02-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 1 Muharram 1443 AH corresponds to August 9, 2021.\n2. 45-day free trial ends on 15 Safar 1443 AH, which is September 22, 2021.\n3. First payment is on September 22, 2021.\n4. Monthly payments are due on the 22nd of each month thereafter.\n5. Counting the payments: \n   - 1st payment: September 22, 2021\n   - 2nd payment: October 22, 2021\n   - 3rd payment: November 22, 2021\n   - 4th payment: December 22, 2021\n   - 5th payment: January 22, 2022\n   - 6th payment: February 22, 2022\n   - 7th payment: March 22, 2022\n   - 8th payment: April 22, 2022\n   - 9th payment: May 22, 2022\n6. Gregorian date for the 9th payment: **2022-05-22**.",
+        "target_scores": {
+            "2022-05-02": 1.0,
+            "2022-05-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. 45-day free trial ends: 1 Muharram + 45 days = 15 Safar 1443 AH\n3. Monthly billing starts on: 15 Safar 1443 AH\n4. Payments occur every month on the 15th until the 12th payment.\n\nCalculating the Hijri dates:\n\n- 1st payment: 15 Safar 1443 AH\n- 2nd payment: 15 Rabi' al-Awwal 1443 AH\n- 3rd payment: 15 Rabi' al-Thani 1443 AH\n- 4th payment: 15 Jumada al-Awwal 1443 AH\n- 5th payment: 15 Jumada al-Thani 1443 AH\n- 6th payment: 15 Rajab 1443 AH\n- 7th payment: 15 Sha'ban 1443 AH\n- 8th payment: 15 Ramadan 1443 AH\n- 9th payment: 15 Shawwal 1443 AH\n- 10th payment: 15 Dhu al-Qi'dah 1443 AH\n- 11th payment: 15 Dhu al-Hijjah 1443 AH\n- 12th payment: 15 Muharram 1444 AH\n\nConverting 15 Muharram 1444 AH to Gregorian date:\n\n- Hijri: 15 Muharram 1444 AH corresponds to Gregorian: 2022-07-24\n\nFinal answer:\n\n2022-07-24",
+        "target_scores": {
+            "2022-07-30": 1.0,
+            "2022-08-19": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. 60-day free trial ends: 1 Safar 1443 AH\n3. First payment date: 1 Safar 1443 AH\n4. Next month (2nd payment): 1 Rabi' al-Awwal 1443 AH\n\nConversion to Gregorian:\n\n1. 1 Muharram 1443 AH = August 10, 2021 (Gregorian)\n2. 1 Safar 1443 AH = September 9, 2021 (Gregorian)\n3. 1 Rabi' al-Awwal 1443 AH = October 9, 2021 (Gregorian)\n\nFinal answer: **2021-10-09**",
+        "target_scores": {
+            "2021-11-06": 1.0,
+            "2021-11-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Free trial duration: 60 days\n3. End of free trial: 1 Muharram 1443 AH + 60 days = 30 Safar 1443 AH\n4. First payment date: 1 Rabi' al-Awwal 1443 AH\n5. Second payment date: 1 Rabi' al-Thani 1443 AH\n6. Third payment date: 1 Jumada al-Awwal 1443 AH\n\nNow converting Hijri dates to Gregorian:\n\n1. 1 Muharram 1443 AH = 2021-08-09\n2. 1 Rabi' al-Awwal 1443 AH = 2021-10-15\n3. 1 Rabi' al-Thani 1443 AH = 2021-11-14\n4. 1 Jumada al-Awwal 1443 AH = 2021-12-14\n\nThus, the date for the 3rd payment is:\n\n**2021-12-14**",
+        "target_scores": {
+            "2021-12-05": 1.0,
+            "2021-12-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. 60-day free trial ends: 1 Safar 1443 AH\n3. First payment: 1 Safar 1443 AH\n4. Second payment: 1 Rabi' al-Awwal 1443 AH\n5. Third payment: 1 Rabi' al-Thani 1443 AH\n6. Fourth payment: 1 Jumada al-Awwal 1443 AH\n\nNow, convert 1 Jumada al-Awwal 1443 AH to Gregorian date.\n\n1. Muharram 1, 1443 AH corresponds to August 9, 2021\n2. Jumada al-Awwal is the 5th month in the Hijri calendar.\n3. 1 Jumada al-Awwal 1443 AH is 4 months from 1 Muharram 1443 AH.\n\nCounting 4 months from 1 Muharram 1443 (August 9, 2021):\n- Muharram: August 9, 2021\n- Safar: September 8, 2021\n- Rabi' al-Awwal: October 8, 2021\n- Rabi' al-Thani: November 7, 2021\n- Jumada al-Awwal: December 7, 2021\n\nThus, the Gregorian date for the 4th payment is **2021-12-07**.",
+        "target_scores": {
+            "2022-01-04": 1.0,
+            "2022-01-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 1 Muharram 1443 AH is equivalent to 2021-08-09 in the Gregorian calendar.\n2. The 60-day free trial ends on 2021-10-07 (2 days in Muharram + 30 days in Safar + 28 days in Rabi' al-Awwal).\n3. The first payment date is 2021-10-07 (start of billing).\n4. Monthly payments occur on the same Hijri date, so first payment (1 Safar 1443 AH) is on 2021-10-07.\n5. Following payments will be on:\n   - 2nd payment: 2021-11-07\n   - 3rd payment: 2021-12-07\n   - 4th payment: 2022-01-07\n   - 5th payment: 2022-02-07\n   - 6th payment: 2022-03-07\n6. The Gregorian date for the 6th payment is 2022-03-07. \n\nFinal answer: 2022-03-07",
+        "target_scores": {
+            "2022-03-04": 1.0,
+            "2022-03-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. Add 60-day free trial: \n   - End of trial: 1 Rabi' al-Awwal 1443 AH\n3. Monthly billing starts: 1 Rabi' al-Awwal 1443 AH\n4. Calculate the 9th payment date: \n   - 1st payment: 1 Rabi' al-Awwal\n   - 2nd payment: 1 Jumada al-Awwal\n   - 3rd payment: 1 Jumada al-Thani\n   - 4th payment: 1 Rajab\n   - 5th payment: 1 Sha'ban\n   - 6th payment: 1 Ramadan\n   - 7th payment: 1 Shawwal\n   - 8th payment: 1 Dhul-Qi'dah\n   - 9th payment: 1 Dhul-Hijjah\n  \n5. Date of 1 Dhul-Hijjah 1443 AH in Gregorian calendar: \n   - 1 Muharram 1443 AH corresponds to 2021-08-09.\n   - 1 Dhul-Hijjah 1443 AH corresponds to 2022-07-30.\n\nFinal answer: **2022-07-30**",
+        "target_scores": {
+            "2022-05-31": 1.0,
+            "2022-06-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 1 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 1 Muharram 1443 AH\n2. 60-day free trial ends on: 1 Safar 1443 AH (2 months = 60 days)\n3. First payment: 1 Safar 1443 AH\n4. Monthly payments start after the free trial. Therefore, payments are due on 1st of each Hijri month.\n5. 1st payment: 1 Safar 1443 AH\n6. 2nd payment: 1 Rabi' al-Awwal 1443 AH\n7. 3rd payment: 1 Rabi' al-Thani 1443 AH\n8. 4th payment: 1 Jumada al-Awwal 1443 AH\n9. 5th payment: 1 Jumada al-Thani 1443 AH\n10. 6th payment: 1 Rajab 1443 AH\n11. 7th payment: 1 Sha'ban 1443 AH\n12. 8th payment: 1 Ramadan 1443 AH\n13. 9th payment: 1 Shawwal 1443 AH\n14. 10th payment: 1 Dhu al-Qi'dah 1443 AH\n15. 11th payment: 1 Dhu al-Hijjah 1443 AH\n16. 12th payment: 1 Muharram 1444 AH\n\nNow convert 1 Muharram 1444 AH to Gregorian:\n\n1 Muharram 1444 AH corresponds to 30 July 2022.\n\nThus, the Gregorian date for the 12th payment is **2022-07-30**.",
+        "target_scores": {
+            "2022-08-28": 1.0,
+            "2022-09-03": 0.0
+        },
+        "metadata": {
+            "start_hijri": "1 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial ends: 22 Muharram 1443 AH\n3. First payment date: 22 Muharram 1443 AH\n4. Second payment date: 22 Safar 1443 AH\n\nNow, convert 22 Safar 1443 AH to Gregorian date.\n\n**22 Safar 1443 AH is 2021-09-29.**\n\nSo, the second payment date is:\n\n**2021-09-29**",
+        "target_scores": {
+            "2021-09-22": 1.0,
+            "2021-09-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial: 7 days\n3. Trial ends on: 22 Muharram 1443 AH\n4. First payment: 15 Safar 1443 AH\n5. Second payment: 15 Rabi' al-Awwal 1443 AH\n6. Third payment: 15 Rabi' al-Thani 1443 AH\n\nNow, convert the Hijri dates to Gregorian:\n\n- 15 Muharram 1443 AH corresponds to 24 August 2021.\n- 15 Safar 1443 AH corresponds to 23 September 2021.\n- 15 Rabi' al-Awwal 1443 AH corresponds to 22 October 2021.\n- 15 Rabi' al-Thani 1443 AH corresponds to 21 November 2021.\n\nFinal answer: **2021-11-21**",
+        "target_scores": {
+            "2021-10-21": 1.0,
+            "2021-10-29": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial duration: 7 days\n3. First payment date: 15 Safar 1443 AH (1 month after 15 Muharram 1443 AH)\n4. Second payment date: 15 Rabi' al-Awwal 1443 AH (1 month after 15 Safar 1443 AH)\n5. Third payment date: 15 Rabi' al-Thani 1443 AH (1 month after 15 Rabi' al-Awwal 1443 AH)\n6. Fourth payment date: 15 Jumada al-Awwal 1443 AH (1 month after 15 Rabi' al-Thani 1443 AH)\n\nNow, convert 15 Jumada al-Awwal 1443 AH to Gregorian date:\n\n15 Jumada al-Awwal 1443 AH = 2021-12-19\n\nFinal answer: 2021-12-19",
+        "target_scores": {
+            "2021-11-20": 1.0,
+            "2021-11-28": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial: 7 days\n3. End of trial: 22 Muharram 1443 AH\n4. First payment: 22 Muharram 1443 AH\n5. Monthly payment: 22nd of each following calendar month.\n\nCalculating Hijri months:\n- 2nd payment: 22 Safar 1443 AH\n- 3rd payment: 22 Rabi' al-Awwal 1443 AH\n- 4th payment: 22 Rabi' al-Thani 1443 AH\n- 5th payment: 22 Jumada al-Awwal 1443 AH\n- 6th payment: 22 Jumada al-Thani 1443 AH\n\nNow converting to Gregorian:\n- 15 Muharram 1443 AH = August 23, 2021\n- 22 Muharram 1443 AH = August 30, 2021\n- 22 Safar 1443 AH = September 30, 2021\n- 22 Rabi' al-Awwal 1443 AH = October 30, 2021\n- 22 Rabi' al-Thani 1443 AH = November 29, 2021\n- 22 Jumada al-Awwal 1443 AH = December 29, 2021\n- 22 Jumada al-Thani 1443 AH = January 28, 2022\n\nTherefore, the 6th payment is on January 28, 2022.\n\nAnswer: 2022-01-28",
+        "target_scores": {
+            "2022-01-18": 1.0,
+            "2022-01-27": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH (Gregorian date: 23 August 2021).\n2. Free trial ends: 22 August 2021.\n3. First payment: 23 August 2021.\n4. Monthly billing occurs on the 23rd of each month.\n\nPayments:\n- 1st payment: 23 August 2021\n- 2nd payment: 23 September 2021\n- 3rd payment: 23 October 2021\n- 4th payment: 23 November 2021\n- 5th payment: 23 December 2021\n- 6th payment: 23 January 2022\n- 7th payment: 23 February 2022\n- 8th payment: 23 March 2022\n- 9th payment: 23 April 2022\n\n9th payment Gregorian date: **2022-04-23**",
+        "target_scores": {
+            "2022-04-16": 1.0,
+            "2022-04-27": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. 7-day free trial ends: 22 Muharram 1443 AH\n3. First payment date: 22 Muharram 1443 AH\n4. Monthly payments are due on 22nd of each month.\n5. Payments occur on: 22 Muharram, Safar, Rabi' al-Awwal, Rabi' al-Thani, Jumada al-Awwal, Jumada al-Thani, Rajab, Sha'ban, Ramadan, Shawwal, Dhul-Qi'dah, Dhul-Hijjah\n6. 12th payment date: 22 Dhul-Hijjah 1443 AH\n\nConvert 22 Dhul-Hijjah 1443 AH to Gregorian:\n- 1443 AH corresponds to 2021 \u2013 2022 in the Gregorian calendar.\n- 22 Dhul-Hijjah 1443 AH is: 2022-07-21\n\nFinal answer: **2022-07-21**",
+        "target_scores": {
+            "2022-07-14": 1.0,
+            "2022-07-26": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial duration: 14 days\n3. End of free trial: 29 Muharram 1443 AH\n4. First payment date: 15 Safar 1443 AH\n5. Second payment date: 15 Rabi' al-Awwal 1443 AH\n\nNow converting the Hijri dates to Gregorian:\n\n- 15 Muharram 1443 AH = 2021-08-23\n- 15 Safar 1443 AH = 2021-09-22\n- 15 Rabi' al-Awwal 1443 AH = 2021-10-21\n\nFinal result for the second payment date: \n\n2021-10-21",
+        "target_scores": {
+            "2021-09-22": 1.0,
+            "2021-10-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. 14-day free trial ends on: 1 Safar 1443 AH\n3. First payment date: 1 Safar 1443 AH\n4. Second payment date: 1 Rabi' al-Awwal 1443 AH\n5. Third payment date: 1 Rabi' al-Thani 1443 AH\n\nNow converting these dates to Gregorian:\n\n1. 15 Muharram 1443 AH = 2021-08-23\n2. 1 Safar 1443 AH = 2021-09-07\n3. 1 Rabi' al-Awwal 1443 AH = 2021-10-06\n4. 1 Rabi' al-Thani 1443 AH = 2021-11-05\n\nThe Gregorian date for the 3rd payment is **2021-11-05**.",
+        "target_scores": {
+            "2021-10-21": 1.0,
+            "2021-11-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial ends: 29 Muharram 1443 AH (14 days later)\n3. First payment date: 15 Safar 1443 AH\n4. Second payment date: 15 Rabi' al-Awwal 1443 AH\n5. Third payment date: 15 Rabi' al-Thani 1443 AH\n6. Fourth payment date: 15 Jumada al-Awwal 1443 AH\n\nNow, convert each Hijri date to Gregorian date:\n\n- 15 Muharram 1443 AH: August 23, 2021\n- 15 Safar 1443 AH: September 22, 2021\n- 15 Rabi' al-Awwal 1443 AH: October 22, 2021\n- 15 Rabi' al-Thani 1443 AH: November 21, 2021\n- 15 Jumada al-Awwal 1443 AH: December 21, 2021\n\nThus, the 4th payment date in Gregorian calendar is:\n\n**2021-12-21**",
+        "target_scores": {
+            "2021-11-20": 1.0,
+            "2021-12-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial ends: 29 Muharram 1443 AH\n3. 1st payment date: 15 Safar 1443 AH\n4. 2nd payment date: 15 Rabi' al-Awwal 1443 AH\n5. 3rd payment date: 15 Rabi' al-Thani 1443 AH\n6. 4th payment date: 15 Jumada al-Awwal 1443 AH\n7. 5th payment date: 15 Jumada al-Thani 1443 AH\n8. 6th payment date: 15 Rajab 1443 AH\n\nConvert 15 Rajab 1443 AH to Gregorian date:\n\n- 15 Rajab 1443 AH is equivalent to 2022-02-16.\n\nFinal answer: 2022-02-16.",
+        "target_scores": {
+            "2022-01-18": 1.0,
+            "2022-02-03": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. 14-day free trial ends: 29 Muharram 1443 AH.\n3. First payment date: 15 Safar 1443 AH.\n4. Monthly billing dates: 15 of each succeeding month.\n\nCalculate next payments:\n- 2nd payment: 15 Rabi' al-Awwal 1443 AH\n- 3rd payment: 15 Rabi' al-Thani 1443 AH\n- 4th payment: 15 Jumada al-Awwal 1443 AH\n- 5th payment: 15 Jumada al-Thani 1443 AH\n- 6th payment: 15 Rajab 1443 AH\n- 7th payment: 15 Sha'ban 1443 AH\n- 8th payment: 15 Ramadan 1443 AH\n- 9th payment: 15 Shawwal 1443 AH\n\nConvert 15 Shawwal 1443 AH to Gregorian:\n15 Shawwal 1443 AH corresponds to 2022-05-16.\n\nFinal answer: **2022-05-16**.",
+        "target_scores": {
+            "2022-04-16": 1.0,
+            "2022-05-04": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. 14-day free trial ends on: 14 Safar 1443 AH.\n3. First payment date: 15 Safar 1443 AH.\n4. Each payment is monthly, so the payment dates are:\n   - 1st payment: 15 Safar 1443 AH\n   - 2nd payment: 15 Rabi' al-Awwal 1443 AH\n   - 3rd payment: 15 Rabi' al-Thani 1443 AH\n   - 4th payment: 15 Jumada al-Awwal 1443 AH\n   - 5th payment: 15 Jumada al-Thani 1443 AH\n   - 6th payment: 15 Rajab 1443 AH\n   - 7th payment: 15 Sha'ban 1443 AH\n   - 8th payment: 15 Ramadan 1443 AH\n   - 9th payment: 15 Shawwal 1443 AH\n   - 10th payment: 15 Dhul-Qi'dah 1443 AH\n   - 11th payment: 15 Dhul-Hijjah 1443 AH\n   - 12th payment: 15 Muharram 1444 AH\n\n5. Convert 15 Muharram 1444 AH to Gregorian:\n   - 15 Muharram 1444 AH corresponds to September 3, 2022.\n\nFinal answer: **2022-09-03**",
+        "target_scores": {
+            "2022-07-14": 1.0,
+            "2022-08-02": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. 21 days free trial: 15 Muharram + 21 days = 6 Safar 1443 AH\n3. First payment date: 6 Safar 1443 AH (next month on the same day)\n4. Convert 6 Safar 1443 AH to Gregorian date: \n   6 Safar 1443 AH corresponds to 2021-09-13.\n\nFinal answer: 2021-09-13",
+        "target_scores": {
+            "2021-09-22": 1.0,
+            "2021-09-13": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 1,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. 21-day free trial ends: 5 Safar 1443 AH.\n3. First payment date: 15 Safar 1443 AH.\n4. Second payment date: 15 Rabi' al-Awwal 1443 AH.\n\nNow convert Hijri to Gregorian:\n- 15 Muharram 1443 AH corresponds to 2021-08-23 in Gregorian.\n\nAdd the necessary months:\n- 15 Safar 1443 AH corresponds to 2021-09-22 in Gregorian.\n- 15 Rabi' al-Awwal 1443 AH corresponds to 2021-10-21 in Gregorian.\n\nFinal answer:\n\n2021-10-21",
+        "target_scores": {
+            "2021-10-21": 1.0,
+            "2021-10-13": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 15 Muharram 1443 AH is equivalent to 2021-08-23 in the Gregorian calendar.\n2. The 21-day free trial lasts until 15 Safar 1443 AH, which is equivalent to 2021-09-12.\n3. The first payment is made on 15 Safar 1443 AH (2021-09-12).\n4. The second payment is made on 15 Rabi' al-Awwal 1443 AH, which is equivalent to 2021-10-11.\n5. The third payment is made on 15 Rabi' al-Thani 1443 AH, which is equivalent to 2021-11-10.\n\nFinal answer: 2021-11-10",
+        "target_scores": {
+            "2021-11-20": 1.0,
+            "2021-11-12": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH  \n2. Free trial ends after 21 days: 15 Muharram + 21 days = 6 Safar 1443 AH  \n3. First payment date: 6 Safar 1443 AH + 1 month = 6 Rabi' al-Awwal 1443 AH  \n4. Second payment date: 6 Rabi' al-Awwal 1443 AH + 1 month = 6 Rabi' al-Thani 1443 AH  \n5. Third payment date: 6 Rabi' al-Thani 1443 AH + 1 month = 6 Jumada al-Awwal 1443 AH  \n6. Fourth payment date: 6 Jumada al-Awwal 1443 AH + 1 month = 6 Jumada al-Thani 1443 AH  \n\nConvert 6 Jumada al-Thani 1443 AH to Gregorian date:  \n6 Jumada al-Thani 1443 AH corresponds to 9 January 2022.\n\nFinal answer: 2022-01-09",
+        "target_scores": {
+            "2021-12-19": 1.0,
+            "2021-12-12": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial: 21 days\n3. End of trial: 15 Muharram + 21 days = 5 Safar 1443 AH\n4. First payment: 5 Safar 1443 AH\n5. Monthly billing: 5 Safar, 5 Rabi' al-Awwal, 5 Rabi' al-Thani, 5 Jumada al-Awwal, 5 Jumada al-Thani, 5 Rajab\n6. 6th payment: 5 Rajab 1443 AH\n7. Convert to Gregorian: \n   - 5 Rajab 1443 AH = 2022-02-06\n\nFinal answer: **2022-02-06**",
+        "target_scores": {
+            "2022-02-16": 1.0,
+            "2022-02-10": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 15 Muharram 1443 AH is the subscription start date.\n2. The free trial lasts 21 days: \n   - 15 Muharram 1443 + 21 days = 5 Safar 1443 AH (end of trial).\n3. After the trial, billing starts on 5 Safar 1443 AH.\n4. Monthly billing occurs on the same date:\n   - 1st Payment: 5 Safar 1443 AH\n   - 2nd Payment: 5 Rabi' al-Awwal 1443 AH\n   - 3rd Payment: 5 Rabi' al-Thani 1443 AH\n   - 4th Payment: 5 Jumada al-Awwal 1443 AH\n   - 5th Payment: 5 Jumada al-Thani 1443 AH\n   - 6th Payment: 5 Rajab 1443 AH\n   - 7th Payment: 5 Sha'ban 1443 AH\n   - 8th Payment: 5 Ramadan 1443 AH\n   - 9th Payment: 5 Shawwal 1443 AH\n5. Convert 5 Shawwal 1443 AH to Gregorian date:\n   - 5 Shawwal 1443 AH corresponds to 2022-05-06.\n\nFinal answer: 2022-05-06",
+        "target_scores": {
+            "2022-05-16": 1.0,
+            "2022-05-11": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial duration: 21 days\n3. First payment date: 15 Safar 1443 AH (on the 21st day after the start date)\n4. Monthly billing starts: 15 Safar 1443 AH\n5. Calculate the date for the 12th payment: \n\n- 12th payment is 11 months after the first payment.\n- 11 months after 15 Safar 1443 AH is 15 Rabi' al-Thani 1444 AH.\n\n6. Convert 15 Rabi' al-Thani 1444 AH to Gregorian date: \n\n- 15 Rabi' al-Thani 1444 AH corresponds to 2022-12-09 in the Gregorian calendar.\n\nFinal answer: 2022-12-09",
+        "target_scores": {
+            "2022-08-13": 1.0,
+            "2022-08-09": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Add 30 days for the free trial: 15 Muharram + 30 days = 15 Safar 1443 AH\n3. First payment date: 15 Safar 1443 AH\n4. Second payment date: 15 Rabi' al-Awwal 1443 AH\n\nConvert these dates to Gregorian:\n\n- 15 Muharram 1443 AH = September 23, 2021\n- 15 Safar 1443 AH = October 22, 2021\n- 15 Rabi' al-Awwal 1443 AH = November 21, 2021\n\nSo, the date for the 2nd payment is:\n\n**2021-11-21**",
+        "target_scores": {
+            "2021-10-21": 1.0,
+            "2021-10-22": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH (Gregorian equivalent: 2021-08-23).\n2. Free trial period: 30 days.\n3. End of free trial: 15 Safar 1443 AH (Gregorian equivalent: 2021-09-22).\n4. 1st payment: 15 Safar 1443 AH (Gregorian equivalent: 2021-09-22).\n5. 2nd payment: 15 Rabi' al-Awwal 1443 AH (Gregorian equivalent: 2021-10-21).\n6. 3rd payment: 15 Rabi' al-Thani 1443 AH (Gregorian equivalent: 2021-11-19).\n\nFinal answer: **2021-11-19**.",
+        "target_scores": {
+            "2021-11-20": 1.0,
+            "2021-11-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 15 Muharram 1443 AH is September 23, 2021, Gregorian date.\n2. The free trial lasts for 30 days, so the trial ends on October 23, 2021.\n3. The first payment will be on October 23, 2021.\n4. Subsequent payments will be on the 23rd of each month.\n5. Second payment: November 23, 2021\n6. Third payment: December 23, 2021\n7. Fourth payment: January 23, 2022\n\nFinal answer: 2022-01-23",
+        "target_scores": {
+            "2021-12-19": 1.0,
+            "2021-12-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date of subscription: 15 Muharram 1443 AH.\n2. Free trial duration: 30 days.\n3. Subscription billing starts: 15 Safar 1443 AH (after 30 days).\n4. Monthly billing: 15 of each month.\n\nPayments after free trial:\n1. 1st payment: 15 Safar 1443 AH\n2. 2nd payment: 15 Rabi' al-Awwal 1443 AH\n3. 3rd payment: 15 Rabi' al-Thani 1443 AH\n4. 4th payment: 15 Jumada al-Awwal 1443 AH\n5. 5th payment: 15 Jumada al-Thani 1443 AH\n6. 6th payment: 15 Rajab 1443 AH\n\nCalculating the Gregorian date for 15 Rajab 1443 AH gives us:\n- Gregorian equivalent for 15 Rajab 1443 AH is 2022-02-16.\n\nSo, the 6th payment date is: **2022-02-16**.",
+        "target_scores": {
+            "2022-02-16": 1.0,
+            "2022-02-19": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. 30-day free trial ends: 15 Safar 1443 AH\n3. First payment date: 15 Safar 1443 AH\n4. Monthly payments continue on the 15th of each subsequent month.\n\nPayment schedule:\n- 1st payment: 15 Safar 1443 AH\n- 2nd payment: 15 Rabi' al-Awwal 1443 AH\n- 3rd payment: 15 Rabi' al-Thani 1443 AH\n- 4th payment: 15 Jumada al-Awwal 1443 AH\n- 5th payment: 15 Jumada al-Thani 1443 AH\n- 6th payment: 15 Rajab 1443 AH\n- 7th payment: 15 Sha'ban 1443 AH\n- 8th payment: 15 Ramadan 1443 AH\n- 9th payment: 15 Shawwal 1443 AH\n\nConvert 15 Shawwal 1443 AH to Gregorian date:\n- 15 Shawwal 1443 AH corresponds to: 2022-05-16\n\nFinal answer: 2022-05-16",
+        "target_scores": {
+            "2022-05-16": 1.0,
+            "2022-05-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial duration: 30 days\n3. Monthly billing starts after the trial.\n\nTrial ends on: 15 Safar 1443 AH\n\n4. Monthly billing starts on: 15 Safar 1443 AH\n5. 12 payments correspond to 12 months.\n\nPayment dates:\n- 1st payment: 15 Safar 1443 AH\n- 2nd payment: 15 Rabi' al-Awwal 1443 AH\n- 3rd payment: 15 Rabi' al-Thani 1443 AH\n- 4th payment: 15 Jumada al-Awwal 1443 AH\n- 5th payment: 15 Jumada al-Thani 1443 AH\n- 6th payment: 15 Rajab 1443 AH\n- 7th payment: 15 Sha'ban 1443 AH\n- 8th payment: 15 Ramadan 1443 AH\n- 9th payment: 15 Shawwal 1443 AH\n- 10th payment: 15 Dhul-Qi'dah 1443 AH\n- 11th payment: 15 Dhul-Hijjah 1443 AH\n- 12th payment: 15 Muharram 1444 AH\n\n6. Convert 15 Muharram 1444 AH to Gregorian date:\n   - 15 Muharram 1444 AH is equivalent to September 2, 2022.\n\nFinal answer:\n2022-09-02",
+        "target_scores": {
+            "2022-08-13": 1.0,
+            "2022-08-18": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. The start date is 15 Muharram 1443 AH.\n2. Add 45 days to the start date.\n3. 15 Muharram 1443 AH corresponds to 2021-08-23 in the Gregorian calendar.\n4. Adding 45 days gives us 2021-09-06.\n5. The first payment is billed on the same Hijri day: 15 Safar 1443 AH.\n6. 15 Safar 1443 AH corresponds to 2021-09-21 in the Gregorian calendar.\n7. Thus, the date of the first payment is 2021-09-21.\n\nFinal answer: 2021-09-21",
+        "target_scores": {
+            "2021-10-21": 1.0,
+            "2021-10-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 1,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial duration: 45 days\n3. 15 Muharram 1443 AH corresponds to September 23, 2021 (Gregorian)\n4. Add 45 days to September 23, 2021: November 7, 2021 (end of free trial)\n5. First payment is due on 15 Safar 1443 AH, which is October 8, 2021 (Gregorian)\n6. Second payment is due on 15 Rabi' al-Awwal 1443 AH, which is November 6, 2021 (Gregorian)\n\nThus, the date for the 2nd payment is **2021-11-06**.",
+        "target_scores": {
+            "2021-11-20": 1.0,
+            "2021-11-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. 45-day free trial ends on: 15 Muharram 1443 AH + 45 days = 29 Safar 1443 AH.\n3. First payment date (after the trial): 15 Rabi' al-awwal 1443 AH.\n4. Second payment date: 15 Rab\u012b' al-th\u0101n\u012b 1443 AH.\n5. Third payment date: 15 Jumada al-awwal 1443 AH.\n\nNow, convert Hijri dates to Gregorian:\n\n- 15 Muharram 1443 AH = 2021-08-23\n- 15 Safar 1443 AH = 2021-09-22\n- 15 Rabi' al-awwal 1443 AH = 2021-10-22\n- 15 Rab\u012b' al-th\u0101n\u012b 1443 AH = 2021-11-22\n- 15 Jumada al-awwal 1443 AH = 2021-12-22\n\nThus, the Gregorian date for the 3rd payment is:\n\n**2021-12-22**",
+        "target_scores": {
+            "2021-12-19": 1.0,
+            "2021-12-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. Free trial duration: 45 days.\n3. End of free trial: 15 Muharram + 45 days = 29 Safar 1443 AH.\n4. First payment date: 29 Safar + 1 month = 15 Rabi' al-Awwal 1443 AH.\n5. Second payment date: 15 Rabi' al-Awwal + 1 month = 15 Rabi' al-Thani 1443 AH.\n6. Third payment date: 15 Rabi' al-Thani + 1 month = 15 Jumada al-Awwal 1443 AH.\n7. Fourth payment date: 15 Jumada al-Awwal + 1 month = 15 Jumada al-Thani 1443 AH.\n\nNow converting 15 Jumada al-Thani 1443 AH to Gregorian date:\n- 15 Jumada al-Thani 1443 AH is equivalent to 2022-01-18.\n\nFinal answer: 2022-01-18.",
+        "target_scores": {
+            "2022-01-18": 1.0,
+            "2022-01-05": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH (Gregorian: 2021-08-23).\n2. Free trial duration: 45 days.\n3. Free trial end date: 2021-09-06 (15 Muharram + 45 days = 29 Muharram).\n4. First payment date: 15 Safar 1443 AH (Gregorian: 2021-09-23).\n5. Second payment date: 15 Rabi' al-Awwal 1443 AH (Gregorian: 2021-10-22).\n6. Third payment date: 15 Rabi' al-Thani 1443 AH (Gregorian: 2021-11-20).\n7. Fourth payment date: 15 Jumada al-Awwal 1443 AH (Gregorian: 2021-12-19).\n8. Fifth payment date: 15 Jumada al-Thani 1443 AH (Gregorian: 2022-01-17).\n9. Sixth payment date: 15 Rajab 1443 AH (Gregorian: 2022-02-15).\n\nFinal answer: 2022-02-15",
+        "target_scores": {
+            "2022-03-18": 1.0,
+            "2022-03-06": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial duration: 45 days\n3. First payment date: 15 Muharram 1443 AH + 45 days = 29 Safar 1443 AH\n4. Monthly billing: Every 15th of the Hijri month\n5. Payment dates:\n   - 1st payment: 29 Safar 1443 AH\n   - 2nd payment: 15 Rabi' al-Awwal 1443 AH\n   - 3rd payment: 15 Rabi' al-Thani 1443 AH\n   - 4th payment: 15 Jumada al-Awwal 1443 AH\n   - 5th payment: 15 Jumada al-Thani 1443 AH\n   - 6th payment: 15 Rajab 1443 AH\n   - 7th payment: 15 Sha'ban 1443 AH\n   - 8th payment: 15 Ramadan 1443 AH\n   - 9th payment: 15 Shawwal 1443 AH\n\n6. Convert 15 Shawwal 1443 AH to Gregorian date:\n   - 15 Shawwal 1443 AH = 2022-05-16\n\nFinal answer: 2022-05-16",
+        "target_scores": {
+            "2022-06-14": 1.0,
+            "2022-06-04": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 45-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Starting date: 15 Muharram 1443 AH\n2. Free trial period: 45 days\n3. End of free trial: 15 Muharram + 45 days = 29 Safar 1443 AH\n4. First payment date: 29 Safar + 1 month = 15 Rabi' al-Awwal 1443 AH\n5. Subsequent payment dates: Every month on the same day\n\nTo calculate the 12th payment:\n6. 12th payment date: 15 Rabi' al-Awwal + 11 months = 15 Shawwal 1444 AH\n\nConvert to Gregorian:\n15 Muharram 1443 AH corresponds to September 23, 2021\n15 Shawwal 1444 AH corresponds to June 24, 2023\n\nFinal answer:\n2023-06-24",
+        "target_scores": {
+            "2022-09-11": 1.0,
+            "2022-09-02": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 45,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. Free trial duration: 60 days.\n3. End of trial: 15 Muharram + 60 days = 15 Safar 1443 AH.\n4. First billing date: 15 Safar 1443 AH.\n5. Second billing date: 15 Rabi' al-Awwal 1443 AH.\n\nNow, converting these dates to Gregorian:\n\n- 15 Muharram 1443 AH = August 23, 2021\n- 15 Safar 1443 AH = September 22, 2021\n- 15 Rabi' al-Awwal 1443 AH = October 21, 2021\n\nTherefore, the 2nd payment date is:\n\n**2021-10-21**",
+        "target_scores": {
+            "2021-11-20": 1.0,
+            "2021-11-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. Free trial duration: 60 days\n3. End of free trial: 15 Muharram 1443 AH + 60 days = 15 Safar 1443 AH\n4. First payment: 15 Safar 1443 AH\n5. Second payment: 15 Rabi' al-Awwal 1443 AH\n6. Third payment: 15 Rabi' al-Thani 1443 AH\n\nConverting 15 Rabi' al-Thani 1443 AH to Gregorian date:\n\n15 Muharram 1443 AH = September 23, 2021\n15 Safar 1443 AH = October 22, 2021\n15 Rabi' al-Awwal 1443 AH = November 21, 2021\n15 Rabi' al-Thani 1443 AH = December 21, 2021\n\nFinal result: 2021-12-21",
+        "target_scores": {
+            "2021-12-19": 1.0,
+            "2021-12-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. Free trial duration: 60 days.\n3. End of free trial: 15 Muharram 1443 AH + 60 days = 15 Rabi' al-Awwal 1443 AH.\n4. First payment date: 15 Rabi' al-Awwal 1443 AH.\n5. Monthly payment dates: \n   - 2nd payment: 15 Jumada al-Awwal 1443 AH.\n   - 3rd payment: 15 Jumada al-Thani 1443 AH.\n   - 4th payment: 15 Rajab 1443 AH.\n6. Corresponding Gregorian dates:\n   - 15 Muharram 1443 AH = 2021-08-24.\n   - 15 Rabi' al-Awwal 1443 AH = 2021-10-21.\n   - 15 Jumada al-Awwal 1443 AH = 2021-11-20.\n   - 15 Jumada al-Thani 1443 AH = 2021-12-20.\n   - 15 Rajab 1443 AH = 2022-01-18.\n\nFinal answer: 2022-01-18.",
+        "target_scores": {
+            "2022-01-18": 1.0,
+            "2022-01-20": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH\n2. 60-day free trial ends on: 15 Safar 1443 AH\n3. First payment date: 15 Safar 1443 AH\n4. Monthly payments are on the 15th of each month thereafter.\n\n**Calculating payments:**\n- 1st payment: 15 Safar 1443 AH\n- 2nd payment: 15 Rabi' al-Awwal 1443 AH\n- 3rd payment: 15 Rabi' al-Thani 1443 AH\n- 4th payment: 15 Jumada al-Awwal 1443 AH\n- 5th payment: 15 Jumada al-Thani 1443 AH\n- 6th payment: 15 Rajab 1443 AH\n\n**Hijri to Gregorian conversion for 15 Rajab 1443 AH:**\n- 15 Rajab 1443 AH corresponds to: 2022-02-16\n\nFinal answer: **2022-02-16**",
+        "target_scores": {
+            "2022-03-18": 1.0,
+            "2022-03-21": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. End of 60-day free trial: 15 Safar 1443 AH.\n3. First payment date: 15 Safar 1443 AH.\n4. Monthly payment dates: 15 Safar, 15 Rabi' al-Awwal, 15 Rabi' al-Thani, 15 Jumada al-Awwal, 15 Jumada al-Thani, 15 Rajab, 15 Sha'ban, 15 Ramadan, 15 Shawwal.\n5. The 9th payment date: 15 Shawwal 1443 AH.\n\nConverting 15 Shawwal 1443 AH to the Gregorian calendar:\n\n15 Shawwal 1443 AH = 2022-05-16.\n\nFinal answer: **2022-05-16**.",
+        "target_scores": {
+            "2022-06-14": 1.0,
+            "2022-06-19": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 15 Muharram 1443 AH. It has a 60-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 15 Muharram 1443 AH.\n2. Free trial: 60 days.\n3. End of trial: 15 Muharram + 60 days = 15 Safar 1443 AH.\n4. Billing starts after trial: 15 Safar 1443 AH.\n5. Payments are monthly on the same Hijri day.\n6. First payment: 15 Safar 1443 AH.\n7. Subsequent payments: 2nd payment (15 Rabi' al-Awwal), 3rd payment (15 Rabi' al-Thani), 4th payment (15 Jumada al-Awwal), 5th payment (15 Jumada al-Thani), 6th payment (15 Rajab), 7th payment (15 Sha'ban), 8th payment (15 Ramadan), 9th payment (15 Shawwal), 10th payment (15 Dhul-Qi'dah), 11th payment (15 Dhul-Hijjah), 12th payment (15 Muharram 1444 AH).\n8. Convert 15 Muharram 1444 AH to Gregorian date.\n9. 1443 AH corresponds to 2021-2022 Gregorian year.\n10. 1444 AH corresponds to 2022-2023 Gregorian year, specifically beginning in July 2022 and ending in June 2023.\n11. 15 Muharram 1444 AH = September 3, 2022.\n\nFinal answer: 2022-09-03",
+        "target_scores": {
+            "2022-09-11": 1.0,
+            "2022-09-17": 0.0
+        },
+        "metadata": {
+            "start_hijri": "15 Muharram 1443 AH",
+            "trial_days": 60,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 20 Muharram 1443 AH corresponds to Gregorian date 29 August 2021.\n2. The free trial lasts for 7 days: 29 August 2021 + 7 days = 5 September 2021.\n3. The first payment is due on 5 September 2021.\n4. The next payment is one month later on the same Hijri day, which is 20 Muharram 1444 AH.\n5. 20 Muharram 1444 AH corresponds to Gregorian date 8 September 2022.\n\nFinal answer: **2022-09-08**",
+        "target_scores": {
+            "2021-09-27": 1.0,
+            "2021-10-04": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH.\n2. Free trial duration: 7 days.\n3. End of free trial: 27 Muharram 1443 AH.\n4. First billing date: 20 Safar 1443 AH.\n5. Second billing date: 20 Rabi' al-Awwal 1443 AH.\n6. Third billing date: 20 Rabi' al-Thani 1443 AH.\n\nNow, convert the Hijri date to Gregorian date:\n\n1. 20 Muharram 1443 AH is September 29, 2021.\n2. 20 Safar 1443 AH is October 28, 2021.\n3. 20 Rabi' al-Awwal 1443 AH is November 27, 2021.\n4. 20 Rabi' al-Thani 1443 AH is December 27, 2021.\n\nFinal answer: **2021-12-27**",
+        "target_scores": {
+            "2021-10-26": 1.0,
+            "2021-11-03": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Subscription start date: 20 Muharram 1443 AH.\n2. Free trial period: 7 days.\n3. End of free trial: 27 Muharram 1443 AH.\n4. First payment: 27 Muharram 1443 AH.\n5. Second payment: 27 Safar 1443 AH.\n6. Third payment: 27 Rabi' al-Awwal 1443 AH.\n7. Fourth payment: 27 Rabi' al-Thani 1443 AH.\n\nNow convert the Hijri dates to Gregorian dates:\n- 20 Muharram 1443 AH corresponds to 29 August 2021.\n- 27 Muharram 1443 AH corresponds to 5 September 2021.\n- 27 Safar 1443 AH corresponds to 5 October 2021.\n- 27 Rabi' al-Awwal 1443 AH corresponds to 4 November 2021.\n- 27 Rabi' al-Thani 1443 AH corresponds to 4 December 2021.\n\nThe Gregorian date for the 4th payment is **2021-12-04**.",
+        "target_scores": {
+            "2021-11-25": 1.0,
+            "2021-12-03": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. End of free trial: 27 Muharram 1443 AH\n3. First payment date: 20 Safar 1443 AH\n4. Monthly billing: 20th of each subsequent month\n5. Second payment: 20 Rabi' al-Awwal 1443 AH\n6. Third payment: 20 Rabi' al-Thani 1443 AH\n7. Fourth payment: 20 Jumada al-Awwal 1443 AH\n8. Fifth payment: 20 Jumada al-Thani 1443 AH\n9. Sixth payment: 20 Rajab 1443 AH\n\nConvert 20 Rajab 1443 AH to Gregorian date:\n\n20 Rajab 1443 AH = 2022-02-21\n\nFinal answer: **2022-02-21**",
+        "target_scores": {
+            "2022-01-23": 1.0,
+            "2022-02-01": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH.\n2. Free trial: 7 days.\n3. First payment date: 27 Muharram 1443 AH.\n4. Monthly billing: next payments on 27 Safar, 27 Rabi' al-Awwal, 27 Rabi' al-Thani, 27 Jumada al-Awwal, 27 Jumada al-Thani, 27 Rajab, and 27 Sha'ban.\n5. 9th payment date: 27 Ramadan 1443 AH.\n\nNow convert 27 Ramadan 1443 AH to the Gregorian calendar.\n\n1. 27 Ramadan 1443 AH corresponds to 28 April 2022.\n   \nFinal answer: **2022-04-28**",
+        "target_scores": {
+            "2022-04-21": 1.0,
+            "2022-05-02": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 7-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date of subscription: 20 Muharram 1443 AH.\n2. 7-day free trial ends on: 27 Muharram 1443 AH.\n3. First payment is billed on: 27 Muharram 1443 AH.\n4. Payments thereafter occur monthly on the same date.\n5. Calculate 12th payment date:\n   - Add 11 months to 27 Muharram 1443 AH.\n   - 11 months later is 27 Safar 1444 AH.\n\n6. Convert 27 Safar 1444 AH to Gregorian:\n   - 27 Safar 1444 AH corresponds to November 22, 2022 AD.\n\nThe Gregorian date for the 12th payment is: **2022-11-22**.",
+        "target_scores": {
+            "2022-07-19": 1.0,
+            "2022-07-31": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 7,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start Date: 20 Muharram 1443 AH\n2. Free Trial Duration: 14 days\n3. End of Free Trial: 4 Safar 1443 AH\n4. Monthly Billing Starts: 4 Safar 1443 AH\n5. Calculate 4 Safar 1443 AH in Gregorian date.\n\n4 Safar 1443 AH corresponds to 10 September 2021. \n\nTherefore, the 1st payment is on: **2021-09-10**.",
+        "target_scores": {
+            "2021-09-27": 1.0,
+            "2021-09-11": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 1,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 20 Muharram 1443 AH corresponds to 28 August 2021.\n2. The 14-day free trial ends on 20 Safar 1443 AH.\n3. 20 Safar 1443 AH corresponds to 12 October 2021.\n4. The first payment is on 20 Safar 1443 AH.\n5. The next month after Safar is Rabi' al-Awwal.\n6. 20 Rabi' al-Awwal 1443 AH corresponds to 11 November 2021.\n\nThe 2nd payment date is **2021-11-11**.",
+        "target_scores": {
+            "2021-10-26": 1.0,
+            "2021-10-11": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. Free trial ends: 20 Safar 1443 AH\n3. First payment: 20 Rabi' al-Awwal 1443 AH\n4. Second payment: 20 Rabi' al-Thani 1443 AH\n5. Third payment: 20 Jumada al-Awwal 1443 AH\n\nNow, convert the dates to Gregorian:\n\n- 20 Muharram 1443 AH = September 29, 2021\n- 20 Safar 1443 AH = October 28, 2021\n- 20 Rabi' al-Awwal 1443 AH = November 27, 2021\n- 20 Rabi' al-Thani 1443 AH = December 27, 2021\n- 20 Jumada al-Awwal 1443 AH = January 26, 2022\n\nThus, the 3rd payment date in Gregorian format is:\n\n2022-01-26",
+        "target_scores": {
+            "2021-11-25": 1.0,
+            "2021-11-10": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH.\n2. Free trial ends: 20 Safar 1443 AH.\n3. First payment: 20 Safar 1443 AH.\n4. Second payment: 20 Rabi' al-Awwal 1443 AH.\n5. Third payment: 20 Rabi' al-Thani 1443 AH.\n6. Fourth payment: 20 Jumada al-Awwal 1443 AH.\n\nNow converting 20 Jumada al-Awwal 1443 AH to Gregorian date:\n\n1. 20 Jumada al-Awwal 1443 = January 24, 2022.\n\nFinal result:\n2022-01-24",
+        "target_scores": {
+            "2021-12-24": 1.0,
+            "2021-12-10": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 20 Muharram 1443 AH (free trial starts).\n2. Free trial ends: 20 Safar 1443 AH.\n3. 1st payment: 20 Safar 1443 AH.\n4. 2nd payment: 20 Rabi' al-Awwal 1443 AH.\n5. 3rd payment: 20 Rabi' al-Thani 1443 AH.\n6. 4th payment: 20 Jumada al-Awwal 1443 AH.\n7. 5th payment: 20 Jumada al-Thani 1443 AH.\n8. 6th payment: 20 Rajab 1443 AH.\n\n**Conversion to Gregorian date**:\n- 20 Muharram 1443 AH = 2021-08-29\n- 20 Safar 1443 AH = 2021-09-28\n- 20 Rabi' al-Awwal 1443 AH = 2021-10-28\n- 20 Rabi' al-Thani 1443 AH = 2021-11-27\n- 20 Jumada al-Awwal 1443 AH = 2021-12-27\n- 20 Jumada al-Thani 1443 AH = 2022-01-26\n- 20 Rajab 1443 AH = 2022-02-25\n\nTherefore, the 6th payment date is **2022-02-25**.",
+        "target_scores": {
+            "2022-02-21": 1.0,
+            "2022-02-08": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. 14-day free trial ends: 20 Safar 1443 AH\n3. First payment: 20 Safar 1443 AH\n4. Payment frequency: Monthly\n5. Next payments: \n   - 2nd payment: 20 Rabi' al-Awwal 1443 AH\n   - 3rd payment: 20 Rabi' al-Thani 1443 AH\n   - 4th payment: 20 Jumada al-Awwal 1443 AH\n   - 5th payment: 20 Jumada al-Thani 1443 AH\n   - 6th payment: 20 Rajab 1443 AH\n   - 7th payment: 20 Sha'ban 1443 AH\n   - 8th payment: 20 Ramadan 1443 AH\n   - 9th payment: 20 Shawwal 1443 AH\n\n6. Convert 20 Shawwal 1443 AH to Gregorian date: \n   - 1443 AH corresponds to 2021 CE.\n   - 20 Shawwal 1443 AH is June 1, 2022.\n\nFinal answer: **2022-06-01**",
+        "target_scores": {
+            "2022-05-21": 1.0,
+            "2022-05-09": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 14-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. Free trial period: 14 days\n3. First payment date: 20 Safar 1443 AH (after the trial)\n4. Monthly payment cycle\n5. Calculate the 12th payment date:\n\n1st payment: 20 Safar 1443 AH  \n2nd payment: 20 Rabi' al-Awwal 1443 AH  \n3rd payment: 20 Rabi' al-Thani 1443 AH  \n4th payment: 20 Jumada al-Awwal 1443 AH  \n5th payment: 20 Jumada al-Thani 1443 AH  \n6th payment: 20 Rajab 1443 AH  \n7th payment: 20 Sha'ban 1443 AH  \n8th payment: 20 Ramadan 1443 AH  \n9th payment: 20 Shawwal 1443 AH  \n10th payment: 20 Dhul-Qi'dah 1443 AH  \n11th payment: 20 Dhul-Hijjah 1443 AH  \n12th payment: 20 Muharram 1444 AH  \n\nConvert 20 Muharram 1444 AH to Gregorian date:\n\n20 Muharram 1444 AH = 2022-07-18\n\nFinal answer: **2022-07-18**",
+        "target_scores": {
+            "2022-08-18": 1.0,
+            "2022-08-07": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 14,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 1st payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. Free trial duration: 21 days\n3. End of free trial: 20 Muharram + 21 days = 11 Safar 1443 AH\n4. First payment date: 20 Safar 1443 AH\n\nNow to convert 20 Safar 1443 AH to Gregorian date:\n\n1. 1443 AH corresponds to 2021/2022 AD.\n2. The approximate Gregorian date for 1 Safar 1443 AH is 9 September 2021.\n3. So, 20 Safar 1443 AH is approximately 28 September 2021.\n\nFinal date in YYYY-MM-DD format:\n\n**2021-09-28**",
+        "target_scores": {
+            "2021-09-27": 1.0,
+            "2021-09-18": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 1,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 20 Muharram 1443 AH is the start date.\n2. Add 21 days for the free trial: \n   - 20 Muharram + 21 days = 11 Safar 1443 AH\n3. First payment occurs on the same day next month: \n   - 20 Safar 1443 AH\n4. Second payment occurs on the same day the next month: \n   - 20 Rabi' al-Awwal 1443 AH\n5. Convert 20 Rabi' al-Awwal 1443 AH to Gregorian date:\n   - 20 Rabi' al-Awwal 1443 AH = 2021-10-26 (using conversion).\n6. Therefore, the second payment date is **2021-10-26**.",
+        "target_scores": {
+            "2021-10-26": 1.0,
+            "2021-10-18": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 20 Muharram 1443 AH is the start date of the subscription.\n2. The free trial lasts for 21 days. \n3. Calculate 21 days after 20 Muharram 1443 AH: \n   - 20 Muharram + 21 days = 11 Safar 1443 AH.\n4. The first payment will be on 20 Safar 1443 AH.\n5. The second payment will be on 20 Rabi' al-Awwal 1443 AH.\n6. The third payment will be on 20 Rabi' al-Thani 1443 AH.\n7. Convert 20 Rabi' al-Thani 1443 AH to Gregorian:\n   - Rabi' al-Thani 1443 AH corresponds to January-February 2022.\n   - 20 Rabi' al-Thani 1443 AH is February 22, 2022.\n\nFinal answer: **2022-02-22**",
+        "target_scores": {
+            "2021-11-25": 1.0,
+            "2021-11-17": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH.\n2. Free trial: 21 days.\n3. End of free trial: 10 Safar 1443 AH.\n4. First payment: 10 Safar 1443 AH.\n5. Monthly payment: every 20th of the month.\n\nPayments:\n- 1st payment: 10 Safar 1443 AH\n- 2nd payment: 20 Rabi al-Awwal 1443 AH\n- 3rd payment: 20 Rabi al-Thani 1443 AH\n- 4th payment: 20 Jumada al-Awwal 1443 AH\n\nConversion to Gregorian date:\n- 20 Muharram 1443 = 2021-08-29\n- 10 Safar 1443 = 2021-09-17\n- 20 Rabi al-Awwal 1443 = 2021-10-16\n- 20 Rabi al-Thani 1443 = 2021-11-15\n- 20 Jumada al-Awwal 1443 = 2021-12-14\n\nFinal answer: **2021-12-14**",
+        "target_scores": {
+            "2021-12-24": 1.0,
+            "2021-12-17": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. Free trial duration: 21 days\n3. First payment due after trial: 20 Safar 1443 AH\n4. Monthly billing date: 20th of each subsequent Hijri month\n\nPayments:\n- 1st payment: 20 Safar 1443 AH\n- 2nd payment: 20 Rabi' al-Awwal 1443 AH\n- 3rd payment: 20 Rabi' al-Thani 1443 AH\n- 4th payment: 20 Jumada al-Awwal 1443 AH\n- 5th payment: 20 Jumada al-Thani 1443 AH\n- 6th payment: 20 Rajab 1443 AH\n\nNow convert 20 Rajab 1443 AH to Gregorian date:\n- 20 Rajab 1443 AH corresponds to 2022-02-21.\n\nFinal answer: **2022-02-21**",
+        "target_scores": {
+            "2022-02-21": 1.0,
+            "2022-02-15": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start Date: 20 Muharram 1443 AH\n2. 21-day free trial ends on: 10 Safar 1443 AH\n3. First payment date: 10 Safar 1443 AH\n4. Monthly payment cycle begins: 10 Safar 1443 AH\n5. Payment dates:\n   - 1st payment: 10 Safar 1443 AH\n   - 2nd payment: 10 Rabi' al-Awwal 1443 AH\n   - 3rd payment: 10 Rabi' al-Thani 1443 AH\n   - 4th payment: 10 Jumada al-Awwal 1443 AH\n   - 5th payment: 10 Jumada al-Thani 1443 AH\n   - 6th payment: 10 Rajab 1443 AH\n   - 7th payment: 10 Sha'ban 1443 AH\n   - 8th payment: 10 Ramadan 1443 AH\n   - 9th payment: 10 Shawwal 1443 AH\n\n6. Convert 10 Shawwal 1443 AH to Gregorian date:\n   - 10 Shawwal 1443 AH corresponds to May 21, 2022.\n\nFinal answer: 2022-05-21",
+        "target_scores": {
+            "2022-05-21": 1.0,
+            "2022-05-16": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 21-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH (Gregorian: August 29, 2021).\n2. Free trial duration: 21 days.\n3. First payment date: 20 Safar 1443 AH (21 days after 20 Muharram).\n4. Monthly payment date for each subsequent payment: the 20th of each Hijri month.\n\nPayments schedule:\n- 1st payment: 20 Safar 1443 AH\n- 2nd payment: 20 Rabi' al-Awwal 1443 AH\n- 3rd payment: 20 Rabi' al-Thani 1443 AH\n- 4th payment: 20 Jumada al-Awwal 1443 AH\n- 5th payment: 20 Jumada al-Thani 1443 AH\n- 6th payment: 20 Rajab 1443 AH\n- 7th payment: 20 Sha'ban 1443 AH\n- 8th payment: 20 Ramadan 1443 AH\n- 9th payment: 20 Shawwal 1443 AH\n- 10th payment: 20 Dhu al-Qi'dah 1443 AH\n- 11th payment: 20 Dhu al-Hijjah 1443 AH\n- 12th payment: 20 Muharram 1444 AH\n\nConvert 20 Muharram 1444 AH to Gregorian date:\n- 20 Muharram 1444 AH = July 8, 2022.\n\nFinal answer: **2022-07-08**.",
+        "target_scores": {
+            "2022-08-18": 1.0,
+            "2022-08-14": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 21,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 2nd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. 20 Muharram 1443 AH = September 28, 2021 (Gregorian).\n2. Free trial ends after 30 days: September 28, 2021 + 30 days = October 28, 2021.\n3. First payment is on the end of the trial: October 28, 2021.\n4. Second payment is one month later: November 28, 2021.\n\nThe Gregorian date for the 2nd payment is: **2021-11-28**.",
+        "target_scores": {
+            "2021-10-26": 1.0,
+            "2021-10-27": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 2,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 3rd payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Determine the Hijri date for the end of the free trial:  \n   - Start date: 20 Muharram 1443 AH  \n   - Free trial: 30 days  \n   - End of trial: 20 Safar 1443 AH (20 Muharram + 30 days)\n\n2. Determine the Hijri date for the first payment:  \n   - First payment date: 20 Safar 1443 AH (same day as trial end)\n\n3. Determine the Hijri date for the second payment:  \n   - Second payment: 20 Rabi' al-Awwal 1443 AH (20 Safar + 30 days)\n\n4. Determine the Hijri date for the third payment:  \n   - Third payment: 20 Rabi' al-Thani 1443 AH (20 Rabi' al-Awwal + 30 days)\n\n5. Convert 20 Rabi' al-Thani 1443 AH to Gregorian date:  \n   - 20 Rabi' al-Thani 1443 AH is equivalent to 2021-12-15.\n\nFinal answer: **2021-12-15**",
+        "target_scores": {
+            "2021-11-25": 1.0,
+            "2021-11-26": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 3,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 4th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. 30-day free trial ends: 20 Safar 1443 AH\n3. 1st payment due: 20 Safar 1443 AH\n4. 2nd payment due: 20 Rabi' al-Awwal 1443 AH\n5. 3rd payment due: 20 Rabi' al-Thani 1443 AH\n6. 4th payment due: 20 Jumada al-Awwal 1443 AH\n\nNow, convert 20 Jumada al-Awwal 1443 AH to Gregorian date.\n\n20 Jumada al-Awwal 1443 AH = 2022-12-24\n\nFinal answer: **2022-12-24**",
+        "target_scores": {
+            "2021-12-24": 1.0,
+            "2021-12-26": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 4,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 6th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH.\n2. Free trial ends: 30 days later = 20 Safar 1443 AH.\n3. First payment (1st month): 20 Safar 1443 AH.\n4. Second payment (2nd month): 20 Rabi' al-Awwal 1443 AH.\n5. Third payment (3rd month): 20 Rabi' al-Thani 1443 AH.\n6. Fourth payment (4th month): 20 Jumada al-Awwal 1443 AH.\n7. Fifth payment (5th month): 20 Jumada al-Thani 1443 AH.\n8. Sixth payment (6th month): 20 Rajab 1443 AH.\n\nNow convert 20 Rajab 1443 AH to Gregorian date:\n\n- 20 Rajab 1443 AH corresponds to 2022-02-21.\n\nFinal answer: **2022-02-21**",
+        "target_scores": {
+            "2022-02-21": 1.0,
+            "2022-02-24": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 6,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 9th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. Free trial: 30 days\n3. Start of billing: 20 Safar 1443 AH (30 days after start date)\n4. Monthly billing on the same Hijri day.\n\nPayments:\n1st payment: 20 Safar 1443 AH  \n2nd payment: 20 Rabi' al-Awwal 1443 AH  \n3rd payment: 20 Rabi' al-Thani 1443 AH  \n4th payment: 20 Jumada al-Awwal 1443 AH  \n5th payment: 20 Jumada al-Thani 1443 AH  \n6th payment: 20 Rajab 1443 AH  \n7th payment: 20 Sha'ban 1443 AH  \n8th payment: 20 Ramadan 1443 AH  \n9th payment: 20 Shawwal 1443 AH\n\nNow converting 20 Shawwal 1443 AH to Gregorian date:\n20 Shawwal 1443 AH corresponds to 2022-05-21 in Gregorian calendar.\n\nFinal answer: **2022-05-21**",
+        "target_scores": {
+            "2022-05-21": 1.0,
+            "2022-05-25": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 9,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "I started a subscription on 20 Muharram 1443 AH. It has a 30-day free trial. After the trial, I am billed monthly on the same Hijri day. Please calculate the Gregorian date for the 12th payment. Give answer in YYYY-MM-DD format. Think step by step. NO EXPLANATIONS.",
+        "response": "1. Start date: 20 Muharram 1443 AH\n2. 30-day free trial ends: 20 Safar 1443 AH\n3. First payment: 20 Safar 1443 AH\n4. Second payment: 20 Rabi' al-Awwal 1443 AH\n5. Third payment: 20 Rabi' al-Thani 1443 AH\n6. Fourth payment: 20 Jumada al-Awwal 1443 AH\n7. Fifth payment: 20 Jumada al-Thani 1443 AH\n8. Sixth payment: 20 Rajab 1443 AH\n9. Seventh payment: 20 Sha'ban 1443 AH\n10. Eighth payment: 20 Ramadan 1443 AH\n11. Ninth payment: 20 Shawwal 1443 AH\n12. Tenth payment: 20 Dhul-Qi'dah 1443 AH\n13. Eleventh payment: 20 Dhul-Hijjah 1443 AH\n14. Twelfth payment: 20 Muharram 1444 AH\n\nConversion:\n- 20 Muharram 1444 AH corresponds to 2022-07-30 (Gregorian calendar).\n\nFinal answer:\n2022-07-30",
+        "target_scores": {
+            "2022-08-18": 1.0,
+            "2022-08-23": 0.0
+        },
+        "metadata": {
+            "start_hijri": "20 Muharram 1443 AH",
+            "trial_days": 30,
+            "bill_number": 12,
+            "logic": "Anchor Day"
+        },
+        "isModelResponseCorrect": "TBD"
+    }
+]

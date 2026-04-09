@@ -1,0 +1,894 @@
+[
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Ushuaia must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ushuaia local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B can start at 15:02 \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Ushuaia must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ushuaia local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Ushuaia can start at 15:02 \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Stanley must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Stanley local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Stanley local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Stanley must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Stanley local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Stanley can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Jamestown must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Jamestown local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 18:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Jamestown local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Jamestown must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Jamestown local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 18:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Jamestown local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in King Edward Point must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in King Edward Point local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 16:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in King Edward Point local time is 15:01 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in King Edward Point must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in King Edward Point local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 16:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in King Edward Point local time is 15:01 \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Fernando de Noronha must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Fernando de Noronha local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 16:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Fernando de Noronha local time in Hebrew Calendar is \u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 00:02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Fernando de Noronha must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Fernando de Noronha local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 16:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Fernando de Noronha local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Kindu must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Kindu local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Kindu local time is 15:01 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Kindu must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Kindu local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Kindu local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Uranium City, SK must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Uranium City, SK local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Uranium City, SK local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Uranium City, SK must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Uranium City, SK local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Uranium City, SK local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Fort Chipewyan, AB must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Fort Chipewyan, AB local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B can start at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Fort Chipewyan, AB must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Fort Chipewyan, AB local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Fort Chipewyan, AB local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Supai (Havasupai), AZ must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Supai (Havasupai), AZ local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 11:01": 1.0
+        },
+        "response": "Event B in Supai (Havasupai), AZ can start at \u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Supai (Havasupai), AZ must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Supai (Havasupai), AZ local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 11:01": 1.0
+        },
+        "response": "Event B can start at 15:01 (3:01 PM) on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e in Supai (Havasupai), AZ local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Anaktuvuk Pass, AK must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Anaktuvuk Pass, AK local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 10:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Anaktuvuk Pass, AK is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Anaktuvuk Pass, AK must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Anaktuvuk Pass, AK local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 10:01": 1.0
+        },
+        "response": "Event B can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Ushguli must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ushguli local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 22:01": 1.0
+        },
+        "response": "Event B in Ushguli can start at 15:02 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Ushguli must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ushguli local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 22:01": 1.0
+        },
+        "response": "Event B in Ushguli can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Eucla must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Eucla local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 02:46": 1.0
+        },
+        "response": "Event B in Eucla can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Eucla must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Eucla local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 02:46": 1.0
+        },
+        "response": "Event B in Eucla can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Macquarie Island must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Macquarie Island local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "Event B in Macquarie Island can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Macquarie Island must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Macquarie Island local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 05:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Macquarie Island local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Oymyakon (Pole of Cold) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Oymyakon (Pole of Cold) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Oymyakon is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Oymyakon (Pole of Cold) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Oymyakon (Pole of Cold) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Oymyakon is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pevek must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pevek local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 06:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Pevek local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pevek must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pevek local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 06:01": 1.0
+        },
+        "response": "Event B in Pevek can start at 15:02 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Gavdos must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Gavdos local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B in Gavdos can start at 15:02 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Gavdos must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Gavdos local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event A ends at 14:01. Event B must start at least at 15:01. Therefore, the earliest possible start time for Event B in Gavdos local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Corvo, Azores must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Corvo, Azores local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 18:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Corvo, Azores local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Corvo, Azores must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Corvo, Azores local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 18:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Corvo, Azores local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in McMurdo Station must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in McMurdo Station local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 06:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in McMurdo Station local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in McMurdo Station must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in McMurdo Station local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in McMurdo Station local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Amundsen\u2013Scott (South Pole) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Amundsen\u2013Scott (South Pole) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 06:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Amundsen\u2013Scott (South Pole) local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Amundsen\u2013Scott (South Pole) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Amundsen\u2013Scott (South Pole) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "Event B can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Vostok Station must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Vostok Station local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:01": 1.0
+        },
+        "response": "Event B in Vostok Station can start at \u05d9\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Vostok Station must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Vostok Station local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Vostok Station local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Palmer Station must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Palmer Station local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B can start at 15:02 \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Palmer Station must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Palmer Station local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Palmer Station can start at 15:01 \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Alert, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Alert, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "Event B can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Alert, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Alert, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Alert, NU local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Eureka, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Eureka, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Eureka, NU local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Eureka, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Eureka, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "Event B in Eureka, NU can start at 15:01 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Grise Fiord, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Grise Fiord, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "Event B can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Grise Fiord, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Grise Fiord, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Grise Fiord, NU local time in Hebrew Calendar is \u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 10:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Resolute, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Resolute, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "Event B in Resolute, NU can earliest start at \u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 10:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Resolute, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Resolute, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Resolute, NU local time in the Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pond Inlet, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pond Inlet, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Pond Inlet, NU local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pond Inlet, NU must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pond Inlet, NU local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Pond Inlet, NU is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pituffik (Thule) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pituffik (Thule) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Pituffik (Thule) local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pituffik (Thule) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pituffik (Thule) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Pituffik (Thule) local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Ittoqqortoormiit must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ittoqqortoormiit local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 17:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Ittoqqortoormiit local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Ittoqqortoormiit must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ittoqqortoormiit local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 17:01": 1.0
+        },
+        "response": "Event B in Ittoqqortoormiit can start at 15:01 on the same date in the Hebrew calendar.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Danmarkshavn must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Danmarkshavn local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 18:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Danmarkshavn local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Danmarkshavn must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Danmarkshavn local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 18:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Danmarkshavn local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Longyearbyen must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Longyearbyen local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Longyearbyen local time in the Hebrew calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Longyearbyen must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Longyearbyen local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Longyearbyen local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Jan Mayen must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Jan Mayen local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Jan Mayen local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Jan Mayen must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Jan Mayen local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Jan Mayen local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Adamstown must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Adamstown local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 10:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Adamstown is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Adamstown must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Adamstown local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 10:01": 1.0
+        },
+        "response": "Event B in Adamstown can start at \u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 11:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Easter Island must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Easter Island local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B in Easter Island can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Easter Island must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Easter Island local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Easter Island local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Lord Howe Island must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Lord Howe Island local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:31": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Lord Howe Island local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Lord Howe Island must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Lord Howe Island local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 05:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Lord Howe Island local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Chatham Islands must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Chatham Islands local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 06:46": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Chatham Islands local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Chatham Islands must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Chatham Islands local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:46": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Chatham Islands local time is \u05d9\u05f4\u05d7 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 02:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Cocos Islands must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Cocos Islands local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 00:31": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Cocos Islands local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Cocos Islands must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Cocos Islands local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 00:31": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Cocos Islands local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Kerguelen Is. must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Kerguelen Is. local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:01": 1.0
+        },
+        "response": "Event A ends at 14:01. Therefore, the earliest possible start time for Event B is 15:01. In Hebrew Calendar, that is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Kerguelen Is. must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Kerguelen Is. local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:01": 1.0
+        },
+        "response": "Event B in Kerguelen Is. can start at \u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 11:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Socotra must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Socotra local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Socotra local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Socotra must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Socotra local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Socotra local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Leh must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Leh local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:31": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Leh local time in the Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Leh must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Leh local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:31": 1.0
+        },
+        "response": "Event B in Leh can start at 15:01 on the same day in Hebrew Calendar (\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Thimphu must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Thimphu local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 00:01": 1.0
+        },
+        "response": "Event B in Thimphu can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Thimphu must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Thimphu local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 00:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Thimphu local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Upper Mustang must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Upper Mustang local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:46": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Upper Mustang local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Upper Mustang must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Upper Mustang local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 23:46": 1.0
+        },
+        "response": "Event B in Upper Mustang can start at 15:01 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Siwa Oasis must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Siwa Oasis local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "Event B in Siwa Oasis can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Siwa Oasis must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Siwa Oasis local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B can start at 15:02 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Alofi must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Alofi local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "Event B in Alofi can start at 15:01 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Alofi must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Alofi local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "Event B can start at 15:02 \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Fakaofo must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Fakaofo local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Fakaofo local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Fakaofo must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Fakaofo local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Fakaofo local time in the Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Papeete, Tahiti must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Papeete, Tahiti local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 08:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Papeete, Tahiti local time in the Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Papeete, Tahiti must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Papeete, Tahiti local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 08:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Papeete, Tahiti local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Taiohae, Marquesas must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Taiohae, Marquesas local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 08:31": 1.0
+        },
+        "response": "Event B in Taiohae, Marquesas can start at 15:02 in Hebrew Calendar time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Taiohae, Marquesas must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Taiohae, Marquesas local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 08:31": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Taiohae, Marquesas local time is 14:01 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Rikitea, Gambier must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Rikitea, Gambier local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 09:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Rikitea, Gambier local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Rikitea, Gambier must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Rikitea, Gambier local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 09:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Rikitea, Gambier is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Apia must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Apia local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Apia local time is \u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 00:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Apia must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Apia local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Apia local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pago Pago must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pago Pago local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Pago Pago local time in the Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in Pago Pago must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Pago Pago local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 07:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Pago Pago local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in London, Kiritimati (Christmas Is.) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in London, Kiritimati (Christmas Is.) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 08:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in London, Kiritimati (Christmas Is.) local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in Puerto Williams happens at 10:01 and lasts 4 hours. Event B in London, Kiritimati (Christmas Is.) must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in London, Kiritimati (Christmas Is.) local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 08:01": 1.0
+        },
+        "response": "Event B must start at 15:01 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

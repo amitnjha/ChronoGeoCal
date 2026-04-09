@@ -1,0 +1,1687 @@
+[
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The arrival day is [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "2020-06-18",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-19": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-19"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-17].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-19].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-18": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-18"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 4 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-17": 1.0,
+            "2020-06-16": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 4,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-17"
+        },
+        "response": "The package will arrive on [2020-06-18].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-16": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-16"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on 2020-06-15.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-15": 1.0,
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-15"
+        },
+        "response": "The package will arrive on [2020-06-15].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [18:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "18:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [19:05]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "19:05",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2020-06-12] at [13:30]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2020-06-13": 0.0
+        },
+        "metadata": {
+            "order_date": "2020-06-12",
+            "order_time": "13:30",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2020-06-13"
+        },
+        "response": "The package will arrive on [2020-06-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-11": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-11"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-11": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-11"
+        },
+        "response": "The package will arrive on [2024-03-14].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-11": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-11"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-11": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-11"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-11": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-11"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-13].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-13": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-13"
+        },
+        "response": "The package will arrive on 2024-03-13.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-12": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-12"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-13": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-13"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-13": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-13"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 5 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-13": 1.0,
+            "2024-03-10": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 5,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-13"
+        },
+        "response": "The package will arrive on [2024-03-12].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-07": 1.0,
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-07"
+        },
+        "response": "The package will arrive on [2024-03-07].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-06"
+        },
+        "response": "The package will arrive on [2024-03-06].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-06"
+        },
+        "response": "The package will arrive on [2024-03-07].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-06"
+        },
+        "response": "The package will arrive on 2024-03-06.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-06"
+        },
+        "response": "The package will arrive on [2024-03-06].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [20:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "20:00",
+            "arrival_date_greg": "2024-03-06"
+        },
+        "response": "The package will arrive on [2024-03-06].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-07": 1.0,
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-07"
+        },
+        "response": "The package will arrive on [2024-03-07].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [15:10]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-07": 1.0,
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "15:10",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-07"
+        },
+        "response": "The package will arrive on [2024-03-07].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [11:45]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Saturday] schedule. Crucially, the shipping company has a strict policy that any order placed after [10:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-07": 1.0,
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "11:45",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Saturday",
+            "cutoff": "10:00",
+            "arrival_date_greg": "2024-03-07"
+        },
+        "response": "The package will arrive on [2024-03-07].",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI am ordering a package on [2024-03-05] at [17:50]. The shipping takes 1 business days to arrive, bearing in mind that the work week follows a [Monday\u2013Friday] schedule. Crucially, the shipping company has a strict policy that any order placed after [16:00] is not processed until the following business day. Please calculate the arrival day and provide the final answer as a Gregorian Date, ensuring that you apply the cut\u2011off rule before counting the days.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2024-03-07": 1.0,
+            "2024-03-06": 0.0
+        },
+        "metadata": {
+            "order_date": "2024-03-05",
+            "order_time": "17:50",
+            "duration_days": 1,
+            "work_week": "Monday\u2013Friday",
+            "cutoff": "16:00",
+            "arrival_date_greg": "2024-03-07"
+        },
+        "response": "The package will arrive on [2024-03-07].",
+        "isModelResponseCorrect": "TBD"
+    }
+]

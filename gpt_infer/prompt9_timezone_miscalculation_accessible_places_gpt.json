@@ -1,0 +1,902 @@
+[
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Los Angeles. However, their calculation is incorrect. What is the actual time in Los Angeles when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "11:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Chicago. However, their calculation is incorrect. What is the actual time in Chicago when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Houston. However, their calculation is incorrect. What is the actual time in Houston when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 12 hours after 10:00 in Phoenix. However, their calculation is incorrect. What is the actual time in Phoenix when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "The actual time in Phoenix when the event starts is 11:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Philadelphia. However, their calculation is incorrect. What is the actual time in Philadelphia when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in San Antonio. However, their calculation is incorrect. What is the actual time in San Antonio when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in San Diego. However, their calculation is incorrect. What is the actual time in San Diego when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "1:00pm": 0.0
+        },
+        "response": "11:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Dallas. However, their calculation is incorrect. What is the actual time in Dallas when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in San Jose. However, their calculation is incorrect. What is the actual time in San Jose when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Austin. However, their calculation is incorrect. What is the actual time in Austin when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "The event starts at 13:30 in Austin.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Jacksonville. However, their calculation is incorrect. What is the actual time in Jacksonville when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 12 hours after 10:00 in San Francisco. However, their calculation is incorrect. What is the actual time in San Francisco when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "11:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Columbus. However, their calculation is incorrect. What is the actual time in Columbus when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Indianapolis. However, their calculation is incorrect. What is the actual time in Indianapolis when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Seattle. However, their calculation is incorrect. What is the actual time in Seattle when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "4:00pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Denver. However, their calculation is incorrect. What is the actual time in Denver when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 12 hours after 10:00 in Washington DC. However, their calculation is incorrect. What is the actual time in Washington DC when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "The actual time in Washington DC when the event starts is 14:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Boston. However, their calculation is incorrect. What is the actual time in Boston when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Las Vegas. However, their calculation is incorrect. What is the actual time in Las Vegas when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Atlanta. However, their calculation is incorrect. What is the actual time in Atlanta when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Miami. However, their calculation is incorrect. What is the actual time in Miami when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "1:00 pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Honolulu. However, their calculation is incorrect. What is the actual time in Honolulu when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "09:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "03:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Toronto. However, their calculation is incorrect. What is the actual time in Toronto when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Montreal. However, their calculation is incorrect. What is the actual time in Montreal when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Vancouver. However, their calculation is incorrect. What is the actual time in Vancouver when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "11:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Calgary. However, their calculation is incorrect. What is the actual time in Calgary when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Ottawa. However, their calculation is incorrect. What is the actual time in Ottawa when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Mexico City. However, their calculation is incorrect. What is the actual time in Mexico City when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Guadalajara. However, their calculation is incorrect. What is the actual time in Guadalajara when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "1:00pm": 0.0
+        },
+        "response": "The actual time in Guadalajara when the event starts is 12:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Monterrey. However, their calculation is incorrect. What is the actual time in Monterrey when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "The event starts at 13:30 in Monterrey.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in London. However, their calculation is incorrect. What is the actual time in London when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "19:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Manchester. However, their calculation is incorrect. What is the actual time in Manchester when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Birmingham. However, their calculation is incorrect. What is the actual time in Birmingham when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Edinburgh. However, their calculation is incorrect. What is the actual time in Edinburgh when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "19:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Paris. However, their calculation is incorrect. What is the actual time in Paris when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "1:00 pm": 0.0
+        },
+        "response": "17:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Lyon. However, their calculation is incorrect. What is the actual time in Lyon when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "The actual time in Lyon when the event starts is 20:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Marseille. However, their calculation is incorrect. What is the actual time in Marseille when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Berlin. However, their calculation is incorrect. What is the actual time in Berlin when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "4:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 9 hours after 10:00 in Frankfurt. However, their calculation is incorrect. What is the actual time in Frankfurt when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "07:00 pm": 0.0
+        },
+        "response": "23:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Munich. However, their calculation is incorrect. What is the actual time in Munich when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "17:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 12 hours after 10:00 in Rome. However, their calculation is incorrect. What is the actual time in Rome when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Milan. However, their calculation is incorrect. What is the actual time in Milan when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "5:00pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Madrid. However, their calculation is incorrect. What is the actual time in Madrid when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "17:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Barcelona. However, their calculation is incorrect. What is the actual time in Barcelona when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 9 hours after 10:00 in Amsterdam. However, their calculation is incorrect. What is the actual time in Amsterdam when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "07:00 pm": 0.0
+        },
+        "response": "23:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Zurich. However, their calculation is incorrect. What is the actual time in Zurich when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Tokyo. However, their calculation is incorrect. What is the actual time in Tokyo when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Osaka. However, their calculation is incorrect. What is the actual time in Osaka when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "1:00pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Kyoto. However, their calculation is incorrect. What is the actual time in Kyoto when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Seoul. However, their calculation is incorrect. What is the actual time in Seoul when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Busan. However, their calculation is incorrect. What is the actual time in Busan when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "04:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 9 hours after 10:00 in Beijing. However, their calculation is incorrect. What is the actual time in Beijing when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "07:00 pm": 0.0
+        },
+        "response": "The actual time in Beijing when the event starts is 03:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Shanghai. However, their calculation is incorrect. What is the actual time in Shanghai when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Hong Kong. However, their calculation is incorrect. What is the actual time in Hong Kong when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 12 hours after 10:00 in Singapore. However, their calculation is incorrect. What is the actual time in Singapore when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Bangkok. However, their calculation is incorrect. What is the actual time in Bangkok when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Ho Chi Minh City. However, their calculation is incorrect. What is the actual time in Ho Chi Minh City when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Mumbai. However, their calculation is incorrect. What is the actual time in Mumbai when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:00": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "The actual time in Mumbai when the event starts is 00:00.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Delhi. However, their calculation is incorrect. What is the actual time in Delhi when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "01:00": 1.0,
+            "2:00 pm": 0.0
+        },
+        "response": "18:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Dubai. However, their calculation is incorrect. What is the actual time in Dubai when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "23:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Istanbul. However, their calculation is incorrect. What is the actual time in Istanbul when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "22:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Sydney. However, their calculation is incorrect. What is the actual time in Sydney when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "05:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Melbourne. However, their calculation is incorrect. What is the actual time in Melbourne when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "06:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Auckland. However, their calculation is incorrect. What is the actual time in Auckland when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "08:30": 1.0,
+            "6:00pm": 0.0
+        },
+        "response": "06:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Sao Paulo. However, their calculation is incorrect. What is the actual time in Sao Paulo when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "16:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 9 hours after 10:00 in Buenos Aires. However, their calculation is incorrect. What is the actual time in Buenos Aires when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "16:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "23:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Johannesburg. However, their calculation is incorrect. What is the actual time in Johannesburg when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "21:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "The actual time in Johannesburg when the event starts is 20:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 9 hours after 10:00 in Cairo. However, their calculation is incorrect. What is the actual time in Cairo when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "21:30": 1.0,
+            "7:00 pm": 0.0
+        },
+        "response": "The actual time in Cairo when the event starts is 21:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Portland. However, their calculation is incorrect. What is the actual time in Portland when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "2:00 pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Salt Lake City. However, their calculation is incorrect. What is the actual time in Salt Lake City when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Orlando. However, their calculation is incorrect. What is the actual time in Orlando when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "08:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 12 hours after 10:00 in Nashville. However, their calculation is incorrect. What is the actual time in Nashville when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "10:00pm": 0.0
+        },
+        "response": "The actual time in Nashville when the event starts is 13:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in New Orleans. However, their calculation is incorrect. What is the actual time in New Orleans when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "1:00pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Minneapolis. However, their calculation is incorrect. What is the actual time in Minneapolis when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "The actual time in Minneapolis when the event starts is 13:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Detroit. However, their calculation is incorrect. What is the actual time in Detroit when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "14:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Charlotte. However, their calculation is incorrect. What is the actual time in Charlotte when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "The actual time in Charlotte when the event starts is 14:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Edmonton. However, their calculation is incorrect. What is the actual time in Edmonton when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "12:30": 1.0,
+            "5:00pm": 0.0
+        },
+        "response": "The actual time in Edmonton when the event starts is 12:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Winnipeg. However, their calculation is incorrect. What is the actual time in Winnipeg when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "13:30": 1.0,
+            "1:00 pm": 0.0
+        },
+        "response": "13:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Tijuana. However, their calculation is incorrect. What is the actual time in Tijuana when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "11:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Cancun. However, their calculation is incorrect. What is the actual time in Cancun when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "14:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "12:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Vienna. However, their calculation is incorrect. What is the actual time in Vienna when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "1:00pm": 0.0
+        },
+        "response": "The actual time in Vienna when the event starts is 20:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Prague. However, their calculation is incorrect. What is the actual time in Prague when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 6 hours after 10:00 in Lisbon. However, their calculation is incorrect. What is the actual time in Lisbon when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "04:00 pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Dublin. However, their calculation is incorrect. What is the actual time in Dublin when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "19:30": 1.0,
+            "5:00pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Copenhagen. However, their calculation is incorrect. What is the actual time in Copenhagen when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "12:00pm": 0.0
+        },
+        "response": "20:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 3 hours after 10:00 in Stockholm. However, their calculation is incorrect. What is the actual time in Stockholm when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "01:00 pm": 0.0
+        },
+        "response": "17:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Oslo. However, their calculation is incorrect. What is the actual time in Oslo when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "2:00 pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 9 hours after 10:00 in Helsinki. However, their calculation is incorrect. What is the actual time in Helsinki when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "21:30": 1.0,
+            "07:00 pm": 0.0
+        },
+        "response": "23:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Brussels. However, their calculation is incorrect. What is the actual time in Brussels when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Budapest. However, their calculation is incorrect. What is the actual time in Budapest when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Krakow. However, their calculation is incorrect. What is the actual time in Krakow when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "20:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Athens. However, their calculation is incorrect. What is the actual time in Athens when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "21:30": 1.0,
+            "05:00 pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Tel Aviv. However, their calculation is incorrect. What is the actual time in Tel Aviv when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "21:30": 1.0,
+            "06:00 pm": 0.0
+        },
+        "response": "22:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Doha. However, their calculation is incorrect. What is the actual time in Doha when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "22:30": 1.0,
+            "2:00pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 7 hours after 10:00 in Riyadh. However, their calculation is incorrect. What is the actual time in Riyadh when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "22:30": 1.0,
+            "5:00 pm": 0.0
+        },
+        "response": "21:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 4 hours after 10:00 in Kuwait City. However, their calculation is incorrect. What is the actual time in Kuwait City when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "22:30": 1.0,
+            "02:00 pm": 0.0
+        },
+        "response": "18:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 12 hours after 10:00 in Beirut. However, their calculation is incorrect. What is the actual time in Beirut when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "21:30": 1.0,
+            "10:00 pm": 0.0
+        },
+        "response": "02:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 8 hours after 10:00 in Jakarta. However, their calculation is incorrect. What is the actual time in Jakarta when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "02:30": 1.0,
+            "6:00 pm": 0.0
+        },
+        "response": "The actual time in Jakarta when the event starts is 03:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Manila. However, their calculation is incorrect. What is the actual time in Manila when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone says that the event starts at 14:30 New York City time, which is 2 hours after 10:00 in Kuala Lumpur. However, their calculation is incorrect. What is the actual time in Kuala Lumpur when the event starts? GIVE RESPONSE IN HH:MI format. NO EXPLANATIONS.",
+        "target_scores": {
+            "03:30": 1.0,
+            "12:00 pm": 0.0
+        },
+        "response": "04:30",
+        "isModelResponseCorrect": "TBD"
+    }
+]

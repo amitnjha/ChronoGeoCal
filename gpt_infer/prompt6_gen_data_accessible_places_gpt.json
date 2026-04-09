@@ -1,0 +1,880 @@
+[
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Los Angeles must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Los Angeles local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Los Angeles local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 12:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Los Angeles must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Los Angeles local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) NYC time. Therefore, Event B must start at 15:01 (3:01 PM) NYC time. \n\nNew York is in the Eastern Time Zone (UTC-4) and Los Angeles is in the Pacific Time Zone (UTC-7). So, you need to subtract 3 hours from the NYC time to convert it to LA time.\n\n15:01 NYC time - 3 hours = 12:01 (12:01 PM) LA time.\n\nIn the Hebrew calendar, this is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 12:01 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Chicago must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Chicago local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Chicago is at 15:01 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Chicago must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Chicago local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "Event B in Chicago can start at 15:01 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Houston must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Houston local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Houston local time is 3:01 PM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Houston must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Houston local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Houston local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Phoenix must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Phoenix local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event A in New York City ends at 14:01. The earliest start time for Event B in Phoenix is 15:01. \n\nIn Hebrew Calendar, that is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Phoenix must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Phoenix local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B can start at 11:01. In Hebrew calendar time, this is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 \u05d1\u05e9\u05e2\u05d4 11:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Philadelphia must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Philadelphia local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event A ends at 14:01. The earliest start time for Event B is 15:01. In Hebrew Calendar format, this time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Philadelphia must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Philadelphia local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Philadelphia is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Antonio must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Antonio local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "Event B can start at 15:01 (3:01 PM) in San Antonio local time. In Hebrew Calendar, that would be \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Antonio must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Antonio local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) NYC time. The earliest start time for Event B in San Antonio is 15:01 (3:01 PM) NYC time. \n\nSan Antonio is in Central Daylight Time (CDT), which is one hour behind New York City time (EDT). Therefore, 15:01 NYC time is 14:01 (2:01 PM) CDT. \n\nIn Hebrew Calendar, the date remains \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. \n\nThe earliest possible start time for Event B in San Antonio local time is: **\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 14:01**.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Diego must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Diego local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in San Diego local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Diego must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Diego local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in San Diego local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Dallas must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Dallas local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Dallas local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Dallas must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Dallas local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Dallas is \u05d9\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Jose must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Jose local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in San Jose local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Jose must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Jose local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B can start at 11:01 (PDT) in San Jose. In Hebrew calendar terms, this is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 11:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Austin must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Austin local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Austin local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Austin must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Austin local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 14:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Austin local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Jacksonville must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Jacksonville local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Jacksonville local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Jacksonville must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Jacksonville local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Jacksonville can start at 15:01 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Francisco must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Francisco local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B in San Francisco can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in San Francisco must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in San Francisco local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B can start at 11:01 (PDT) in San Francisco local time on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Columbus must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Columbus local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Columbus can start at 15:01 (3:01 PM) in local time on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Columbus must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Columbus local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Columbus can start at 15:01 (3:01 PM) on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Indianapolis must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Indianapolis local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event A ends at 14:01 NYC time. The earliest possible start time for Event B in Indianapolis is 15:01 Indianapolis time. In Hebrew calendar, the date remains \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Indianapolis must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Indianapolis local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Indianapolis can start at 15:02 (3:02 PM).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Seattle must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Seattle local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Seattle local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Seattle must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Seattle local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B in Seattle can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Denver must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Denver local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "Event A ends at 14:01 NY time. The earliest start time for Event B in Denver is 15:01 NY time. Denver is 2 hours behind NY time. Therefore, the earliest possible start time for Event B in Denver local time is 13:01. \n\nIn Hebrew calendar, this is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 1:01 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Denver must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Denver local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "Event B in Denver can start at 15:01 (3:01 PM) local time. In Hebrew Calendar, that date remains \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Washington DC must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Washington DC local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Washington DC is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Washington DC must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Washington DC local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Washington DC local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Boston must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Boston local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Boston can start at 15:01 (3:01 PM).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Boston must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Boston local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Boston local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Las Vegas must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Las Vegas local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B can start at 15:01 (3:01 PM) on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 in Las Vegas local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Las Vegas must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Las Vegas local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Las Vegas local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Atlanta must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Atlanta local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) in New York City. Therefore, the earliest possible start time for Event B in Atlanta local time is 15:01 (3:01 PM) on the same day, \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Atlanta must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Atlanta local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Atlanta local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Miami must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Miami local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event A ends at 14:01 in New York City. Therefore, Event B can start at 15:01 in Miami local time. In Hebrew Calendar, the date remains \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. The earliest possible start time for Event B is 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Miami must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Miami local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Miami local time is \u05d9\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 1:01 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Honolulu must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Honolulu local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 09:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Honolulu local time in Hebrew Calendar is \u05d9\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 7:01 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Honolulu must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Honolulu local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 09:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Honolulu local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 06:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Toronto must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Toronto local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) in New York City. Adding 1 hour, the earliest start time for Event B in Toronto is 15:01 (3:01 PM) in Toronto local time. \n\nIn Hebrew Calendar, this is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Toronto must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Toronto local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B can start at 15:01 \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Montreal must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Montreal local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) in New York City. Therefore, Event B can start at the earliest at 15:01 (3:01 PM) in Montreal local time. In the Hebrew calendar, this corresponds to \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. The earliest possible start time for Event B is: **\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, 15:01**.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Montreal must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Montreal local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event A in New York City ends at 14:01. The earliest possible start time for Event B in Montreal is 15:01. In Hebrew Calendar, this corresponds to \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Vancouver must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Vancouver local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "Event B in Vancouver can start at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Vancouver must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Vancouver local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 12:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Vancouver local time is \u05d9\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 13:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Calgary must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Calgary local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Calgary local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Calgary must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Calgary local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Calgary local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Ottawa must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ottawa local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B in Ottawa can start at 15:01 (3:01 PM) local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Ottawa must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Ottawa local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 1.0
+        },
+        "response": "Event B can start at 15:01 (3:01 PM) on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e in Ottawa local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Mexico City must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Mexico City local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Mexico City local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Mexico City must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Mexico City local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Mexico City local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 14:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Guadalajara must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Guadalajara local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Guadalajara is 6:01 PM on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Guadalajara must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Guadalajara local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "Event B can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Monterrey must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Monterrey local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Monterrey local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Monterrey must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Monterrey local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 13:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Monterrey local time in Hebrew Calendar is \u05d9\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 12:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in London must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in London local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in London local time in Hebrew Calendar is 17:01 \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in London must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in London local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) in New York City. Therefore, Event B in London can start at 15:01 (3:01 PM) London time. \n\nIn Hebrew calendar terms, this corresponds to \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 \u05d1\u05e9\u05e2\u05d4 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Manchester must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Manchester local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Manchester local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Manchester must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Manchester local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Manchester local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Birmingham must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Birmingham local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Birmingham local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Birmingham must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Birmingham local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "Event A in New York City ends at 14:01. The earliest possible start time for Event B in Birmingham is 15:01. In Hebrew Calendar, this is \u05d9\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Edinburgh must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Edinburgh local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Edinburgh is 15:01 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Edinburgh must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Edinburgh local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 20:01": 1.0
+        },
+        "response": "Event B in Edinburgh can start at 15:01 on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Paris must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Paris local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B in Paris can start at 15:01 (3:01 PM) on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Paris must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Paris local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) New York time. The earliest start time for Event B would be 15:01 (3:01 PM) Paris time. In Hebrew Calendar, that date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Lyon must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Lyon local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Lyon local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Lyon must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Lyon local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Lyon local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Marseille must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Marseille local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Marseille local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Marseille must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Marseille local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Marseille is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Berlin must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Berlin local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Berlin local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4, at 17:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Berlin must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Berlin local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) New York City time. The earliest Event B can start is at 15:01 (3:01 PM) New York City time. \n\nBerlin is 6 hours ahead of New York City. Therefore, the earliest start time for Event B in Berlin local time is 21:01 (9:01 PM) on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Frankfurt must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Frankfurt local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B in Frankfurt can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Frankfurt must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Frankfurt local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Frankfurt local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 16:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Munich must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Munich local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B in Munich can start at 03:01 on the next Hebrew date (\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Munich must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Munich local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event A in New York City ends at 2:01 PM (EDT). Adding 1 hour for the start of Event B, the earliest possible start time for Event B is 3:01 PM (EDT). \n\nNew York City is UTC-4 and Munich is UTC+2. The time difference between New York City and Munich is 6 hours.\n\nTherefore, 3:01 PM (EDT) in New York City is 9:01 PM (CEST) in Munich.\n\nIn the Hebrew calendar, the date at that time would still be \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. \n\nThe earliest possible start time for Event B in Munich local time in Hebrew Calendar is:\n**\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 9:01 PM**.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Rome must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Rome local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B must start at 15:01 (3:01 PM) local time in Rome. In Hebrew Calendar, the date is still \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Rome must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Rome local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) in New York City. Therefore, Event B can start at 15:01 (3:01 PM) in New York City. \n\nNew York City is in the Eastern Daylight Time (EDT) time zone, which is UTC-4, while Rome is in Central European Summer Time (CEST), which is UTC+2. Thus, there is a 6-hour time difference between New York City and Rome.\n\nThe earliest possible start time for Event B in Rome is 21:01 (9:01 PM) in Rome local time. \n\nIn the Hebrew calendar, this is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 21:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Milan must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Milan local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Milan local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Milan must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Milan local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event A ends at 14:01 (2:01 PM) in New York City. Event B must start at least 1 hour after, which is 15:01 (3:01 PM) NYC time. \n\nMilan is 6 hours ahead of New York City. Therefore, the earliest possible start time for Event B in Milan local time is 21:01 (9:01 PM) on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Madrid must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Madrid local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Madrid in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 17:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Madrid must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Madrid local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Madrid local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 17:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Barcelona must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Barcelona local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Barcelona local time is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 17:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Barcelona must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Barcelona local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Barcelona local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4, at 17:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Amsterdam must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Amsterdam local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B can start at 15:01 (3:01 PM) Amsterdam time. In Hebrew calendar, it is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Amsterdam must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Amsterdam local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Amsterdam local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Zurich must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Zurich local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B can start at 15:01 on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e in Zurich local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Zurich must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Zurich local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 21:01": 1.0
+        },
+        "response": "Event B in Zurich can start at \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Tokyo must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Tokyo local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "Event B in Tokyo can start at 11:01 on the same day, \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 (15 Nisan 5785).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Tokyo must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Tokyo local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Tokyo local time is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 16:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Osaka must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Osaka local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "The earliest possible start time for Event B in Osaka local time in Hebrew Calendar is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Osaka must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Osaka local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "Event B can start at 15:01 JST on \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Kyoto must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Kyoto local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "Event B in Kyoto can start at 15:01 (3:01 PM) on \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Kyoto must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Kyoto local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "Event B in Kyoto can start at 15:01 (3:01 PM) local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Seoul must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Seoul local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "Event B in Seoul can start at \u05d8\u05f4\u05d5 \u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05f4\u05d4 at 15:01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIn the Hebrew calendar, the date is \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e. Event A in New York City happens at 10:01 and lasts 4 hours. Event B in Seoul must start at least 1 hour after Event A ends. What is the earliest possible start time for Event B in Seoul local time in Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "\u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 15:01": 0.0,
+            "\u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4\u200e, 04:01": 1.0
+        },
+        "response": "Event A ends at 14:01. Therefore, the earliest Event B can start is at 15:01. \n\nSeoul is 13 hours ahead of New York City. Adding 13 hours to 15:01 gives us 04:01 the next day in Seoul. \n\nIn Hebrew Calendar, the next day after \u05d8\u05f4\u05d5 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4 is \u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4. \n\nSo, the earliest possible start time for Event B in Seoul local time is 04:01 on \u05d8\u05f4\u05d6 \u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e4\u05f4\u05d4.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

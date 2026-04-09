@@ -1,0 +1,902 @@
+[
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Los Angeles?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "The current local time in Los Angeles is 11:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Chicago?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "1:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Houston?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Houston is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Phoenix?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Phoenix is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Philadelphia?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in San Antonio?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "2:42 PM in San Antonio.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in San Diego?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "11:42 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Dallas?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "3:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in San Jose?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "11:42 AM in San Jose.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Austin?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "3:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Jacksonville?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in San Francisco?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "It is 11:42 AM in San Francisco.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Columbus?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "3:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Indianapolis?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "The current local time in Indianapolis is 2:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Seattle?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "11:42 AM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Denver?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Denver is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Washington DC?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Boston?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM in Boston.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Las Vegas?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "The current local time in Las Vegas is 11:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Atlanta?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "3:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Miami?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM in Miami.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Honolulu?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 AM": 1.0,
+            "12:42 PM": 0.0
+        },
+        "response": "The current local time in Honolulu is 8:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Toronto?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM in Toronto.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Montreal?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Vancouver?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "The current local time in Vancouver is 11:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Calgary?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Calgary is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Ottawa?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "The current local time in Ottawa is 2:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Mexico City?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "1:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Guadalajara?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Guadalajara is 12:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Monterrey?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Monterrey is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in London?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "If it is 2:42 PM in New York City, the current local time in London is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Manchester?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Manchester is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Birmingham?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Birmingham is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Edinburgh?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Edinburgh is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Paris?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Paris is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Lyon?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Lyon would be 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Marseille?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Marseille is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Berlin?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Berlin is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Frankfurt?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "If it is 2:42 PM in New York City, the current local time in Frankfurt is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Munich?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Munich is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Rome?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Rome is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Milan?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Madrid?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Madrid is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Barcelona?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Barcelona is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Amsterdam?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Amsterdam is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Zurich?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Zurich is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Tokyo?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Tokyo is 4:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Osaka?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Osaka is 4:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Kyoto?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "It is 4:42 AM the next day in Kyoto.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Seoul?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Seoul is 4:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Busan?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 AM": 1.0,
+            "7:42 AM": 0.0
+        },
+        "response": "The current local time in Busan is 4:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Beijing?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Beijing is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Shanghai?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Shanghai is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Hong Kong?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Hong Kong is 3:42 AM the following day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Singapore?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Singapore is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Bangkok?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Bangkok is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Ho Chi Minh City?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "The current local time in Ho Chi Minh City is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Mumbai?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:12 AM": 1.0,
+            "4:12 AM": 0.0
+        },
+        "response": "The current local time in Mumbai is 12:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Delhi?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:12 AM": 1.0,
+            "4:12 AM": 0.0
+        },
+        "response": "The current local time in Delhi is 12:12 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Dubai?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 PM": 1.0,
+            "2:42 AM": 0.0
+        },
+        "response": "The current local time in Dubai is 11:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Istanbul?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 PM": 1.0,
+            "1:42 AM": 0.0
+        },
+        "response": "The current local time in Istanbul is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Sydney?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "It is 6:42 AM the next day in Sydney.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Melbourne?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "6:42 AM": 1.0,
+            "9:42 AM": 0.0
+        },
+        "response": "The current local time in Melbourne is 6:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Auckland?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 AM": 1.0,
+            "11:42 AM": 0.0
+        },
+        "response": "The current local time in Auckland is 9:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Sao Paulo?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 PM": 1.0,
+            "7:42 PM": 0.0
+        },
+        "response": "3:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Buenos Aires?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "4:42 PM": 1.0,
+            "7:42 PM": 0.0
+        },
+        "response": "The current local time in Buenos Aires is 4:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Johannesburg?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 PM": 1.0,
+            "12:42 AM": 0.0
+        },
+        "response": "The current local time in Johannesburg is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Cairo?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 PM": 1.0,
+            "12:42 AM": 0.0
+        },
+        "response": "The current local time in Cairo is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Portland?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "The current local time in Portland is 11:42 AM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Salt Lake City?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Salt Lake City is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Orlando?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM in Orlando.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Nashville?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "3:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in New Orleans?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "3:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Minneapolis?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Minneapolis is 3:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Detroit?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "3:42 PM in Detroit.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Charlotte?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "2:42 PM",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Edmonton?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "12:42 PM": 1.0,
+            "3:42 PM": 0.0
+        },
+        "response": "The current local time in Edmonton is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Winnipeg?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1:42 PM": 1.0,
+            "4:42 PM": 0.0
+        },
+        "response": "The current local time in Winnipeg is 3:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Tijuana?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "11:42 AM": 1.0,
+            "2:42 PM": 0.0
+        },
+        "response": "The current local time in Tijuana is 12:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Cancun?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 PM": 1.0,
+            "5:42 PM": 0.0
+        },
+        "response": "The current local time in Cancun is 1:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Vienna?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Vienna is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Prague?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Prague is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Lisbon?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Lisbon is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Dublin?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "7:42 PM": 1.0,
+            "10:42 PM": 0.0
+        },
+        "response": "The current local time in Dublin is 7:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Copenhagen?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Copenhagen is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Stockholm?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Stockholm is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Oslo?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "8:42 PM in Oslo.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Helsinki?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 PM": 1.0,
+            "12:42 AM": 0.0
+        },
+        "response": "The current local time in Helsinki is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Brussels?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Brussels is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Budapest?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "The current local time in Budapest is 8:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Krakow?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "8:42 PM": 1.0,
+            "11:42 PM": 0.0
+        },
+        "response": "It is 8:42 PM in Krakow.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Athens?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 PM": 1.0,
+            "12:42 AM": 0.0
+        },
+        "response": "The current local time in Athens is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Tel Aviv?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 PM": 1.0,
+            "12:42 AM": 0.0
+        },
+        "response": "The current local time in Tel Aviv is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Doha?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 PM": 1.0,
+            "1:42 AM": 0.0
+        },
+        "response": "The current local time in Doha is 10:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Riyadh?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 PM": 1.0,
+            "1:42 AM": 0.0
+        },
+        "response": "The current local time in Riyadh is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Kuwait City?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "10:42 PM": 1.0,
+            "1:42 AM": 0.0
+        },
+        "response": "The current local time in Kuwait City is 10:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Beirut?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "9:42 PM": 1.0,
+            "12:42 AM": 0.0
+        },
+        "response": "The current local time in Beirut is 9:42 PM.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Jakarta?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2:42 AM": 1.0,
+            "5:42 AM": 0.0
+        },
+        "response": "If it is 2:42 PM in New York City, the current local time in Jakarta is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Manila?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Manila is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is the Chinese lunar date 12th day of the 11th lunar month in the Year of the Snake\u200e. Using the current global time zone system, if it is 2:42 PM in New York City, what is the current local time in Kuala Lumpur?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "3:42 AM": 1.0,
+            "6:42 AM": 0.0
+        },
+        "response": "The current local time in Kuala Lumpur is 3:42 AM the next day.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

@@ -1,0 +1,1602 @@
+[
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushuaia (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Ushuaia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 12:00:00",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushuaia",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushuaia (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Ushuaia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 15:00:00",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushuaia",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushuaia (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Ushuaia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 21:00:00",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushuaia",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushuaia (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Ushuaia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 01:30:00",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushuaia",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushuaia (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Ushuaia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 04:30:00",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushuaia",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushuaia (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Ushuaia when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 10:30:00",
+        "target_scores": {
+            "2024-07-16 10:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushuaia",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 10:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Stanley (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Stanley when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 12:00:00",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Stanley",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Stanley (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Stanley when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 15:00:00",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Stanley",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Stanley (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Stanley when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 21:00:00",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Stanley",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Stanley (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Stanley when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 01:30:00",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Stanley",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Stanley (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Stanley when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 05:30:00",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Stanley",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Stanley (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Stanley when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 10:30:00",
+        "target_scores": {
+            "2024-07-16 10:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Stanley",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 10:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Jamestown (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Jamestown when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 15:00:00",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Jamestown",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Jamestown (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Jamestown when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 18:00:00",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Jamestown",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Jamestown (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Jamestown when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 00:00:00",
+        "target_scores": {
+            "2024-03-02 00:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Jamestown",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 00:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Jamestown (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Jamestown when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 05:30:00",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Jamestown",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Jamestown (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Jamestown when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 01:30:00",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Jamestown",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Jamestown (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Jamestown when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 13:30:00",
+        "target_scores": {
+            "2024-07-16 13:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Jamestown",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 13:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to King Edward Point (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in King Edward Point when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 13:00:00",
+        "target_scores": {
+            "2024-03-01 13:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "King Edward Point",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 13:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to King Edward Point (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in King Edward Point when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 16:00:00",
+        "target_scores": {
+            "2024-03-01 16:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "King Edward Point",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 16:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to King Edward Point (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in King Edward Point when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 22:00:00",
+        "target_scores": {
+            "2024-03-01 22:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "King Edward Point",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 22:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to King Edward Point (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in King Edward Point when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 02:30:00",
+        "target_scores": {
+            "2024-07-16 02:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "King Edward Point",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 02:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to King Edward Point (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in King Edward Point when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 05:30:00",
+        "target_scores": {
+            "2024-07-16 05:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "King Edward Point",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 05:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to King Edward Point (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in King Edward Point when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 11:30:00",
+        "target_scores": {
+            "2024-07-16 11:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "King Edward Point",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 11:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fernando de Noronha (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Fernando de Noronha when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 13:00:00",
+        "target_scores": {
+            "2024-03-01 13:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fernando de Noronha",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 13:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fernando de Noronha (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Fernando de Noronha when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 16:00:00",
+        "target_scores": {
+            "2024-03-01 16:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fernando de Noronha",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 16:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fernando de Noronha (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Fernando de Noronha when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 22:00:00",
+        "target_scores": {
+            "2024-03-01 22:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fernando de Noronha",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 22:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fernando de Noronha (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Fernando de Noronha when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 03:30:00",
+        "target_scores": {
+            "2024-07-16 02:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fernando de Noronha",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 02:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fernando de Noronha (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Fernando de Noronha when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 05:30:00",
+        "target_scores": {
+            "2024-07-16 05:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fernando de Noronha",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 05:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fernando de Noronha (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Fernando de Noronha when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 11:30:00",
+        "target_scores": {
+            "2024-07-16 11:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fernando de Noronha",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 11:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Kindu (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Kindu when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 17:00:00",
+        "target_scores": {
+            "2024-03-01 17:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Kindu",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 17:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Kindu (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Kindu when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 20:00:00",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Kindu",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Kindu (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Kindu when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 02:00:00",
+        "target_scores": {
+            "2024-03-02 02:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Kindu",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 02:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Kindu (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Kindu when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 06:30:00",
+        "target_scores": {
+            "2024-07-16 06:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Kindu",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 06:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Kindu (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Kindu when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 09:30:00",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Kindu",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Kindu (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Kindu when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 15:30:00",
+        "target_scores": {
+            "2024-07-16 15:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Kindu",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 15:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Uranium City, SK (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Uranium City, SK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 09:00:00",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Uranium City, SK",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Uranium City, SK (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Uranium City, SK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 12:00:00",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Uranium City, SK",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Uranium City, SK (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Uranium City, SK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 18:00:00",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Uranium City, SK",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Uranium City, SK (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Uranium City, SK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-15 23:30:00",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Uranium City, SK",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Uranium City, SK (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Uranium City, SK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 02:30:00",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Uranium City, SK",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Uranium City, SK (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Uranium City, SK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 07:30:00",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Uranium City, SK",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fort Chipewyan, AB (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Fort Chipewyan, AB when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 08:00:00",
+        "target_scores": {
+            "2024-03-01 08:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fort Chipewyan, AB",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 08:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fort Chipewyan, AB (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Fort Chipewyan, AB when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 11:00:00",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fort Chipewyan, AB",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fort Chipewyan, AB (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Fort Chipewyan, AB when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 17:00:00",
+        "target_scores": {
+            "2024-03-01 17:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fort Chipewyan, AB",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 17:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fort Chipewyan, AB (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Fort Chipewyan, AB when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-15 22:30:00",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fort Chipewyan, AB",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fort Chipewyan, AB (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Fort Chipewyan, AB when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 01:30:00",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fort Chipewyan, AB",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Fort Chipewyan, AB (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Fort Chipewyan, AB when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 07:30:00",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Fort Chipewyan, AB",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Supai (Havasupai), AZ (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Supai (Havasupai), AZ when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 08:00:00",
+        "target_scores": {
+            "2024-03-01 08:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Supai (Havasupai), AZ",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 08:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Supai (Havasupai), AZ (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Supai (Havasupai), AZ when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 11:00:00",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Supai (Havasupai), AZ",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Supai (Havasupai), AZ (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Supai (Havasupai), AZ when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 17:00:00",
+        "target_scores": {
+            "2024-03-01 17:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Supai (Havasupai), AZ",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 17:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Supai (Havasupai), AZ (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Supai (Havasupai), AZ when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-15 23:30:00",
+        "target_scores": {
+            "2024-07-15 21:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Supai (Havasupai), AZ",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 21:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Supai (Havasupai), AZ (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Supai (Havasupai), AZ when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 00:30:00",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Supai (Havasupai), AZ",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Supai (Havasupai), AZ (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Supai (Havasupai), AZ when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 07:30:00",
+        "target_scores": {
+            "2024-07-16 06:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Supai (Havasupai), AZ",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 06:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Anaktuvuk Pass, AK (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Anaktuvuk Pass, AK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 06:00:00",
+        "target_scores": {
+            "2024-03-01 06:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Anaktuvuk Pass, AK",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 06:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Anaktuvuk Pass, AK (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Anaktuvuk Pass, AK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 09:00:00",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Anaktuvuk Pass, AK",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Anaktuvuk Pass, AK (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Anaktuvuk Pass, AK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 15:00:00",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Anaktuvuk Pass, AK",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Anaktuvuk Pass, AK (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Anaktuvuk Pass, AK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-15 20:30:00",
+        "target_scores": {
+            "2024-07-15 20:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Anaktuvuk Pass, AK",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-15 20:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Anaktuvuk Pass, AK (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Anaktuvuk Pass, AK when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 05:30:00",
+        "target_scores": {
+            "2024-07-16 05:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Anaktuvuk Pass, AK",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 05:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushguli (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Ushguli when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 19:00:00",
+        "target_scores": {
+            "2024-03-01 19:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushguli",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 19:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushguli (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Ushguli when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 22:00:00",
+        "target_scores": {
+            "2024-03-01 22:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushguli",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 22:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushguli (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Ushguli when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 04:00:00",
+        "target_scores": {
+            "2024-03-02 04:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushguli",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 04:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushguli (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Ushguli when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 08:30:00",
+        "target_scores": {
+            "2024-07-16 08:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushguli",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 08:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushguli (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Ushguli when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 03:30:00",
+        "target_scores": {
+            "2024-07-16 11:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushguli",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 11:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Ushguli (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Ushguli when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 17:30:00",
+        "target_scores": {
+            "2024-07-16 17:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Ushguli",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 17:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Eucla (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Eucla when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 23:45:00",
+        "target_scores": {
+            "2024-03-01 23:45:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Eucla",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 23:45:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Eucla (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Eucla when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 02:45:00",
+        "target_scores": {
+            "2024-03-02 02:45:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Eucla",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-02 02:45:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Eucla (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Eucla when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 08:45:00",
+        "target_scores": {
+            "2024-03-02 08:45:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Eucla",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 08:45:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Eucla (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Eucla when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 13:15:00",
+        "target_scores": {
+            "2024-07-16 13:15:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Eucla",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 13:15:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Eucla (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Eucla when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 17:15:00",
+        "target_scores": {
+            "2024-07-16 16:15:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Eucla",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 16:15:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Eucla (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Eucla when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 22:15:00",
+        "target_scores": {
+            "2024-07-16 22:15:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Eucla",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 22:15:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Macquarie Island (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Macquarie Island when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 02:00:00",
+        "target_scores": {
+            "2024-03-02 02:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Macquarie Island",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-02 02:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Macquarie Island (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Macquarie Island when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 05:00:00",
+        "target_scores": {
+            "2024-03-02 05:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Macquarie Island",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-02 05:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Macquarie Island (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Macquarie Island when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 11:00:00",
+        "target_scores": {
+            "2024-03-02 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Macquarie Island",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 11:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Macquarie Island (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Macquarie Island when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 14:30:00",
+        "target_scores": {
+            "2024-07-16 14:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Macquarie Island",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 14:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Macquarie Island (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Macquarie Island when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 18:30:00",
+        "target_scores": {
+            "2024-07-16 17:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Macquarie Island",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 17:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Macquarie Island (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Macquarie Island when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-17 01:30:00",
+        "target_scores": {
+            "2024-07-16 23:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Macquarie Island",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 23:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Oymyakon (Pole of Cold) (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Oymyakon (Pole of Cold) when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 18:00:00",
+        "target_scores": {
+            "2024-03-02 01:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Oymyakon (Pole of Cold)",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-02 01:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Oymyakon (Pole of Cold) (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Oymyakon (Pole of Cold) when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 03:00:00",
+        "target_scores": {
+            "2024-03-02 04:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Oymyakon (Pole of Cold)",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-02 04:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Oymyakon (Pole of Cold) (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Oymyakon (Pole of Cold) when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 11:00:00",
+        "target_scores": {
+            "2024-03-02 10:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Oymyakon (Pole of Cold)",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 10:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Oymyakon (Pole of Cold) (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Oymyakon (Pole of Cold) when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 13:30:00",
+        "target_scores": {
+            "2024-07-16 14:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Oymyakon (Pole of Cold)",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 14:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Oymyakon (Pole of Cold) (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Oymyakon (Pole of Cold) when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 17:30:00",
+        "target_scores": {
+            "2024-07-16 17:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Oymyakon (Pole of Cold)",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 17:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Oymyakon (Pole of Cold) (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Oymyakon (Pole of Cold) when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 22:30:00",
+        "target_scores": {
+            "2024-07-16 23:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Oymyakon (Pole of Cold)",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 23:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Pevek (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Pevek when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 03:00:00",
+        "target_scores": {
+            "2024-03-02 03:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Pevek",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-02 03:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Pevek (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Pevek when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 06:00:00",
+        "target_scores": {
+            "2024-03-02 06:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Pevek",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-02 06:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Pevek (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Pevek when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 12:00:00",
+        "target_scores": {
+            "2024-03-02 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Pevek",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 12:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Pevek (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Pevek when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 16:30:00",
+        "target_scores": {
+            "2024-07-16 16:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Pevek",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 16:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Pevek (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Pevek when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 19:30:00",
+        "target_scores": {
+            "2024-07-16 19:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Pevek",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 19:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Pevek (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Pevek when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-17 01:30:00",
+        "target_scores": {
+            "2024-07-17 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Pevek",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-17 01:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Gavdos (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Gavdos when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 17:00:00",
+        "target_scores": {
+            "2024-03-01 17:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Gavdos",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 17:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Gavdos (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Gavdos when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 20:00:00",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Gavdos",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Gavdos (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Gavdos when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-02 02:00:00",
+        "target_scores": {
+            "2024-03-02 02:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Gavdos",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-02 02:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Gavdos (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Gavdos when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 07:30:00",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Gavdos",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Gavdos (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Gavdos when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 10:30:00",
+        "target_scores": {
+            "2024-07-16 10:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Gavdos",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 10:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Gavdos (a 11-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Gavdos when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 16:30:00",
+        "target_scores": {
+            "2024-07-16 16:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Gavdos",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-07-16 16:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Corvo, Azores (a 2-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Corvo, Azores when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 14:00:00",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Corvo, Azores",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Corvo, Azores (a 5-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Corvo, Azores when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 17:00:00",
+        "target_scores": {
+            "2024-03-01 17:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Corvo, Azores",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-03-01 17:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Corvo, Azores (a 11-hour flight) and take off at 2024-03-01 10:00:00 local time, what is the local time in Corvo, Azores when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-03-01 23:00:00",
+        "target_scores": {
+            "2024-03-01 23:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Corvo, Azores",
+            "departure": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "correct_arrival": "2024-03-01 23:00:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Corvo, Azores (a 2-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Corvo, Azores when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 04:30:00",
+        "target_scores": {
+            "2024-07-16 04:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Corvo, Azores",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "correct_arrival": "2024-07-16 04:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aIf I fly from Puerto Williams to Corvo, Azores (a 5-hour flight) and take off at 2024-07-15 23:30:00 local time, what is the local time in Corvo, Azores when I land? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format.NO EXPLANATIONS.\u202c",
+        "response": "2024-07-16 07:30:00",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "from": "Puerto Williams",
+            "to": "Corvo, Azores",
+            "departure": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "isModelResponseCorrect": "TBD"
+    }
+]

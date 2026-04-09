@@ -1,0 +1,902 @@
+[
+    {
+        "input": "\u202aToday is 2024-08-16.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-12": 1.0,
+            "Hijri: -634199 Tishrei 3761, Hebrew: 1446-2-12": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 8 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-17.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-13": 1.0,
+            "Hijri: -634198 Tishrei 3761, Hebrew: 1446-2-13": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-18.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-14": 1.0,
+            "Hijri: -634197 Tishrei 3761, Hebrew: 1446-2-14": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 24 Muharram 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-19.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-15": 1.0,
+            "Hijri: -634196 Tishrei 3761, Hebrew: 1446-2-15": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-20.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-16": 1.0,
+            "Hijri: -634195 Tishrei 3761, Hebrew: 1446-2-16": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 9 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-21.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-17": 1.0,
+            "Hijri: -634194 Tishrei 3761, Hebrew: 1446-2-17": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 6 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-22.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-18": 1.0,
+            "Hijri: -634193 Tishrei 3761, Hebrew: 1446-2-18": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 7 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-23.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-19": 1.0,
+            "Hijri: -634192 Tishrei 3761, Hebrew: 1446-2-19": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 7 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-24.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-20": 1.0,
+            "Hijri: -634191 Tishrei 3761, Hebrew: 1446-2-20": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 9 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-25.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-21": 1.0,
+            "Hijri: -634190 Tishrei 3761, Hebrew: 1446-2-21": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-26.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-22": 1.0,
+            "Hijri: -634189 Tishrei 3761, Hebrew: 1446-2-22": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-27.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-23": 1.0,
+            "Hijri: -634188 Tishrei 3761, Hebrew: 1446-2-23": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-28.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-24": 1.0,
+            "Hijri: -634187 Tishrei 3761, Hebrew: 1446-2-24": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 19 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-29.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-25": 1.0,
+            "Hijri: -634186 Tishrei 3761, Hebrew: 1446-2-25": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 20 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-30.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-26": 1.0,
+            "Hijri: -634185 Tishrei 3761, Hebrew: 1446-2-26": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 21 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-08-31.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-27": 1.0,
+            "Hijri: -634184 Tishrei 3761, Hebrew: 1446-2-27": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 23 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-01.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-28": 1.0,
+            "Hijri: -634183 Tishrei 3761, Hebrew: 1446-2-28": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 25 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-02.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-29": 1.0,
+            "Hijri: -634182 Tishrei 3761, Hebrew: 1446-2-29": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 27 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-03.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-2-30": 1.0,
+            "Hijri: -634181 Tishrei 3761, Hebrew: 1446-2-30": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 27 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-04.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-1": 1.0,
+            "Hijri: -634180 Tishrei 3761, Hebrew: 1446-3-1": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 28 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-05.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-2": 1.0,
+            "Hijri: -634179 Tishrei 3761, Hebrew: 1446-3-2": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-06.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-3": 1.0,
+            "Hijri: -634178 Tishrei 3761, Hebrew: 1446-3-3": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 28 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-07.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-4": 1.0,
+            "Hijri: -634177 Tishrei 3761, Hebrew: 1446-3-4": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 22 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-08.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-5": 1.0,
+            "Hijri: -634176 Tishrei 3761, Hebrew: 1446-3-5": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 23 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-09.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-6": 1.0,
+            "Hijri: -634175 Tishrei 3761, Hebrew: 1446-3-6": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 24 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-10.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-7": 1.0,
+            "Hijri: -634174 Tishrei 3761, Hebrew: 1446-3-7": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 25 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-11.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-8": 1.0,
+            "Hijri: -634173 Tishrei 3761, Hebrew: 1446-3-8": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 25 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-12.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-9": 1.0,
+            "Hijri: -634172 Tishrei 3761, Hebrew: 1446-3-9": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 6 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-13.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-10": 1.0,
+            "Hijri: -634171 Tishrei 3761, Hebrew: 1446-3-10": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-14.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-11": 1.0,
+            "Hijri: -634170 Tishrei 3761, Hebrew: 1446-3-11": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-15.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-12": 1.0,
+            "Hijri: -634169 Tishrei 3761, Hebrew: 1446-3-12": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-16.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-13": 1.0,
+            "Hijri: -634168 Tishrei 3761, Hebrew: 1446-3-13": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 1 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-17.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-14": 1.0,
+            "Hijri: -634167 Tishrei 3761, Hebrew: 1446-3-14": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 2 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-18.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-15": 1.0,
+            "Hijri: -634166 Tishrei 3761, Hebrew: 1446-3-15": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 3 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-19.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-16": 1.0,
+            "Hijri: -634165 Tishrei 3761, Hebrew: 1446-3-16": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 4 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-20.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-17": 1.0,
+            "Hijri: -634164 Tishrei 3761, Hebrew: 1446-3-17": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 5 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-21.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-18": 1.0,
+            "Hijri: -634163 Tishrei 3761, Hebrew: 1446-3-18": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 7 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-22.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-19": 1.0,
+            "Hijri: -634162 Tishrei 3761, Hebrew: 1446-3-19": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 7 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-23.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-20": 1.0,
+            "Hijri: -634161 Tishrei 3761, Hebrew: 1446-3-20": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 8 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-24.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-21": 1.0,
+            "Hijri: -634160 Tishrei 3761, Hebrew: 1446-3-21": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 9 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-25.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-22": 1.0,
+            "Hijri: -634159 Tishrei 3761, Hebrew: 1446-3-22": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-26.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-23": 1.0,
+            "Hijri: -634158 Tishrei 3761, Hebrew: 1446-3-23": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-27.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-24": 1.0,
+            "Hijri: -634157 Tishrei 3761, Hebrew: 1446-3-24": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 12 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-28.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-25": 1.0,
+            "Hijri: -634156 Tishrei 3761, Hebrew: 1446-3-25": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 14 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-29.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-26": 1.0,
+            "Hijri: -634155 Tishrei 3761, Hebrew: 1446-3-26": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 14 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-09-30.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-27": 1.0,
+            "Hijri: -634154 Tishrei 3761, Hebrew: 1446-3-27": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 15 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-01.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-28": 1.0,
+            "Hijri: -634153 Tishrei 3761, Hebrew: 1446-3-28": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 25 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-02.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-29": 1.0,
+            "Hijri: -634152 Tishrei 3761, Hebrew: 1446-3-29": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 27 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-03.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-3-30": 1.0,
+            "Hijri: -634151 Tishrei 3761, Hebrew: 1446-3-30": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 28 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-04.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-1": 1.0,
+            "Hijri: -634150 Tishrei 3761, Hebrew: 1446-4-1": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-05.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-2": 1.0,
+            "Hijri: -634149 Tishrei 3761, Hebrew: 1446-4-2": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 20 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-06.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-3": 1.0,
+            "Hijri: -634148 Tishrei 3761, Hebrew: 1446-4-3": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 22 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-07.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-4": 1.0,
+            "Hijri: -634147 Tishrei 3761, Hebrew: 1446-4-4": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 23 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-08.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-5": 1.0,
+            "Hijri: -634146 Tishrei 3761, Hebrew: 1446-4-5": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 24 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-09.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-6": 1.0,
+            "Hijri: -634145 Tishrei 3761, Hebrew: 1446-4-6": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 24 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-10.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-7": 1.0,
+            "Hijri: -634144 Tishrei 3761, Hebrew: 1446-4-7": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-11.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-8": 1.0,
+            "Hijri: -634143 Tishrei 3761, Hebrew: 1446-4-8": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 5 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-12.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-9": 1.0,
+            "Hijri: -634142 Tishrei 3761, Hebrew: 1446-4-9": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 27 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-13.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-10": 1.0,
+            "Hijri: -634141 Tishrei 3761, Hebrew: 1446-4-10": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-14.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-11": 1.0,
+            "Hijri: -634140 Tishrei 3761, Hebrew: 1446-4-11": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-15.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-12": 1.0,
+            "Hijri: -634139 Tishrei 3761, Hebrew: 1446-4-12": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 1 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-16.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-13": 1.0,
+            "Hijri: -634138 Tishrei 3761, Hebrew: 1446-4-13": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-17.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-14": 1.0,
+            "Hijri: -634137 Tishrei 3761, Hebrew: 1446-4-14": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 3 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-18.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-15": 1.0,
+            "Hijri: -634136 Tishrei 3761, Hebrew: 1446-4-15": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 4 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-19.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-16": 1.0,
+            "Hijri: -634135 Tishrei 3761, Hebrew: 1446-4-16": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 6 \u0631\u0628\u064a\u0639 \u0627\u0644\u0623\u0648\u0644 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-20.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-17": 1.0,
+            "Hijri: -634134 Tishrei 3761, Hebrew: 1446-4-17": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 5 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-21.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-18": 1.0,
+            "Hijri: -634133 Tishrei 3761, Hebrew: 1446-4-18": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 6 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-22.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-19": 1.0,
+            "Hijri: -634132 Tishrei 3761, Hebrew: 1446-4-19": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 8 Rabi'al-Awwal 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-23.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-20": 1.0,
+            "Hijri: -634131 Tishrei 3761, Hebrew: 1446-4-20": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 9 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-24.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-21": 1.0,
+            "Hijri: -634130 Tishrei 3761, Hebrew: 1446-4-21": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 9 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-25.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-22": 1.0,
+            "Hijri: -634129 Tishrei 3761, Hebrew: 1446-4-22": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-26.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-23": 1.0,
+            "Hijri: -634128 Tishrei 3761, Hebrew: 1446-4-23": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-27.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-24": 1.0,
+            "Hijri: -634127 Tishrei 3761, Hebrew: 1446-4-24": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 12 Rabi' al-Awwal 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-28.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-25": 1.0,
+            "Hijri: -634126 Tishrei 3761, Hebrew: 1446-4-25": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 14 Rabi' al-Thani 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-29.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-26": 1.0,
+            "Hijri: -634125 Tishrei 3761, Hebrew: 1446-4-26": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 15 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-30.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-27": 1.0,
+            "Hijri: -634124 Tishrei 3761, Hebrew: 1446-4-27": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 15 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-10-31.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-28": 1.0,
+            "Hijri: -634123 Tishrei 3761, Hebrew: 1446-4-28": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 20 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-01.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-29": 1.0,
+            "Hijri: -634122 Tishrei 3761, Hebrew: 1446-4-29": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 24 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-02.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-4-30": 1.0,
+            "Hijri: -634121 Tishrei 3761, Hebrew: 1446-4-30": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-03.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-1": 1.0,
+            "Hijri: -634120 Tishrei 3761, Hebrew: 1446-5-1": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446 AH.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-04.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-2": 1.0,
+            "Hijri: -634119 Tishrei 3761, Hebrew: 1446-5-2": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 30 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-05.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-3": 1.0,
+            "Hijri: -634118 Tishrei 3761, Hebrew: 1446-5-3": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 22 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-06.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-4": 1.0,
+            "Hijri: -634117 Tishrei 3761, Hebrew: 1446-5-4": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 1 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-07.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-5": 1.0,
+            "Hijri: -634116 Tishrei 3761, Hebrew: 1446-5-5": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 2 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-08.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-6": 1.0,
+            "Hijri: -634115 Tishrei 3761, Hebrew: 1446-5-6": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 24 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-09.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-7": 1.0,
+            "Hijri: -634114 Tishrei 3761, Hebrew: 1446-5-7": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 25 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-10.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-8": 1.0,
+            "Hijri: -634113 Tishrei 3761, Hebrew: 1446-5-8": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 5 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-11.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-9": 1.0,
+            "Hijri: -634112 Tishrei 3761, Hebrew: 1446-5-9": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 6 Rabi' al-Thani 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-12.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-10": 1.0,
+            "Hijri: -634111 Tishrei 3761, Hebrew: 1446-5-10": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 29 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-13.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-11": 1.0,
+            "Hijri: -634110 Tishrei 3761, Hebrew: 1446-5-11": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 1 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-14.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-12": 1.0,
+            "Hijri: -634109 Tishrei 3761, Hebrew: 1446-5-12": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 9 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-15.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-13": 1.0,
+            "Hijri: -634108 Tishrei 3761, Hebrew: 1446-5-13": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Rabi' al-Thani 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-16.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-14": 1.0,
+            "Hijri: -634107 Tishrei 3761, Hebrew: 1446-5-14": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 2 Ramadan 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-17.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-15": 1.0,
+            "Hijri: -634106 Tishrei 3761, Hebrew: 1446-5-15": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 4 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-18.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-16": 1.0,
+            "Hijri: -634105 Tishrei 3761, Hebrew: 1446-5-16": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 4 Rabi' al-Thani 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-19.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-17": 1.0,
+            "Hijri: -634104 Tishrei 3761, Hebrew: 1446-5-17": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 5 Rabi' al-Thani 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-20.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-18": 1.0,
+            "Hijri: -634103 Tishrei 3761, Hebrew: 1446-5-18": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 6 Safar 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-21.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-19": 1.0,
+            "Hijri: -634102 Tishrei 3761, Hebrew: 1446-5-19": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Jumada al-Thani, 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-22.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-20": 1.0,
+            "Hijri: -634101 Tishrei 3761, Hebrew: 1446-5-20": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 8 Jumada al-Thani 1446.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aToday is 2024-11-23.\u200e What is the current date in the Hijri calendar?NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "1446-5-21": 1.0,
+            "Hijri: -634100 Tishrei 3761, Hebrew: 1446-5-21": 0.0
+        },
+        "response": "The current date in the Hijri calendar is 10 Safar 1446 AH.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

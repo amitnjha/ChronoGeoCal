@@ -1,0 +1,3347 @@
+[
+    {
+        "input": "Flight AA887 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Dubai after 2 hours. What is the exact arrival time and date in Dubai local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA887",
+            "from": "Atlanta",
+            "to": "Dubai",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Dubai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "United Arab Emirates",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "Flight AA887 arrives in Dubai at 12:00:00 on 2024-03-01 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA668 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Dubai after 5 hours. What is the exact arrival time and date in Dubai local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 00:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA668",
+            "from": "Atlanta",
+            "to": "Dubai",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Dubai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "United Arab Emirates",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 00:00:00"
+        },
+        "response": "Flight BA668 arrives in Dubai on 2024-03-01 at 19:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA211 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Dubai after 11 hours. What is the exact arrival time and date in Dubai local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 06:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA211",
+            "from": "Atlanta",
+            "to": "Dubai",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Dubai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "United Arab Emirates",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 06:00:00"
+        },
+        "response": "Flight AA211 arrives in Dubai at 21:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA643 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Dubai after 2 hours. What is the exact arrival time and date in Dubai local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA643",
+            "from": "Atlanta",
+            "to": "Dubai",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Dubai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "United Arab Emirates",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "Flight BA643 arrives in Dubai at 01:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA996 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Dubai after 5 hours. What is the exact arrival time and date in Dubai local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 12:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA996",
+            "from": "Atlanta",
+            "to": "Dubai",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Dubai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "United Arab Emirates",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 12:30:00"
+        },
+        "response": "Flight BA996 departs Atlanta at 23:30 on 2024-07-15 and arrives in Dubai after 5 hours at 04:30 on 2024-07-16 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL666 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Dubai after 11 hours. What is the exact arrival time and date in Dubai local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 18:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL666",
+            "from": "Atlanta",
+            "to": "Dubai",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Dubai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "United Arab Emirates",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 18:30:00"
+        },
+        "response": "Flight DL666 arrives in Dubai at 10:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA224 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Dallas after 2 hours. What is the exact arrival time and date in Dallas local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA224",
+            "from": "Atlanta",
+            "to": "Dallas",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "response": "Flight AA224 arrives in Dallas on 2024-03-01 at 12:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA626 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Dallas after 5 hours. What is the exact arrival time and date in Dallas local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA626",
+            "from": "Atlanta",
+            "to": "Dallas",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "response": "Flight AA626 arrives in Dallas at 15:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL570 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Dallas after 11 hours. What is the exact arrival time and date in Dallas local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL570",
+            "from": "Atlanta",
+            "to": "Dallas",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "Flight DL570 arrives in Dallas at 21:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA227 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Dallas after 2 hours. What is the exact arrival time and date in Dallas local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA227",
+            "from": "Atlanta",
+            "to": "Dallas",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-07-15 23:30:00"
+        },
+        "response": "Flight BA227 arrives in Dallas at 01:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA934 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Dallas after 5 hours. What is the exact arrival time and date in Dallas local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 02:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA934",
+            "from": "Atlanta",
+            "to": "Dallas",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-07-16 02:30:00"
+        },
+        "response": "Flight BA934 arrives in Dallas on 2024-07-16 at 04:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA319 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Dallas after 11 hours. What is the exact arrival time and date in Dallas local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 08:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA319",
+            "from": "Atlanta",
+            "to": "Dallas",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-07-16 08:30:00"
+        },
+        "response": "Flight AA319 arrives in Dallas at 10:30:00 on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL461 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives London after 2 hours. What is the exact arrival time and date in London local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 17:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL461",
+            "from": "Atlanta",
+            "to": "London",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/London",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United Kingdom",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+1",
+                "winter": "UTC+0"
+            },
+            "correct_arrival": "2024-03-01 17:00:00"
+        },
+        "response": "Flight DL461 arrives in London at 12:00:00 on 2024-03-01 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL880 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives London after 5 hours. What is the exact arrival time and date in London local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL880",
+            "from": "Atlanta",
+            "to": "London",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/London",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United Kingdom",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+1",
+                "winter": "UTC+0"
+            },
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "Flight DL880 arrives in London at 15:00:00 on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL541 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives London after 11 hours. What is the exact arrival time and date in London local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 02:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL541",
+            "from": "Atlanta",
+            "to": "London",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/London",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United Kingdom",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+1",
+                "winter": "UTC+0"
+            },
+            "correct_arrival": "2024-03-02 02:00:00"
+        },
+        "response": "Flight DL541 arrives in London on 2024-03-02 at 09:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA533 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives London after 2 hours. What is the exact arrival time and date in London local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 05:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA533",
+            "from": "Atlanta",
+            "to": "London",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/London",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United Kingdom",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+1",
+                "winter": "UTC+0"
+            },
+            "correct_arrival": "2024-07-16 05:30:00"
+        },
+        "response": "Flight AA533 arrives in London at 01:30:00 on 2024-07-16 (local time).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA613 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives London after 5 hours. What is the exact arrival time and date in London local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 08:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA613",
+            "from": "Atlanta",
+            "to": "London",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/London",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United Kingdom",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+1",
+                "winter": "UTC+0"
+            },
+            "correct_arrival": "2024-07-16 08:30:00"
+        },
+        "response": "Flight BA613 arrives in London at 04:30:00 on 2024-07-16 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA497 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives London after 11 hours. What is the exact arrival time and date in London local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 14:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA497",
+            "from": "Atlanta",
+            "to": "London",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/London",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United Kingdom",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+1",
+                "winter": "UTC+0"
+            },
+            "correct_arrival": "2024-07-16 14:30:00"
+        },
+        "response": "Flight AA497 arrives in London at 10:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA896 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Tokyo after 2 hours. What is the exact arrival time and date in Tokyo local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 02:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA896",
+            "from": "Atlanta",
+            "to": "Tokyo",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Tokyo",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Japan",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 02:00:00"
+        },
+        "response": "Flight BA896 arrives in Tokyo at 16:00:00 on 2024-03-01 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA946 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Tokyo after 5 hours. What is the exact arrival time and date in Tokyo local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 05:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA946",
+            "from": "Atlanta",
+            "to": "Tokyo",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Tokyo",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Japan",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 05:00:00"
+        },
+        "response": "Flight BA946 arrives in Tokyo on 2024-03-02 at 06:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL568 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Tokyo after 11 hours. What is the exact arrival time and date in Tokyo local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL568",
+            "from": "Atlanta",
+            "to": "Tokyo",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Tokyo",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Japan",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 11:00:00"
+        },
+        "response": "Flight JL568 arrives in Tokyo at 15:00:00 on 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL256 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Tokyo after 2 hours. What is the exact arrival time and date in Tokyo local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 14:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL256",
+            "from": "Atlanta",
+            "to": "Tokyo",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Tokyo",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Japan",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 14:30:00"
+        },
+        "response": "Flight DL256 arrives in Tokyo on 2024-07-16 at 01:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA901 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Tokyo after 5 hours. What is the exact arrival time and date in Tokyo local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 17:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA901",
+            "from": "Atlanta",
+            "to": "Tokyo",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Tokyo",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Japan",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 17:30:00"
+        },
+        "response": "Flight BA901 arrives in Tokyo at 05:30:00 on 2024-07-16 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA223 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Tokyo after 11 hours. What is the exact arrival time and date in Tokyo local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 23:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA223",
+            "from": "Atlanta",
+            "to": "Tokyo",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Tokyo",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Japan",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 23:30:00"
+        },
+        "response": "The exact arrival time and date in Tokyo local time is 10:30:00 on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL105 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Denver after 2 hours. What is the exact arrival time and date in Denver local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL105",
+            "from": "Atlanta",
+            "to": "Denver",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Denver",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-6",
+                "winter": "UTC-7"
+            },
+            "correct_arrival": "2024-03-01 10:00:00"
+        },
+        "response": "Flight JL105 arrives in Denver at 12:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA398 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Denver after 5 hours. What is the exact arrival time and date in Denver local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 13:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA398",
+            "from": "Atlanta",
+            "to": "Denver",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Denver",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-6",
+                "winter": "UTC-7"
+            },
+            "correct_arrival": "2024-03-01 13:00:00"
+        },
+        "response": "Flight AA398 arrives in Denver at 15:00:00 on 2024-03-01 (local time).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA758 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Denver after 11 hours. What is the exact arrival time and date in Denver local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 19:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA758",
+            "from": "Atlanta",
+            "to": "Denver",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Denver",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-6",
+                "winter": "UTC-7"
+            },
+            "correct_arrival": "2024-03-01 19:00:00"
+        },
+        "response": "Flight BA758 arrives in Denver at 21:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA701 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Denver after 2 hours. What is the exact arrival time and date in Denver local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-15 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA701",
+            "from": "Atlanta",
+            "to": "Denver",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Denver",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-6",
+                "winter": "UTC-7"
+            },
+            "correct_arrival": "2024-07-15 22:30:00"
+        },
+        "response": "Flight AA701 arrives in Denver at 01:30:00 on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA732 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Denver after 5 hours. What is the exact arrival time and date in Denver local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 01:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA732",
+            "from": "Atlanta",
+            "to": "Denver",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Denver",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-6",
+                "winter": "UTC-7"
+            },
+            "correct_arrival": "2024-07-16 01:30:00"
+        },
+        "response": "Flight AA732 arrives in Denver at 04:30:00 on 2024-07-16 (local time).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL784 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Denver after 11 hours. What is the exact arrival time and date in Denver local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 07:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL784",
+            "from": "Atlanta",
+            "to": "Denver",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Denver",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-6",
+                "winter": "UTC-7"
+            },
+            "correct_arrival": "2024-07-16 07:30:00"
+        },
+        "response": "Flight DL784 arrives in Denver on 2024-07-16 at 10:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA668 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Istanbul after 2 hours. What is the exact arrival time and date in Istanbul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA668",
+            "from": "Atlanta",
+            "to": "Istanbul",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Istanbul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Turkey",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "Flight AA668 arrives in Istanbul on 2024-03-01 at 20:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA265 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Istanbul after 5 hours. What is the exact arrival time and date in Istanbul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 23:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA265",
+            "from": "Atlanta",
+            "to": "Istanbul",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Istanbul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Turkey",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-01 23:00:00"
+        },
+        "response": "Flight AA265 arrives in Istanbul at 17:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL910 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Istanbul after 11 hours. What is the exact arrival time and date in Istanbul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 05:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL910",
+            "from": "Atlanta",
+            "to": "Istanbul",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Istanbul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Turkey",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 05:00:00"
+        },
+        "response": "Flight JL910 arrives in Istanbul on 2024-03-02 at 00:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA633 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Istanbul after 2 hours. What is the exact arrival time and date in Istanbul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 08:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA633",
+            "from": "Atlanta",
+            "to": "Istanbul",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Istanbul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Turkey",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 08:30:00"
+        },
+        "response": "Flight AA633 arrives in Istanbul at 01:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL835 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Istanbul after 5 hours. What is the exact arrival time and date in Istanbul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 11:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL835",
+            "from": "Atlanta",
+            "to": "Istanbul",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Istanbul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Turkey",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 11:30:00"
+        },
+        "response": "Flight DL835 arrives in Istanbul on 2024-07-16 at 04:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL245 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Istanbul after 11 hours. What is the exact arrival time and date in Istanbul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 17:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL245",
+            "from": "Atlanta",
+            "to": "Istanbul",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Istanbul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Turkey",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 17:30:00"
+        },
+        "response": "Flight DL245 arrives in Istanbul at 10:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA924 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Los Angeles after 2 hours. What is the exact arrival time and date in Los Angeles local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 09:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA924",
+            "from": "Atlanta",
+            "to": "Los Angeles",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Los_Angeles",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-7",
+                "winter": "UTC-8"
+            },
+            "correct_arrival": "2024-03-01 09:00:00"
+        },
+        "response": "Flight AA924 arrives in Los Angeles at 12:00:00 on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA906 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Los Angeles after 5 hours. What is the exact arrival time and date in Los Angeles local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA906",
+            "from": "Atlanta",
+            "to": "Los Angeles",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Los_Angeles",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-7",
+                "winter": "UTC-8"
+            },
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "Flight AA906 arrives in Los Angeles at 15:00:00 on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL961 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Los Angeles after 11 hours. What is the exact arrival time and date in Los Angeles local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL961",
+            "from": "Atlanta",
+            "to": "Los Angeles",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Los_Angeles",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-7",
+                "winter": "UTC-8"
+            },
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "Flight JL961 arrives in Los Angeles at 21:00:00 on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA232 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Los Angeles after 2 hours. What is the exact arrival time and date in Los Angeles local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-15 21:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA232",
+            "from": "Atlanta",
+            "to": "Los Angeles",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Los_Angeles",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-7",
+                "winter": "UTC-8"
+            },
+            "correct_arrival": "2024-07-15 21:30:00"
+        },
+        "response": "Flight BA232 arrives in Los Angeles on 2024-07-15 at 01:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL449 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Los Angeles after 5 hours. What is the exact arrival time and date in Los Angeles local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL449",
+            "from": "Atlanta",
+            "to": "Los Angeles",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Los_Angeles",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-7",
+                "winter": "UTC-8"
+            },
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "response": "Flight DL449 arrives in Los Angeles on 2024-07-15 at 04:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA735 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Los Angeles after 11 hours. What is the exact arrival time and date in Los Angeles local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 06:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA735",
+            "from": "Atlanta",
+            "to": "Los Angeles",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Los_Angeles",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-7",
+                "winter": "UTC-8"
+            },
+            "correct_arrival": "2024-07-16 06:30:00"
+        },
+        "response": "Flight BA735 arrives in Los Angeles at 10:30:00 on 2024-07-16 (Gregorian calendar).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL367 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Chicago after 2 hours. What is the exact arrival time and date in Chicago local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL367",
+            "from": "Atlanta",
+            "to": "Chicago",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-03-01 11:00:00"
+        },
+        "response": "Flight JL367 arrives in Chicago at 12:00:00 on 2024-03-01 (local time).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL778 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Chicago after 5 hours. What is the exact arrival time and date in Chicago local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 14:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL778",
+            "from": "Atlanta",
+            "to": "Chicago",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-03-01 14:00:00"
+        },
+        "response": "Flight JL778 arrives in Chicago on 2024-03-01 at 15:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL875 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Chicago after 11 hours. What is the exact arrival time and date in Chicago local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 20:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL875",
+            "from": "Atlanta",
+            "to": "Chicago",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-03-01 20:00:00"
+        },
+        "response": "Flight JL875 arrives in Chicago on 2024-03-01 at 21:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL620 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Chicago after 2 hours. What is the exact arrival time and date in Chicago local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL620",
+            "from": "Atlanta",
+            "to": "Chicago",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-07-15 23:30:00"
+        },
+        "response": "Flight DL620 arrives in Chicago on 2024-07-15 at 01:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL390 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Chicago after 5 hours. What is the exact arrival time and date in Chicago local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 02:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL390",
+            "from": "Atlanta",
+            "to": "Chicago",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-07-16 02:30:00"
+        },
+        "response": "Flight DL390 departs Atlanta on July 15, 2024, at 23:30 (local time) and arrives in Chicago after 5 hours. The exact arrival time in Chicago local time is July 16, 2024, at 04:30.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA501 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Chicago after 11 hours. What is the exact arrival time and date in Chicago local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 08:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA501",
+            "from": "Atlanta",
+            "to": "Chicago",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/Chicago",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-5",
+                "winter": "UTC-6"
+            },
+            "correct_arrival": "2024-07-16 08:30:00"
+        },
+        "response": "Flight BA501 arrives in Chicago on 2024-07-16 at 10:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL662 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Delhi after 2 hours. What is the exact arrival time and date in Delhi local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 22:30:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL662",
+            "from": "Atlanta",
+            "to": "Delhi",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Kolkata",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "India",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-01 22:30:00"
+        },
+        "response": "Flight DL662 departs Atlanta on 2024-03-01 at 10:00:00 local time and arrives in Delhi after 2 hours.\n\nDeparture time in Atlanta: 2024-03-01 10:00:00\nFlight duration: 2 hours\nArrival time in Atlanta time: 2024-03-01 12:00:00\n\nDelhi is ahead of Atlanta by 10 hours and 30 minutes.\n\nArrival time in Delhi time: 2024-03-01 12:00:00 + 10:30 = 2024-03-01 22:30:00\n\n**Exact arrival time in Delhi local time: 2024-03-01 22:30**",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL625 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Delhi after 5 hours. What is the exact arrival time and date in Delhi local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 01:30:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL625",
+            "from": "Atlanta",
+            "to": "Delhi",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Kolkata",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "India",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 01:30:00"
+        },
+        "response": "Flight DL625 arrives in Delhi at 22:30:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA505 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Delhi after 11 hours. What is the exact arrival time and date in Delhi local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 07:30:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA505",
+            "from": "Atlanta",
+            "to": "Delhi",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Kolkata",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "India",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 07:30:00"
+        },
+        "response": "Flight BA505 departs Atlanta at 10:00 AM on March 1, 2024, and arrives in Delhi after 11 hours, which means it arrives at 9:00 PM on March 1, 2024, Atlanta time. \n\nDelhi is 10 hours and 30 minutes ahead of Atlanta during Standard Time. Therefore, the arrival time in Delhi local time is:\n\n9:00 PM Atlanta time + 10 hours 30 minutes = 7:30 AM on March 2, 2024, Delhi time.\n\n**Arrival time in Delhi: 7:30 AM on March 2, 2024.**",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL209 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Delhi after 2 hours. What is the exact arrival time and date in Delhi local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 11:00:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL209",
+            "from": "Atlanta",
+            "to": "Delhi",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Kolkata",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "India",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 11:00:00"
+        },
+        "response": "Flight JL209 arrives in Delhi at 02:30:00 on 2024-07-16 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL275 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Delhi after 5 hours. What is the exact arrival time and date in Delhi local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 14:00:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL275",
+            "from": "Atlanta",
+            "to": "Delhi",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Kolkata",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "India",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 14:00:00"
+        },
+        "response": "Flight JL275 arrives in Delhi at 04:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL295 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Delhi after 11 hours. What is the exact arrival time and date in Delhi local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 20:00:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL295",
+            "from": "Atlanta",
+            "to": "Delhi",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Kolkata",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "India",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 20:00:00"
+        },
+        "response": "Flight JL295 arrives in Delhi on 2024-07-16 at 10:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA889 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Paris after 2 hours. What is the exact arrival time and date in Paris local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA889",
+            "from": "Atlanta",
+            "to": "Paris",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Paris",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "France",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "Flight AA889 arrives in Paris on 2024-03-01 at 12:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL596 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Paris after 5 hours. What is the exact arrival time and date in Paris local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL596",
+            "from": "Atlanta",
+            "to": "Paris",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Paris",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "France",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "Flight DL596 arrives in Paris on 2024-03-01 at 17:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA683 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Paris after 11 hours. What is the exact arrival time and date in Paris local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 03:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA683",
+            "from": "Atlanta",
+            "to": "Paris",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Paris",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "France",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-02 03:00:00"
+        },
+        "response": "Flight BA683 departs Atlanta at 10:00:00 on 2024-03-01 and arrives in Paris 11 hours later. The exact arrival time and date in Paris local time is 21:00:00 on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA645 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Paris after 2 hours. What is the exact arrival time and date in Paris local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 06:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA645",
+            "from": "Atlanta",
+            "to": "Paris",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Paris",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "France",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 06:30:00"
+        },
+        "response": "Flight AA645 arrives in Paris on 2024-07-16 at 01:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA129 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Paris after 5 hours. What is the exact arrival time and date in Paris local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA129",
+            "from": "Atlanta",
+            "to": "Paris",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Paris",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "France",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "Flight BA129 arrives in Paris on 2024-07-16 at 05:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL866 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Paris after 11 hours. What is the exact arrival time and date in Paris local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 15:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL866",
+            "from": "Atlanta",
+            "to": "Paris",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Paris",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "France",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 15:30:00"
+        },
+        "response": "Flight DL866 arrives in Paris on 2024-07-16 at 10:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL549 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Guangzhou after 2 hours. What is the exact arrival time and date in Guangzhou local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 01:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL549",
+            "from": "Atlanta",
+            "to": "Guangzhou",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Shanghai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "China",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 01:00:00"
+        },
+        "response": "Flight DL549 arrives in Guangzhou on 2024-03-01 at 12:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA221 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Guangzhou after 5 hours. What is the exact arrival time and date in Guangzhou local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 04:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA221",
+            "from": "Atlanta",
+            "to": "Guangzhou",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Shanghai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "China",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 04:00:00"
+        },
+        "response": "Flight BA221 arrives in Guangzhou at 15:00:00 on 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA323 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Guangzhou after 11 hours. What is the exact arrival time and date in Guangzhou local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 10:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA323",
+            "from": "Atlanta",
+            "to": "Guangzhou",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Shanghai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "China",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 10:00:00"
+        },
+        "response": "Flight BA323 arrives in Guangzhou at 01:00:00 local time on 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL563 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Guangzhou after 2 hours. What is the exact arrival time and date in Guangzhou local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 13:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL563",
+            "from": "Atlanta",
+            "to": "Guangzhou",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Shanghai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "China",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 13:30:00"
+        },
+        "response": "Flight DL563 arrives in Guangzhou at 01:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL206 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Guangzhou after 5 hours. What is the exact arrival time and date in Guangzhou local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 16:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL206",
+            "from": "Atlanta",
+            "to": "Guangzhou",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Shanghai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "China",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 16:30:00"
+        },
+        "response": "Flight DL206 arrives in Guangzhou at 04:30:00 on 2024-07-16 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA454 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Guangzhou after 11 hours. What is the exact arrival time and date in Guangzhou local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA454",
+            "from": "Atlanta",
+            "to": "Guangzhou",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Shanghai",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "China",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 22:30:00"
+        },
+        "response": "Flight AA454 arrives in Guangzhou at 10:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA357 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Singapore after 2 hours. What is the exact arrival time and date in Singapore local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 01:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA357",
+            "from": "Atlanta",
+            "to": "Singapore",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Singapore",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Singapore",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 01:00:00"
+        },
+        "response": "Flight AA357 arrives in Singapore on 2024-03-01 at 12:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL366 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Singapore after 5 hours. What is the exact arrival time and date in Singapore local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 04:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL366",
+            "from": "Atlanta",
+            "to": "Singapore",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Singapore",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Singapore",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 04:00:00"
+        },
+        "response": "Flight JL366 arrives in Singapore at 15:00:00 local time on 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA530 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Singapore after 11 hours. What is the exact arrival time and date in Singapore local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 10:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA530",
+            "from": "Atlanta",
+            "to": "Singapore",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Singapore",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Singapore",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 10:00:00"
+        },
+        "response": "Flight AA530 arrives in Singapore at 21:00:00 local time on 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL646 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Singapore after 2 hours. What is the exact arrival time and date in Singapore local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 13:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL646",
+            "from": "Atlanta",
+            "to": "Singapore",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Singapore",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Singapore",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 13:30:00"
+        },
+        "response": "Flight JL646 departs Atlanta at 23:30:00 local time on 2024-07-15 and arrives in Singapore after 2 hours at 01:30:00 on 2024-07-16. \n\nIn Singapore local time, the exact arrival time and date is:\n**2024-07-16 01:30:00** (Gregorian calendar).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA409 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Singapore after 5 hours. What is the exact arrival time and date in Singapore local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 16:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA409",
+            "from": "Atlanta",
+            "to": "Singapore",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Singapore",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Singapore",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 16:30:00"
+        },
+        "response": "Flight BA409 arrives in Singapore on 2024-07-16 at 05:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL451 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Singapore after 11 hours. What is the exact arrival time and date in Singapore local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 22:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL451",
+            "from": "Atlanta",
+            "to": "Singapore",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Singapore",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "Singapore",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 22:30:00"
+        },
+        "response": "Flight JL451 arrives in Singapore at 10:30:00 on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA898 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Seoul after 2 hours. What is the exact arrival time and date in Seoul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 02:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA898",
+            "from": "Atlanta",
+            "to": "Seoul",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Seoul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "South Korea",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 02:00:00"
+        },
+        "response": "Flight AA898 arrives in Seoul on 2024-03-01 at 00:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA642 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Seoul after 5 hours. What is the exact arrival time and date in Seoul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 05:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA642",
+            "from": "Atlanta",
+            "to": "Seoul",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Seoul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "South Korea",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 05:00:00"
+        },
+        "response": "Flight AA642 arrives in Seoul at 15:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL351 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Seoul after 11 hours. What is the exact arrival time and date in Seoul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 11:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL351",
+            "from": "Atlanta",
+            "to": "Seoul",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Seoul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "South Korea",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-03-02 11:00:00"
+        },
+        "response": "Flight DL351 arrives in Seoul at 19:00:00 local time on 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL840 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Seoul after 2 hours. What is the exact arrival time and date in Seoul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 14:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL840",
+            "from": "Atlanta",
+            "to": "Seoul",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Seoul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "South Korea",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 14:30:00"
+        },
+        "response": "Flight JL840 arrives in Seoul at 01:30:00 on 2024-07-16 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA951 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Seoul after 5 hours. What is the exact arrival time and date in Seoul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 17:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA951",
+            "from": "Atlanta",
+            "to": "Seoul",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Seoul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "South Korea",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 17:30:00"
+        },
+        "response": "Flight BA951 arrives in Seoul on 2024-07-16 at 16:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL817 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Seoul after 11 hours. What is the exact arrival time and date in Seoul local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 23:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL817",
+            "from": "Atlanta",
+            "to": "Seoul",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Asia/Seoul",
+            "dst_applied": false,
+            "from_country": "United States",
+            "to_country": "South Korea",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": false,
+            "correct_arrival": "2024-07-16 23:30:00"
+        },
+        "response": "Flight JL817 arrives in Seoul at 10:30:00 on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL607 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Amsterdam after 2 hours. What is the exact arrival time and date in Amsterdam local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL607",
+            "from": "Atlanta",
+            "to": "Amsterdam",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Amsterdam",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Netherlands",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "Flight DL607 arrives in Amsterdam on 2024-03-01 at 12:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA421 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Amsterdam after 5 hours. What is the exact arrival time and date in Amsterdam local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA421",
+            "from": "Atlanta",
+            "to": "Amsterdam",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Amsterdam",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Netherlands",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "Flight AA421 arrives in Amsterdam on 2024-03-01 at 16:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL915 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Amsterdam after 11 hours. What is the exact arrival time and date in Amsterdam local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 03:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL915",
+            "from": "Atlanta",
+            "to": "Amsterdam",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Amsterdam",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Netherlands",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-02 03:00:00"
+        },
+        "response": "Flight DL915 arrives in Amsterdam at 21:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL121 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Amsterdam after 2 hours. What is the exact arrival time and date in Amsterdam local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 06:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL121",
+            "from": "Atlanta",
+            "to": "Amsterdam",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Amsterdam",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Netherlands",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 06:30:00"
+        },
+        "response": "Flight DL121 arrives in Amsterdam at 01:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA730 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Amsterdam after 5 hours. What is the exact arrival time and date in Amsterdam local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA730",
+            "from": "Atlanta",
+            "to": "Amsterdam",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Amsterdam",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Netherlands",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "Flight BA730 arrives in Amsterdam at 05:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA626 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Amsterdam after 11 hours. What is the exact arrival time and date in Amsterdam local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 15:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA626",
+            "from": "Atlanta",
+            "to": "Amsterdam",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Amsterdam",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Netherlands",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 15:30:00"
+        },
+        "response": "Flight BA626 arrives in Amsterdam at 10:30:00 on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA403 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives New York after 2 hours. What is the exact arrival time and date in New York local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 12:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA403",
+            "from": "Atlanta",
+            "to": "New York",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/New_York",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "correct_arrival": "2024-03-01 12:00:00"
+        },
+        "response": "Flight BA403 arrives in New York at 12:00:00 on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA293 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives New York after 5 hours. What is the exact arrival time and date in New York local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 15:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA293",
+            "from": "Atlanta",
+            "to": "New York",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/New_York",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "correct_arrival": "2024-03-01 15:00:00"
+        },
+        "response": "Flight AA293 arrives in New York on 2024-03-01 at 15:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL264 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives New York after 11 hours. What is the exact arrival time and date in New York local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL264",
+            "from": "Atlanta",
+            "to": "New York",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/New_York",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "Flight JL264 arrives in New York at 21:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA557 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives New York after 2 hours. What is the exact arrival time and date in New York local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 00:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA557",
+            "from": "Atlanta",
+            "to": "New York",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "America/New_York",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "correct_arrival": "2024-07-16 00:30:00"
+        },
+        "response": "Flight AA557 arrives in New York on 2024-07-16 at 01:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL954 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives New York after 5 hours. What is the exact arrival time and date in New York local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 03:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL954",
+            "from": "Atlanta",
+            "to": "New York",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "America/New_York",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "correct_arrival": "2024-07-16 03:30:00"
+        },
+        "response": "Flight JL954 arrives in New York at 04:30:00 on 2024-07-16 (Gregorian calendar).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA291 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives New York after 11 hours. What is the exact arrival time and date in New York local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA291",
+            "from": "Atlanta",
+            "to": "New York",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "America/New_York",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "United States",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "Flight BA291 arrives in New York on 2024-07-16 at 10:30:00 AM local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA550 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Frankfurt after 2 hours. What is the exact arrival time and date in Frankfurt local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA550",
+            "from": "Atlanta",
+            "to": "Frankfurt",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Berlin",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Germany",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "Flight BA550 arrives in Frankfurt on 2024-03-01 at 12:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA892 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Frankfurt after 5 hours. What is the exact arrival time and date in Frankfurt local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA892",
+            "from": "Atlanta",
+            "to": "Frankfurt",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Berlin",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Germany",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "Flight AA892 arrives in Frankfurt on 2024-03-01 at 15:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL523 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Frankfurt after 11 hours. What is the exact arrival time and date in Frankfurt local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 03:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL523",
+            "from": "Atlanta",
+            "to": "Frankfurt",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Berlin",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Germany",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-02 03:00:00"
+        },
+        "response": "Flight JL523 arrives in Frankfurt at 21:00:00 on 2024-03-01 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA963 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Frankfurt after 2 hours. What is the exact arrival time and date in Frankfurt local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 06:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA963",
+            "from": "Atlanta",
+            "to": "Frankfurt",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Berlin",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Germany",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 06:30:00"
+        },
+        "response": "Flight BA963 arrives in Frankfurt at 01:30:00 on 2024-07-16 (local time).",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL574 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Frankfurt after 5 hours. What is the exact arrival time and date in Frankfurt local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 09:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL574",
+            "from": "Atlanta",
+            "to": "Frankfurt",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Berlin",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Germany",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 09:30:00"
+        },
+        "response": "Flight DL574 arrives in Frankfurt at 04:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight BA835 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Frankfurt after 11 hours. What is the exact arrival time and date in Frankfurt local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 15:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "BA835",
+            "from": "Atlanta",
+            "to": "Frankfurt",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Berlin",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Germany",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 15:30:00"
+        },
+        "response": "Flight BA835 arrives in Frankfurt at 10:30:00 local time on 2024-07-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight AA501 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Madrid after 2 hours. What is the exact arrival time and date in Madrid local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 18:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "AA501",
+            "from": "Atlanta",
+            "to": "Madrid",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Madrid",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Spain",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 18:00:00"
+        },
+        "response": "Flight AA501 arrives in Madrid on 2024-03-01 at 12:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL304 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Madrid after 5 hours. What is the exact arrival time and date in Madrid local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-01 21:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL304",
+            "from": "Atlanta",
+            "to": "Madrid",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 5,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Madrid",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Spain",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-01 21:00:00"
+        },
+        "response": "Flight DL304 arrives in Madrid at 15:00:00 local time on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight DL536 departs Atlanta at 10:00:00 local time on 2024-03-01. It arrives Madrid after 11 hours. What is the exact arrival time and date in Madrid local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-03-02 03:00:00": 1.0,
+            "2024-03-01 10:00:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "DL536",
+            "from": "Atlanta",
+            "to": "Madrid",
+            "departure_local": "2024-03-01 10:00:00",
+            "flight_hours": 11,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Madrid",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Spain",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-03-02 03:00:00"
+        },
+        "response": "Flight DL536 arrives in Madrid on 2024-03-02 at 10:00:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Flight JL311 departs Atlanta at 23:30:00 local time on 2024-07-15. It arrives Madrid after 2 hours. What is the exact arrival time and date in Madrid local time (Standard Time is in effect), shown in both Gregorian calendar?NO EXPLANATIONS.",
+        "target_scores": {
+            "2024-07-16 06:30:00": 1.0,
+            "2024-07-15 23:30:00": 0.0
+        },
+        "metadata": {
+            "flight_num": "JL311",
+            "from": "Atlanta",
+            "to": "Madrid",
+            "departure_local": "2024-07-15 23:30:00",
+            "flight_hours": 2,
+            "tz_from": "America/New_York",
+            "tz_to": "Europe/Madrid",
+            "dst_applied": true,
+            "from_country": "United States",
+            "to_country": "Spain",
+            "from_dst": {
+                "observed": true,
+                "start": "2026-03-08",
+                "end": "2026-11-01",
+                "summer": "UTC-4",
+                "winter": "UTC-5"
+            },
+            "to_dst": {
+                "observed": true,
+                "start": "2026-03-29",
+                "end": "2026-10-25",
+                "summer": "UTC+2",
+                "winter": "UTC+1"
+            },
+            "correct_arrival": "2024-07-16 06:30:00"
+        },
+        "response": "Flight JL311 will arrive in Madrid on 2024-07-16 at 01:30:00 local time.",
+        "isModelResponseCorrect": "TBD"
+    }
+]

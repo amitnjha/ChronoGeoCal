@@ -1,0 +1,902 @@
+[
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in New York City, and when you checked the start time in your timezone, your clock showed 13:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:30:00": 1.0,
+            "2025-11-11 16:00:00": 0.0
+        },
+        "response": "2023-10-03 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in New York City, and when you checked the start time in your timezone, your clock showed 13:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in New York City? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 15:30:00": 1.0,
+            "2025-11-11 16:00:00": 0.0
+        },
+        "response": "2023-10-25 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Los Angeles, and when you checked the start time in your timezone, your clock showed 11:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:45:00": 1.0,
+            "2025-11-11 14:15:00": 0.0
+        },
+        "response": "2023-10-17 17:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Los Angeles, and when you checked the start time in your timezone, your clock showed 11:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Los Angeles? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 13:45:00": 1.0,
+            "2025-11-11 14:15:00": 0.0
+        },
+        "response": "2023-10-19 14:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Chicago, and when you checked the start time in your timezone, your clock showed 14:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:00:00": 1.0,
+            "2025-11-11 17:30:00": 0.0
+        },
+        "response": "2023-10-04 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Chicago, and when you checked the start time in your timezone, your clock showed 14:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Chicago? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:00:00": 1.0,
+            "2025-11-11 17:30:00": 0.0
+        },
+        "response": "2023-10-04 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Houston, and when you checked the start time in your timezone, your clock showed 15:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:15:00": 1.0,
+            "2025-11-11 18:45:00": 0.0
+        },
+        "response": "2023-10-18 20:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Houston, and when you checked the start time in your timezone, your clock showed 15:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Houston? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:15:00": 1.0,
+            "2025-11-11 18:45:00": 0.0
+        },
+        "response": "2023-10-19 18:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Phoenix, and when you checked the start time in your timezone, your clock showed 15:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:30:00": 1.0,
+            "2025-11-11 18:00:00": 0.0
+        },
+        "response": "2023-10-03 20:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Phoenix, and when you checked the start time in your timezone, your clock showed 15:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Phoenix? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:30:00": 1.0,
+            "2025-11-11 18:00:00": 0.0
+        },
+        "response": "2023-10-25 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Philadelphia, and when you checked the start time in your timezone, your clock showed 18:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:45:00": 1.0,
+            "2025-11-11 21:15:00": 0.0
+        },
+        "response": "2023-10-04 21:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Philadelphia, and when you checked the start time in your timezone, your clock showed 18:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Philadelphia? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:45:00": 1.0,
+            "2025-11-11 21:15:00": 0.0
+        },
+        "response": "2023-10-10 21:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in San Antonio, and when you checked the start time in your timezone, your clock showed 12:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:00:00": 1.0,
+            "2025-11-11 15:30:00": 0.0
+        },
+        "response": "2023-10-24 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in San Antonio, and when you checked the start time in your timezone, your clock showed 12:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in San Antonio? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 15:00:00": 1.0,
+            "2025-11-11 15:30:00": 0.0
+        },
+        "response": "2023-10-19 15:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in San Diego, and when you checked the start time in your timezone, your clock showed 11:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:15:00": 1.0,
+            "2025-11-11 14:45:00": 0.0
+        },
+        "response": "2023-10-04 18:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in San Diego, and when you checked the start time in your timezone, your clock showed 11:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in San Diego? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 14:15:00": 1.0,
+            "2025-11-11 14:45:00": 0.0
+        },
+        "response": "2023-10-04 14:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Dallas, and when you checked the start time in your timezone, your clock showed 14:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:30:00": 1.0,
+            "2025-11-11 17:00:00": 0.0
+        },
+        "response": "2023-10-18 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Dallas, and when you checked the start time in your timezone, your clock showed 14:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Dallas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:30:00": 1.0,
+            "2025-11-11 17:00:00": 0.0
+        },
+        "response": "2023-10-12 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in San Jose, and when you checked the start time in your timezone, your clock showed 13:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:45:00": 1.0,
+            "2025-11-11 16:15:00": 0.0
+        },
+        "response": "2023-10-25 19:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in San Jose, and when you checked the start time in your timezone, your clock showed 13:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in San Jose? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 15:45:00": 1.0,
+            "2025-11-11 16:15:00": 0.0
+        },
+        "response": "2023-10-03 16:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Austin, and when you checked the start time in your timezone, your clock showed 16:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:00:00": 1.0,
+            "2025-11-11 19:30:00": 0.0
+        },
+        "response": "2023-10-20 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Austin, and when you checked the start time in your timezone, your clock showed 16:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Austin? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:00:00": 1.0,
+            "2025-11-11 19:30:00": 0.0
+        },
+        "response": "2023-10-05 19:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Jacksonville, and when you checked the start time in your timezone, your clock showed 18:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:15:00": 1.0,
+            "2025-11-11 21:45:00": 0.0
+        },
+        "response": "2023-10-14 22:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Jacksonville, and when you checked the start time in your timezone, your clock showed 18:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Jacksonville? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:15:00": 1.0,
+            "2025-11-11 21:45:00": 0.0
+        },
+        "response": "2023-10-30 21:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in San Francisco, and when you checked the start time in your timezone, your clock showed 10:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:30:00": 1.0,
+            "2025-11-11 13:00:00": 0.0
+        },
+        "response": "2023-10-03 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in San Francisco, and when you checked the start time in your timezone, your clock showed 10:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in San Francisco? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 12:30:00": 1.0,
+            "2025-11-11 13:00:00": 0.0
+        },
+        "response": "2023-10-11 13:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Columbus, and when you checked the start time in your timezone, your clock showed 14:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:45:00": 1.0,
+            "2025-11-11 17:15:00": 0.0
+        },
+        "response": "2023-10-25 17:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Columbus, and when you checked the start time in your timezone, your clock showed 14:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Columbus? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:45:00": 1.0,
+            "2025-11-11 17:15:00": 0.0
+        },
+        "response": "2023-10-11 17:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Indianapolis, and when you checked the start time in your timezone, your clock showed 15:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:00:00": 1.0,
+            "2025-11-11 18:30:00": 0.0
+        },
+        "response": "2023-10-10 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Indianapolis, and when you checked the start time in your timezone, your clock showed 15:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Indianapolis? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:00:00": 1.0,
+            "2025-11-11 18:30:00": 0.0
+        },
+        "response": "2023-10-18 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Seattle, and when you checked the start time in your timezone, your clock showed 13:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:15:00": 1.0,
+            "2025-11-11 16:45:00": 0.0
+        },
+        "response": "2023-10-03 20:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Seattle, and when you checked the start time in your timezone, your clock showed 13:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Seattle? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:15:00": 1.0,
+            "2025-11-11 16:45:00": 0.0
+        },
+        "response": "2023-10-11 16:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Denver, and when you checked the start time in your timezone, your clock showed 15:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:30:00": 1.0,
+            "2025-11-11 18:00:00": 0.0
+        },
+        "response": "2023-10-03 20:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Denver, and when you checked the start time in your timezone, your clock showed 15:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Denver? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:30:00": 1.0,
+            "2025-11-11 18:00:00": 0.0
+        },
+        "response": "2023-10-03 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Washington DC, and when you checked the start time in your timezone, your clock showed 18:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:45:00": 1.0,
+            "2025-11-11 21:15:00": 0.0
+        },
+        "response": "2023-10-17 21:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Washington DC, and when you checked the start time in your timezone, your clock showed 18:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Washington DC? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:45:00": 1.0,
+            "2025-11-11 21:15:00": 0.0
+        },
+        "response": "2023-10-02 21:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in Boston, and when you checked the start time in your timezone, your clock showed 13:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:00:00": 1.0,
+            "2025-11-11 16:30:00": 0.0
+        },
+        "response": "2023-10-25 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in Boston, and when you checked the start time in your timezone, your clock showed 13:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Boston? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:00:00": 1.0,
+            "2025-11-11 16:30:00": 0.0
+        },
+        "response": "2023-10-04 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in Las Vegas, and when you checked the start time in your timezone, your clock showed 11:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:15:00": 1.0,
+            "2025-11-11 14:45:00": 0.0
+        },
+        "response": "2023-10-04 18:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in Las Vegas, and when you checked the start time in your timezone, your clock showed 11:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Las Vegas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 14:15:00": 1.0,
+            "2025-11-11 14:45:00": 0.0
+        },
+        "response": "2023-10-09 14:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Atlanta, and when you checked the start time in your timezone, your clock showed 15:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:30:00": 1.0,
+            "2025-11-11 18:00:00": 0.0
+        },
+        "response": "2023-10-18 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Atlanta, and when you checked the start time in your timezone, your clock showed 15:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Atlanta? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:30:00": 1.0,
+            "2025-11-11 18:00:00": 0.0
+        },
+        "response": "2023-10-24 18:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in Miami, and when you checked the start time in your timezone, your clock showed 16:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:45:00": 1.0,
+            "2025-11-11 19:15:00": 0.0
+        },
+        "response": "2023-10-11 19:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in Miami, and when you checked the start time in your timezone, your clock showed 16:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Miami? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:45:00": 1.0,
+            "2025-11-11 19:15:00": 0.0
+        },
+        "response": "2023-10-18 19:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Honolulu, and when you checked the start time in your timezone, your clock showed 12:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:00:00": 1.0,
+            "2025-11-11 15:30:00": 0.0
+        },
+        "response": "2023-10-25 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Honolulu, and when you checked the start time in your timezone, your clock showed 12:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Honolulu? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 15:00:00": 1.0,
+            "2025-11-11 15:30:00": 0.0
+        },
+        "response": "2023-10-17 15:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Toronto, and when you checked the start time in your timezone, your clock showed 18:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:15:00": 1.0,
+            "2025-11-11 21:45:00": 0.0
+        },
+        "response": "2023-10-24 22:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Toronto, and when you checked the start time in your timezone, your clock showed 18:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Toronto? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:15:00": 1.0,
+            "2025-11-11 21:45:00": 0.0
+        },
+        "response": "2023-10-24 21:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in Montreal, and when you checked the start time in your timezone, your clock showed 13:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:30:00": 1.0,
+            "2025-11-11 16:00:00": 0.0
+        },
+        "response": "2023-10-16 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in Montreal, and when you checked the start time in your timezone, your clock showed 13:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Montreal? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 15:30:00": 1.0,
+            "2025-11-11 16:00:00": 0.0
+        },
+        "response": "2023-10-25 16:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Vancouver, and when you checked the start time in your timezone, your clock showed 11:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:45:00": 1.0,
+            "2025-11-11 14:15:00": 0.0
+        },
+        "response": "2023-10-10 17:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Vancouver, and when you checked the start time in your timezone, your clock showed 11:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Vancouver? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 13:45:00": 1.0,
+            "2025-11-11 14:15:00": 0.0
+        },
+        "response": "2023-10-15 14:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Calgary, and when you checked the start time in your timezone, your clock showed 13:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:00:00": 1.0,
+            "2025-11-11 16:30:00": 0.0
+        },
+        "response": "2023-10-25 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Calgary, and when you checked the start time in your timezone, your clock showed 13:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Calgary? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:00:00": 1.0,
+            "2025-11-11 16:30:00": 0.0
+        },
+        "response": "2023-10-02 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Ottawa, and when you checked the start time in your timezone, your clock showed 16:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:15:00": 1.0,
+            "2025-11-11 19:45:00": 0.0
+        },
+        "response": "2023-10-19 20:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Ottawa, and when you checked the start time in your timezone, your clock showed 16:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Ottawa? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:15:00": 1.0,
+            "2025-11-11 19:45:00": 0.0
+        },
+        "response": "2023-10-27 19:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Mexico City, and when you checked the start time in your timezone, your clock showed 16:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:30:00": 1.0,
+            "2025-11-11 19:00:00": 0.0
+        },
+        "response": "2023-10-17 20:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Mexico City, and when you checked the start time in your timezone, your clock showed 16:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Mexico City? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:30:00": 1.0,
+            "2025-11-11 19:00:00": 0.0
+        },
+        "response": "2023-10-25 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Guadalajara, and when you checked the start time in your timezone, your clock showed 17:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:45:00": 1.0,
+            "2025-11-11 20:15:00": 0.0
+        },
+        "response": "2023-10-26 21:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Guadalajara, and when you checked the start time in your timezone, your clock showed 17:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Guadalajara? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:45:00": 1.0,
+            "2025-11-11 20:15:00": 0.0
+        },
+        "response": "2023-10-17 20:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in Monterrey, and when you checked the start time in your timezone, your clock showed 12:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:00:00": 1.0,
+            "2025-11-11 15:30:00": 0.0
+        },
+        "response": "2023-10-02 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in Monterrey, and when you checked the start time in your timezone, your clock showed 12:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Monterrey? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 15:00:00": 1.0,
+            "2025-11-11 15:30:00": 0.0
+        },
+        "response": "2023-10-26 15:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in London, and when you checked the start time in your timezone, your clock showed 19:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:15:00": 1.0,
+            "2025-11-11 22:45:00": 0.0
+        },
+        "response": "2023-10-18 18:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in London, and when you checked the start time in your timezone, your clock showed 19:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in London? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:15:00": 1.0,
+            "2025-11-11 22:45:00": 0.0
+        },
+        "response": "2023-10-25 21:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Manchester, and when you checked the start time in your timezone, your clock showed 20:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:30:00": 1.0,
+            "2025-11-11 23:00:00": 0.0
+        },
+        "response": "2023-10-06 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Manchester, and when you checked the start time in your timezone, your clock showed 20:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Manchester? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:30:00": 1.0,
+            "2025-11-11 23:00:00": 0.0
+        },
+        "response": "2023-10-01 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in Birmingham, and when you checked the start time in your timezone, your clock showed 21:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:45:00": 1.0,
+            "2025-11-12 00:15:00": 0.0
+        },
+        "response": "2023-10-17 19:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in Birmingham, and when you checked the start time in your timezone, your clock showed 21:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Birmingham? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 23:45:00": 1.0,
+            "2025-11-12 00:15:00": 0.0
+        },
+        "response": "2023-10-24 22:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Edinburgh, and when you checked the start time in your timezone, your clock showed 22:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:00:00": 1.0,
+            "2025-11-12 01:30:00": 0.0
+        },
+        "response": "2023-10-18 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Edinburgh, and when you checked the start time in your timezone, your clock showed 22:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Edinburgh? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 01:00:00": 1.0,
+            "2025-11-12 01:30:00": 0.0
+        },
+        "response": "2023-10-10 00:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Paris, and when you checked the start time in your timezone, your clock showed 00:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:15:00": 1.0,
+            "2025-11-12 03:45:00": 0.0
+        },
+        "response": "2023-10-10 22:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Paris, and when you checked the start time in your timezone, your clock showed 00:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Paris? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 03:15:00": 1.0,
+            "2025-11-12 03:45:00": 0.0
+        },
+        "response": "2023-10-23 03:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in Lyon, and when you checked the start time in your timezone, your clock showed 19:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:30:00": 1.0,
+            "2025-11-11 22:00:00": 0.0
+        },
+        "response": "2023-10-17 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in Lyon, and when you checked the start time in your timezone, your clock showed 19:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Lyon? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:30:00": 1.0,
+            "2025-11-11 22:00:00": 0.0
+        },
+        "response": "2023-10-17 19:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Marseille, and when you checked the start time in your timezone, your clock showed 20:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:45:00": 1.0,
+            "2025-11-11 23:15:00": 0.0
+        },
+        "response": "2023-10-10 17:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Marseille, and when you checked the start time in your timezone, your clock showed 20:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Marseille? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:45:00": 1.0,
+            "2025-11-11 23:15:00": 0.0
+        },
+        "response": "2023-10-30 21:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Berlin, and when you checked the start time in your timezone, your clock showed 21:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:00:00": 1.0,
+            "2025-11-12 00:30:00": 0.0
+        },
+        "response": "2023-10-18 19:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:30 to 19:00 yesterday. However, you are in Berlin, and when you checked the start time in your timezone, your clock showed 21:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Berlin? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 00:00:00": 1.0,
+            "2025-11-12 00:30:00": 0.0
+        },
+        "response": "2023-10-17 00:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Frankfurt, and when you checked the start time in your timezone, your clock showed 22:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:15:00": 1.0,
+            "2025-11-12 01:45:00": 0.0
+        },
+        "response": "2023-10-10 20:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:45 to 20:15 yesterday. However, you are in Frankfurt, and when you checked the start time in your timezone, your clock showed 22:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Frankfurt? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 01:15:00": 1.0,
+            "2025-11-12 01:45:00": 0.0
+        },
+        "response": "2023-10-10 00:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Munich, and when you checked the start time in your timezone, your clock showed 23:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 20:30:00": 1.0,
+            "2025-11-12 02:00:00": 0.0
+        },
+        "response": "2023-10-17 20:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:00 to 20:30 yesterday. However, you are in Munich, and when you checked the start time in your timezone, your clock showed 23:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Munich? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 01:30:00": 1.0,
+            "2025-11-12 02:00:00": 0.0
+        },
+        "response": "2023-10-04 01:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Rome, and when you checked the start time in your timezone, your clock showed 00:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:45:00": 1.0,
+            "2025-11-12 03:15:00": 0.0
+        },
+        "response": "2023-10-24 21:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:15 to 21:45 yesterday. However, you are in Rome, and when you checked the start time in your timezone, your clock showed 00:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Rome? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 02:45:00": 1.0,
+            "2025-11-12 03:15:00": 0.0
+        },
+        "response": "2023-10-19 03:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in Milan, and when you checked the start time in your timezone, your clock showed 19:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:00:00": 1.0,
+            "2025-11-11 22:30:00": 0.0
+        },
+        "response": "2023-10-19 17:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:30 to 17:00 yesterday. However, you are in Milan, and when you checked the start time in your timezone, your clock showed 19:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Milan? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:00:00": 1.0,
+            "2025-11-11 22:30:00": 0.0
+        },
+        "response": "2023-10-21 22:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in Madrid, and when you checked the start time in your timezone, your clock showed 20:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:15:00": 1.0,
+            "2025-11-11 23:45:00": 0.0
+        },
+        "response": "2023-10-18 18:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:45 to 18:15 yesterday. However, you are in Madrid, and when you checked the start time in your timezone, your clock showed 20:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Madrid? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 23:15:00": 1.0,
+            "2025-11-11 23:45:00": 0.0
+        },
+        "response": "2023-10-24 21:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Barcelona, and when you checked the start time in your timezone, your clock showed 21:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 18:30:00": 1.0,
+            "2025-11-12 00:00:00": 0.0
+        },
+        "response": "2023-10-29 18:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 16:00 to 18:30 yesterday. However, you are in Barcelona, and when you checked the start time in your timezone, your clock showed 21:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Barcelona? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 23:30:00": 1.0,
+            "2025-11-12 00:00:00": 0.0
+        },
+        "response": "2023-10-24 00:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in Amsterdam, and when you checked the start time in your timezone, your clock showed 22:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 19:45:00": 1.0,
+            "2025-11-12 01:15:00": 0.0
+        },
+        "response": "2023-10-25 19:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 17:15 to 19:45 yesterday. However, you are in Amsterdam, and when you checked the start time in your timezone, your clock showed 22:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Amsterdam? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 00:45:00": 1.0,
+            "2025-11-12 01:15:00": 0.0
+        },
+        "response": "2023-10-05 00:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Zurich, and when you checked the start time in your timezone, your clock showed 23:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 21:00:00": 1.0,
+            "2025-11-12 02:30:00": 0.0
+        },
+        "response": "2023-10-19 21:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 18:30 to 21:00 yesterday. However, you are in Zurich, and when you checked the start time in your timezone, your clock showed 23:30. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Zurich? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 02:00:00": 1.0,
+            "2025-11-12 02:30:00": 0.0
+        },
+        "response": "2023-10-10 01:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Tokyo, and when you checked the start time in your timezone, your clock showed 08:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 22:15:00": 1.0,
+            "2025-11-12 11:45:00": 0.0
+        },
+        "response": "2023-10-14 22:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 19:45 to 22:15 yesterday. However, you are in Tokyo, and when you checked the start time in your timezone, your clock showed 08:45. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Tokyo? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 11:15:00": 1.0,
+            "2025-11-12 11:45:00": 0.0
+        },
+        "response": "2023-10-04 11:15:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in Osaka, and when you checked the start time in your timezone, your clock showed 03:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 16:30:00": 1.0,
+            "2025-11-12 06:00:00": 0.0
+        },
+        "response": "2023-10-22 16:30:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 14:00 to 16:30 yesterday. However, you are in Osaka, and when you checked the start time in your timezone, your clock showed 03:00. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Osaka? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 05:30:00": 1.0,
+            "2025-11-12 06:00:00": 0.0
+        },
+        "response": "2023-10-30 06:00:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Kyoto, and when you checked the start time in your timezone, your clock showed 04:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Caracas? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-11 17:45:00": 1.0,
+            "2025-11-12 07:15:00": 0.0
+        },
+        "response": "2023-10-02 17:45:00",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "Someone in Caracas says, The meeting lasted from 15:15 to 17:45 yesterday. However, you are in Kyoto, and when you checked the start time in your timezone, your clock showed 04:15. The meeting actually lasted 2 hours, 30 minutes, but due to timezone confusion, you calculated it lasted 3 hours, 0 minutes. What time did it end in Kyoto? GIVE RESPONSE IN YYYY-MM-DD HH:MM:SS format. NO EXPLANATIONS.",
+        "target_scores": {
+            "2025-11-12 06:45:00": 1.0,
+            "2025-11-12 07:15:00": 0.0
+        },
+        "response": "2023-10-10 06:15:00",
+        "isModelResponseCorrect": "TBD"
+    }
+]

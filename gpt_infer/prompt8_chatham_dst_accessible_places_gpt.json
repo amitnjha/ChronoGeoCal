@@ -1,0 +1,1902 @@
+[
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands New York City Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, New York City: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "New York City",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, New York City: 10:00\u201311:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, New York City: 10:00\u201311:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, New York City: 01:45 \u2013 02:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Los Angeles Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Los Angeles: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Los Angeles",
+            "loc2_tz": "America/Los_Angeles",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Los Angeles: 07:00\u201308:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Los Angeles: 07:00\u201308:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Los Angeles: 09:45 \u2013 11:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Chicago Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Chicago: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Chicago",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Chicago: 09:00\u201310:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Chicago: 09:00\u201310:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Chicago: 08:45 \u2013 09:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Houston Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Houston: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Houston",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Houston: 09:00\u201311:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Houston: 09:00\u201311:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Houston: 08:45 \u2013 10:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Phoenix Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Phoenix: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Phoenix",
+            "loc2_tz": "America/Phoenix",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Phoenix: 07:00\u201307:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Phoenix: 07:00\u201307:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Phoenix: 09:45 \u2013 10:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Philadelphia Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Philadelphia: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Philadelphia",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Philadelphia: 10:00\u201311:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Philadelphia: 10:00\u201311:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Philadelphia: 09:45 \u2013 11:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands San Antonio Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, San Antonio: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "San Antonio",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, San Antonio: 09:00\u201310:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, San Antonio: 09:00\u201310:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, San Antonio: 08:45 \u2013 10:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands San Diego Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, San Diego: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "San Diego",
+            "loc2_tz": "America/Los_Angeles",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, San Diego: 07:00\u201308:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, San Diego: 07:00\u201308:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, San Diego: 08:45 \u2013 10:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Dallas Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Dallas: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Dallas",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Dallas: 09:00\u201310:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Dallas: 09:00\u201310:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Dallas: 09:45 \u2013 11:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands San Jose Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, San Jose: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "San Jose",
+            "loc2_tz": "America/Los_Angeles",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, San Jose: 07:00\u201308:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, San Jose: 07:00\u201308:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, San Jose: 09:45 \u2013 11:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Austin Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Austin: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Austin",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Austin: 09:00\u201310:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Austin: 09:00\u201310:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Austin: 08:45 \u2013 10:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Jacksonville Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Jacksonville: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Jacksonville",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Jacksonville: 10:00\u201311:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Jacksonville: 10:00\u201311:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Jacksonville: 19:45 \u2013 20:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands San Francisco Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, San Francisco: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "San Francisco",
+            "loc2_tz": "America/Los_Angeles",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, San Francisco: 07:00\u201307:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, San Francisco: 07:00\u201307:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, San Francisco: 08:45 \u2013 09:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Columbus Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Columbus: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Columbus",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Columbus: 10:00\u201311:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Columbus: 10:00\u201311:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Columbus: 09:45 \u2013 11:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Indianapolis Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Indianapolis: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Indianapolis",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Indianapolis: 10:00\u201310:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Indianapolis: 10:00\u201310:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Indianapolis: 16:45 \u2013 17:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Seattle Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Seattle: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Seattle",
+            "loc2_tz": "America/Los_Angeles",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Seattle: 07:00\u201308:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Seattle: 07:00\u201308:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Seattle: 09:45 \u2013 11:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Denver Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Denver: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Denver",
+            "loc2_tz": "America/Denver",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Denver: 08:00\u201310:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Denver: 08:00\u201310:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Denver: 08:45 \u2013 10:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Washington DC Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Washington DC: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Washington DC",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Washington DC: 10:00\u201312:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Washington DC: 10:00\u201312:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Washington DC: 09:45 \u2013 11:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Boston Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Boston: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Boston",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Boston: 10:00\u201311:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Boston: 10:00\u201311:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Boston: 09:45 \u2013 11:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Las Vegas Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Las Vegas: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Las Vegas",
+            "loc2_tz": "America/Los_Angeles",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Las Vegas: 07:00\u201309:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Las Vegas: 07:00\u201309:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Las Vegas: 09:45 \u2013 11:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Atlanta Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Atlanta: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Atlanta",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Atlanta: 10:00\u201311:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Atlanta: 10:00\u201311:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Atlanta: 09:45 \u2013 11:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Miami Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Miami: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Miami",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Miami: 10:00\u201311:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Miami: 10:00\u201311:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Miami: 08:45 \u2013 10:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Honolulu Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Honolulu: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Honolulu",
+            "loc2_tz": "Pacific/Honolulu",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Honolulu: 04:00\u201305:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Honolulu: 04:00\u201305:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Honolulu: 08:45 \u2013 10:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Toronto Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Toronto: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Toronto",
+            "loc2_tz": "America/Toronto",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Toronto: 10:00\u201311:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Toronto: 10:00\u201311:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Toronto: 20:15 \u2013 21:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Montreal Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Montreal: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Montreal",
+            "loc2_tz": "America/Toronto",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Montreal: 10:00\u201311:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Montreal: 10:00\u201311:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Montreal: 21:45 \u2013 22:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Vancouver Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Vancouver: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Vancouver",
+            "loc2_tz": "America/Vancouver",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Vancouver: 07:00\u201307:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Vancouver: 07:00\u201307:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Vancouver: 08:45 \u2013 09:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Calgary Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Calgary: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Calgary",
+            "loc2_tz": "America/Edmonton",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Calgary: 08:00\u201309:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Calgary: 08:00\u201309:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Calgary: 09:15 \u2013 10:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Ottawa Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Ottawa: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Ottawa",
+            "loc2_tz": "America/Toronto",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Ottawa: 10:00\u201311:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Ottawa: 10:00\u201311:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Ottawa: 16:15 \u2013 18:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Mexico City Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Mexico City: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Mexico City",
+            "loc2_tz": "America/Mexico_City",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Mexico City: 08:00\u201309:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Mexico City: 08:00\u201309:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Mexico City: 09:45 \u2013 11:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Guadalajara Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Guadalajara: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Guadalajara",
+            "loc2_tz": "America/Mexico_City",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Guadalajara: 08:00\u201309:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Guadalajara: 08:00\u201309:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Guadalajara: 09:15 \u2013 10:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Monterrey Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Monterrey: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Monterrey",
+            "loc2_tz": "America/Monterrey",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Monterrey: 08:00\u201310:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Monterrey: 08:00\u201310:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Monterrey: 00:45 \u2013 02:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands London Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, London: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "London",
+            "loc2_tz": "Europe/London",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, London: 15:00\u201315:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, London: 15:00\u201315:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, London: 15:45 \u2013 16:15 : 5.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Manchester Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Manchester: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Manchester",
+            "loc2_tz": "Europe/London",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Manchester: 15:00\u201316:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Manchester: 15:00\u201316:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Manchester: 15:45 \u2013 16:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Birmingham Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Birmingham: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Birmingham",
+            "loc2_tz": "Europe/London",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Birmingham: 15:00\u201316:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Birmingham: 15:00\u201316:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Birmingham: 14:45 \u2013 16:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Edinburgh Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Edinburgh: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Edinburgh",
+            "loc2_tz": "Europe/London",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Edinburgh: 15:00\u201316:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Edinburgh: 15:00\u201316:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Edinburgh: 14:45 \u2013 16:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Paris Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Paris: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Paris",
+            "loc2_tz": "Europe/Paris",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Paris: 16:00\u201317:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Paris: 16:00\u201317:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Paris: 15:45 \u2013 16:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Lyon Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Lyon: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Lyon",
+            "loc2_tz": "Europe/Paris",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Lyon: 16:00\u201318:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Lyon: 16:00\u201318:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Lyon: 17:45 \u2013 19:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Marseille Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Marseille: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Marseille",
+            "loc2_tz": "Europe/Paris",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Marseille: 16:00\u201316:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Marseille: 16:00\u201316:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Marseille: 15:45 \u2013 16:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Berlin Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Berlin: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Berlin",
+            "loc2_tz": "Europe/Berlin",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Berlin: 16:00\u201317:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Berlin: 16:00\u201317:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Berlin: 17:45 \u2013 19:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Frankfurt Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Frankfurt: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Frankfurt",
+            "loc2_tz": "Europe/Berlin",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Frankfurt: 16:00\u201317:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Frankfurt: 16:00\u201317:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Frankfurt: 16:45 \u2013 18:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Munich Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Munich: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Munich",
+            "loc2_tz": "Europe/Berlin",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Munich: 16:00\u201317:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Munich: 16:00\u201317:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Munich: 18:15 \u2013 19:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Rome Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Rome: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Rome",
+            "loc2_tz": "Europe/Rome",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Rome: 16:00\u201317:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Rome: 16:00\u201317:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Rome: 16:15 \u2013 17:45 : 10.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Milan Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Milan: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Milan",
+            "loc2_tz": "Europe/Rome",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Milan: 16:00\u201317:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Milan: 16:00\u201317:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Milan: 17:45 \u2013 18:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Madrid Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Madrid: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Madrid",
+            "loc2_tz": "Europe/Madrid",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Madrid: 16:00\u201317:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Madrid: 16:00\u201317:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Madrid: 16:45 \u2013 17:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Barcelona Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Barcelona: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Barcelona",
+            "loc2_tz": "Europe/Madrid",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Barcelona: 16:00\u201317:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Barcelona: 16:00\u201317:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Barcelona: 17:45 \u2013 19:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Amsterdam Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Amsterdam: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Amsterdam",
+            "loc2_tz": "Europe/Amsterdam",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Amsterdam: 16:00\u201317:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Amsterdam: 16:00\u201317:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Amsterdam: 17:45 \u2013 19:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Zurich Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Zurich: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Zurich",
+            "loc2_tz": "Europe/Zurich",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Zurich: 16:00\u201317:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Zurich: 16:00\u201317:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Zurich: 15:45 \u2013 17:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Tokyo Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Tokyo: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Tokyo",
+            "loc2_tz": "Asia/Tokyo",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Tokyo: 23:00\u201300:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Tokyo: 23:00\u201300:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Tokyo: 00:45 \u2013 02:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Osaka Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Osaka: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Osaka",
+            "loc2_tz": "Asia/Tokyo",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Osaka: 23:00\u201323:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Osaka: 23:00\u201323:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Osaka: 00:45 \u2013 01:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Kyoto Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Kyoto: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Kyoto",
+            "loc2_tz": "Asia/Tokyo",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Kyoto: 23:00\u201300:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Kyoto: 23:00\u201300:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Kyoto: 00:45 \u2013 02:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Seoul Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Seoul: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Seoul",
+            "loc2_tz": "Asia/Seoul",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Seoul: 23:00\u201323:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Seoul: 23:00\u201323:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Seoul: 00:45 \u2013 01:30 : 10.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Busan Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Busan: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Busan",
+            "loc2_tz": "Asia/Seoul",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Busan: 23:00\u201323:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Busan: 23:00\u201323:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Busan: 01:45 \u2013 02:30 : 10.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Beijing Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Beijing: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Beijing",
+            "loc2_tz": "Asia/Shanghai",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Beijing: 22:00\u201323:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Beijing: 22:00\u201323:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Beijing: 23:45 \u2013 01:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Shanghai Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Shanghai: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Shanghai",
+            "loc2_tz": "Asia/Shanghai",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Shanghai: 22:00\u201323:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Shanghai: 22:00\u201323:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Shanghai: 19:45 \u2013 20:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Hong Kong Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Hong Kong: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Hong Kong",
+            "loc2_tz": "Asia/Hong_Kong",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Hong Kong: 22:00\u201300:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Hong Kong: 22:00\u201300:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Hong Kong: 01:45 \u2013 03:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Singapore Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Singapore: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Singapore",
+            "loc2_tz": "Asia/Singapore",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Singapore: 22:00\u201322:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Singapore: 22:00\u201322:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Singapore: 01:45 \u2013 02:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Bangkok Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Bangkok: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Bangkok",
+            "loc2_tz": "Asia/Bangkok",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Bangkok: 21:00\u201321:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Bangkok: 21:00\u201321:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Bangkok: 22:15 \u2013 22:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Ho Chi Minh City Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Ho Chi Minh City: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Ho Chi Minh City",
+            "loc2_tz": "Asia/Ho_Chi_Minh",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Ho Chi Minh City: 21:00\u201323:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Ho Chi Minh City: 21:00\u201323:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Ho Chi Minh City: 23:45 \u2013 01:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Mumbai Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Mumbai: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Mumbai",
+            "loc2_tz": "Asia/Kolkata",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Mumbai: 19:30\u201320:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Mumbai: 19:30\u201320:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Mumbai: 21:15 \u2013 22:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Delhi Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Delhi: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Delhi",
+            "loc2_tz": "Asia/Kolkata",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Delhi: 19:30\u201320:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Delhi: 19:30\u201320:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Delhi: 20:15 \u2013 20:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Dubai Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Dubai: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Dubai",
+            "loc2_tz": "Asia/Dubai",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Dubai: 18:00\u201320:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Dubai: 18:00\u201320:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Dubai: 20:45 \u2013 22:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Istanbul Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Istanbul: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Istanbul",
+            "loc2_tz": "Europe/Istanbul",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Istanbul: 17:00\u201318:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Istanbul: 17:00\u201318:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Istanbul: 17:45 \u2013 18:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Sydney Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Sydney: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Sydney",
+            "loc2_tz": "Australia/Sydney",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Sydney: 00:00\u201301:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Sydney: 00:00\u201301:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Sydney: 05:15 \u2013 07:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Melbourne Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Melbourne: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Melbourne",
+            "loc2_tz": "Australia/Melbourne",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Melbourne: 00:00\u201302:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Melbourne: 00:00\u201302:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Melbourne: 05:15 \u2013 07:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Auckland Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Auckland: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Auckland",
+            "loc2_tz": "Pacific/Auckland",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Auckland: 03:00\u201304:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Auckland: 03:00\u201304:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Auckland: 04:15 \u2013 06:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Sao Paulo Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Sao Paulo: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Sao Paulo",
+            "loc2_tz": "America/Sao_Paulo",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Sao Paulo: 11:00\u201313:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Sao Paulo: 11:00\u201313:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Sao Paulo: 16:15 \u2013 18:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Buenos Aires Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Buenos Aires: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Buenos Aires",
+            "loc2_tz": "America/Argentina/Buenos_Aires",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Buenos Aires: 11:00\u201312:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Buenos Aires: 11:00\u201312:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Buenos Aires: 09:45 \u2013 11:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Johannesburg Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Johannesburg: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Johannesburg",
+            "loc2_tz": "Africa/Johannesburg",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Johannesburg: 16:00\u201317:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Johannesburg: 16:00\u201317:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Johannesburg: 15:45 \u2013 16:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Cairo Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Cairo: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Cairo",
+            "loc2_tz": "Africa/Cairo",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Cairo: 17:00\u201317:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Cairo: 17:00\u201317:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Cairo: 01:45 \u2013 02:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Portland Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Portland: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Portland",
+            "loc2_tz": "America/Los_Angeles",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Portland: 07:00\u201307:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Portland: 07:00\u201307:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Portland: 08:45 \u2013 09:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Salt Lake City Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Salt Lake City: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Salt Lake City",
+            "loc2_tz": "America/Denver",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Salt Lake City: 08:00\u201308:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Salt Lake City: 08:00\u201308:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Salt Lake City: 08:45 \u2013 09:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Orlando Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Orlando: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Orlando",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Orlando: 10:00\u201310:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Orlando: 10:00\u201310:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Orlando: 21:45 \u2013 22:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Nashville Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Nashville: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Nashville",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Nashville: 09:00\u201311:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Nashville: 09:00\u201311:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Nashville: 08:45 \u2013 10:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands New Orleans Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, New Orleans: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "New Orleans",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, New Orleans: 09:00\u201310:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, New Orleans: 09:00\u201310:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, New Orleans: 08:45 \u2013 10:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Minneapolis Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Minneapolis: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Minneapolis",
+            "loc2_tz": "America/Chicago",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Minneapolis: 09:00\u201309:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Minneapolis: 09:00\u201309:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Minneapolis: 09:45 \u2013 10:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Detroit Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Detroit: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Detroit",
+            "loc2_tz": "America/Detroit",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Detroit: 10:00\u201311:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Detroit: 10:00\u201311:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Detroit: 09:45 \u2013 11:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Charlotte Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Charlotte: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Charlotte",
+            "loc2_tz": "America/New_York",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Charlotte: 10:00\u201311:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Charlotte: 10:00\u201311:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Charlotte: 09:45 \u2013 11:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Edmonton Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Edmonton: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Edmonton",
+            "loc2_tz": "America/Edmonton",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Edmonton: 08:00\u201309:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Edmonton: 08:00\u201309:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Edmonton: 09:15 \u2013 10:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Winnipeg Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Winnipeg: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Winnipeg",
+            "loc2_tz": "America/Winnipeg",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Winnipeg: 09:00\u201309:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Winnipeg: 09:00\u201309:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Winnipeg: 09:15 \u2013 09:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 30 minutes. The meeting involves participants in two locations: Chatham Islands Tijuana Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Tijuana: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Tijuana",
+            "loc2_tz": "America/Tijuana",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 30,
+            "duration_str": "30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:15, Tijuana: 07:00\u201307:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:15, Tijuana: 07:00\u201307:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:15, Tijuana: 08:45 \u2013 09:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Cancun Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Cancun: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Cancun",
+            "loc2_tz": "America/Cancun",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Cancun: 09:00\u201311:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Cancun: 09:00\u201311:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Cancun: 09:45 \u2013 11:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Vienna Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Vienna: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Vienna",
+            "loc2_tz": "Europe/Vienna",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Vienna: 16:00\u201318:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Vienna: 16:00\u201318:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Vienna: 20:45 \u2013 22:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Prague Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Prague: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Prague",
+            "loc2_tz": "Europe/Prague",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Prague: 16:00\u201317:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Prague: 16:00\u201317:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Prague: 17:45 \u2013 19:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Lisbon Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Lisbon: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Lisbon",
+            "loc2_tz": "Europe/Lisbon",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Lisbon: 15:00\u201316:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Lisbon: 15:00\u201316:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Lisbon: 14:45 \u2013 15:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Dublin Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Dublin: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Dublin",
+            "loc2_tz": "Europe/Dublin",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Dublin: 15:00\u201316:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Dublin: 15:00\u201316:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Dublin: 15:45 \u2013 17:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Copenhagen Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Copenhagen: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Copenhagen",
+            "loc2_tz": "Europe/Copenhagen",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Copenhagen: 16:00\u201317:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Copenhagen: 16:00\u201317:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Copenhagen: 15:45 \u2013 17:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Stockholm Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Stockholm: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Stockholm",
+            "loc2_tz": "Europe/Stockholm",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Stockholm: 16:00\u201317:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Stockholm: 16:00\u201317:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Stockholm: 17:15 \u2013 18:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Oslo Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Oslo: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Oslo",
+            "loc2_tz": "Europe/Oslo",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Oslo: 16:00\u201317:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Oslo: 16:00\u201317:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Oslo: 16:45 \u2013 18:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Helsinki Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Helsinki: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Helsinki",
+            "loc2_tz": "Europe/Helsinki",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Helsinki: 17:00\u201318:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Helsinki: 17:00\u201318:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Helsinki: 17:45 \u2013 19:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Brussels Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Brussels: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Brussels",
+            "loc2_tz": "Europe/Brussels",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Brussels: 16:00\u201317:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Brussels: 16:00\u201317:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Brussels: 17:45 \u2013 19:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Budapest Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Budapest: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Budapest",
+            "loc2_tz": "Europe/Budapest",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Budapest: 16:00\u201317:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Budapest: 16:00\u201317:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Budapest: 17:45 \u2013 18:45 : 10.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Krakow Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Krakow: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Krakow",
+            "loc2_tz": "Europe/Warsaw",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Krakow: 16:00\u201318:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Krakow: 16:00\u201318:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Krakow: 16:45 \u2013 18:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 45 minutes. The meeting involves participants in two locations: Chatham Islands Athens Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Athens: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Athens",
+            "loc2_tz": "Europe/Athens",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 105,
+            "duration_str": "1 hour and 45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:30, Athens: 17:00\u201318:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:30, Athens: 17:00\u201318:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:30, Athens: 16:45 \u2013 18:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 45 minutes. The meeting involves participants in two locations: Chatham Islands Tel Aviv Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Tel Aviv: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Tel Aviv",
+            "loc2_tz": "Asia/Jerusalem",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 45,
+            "duration_str": "45 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:30, Tel Aviv: 17:00\u201317:45 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:30, Tel Aviv: 17:00\u201317:45 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:30, Tel Aviv: 16:45 \u2013 17:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour. The meeting involves participants in two locations: Chatham Islands Doha Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Doha: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Doha",
+            "loc2_tz": "Asia/Qatar",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 60,
+            "duration_str": "1 hour"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201304:45, Doha: 17:00\u201318:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201303:45, Doha: 17:00\u201318:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 04:45, Doha: 22:45 \u2013 23:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Riyadh Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Riyadh: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Riyadh",
+            "loc2_tz": "Asia/Riyadh",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Riyadh: 17:00\u201318:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Riyadh: 17:00\u201318:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Riyadh: 23:45 \u2013 01:00 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 30 minutes. The meeting involves participants in two locations: Chatham Islands Kuwait City Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Kuwait City: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Kuwait City",
+            "loc2_tz": "Asia/Kuwait",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 90,
+            "duration_str": "1 hour and 30 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:15, Kuwait City: 17:00\u201318:30 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:15, Kuwait City: 17:00\u201318:30 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:15, Kuwait City: 01:45 \u2013 03:15 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Beirut Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Beirut: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Beirut",
+            "loc2_tz": "Asia/Beirut",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Beirut: 17:00\u201319:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Beirut: 17:00\u201319:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Beirut: 20:45 \u2013 22:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 1 hour and 15 minutes. The meeting involves participants in two locations: Chatham Islands Jakarta Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Jakarta: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Jakarta",
+            "loc2_tz": "Asia/Jakarta",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 75,
+            "duration_str": "1 hour and 15 minutes"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:00, Jakarta: 21:00\u201322:15 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:00, Jakarta: 21:00\u201322:15 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:00, Jakarta: 20:15 \u2013 21:30 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "On September 28, 2025, daylight saving time (DST) begins in the Chatham Islands. At the DST transition, the local clocks move forward from 02:45 to 03:45. A video meeting starts exactly at the moment the DST change takes effect (that is, at 03:45 local time in the Chatham Islands) and lasts for 2 hours. The meeting involves participants in two locations: Chatham Islands Manila Determine the local start and end times in both locations. Assume all listed locations correctly observe DST according to their local time zones. Report your answer in the following format (single line with score): Chatham Islands: HH:MM \u2013 HH:MM, Manila: HH:MM \u2013 HH:MM : X.X. NO EXPLANATIONS.",
+        "meta": {
+            "loc1": "Chatham Islands",
+            "loc1_tz": "Pacific/Chatham",
+            "loc2": "Manila",
+            "loc2_tz": "Asia/Manila",
+            "dst_date": "September 28, 2025",
+            "transition": "02:45 -> 03:45 (local)",
+            "duration_minutes": 120,
+            "duration_str": "2 hours"
+        },
+        "target_scores": {
+            "Chatham Islands: 03:45\u201305:45, Manila: 22:00\u201300:00 : 1.0": 1.0,
+            "Chatham Islands: 02:45\u201304:45, Manila: 22:00\u201300:00 : 0.0": 0.0
+        },
+        "response": "Chatham Islands: 03:45 \u2013 05:45, Manila: 23:45 \u2013 01:45 : 1.0",
+        "isModelResponseCorrect": "TBD"
+    }
+]

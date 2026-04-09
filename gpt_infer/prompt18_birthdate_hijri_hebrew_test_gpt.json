@@ -1,0 +1,902 @@
+[
+    {
+        "input": "\u202aI was born on [1950-01-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 6 Tevet 5780.",
+        "target_scores": {
+            "-661455 Tishrei 3761": 1.0,
+            "Hijri: -661455 Tishrei 3761, Hebrew: 12 Rabi' al-awwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-01-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date of January 15, 1950, corresponds to the 4th of Shevat, 5780 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661441 Tishrei 3761": 1.0,
+            "Hijri: -661441 Tishrei 3761, Hebrew: 26 Rabi' al-awwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-01-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 26 Shevat 5780.",
+        "target_scores": {
+            "-661428 Tishrei 3761": 1.0,
+            "Hijri: -661428 Tishrei 3761, Hebrew: 10 Rabi' al-thani 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-02-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is the 22nd of Shevat, 5780.",
+        "target_scores": {
+            "-661424 Tishrei 3761": 1.0,
+            "Hijri: -661424 Tishrei 3761, Hebrew: 14 Rabi' al-thani 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-02-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew birth date is 10 Adar 5780.",
+        "target_scores": {
+            "-661410 Tishrei 3761": 1.0,
+            "Hijri: -661410 Tishrei 3761, Hebrew: 28 Rabi' al-thani 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-02-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 25th of Adar, 5780.",
+        "target_scores": {
+            "-661397 Tishrei 3761": 1.0,
+            "Hijri: -661397 Tishrei 3761, Hebrew: 11 Jumada al-awwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-03-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 24th of Adar I, 5710 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661396 Tishrei 3761": 1.0,
+            "Hijri: -661396 Tishrei 3761, Hebrew: 12 Jumada al-awwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-03-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew birth date is the 6th of Nisan, 5780.",
+        "target_scores": {
+            "-661382 Tishrei 3761": 1.0,
+            "Hijri: -661382 Tishrei 3761, Hebrew: 26 Jumada al-awwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-03-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The Hebrew date for March 28, 1950, is 20 Nisan 5780.",
+        "target_scores": {
+            "-661369 Tishrei 3761": 1.0,
+            "Hijri: -661369 Tishrei 3761, Hebrew: 10 Jumada al-thani 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-04-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The Hebrew date for April 1, 1950, is Nisan 20, 5780.",
+        "target_scores": {
+            "-661365 Tishrei 3761": 1.0,
+            "Hijri: -661365 Tishrei 3761, Hebrew: 14 Jumada al-thani 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-04-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 6th of Nisan, 5780 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661351 Tishrei 3761": 1.0,
+            "Hijri: -661351 Tishrei 3761, Hebrew: 28 Jumada al-thani 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-04-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 15 Iyar 5780.",
+        "target_scores": {
+            "-661338 Tishrei 3761": 1.0,
+            "Hijri: -661338 Tishrei 3761, Hebrew: 11 Rajab 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-05-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 10 Iyar 5780.",
+        "target_scores": {
+            "-661335 Tishrei 3761": 1.0,
+            "Hijri: -661335 Tishrei 3761, Hebrew: 14 Rajab 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-05-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 10 Iyar 5780.",
+        "target_scores": {
+            "-661321 Tishrei 3761": 1.0,
+            "Hijri: -661321 Tishrei 3761, Hebrew: 28 Rajab 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-05-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is 21 Sivan 5780.",
+        "target_scores": {
+            "-661308 Tishrei 3761": 1.0,
+            "Hijri: -661308 Tishrei 3761, Hebrew: 12 Sha'ban 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-06-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 18 Sivan 5780.",
+        "target_scores": {
+            "-661304 Tishrei 3761": 1.0,
+            "Hijri: -661304 Tishrei 3761, Hebrew: 16 Sha'ban 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-06-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 8 Sivan 5780.",
+        "target_scores": {
+            "-661290 Tishrei 3761": 1.0,
+            "Hijri: -661290 Tishrei 3761, Hebrew: 30 Sha'ban 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-06-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 16 Tammuz 5780.",
+        "target_scores": {
+            "-661277 Tishrei 3761": 1.0,
+            "Hijri: -661277 Tishrei 3761, Hebrew: 13 Ramadan 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-07-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 24th of Tammuz, 5780 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661274 Tishrei 3761": 1.0,
+            "Hijri: -661274 Tishrei 3761, Hebrew: 16 Ramadan 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-07-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date of July 15, 1950, corresponds to the 1st of Av, 5780 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661260 Tishrei 3761": 1.0,
+            "Hijri: -661260 Tishrei 3761, Hebrew: 1 Shawwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-07-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 15th of Av, 5780 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661247 Tishrei 3761": 1.0,
+            "Hijri: -661247 Tishrei 3761, Hebrew: 14 Shawwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-08-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is the 24th of Av, 5780.",
+        "target_scores": {
+            "-661243 Tishrei 3761": 1.0,
+            "Hijri: -661243 Tishrei 3761, Hebrew: 18 Shawwal 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-08-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is 28 Av 5780.",
+        "target_scores": {
+            "-661229 Tishrei 3761": 1.0,
+            "Hijri: -661229 Tishrei 3761, Hebrew: 2 Dhu al-Qi'dah 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-08-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 16th of Elul, 5710 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661216 Tishrei 3761": 1.0,
+            "Hijri: -661216 Tishrei 3761, Hebrew: 15 Dhu al-Qi'dah 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-09-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on Elul 25, 5780 in the Hebrew calendar.",
+        "target_scores": {
+            "-661212 Tishrei 3761": 1.0,
+            "Hijri: -661212 Tishrei 3761, Hebrew: 19 Dhu al-Qi'dah 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-09-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 2nd of Tishrei, 5781 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661198 Tishrei 3761": 1.0,
+            "Hijri: -661198 Tishrei 3761, Hebrew: 4 Dhu al-Hijjah 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-09-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 19 Tishrei 5781.",
+        "target_scores": {
+            "-661185 Tishrei 3761": 1.0,
+            "Hijri: -661185 Tishrei 3761, Hebrew: 17 Dhu al-Hijjah 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-10-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birthdate of October 1, 1950, corresponds to the 24th of Tishrei, 5781 in the Hebrew calendar.",
+        "target_scores": {
+            "-661182 Tishrei 3761": 1.0,
+            "Hijri: -661182 Tishrei 3761, Hebrew: 20 Dhu al-Hijjah 1370 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-10-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The Hebrew date for 1950-10-15 is the 1st of Cheshvan, 5781.",
+        "target_scores": {
+            "-661168 Tishrei 3761": 1.0,
+            "Hijri: -661168 Tishrei 3761, Hebrew: 4 Muharram 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-10-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 16th of Cheshvan, 5781.",
+        "target_scores": {
+            "-661155 Tishrei 3761": 1.0,
+            "Hijri: -661155 Tishrei 3761, Hebrew: 17 Muharram 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-11-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is 5721 Kislev 24.",
+        "target_scores": {
+            "-661151 Tishrei 3761": 1.0,
+            "Hijri: -661151 Tishrei 3761, Hebrew: 21 Muharram 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-11-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 9 Kislev 5781.",
+        "target_scores": {
+            "-661137 Tishrei 3761": 1.0,
+            "Hijri: -661137 Tishrei 3761, Hebrew: 6 Safar 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-11-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 21 Kislev 5781.",
+        "target_scores": {
+            "-661124 Tishrei 3761": 1.0,
+            "Hijri: -661124 Tishrei 3761, Hebrew: 19 Safar 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-12-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 24 Kislev 5781.",
+        "target_scores": {
+            "-661121 Tishrei 3761": 1.0,
+            "Hijri: -661121 Tishrei 3761, Hebrew: 22 Safar 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-12-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 3rd of Tevet, 5711 in the Hebrew Calendar.",
+        "target_scores": {
+            "-661107 Tishrei 3761": 1.0,
+            "Hijri: -661107 Tishrei 3761, Hebrew: 6 Rabi' al-awwal 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1950-12-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 22 Tevet 5781.",
+        "target_scores": {
+            "-661094 Tishrei 3761": 1.0,
+            "Hijri: -661094 Tishrei 3761, Hebrew: 19 Rabi' al-awwal 1371 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-01-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The Hebrew date for January 1, 1953, is 24 Tevet 5713.",
+        "target_scores": {
+            "-660359 Tishrei 3761": 1.0,
+            "Hijri: -660359 Tishrei 3761, Hebrew: 16 Rabi' al-thani 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-01-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 3 Tevet 5783.",
+        "target_scores": {
+            "-660345 Tishrei 3761": 1.0,
+            "Hijri: -660345 Tishrei 3761, Hebrew: 30 Rabi' al-thani 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-01-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 8 Shevat 5783.",
+        "target_scores": {
+            "-660332 Tishrei 3761": 1.0,
+            "Hijri: -660332 Tishrei 3761, Hebrew: 13 Jumada al-awwal 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-02-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The date in the Hebrew calendar is 23 Shevat 5783.",
+        "target_scores": {
+            "-660328 Tishrei 3761": 1.0,
+            "Hijri: -660328 Tishrei 3761, Hebrew: 17 Jumada al-awwal 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-02-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 16 Shevat 5783.",
+        "target_scores": {
+            "-660314 Tishrei 3761": 1.0,
+            "Hijri: -660314 Tishrei 3761, Hebrew: 2 Jumada al-thani 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-02-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew calendar date is 17 Adar 5783.",
+        "target_scores": {
+            "-660301 Tishrei 3761": 1.0,
+            "Hijri: -660301 Tishrei 3761, Hebrew: 15 Jumada al-thani 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-03-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is 19 Adar 5733.",
+        "target_scores": {
+            "-660300 Tishrei 3761": 1.0,
+            "Hijri: -660300 Tishrei 3761, Hebrew: 16 Jumada al-thani 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-03-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 6 Adar 5783.",
+        "target_scores": {
+            "-660286 Tishrei 3761": 1.0,
+            "Hijri: -660286 Tishrei 3761, Hebrew: 30 Jumada al-thani 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-03-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew birth date is 25 Adar 5783.",
+        "target_scores": {
+            "-660273 Tishrei 3761": 1.0,
+            "Hijri: -660273 Tishrei 3761, Hebrew: 13 Rajab 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-04-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 21st of Nisan, 5733 in the Hebrew Calendar.",
+        "target_scores": {
+            "-660269 Tishrei 3761": 1.0,
+            "Hijri: -660269 Tishrei 3761, Hebrew: 17 Rajab 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-04-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 5 Nisan 5783.",
+        "target_scores": {
+            "-660255 Tishrei 3761": 1.0,
+            "Hijri: -660255 Tishrei 3761, Hebrew: 2 Sha'ban 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-04-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 15 Iyar 5783.",
+        "target_scores": {
+            "-660242 Tishrei 3761": 1.0,
+            "Hijri: -660242 Tishrei 3761, Hebrew: 15 Sha'ban 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-05-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 22 Nisan 5733.",
+        "target_scores": {
+            "-660239 Tishrei 3761": 1.0,
+            "Hijri: -660239 Tishrei 3761, Hebrew: 18 Sha'ban 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-05-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birthdate of May 15, 1953, corresponds to the 6th of Iyar, 5783 in the Hebrew Calendar.",
+        "target_scores": {
+            "-660225 Tishrei 3761": 1.0,
+            "Hijri: -660225 Tishrei 3761, Hebrew: 2 Ramadan 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-05-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew birth date is 20 Iyar 5733.",
+        "target_scores": {
+            "-660212 Tishrei 3761": 1.0,
+            "Hijri: -660212 Tishrei 3761, Hebrew: 15 Ramadan 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-06-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 20 Sivan 5783.",
+        "target_scores": {
+            "-660208 Tishrei 3761": 1.0,
+            "Hijri: -660208 Tishrei 3761, Hebrew: 19 Ramadan 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-06-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew calendar is 7 Sivan 5733.",
+        "target_scores": {
+            "-660194 Tishrei 3761": 1.0,
+            "Hijri: -660194 Tishrei 3761, Hebrew: 4 Shawwal 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-06-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is the 19th of Tammuz, 5783.",
+        "target_scores": {
+            "-660181 Tishrei 3761": 1.0,
+            "Hijri: -660181 Tishrei 3761, Hebrew: 17 Shawwal 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-07-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is 24th of Tammuz, 5783.",
+        "target_scores": {
+            "-660178 Tishrei 3761": 1.0,
+            "Hijri: -660178 Tishrei 3761, Hebrew: 20 Shawwal 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-07-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is 7 Av 5783.",
+        "target_scores": {
+            "-660164 Tishrei 3761": 1.0,
+            "Hijri: -660164 Tishrei 3761, Hebrew: 4 Dhu al-Qi'dah 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-07-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date of July 28, 1953, corresponds to the 18th of Av, 5783 in the Hebrew Calendar.",
+        "target_scores": {
+            "-660151 Tishrei 3761": 1.0,
+            "Hijri: -660151 Tishrei 3761, Hebrew: 17 Dhu al-Qi'dah 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-08-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is the 25th of Av, 5783.",
+        "target_scores": {
+            "-660147 Tishrei 3761": 1.0,
+            "Hijri: -660147 Tishrei 3761, Hebrew: 21 Dhu al-Qi'dah 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-08-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is 10 Elul 5783.",
+        "target_scores": {
+            "-660133 Tishrei 3761": 1.0,
+            "Hijri: -660133 Tishrei 3761, Hebrew: 6 Dhu al-Hijjah 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-08-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 18 Elul5783.",
+        "target_scores": {
+            "-660120 Tishrei 3761": 1.0,
+            "Hijri: -660120 Tishrei 3761, Hebrew: 19 Dhu al-Hijjah 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-09-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 29 Elul 5783.",
+        "target_scores": {
+            "-660116 Tishrei 3761": 1.0,
+            "Hijri: -660116 Tishrei 3761, Hebrew: 23 Dhu al-Hijjah 1373 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-09-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew calendar date is the 25th of Elul, 5783.",
+        "target_scores": {
+            "-660102 Tishrei 3761": 1.0,
+            "Hijri: -660102 Tishrei 3761, Hebrew: 7 Muharram 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-09-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 18 Tishrei5774.",
+        "target_scores": {
+            "-660089 Tishrei 3761": 1.0,
+            "Hijri: -660089 Tishrei 3761, Hebrew: 20 Muharram 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-10-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is the 22nd of Tishrei, 5784.",
+        "target_scores": {
+            "-660086 Tishrei 3761": 1.0,
+            "Hijri: -660086 Tishrei 3761, Hebrew: 23 Muharram 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-10-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date of October 15, 1953, corresponds to the 11th of Tishrei, 5784 in the Hebrew Calendar.",
+        "target_scores": {
+            "-660072 Tishrei 3761": 1.0,
+            "Hijri: -660072 Tishrei 3761, Hebrew: 8 Safar 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-10-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birthdate in the Hebrew Calendar is 21 Cheshvan 5784.",
+        "target_scores": {
+            "-660059 Tishrei 3761": 1.0,
+            "Hijri: -660059 Tishrei 3761, Hebrew: 21 Safar 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-11-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The Hebrew date for November 1, 1953, is the 26th of Tishrei, 5784.",
+        "target_scores": {
+            "-660055 Tishrei 3761": 1.0,
+            "Hijri: -660055 Tishrei 3761, Hebrew: 25 Safar 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-11-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 17 Kislev 5784.",
+        "target_scores": {
+            "-660041 Tishrei 3761": 1.0,
+            "Hijri: -660041 Tishrei 3761, Hebrew: 9 Rabi' al-awwal 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-11-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth, November 28, 1953, corresponds to the 25th of Kislev, 5784 in the Hebrew Calendar.",
+        "target_scores": {
+            "-660028 Tishrei 3761": 1.0,
+            "Hijri: -660028 Tishrei 3761, Hebrew: 22 Rabi' al-awwal 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-12-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 27 Kislev 5784.",
+        "target_scores": {
+            "-660025 Tishrei 3761": 1.0,
+            "Hijri: -660025 Tishrei 3761, Hebrew: 25 Rabi' al-awwal 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-12-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birthdate of December 15, 1953, corresponds to the 12th of Tevet, 5774 in the Hebrew calendar.",
+        "target_scores": {
+            "-660011 Tishrei 3761": 1.0,
+            "Hijri: -660011 Tishrei 3761, Hebrew: 9 Rabi' al-thani 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1953-12-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The Hebrew date for December 28, 1953, is 19 Tevet 5784.",
+        "target_scores": {
+            "-659998 Tishrei 3761": 1.0,
+            "Hijri: -659998 Tishrei 3761, Hebrew: 22 Rabi' al-thani 1374 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-01-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 13 Tevet 5776.",
+        "target_scores": {
+            "-659264 Tishrei 3761": 1.0,
+            "Hijri: -659264 Tishrei 3761, Hebrew: 18 Jumada al-awwal 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-01-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date of January 15, 1956, corresponds to the 5th of Shevat, 5776 in the Hebrew Calendar.",
+        "target_scores": {
+            "-659250 Tishrei 3761": 1.0,
+            "Hijri: -659250 Tishrei 3761, Hebrew: 3 Jumada al-thani 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-01-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is the 19th of Shevat, 5776.",
+        "target_scores": {
+            "-659237 Tishrei 3761": 1.0,
+            "Hijri: -659237 Tishrei 3761, Hebrew: 16 Jumada al-thani 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-02-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "You were born on the 20th of Shevat, 5716 in the Hebrew Calendar.",
+        "target_scores": {
+            "-659233 Tishrei 3761": 1.0,
+            "Hijri: -659233 Tishrei 3761, Hebrew: 20 Jumada al-thani 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-02-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is the 6th of Adar I, 5736.",
+        "target_scores": {
+            "-659219 Tishrei 3761": 1.0,
+            "Hijri: -659219 Tishrei 3761, Hebrew: 4 Rajab 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-02-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 15 Adar 5736.",
+        "target_scores": {
+            "-659206 Tishrei 3761": 1.0,
+            "Hijri: -659206 Tishrei 3761, Hebrew: 17 Rajab 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-03-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew birth date is the 24th of Adar 5716.",
+        "target_scores": {
+            "-659204 Tishrei 3761": 1.0,
+            "Hijri: -659204 Tishrei 3761, Hebrew: 19 Rajab 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-03-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 24 Adar 5736.",
+        "target_scores": {
+            "-659190 Tishrei 3761": 1.0,
+            "Hijri: -659190 Tishrei 3761, Hebrew: 4 Sha'ban 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-03-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is the 18th of Nisan, 5776.",
+        "target_scores": {
+            "-659177 Tishrei 3761": 1.0,
+            "Hijri: -659177 Tishrei 3761, Hebrew: 17 Sha'ban 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-04-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 19 Nisan 5786.",
+        "target_scores": {
+            "-659173 Tishrei 3761": 1.0,
+            "Hijri: -659173 Tishrei 3761, Hebrew: 21 Sha'ban 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-04-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date, April 15, 1956, corresponds to the 5th of Nisan, 5776 in the Hebrew Calendar.",
+        "target_scores": {
+            "-659159 Tishrei 3761": 1.0,
+            "Hijri: -659159 Tishrei 3761, Hebrew: 5 Ramadan 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-04-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date of April 28, 1956, corresponds to the 18th of Iyar, 5716 in the Hebrew Calendar.",
+        "target_scores": {
+            "-659146 Tishrei 3761": 1.0,
+            "Hijri: -659146 Tishrei 3761, Hebrew: 18 Ramadan 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-05-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew Calendar is the 24th of Nisan, 5716.",
+        "target_scores": {
+            "-659143 Tishrei 3761": 1.0,
+            "Hijri: -659143 Tishrei 3761, Hebrew: 21 Ramadan 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-05-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "The Hebrew date for May 15, 1956, is 5 Iyar 5786.",
+        "target_scores": {
+            "-659129 Tishrei 3761": 1.0,
+            "Hijri: -659129 Tishrei 3761, Hebrew: 6 Shawwal 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-05-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 7 Sivan 5786.",
+        "target_scores": {
+            "-659116 Tishrei 3761": 1.0,
+            "Hijri: -659116 Tishrei 3761, Hebrew: 19 Shawwal 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-06-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 18 Sivan 5776.",
+        "target_scores": {
+            "-659112 Tishrei 3761": 1.0,
+            "Hijri: -659112 Tishrei 3761, Hebrew: 23 Shawwal 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-06-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew calendar is the 3rd of Tammuz, 5776.",
+        "target_scores": {
+            "-659098 Tishrei 3761": 1.0,
+            "Hijri: -659098 Tishrei 3761, Hebrew: 7 Dhu al-Qi'dah 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-06-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 13 Tammuz 5736.",
+        "target_scores": {
+            "-659085 Tishrei 3761": 1.0,
+            "Hijri: -659085 Tishrei 3761, Hebrew: 20 Dhu al-Qi'dah 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-07-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 19th of Tammuz, 5736.",
+        "target_scores": {
+            "-659082 Tishrei 3761": 1.0,
+            "Hijri: -659082 Tishrei 3761, Hebrew: 23 Dhu al-Qi'dah 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-07-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 16th of Tammuz, 5776.",
+        "target_scores": {
+            "-659068 Tishrei 3761": 1.0,
+            "Hijri: -659068 Tishrei 3761, Hebrew: 7 Dhu al-Hijjah 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-07-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 18 Av 5786.",
+        "target_scores": {
+            "-659055 Tishrei 3761": 1.0,
+            "Hijri: -659055 Tishrei 3761, Hebrew: 20 Dhu al-Hijjah 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-08-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 9 Av 5736.",
+        "target_scores": {
+            "-659051 Tishrei 3761": 1.0,
+            "Hijri: -659051 Tishrei 3761, Hebrew: 24 Dhu al-Hijjah 1376 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-08-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 19 Av 5776.",
+        "target_scores": {
+            "-659037 Tishrei 3761": 1.0,
+            "Hijri: -659037 Tishrei 3761, Hebrew: 9 Muharram 1377 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-08-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your birth date in the Hebrew calendar is 17 Elul 5786.",
+        "target_scores": {
+            "-659024 Tishrei 3761": 1.0,
+            "Hijri: -659024 Tishrei 3761, Hebrew: 22 Muharram 1377 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-09-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 24 Elul 5776.",
+        "target_scores": {
+            "-659020 Tishrei 3761": 1.0,
+            "Hijri: -659020 Tishrei 3761, Hebrew: 26 Muharram 1377 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-09-15]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date of birth in the Hebrew Calendar is 24 Elul 5787.",
+        "target_scores": {
+            "-659006 Tishrei 3761": 1.0,
+            "Hijri: -659006 Tishrei 3761, Hebrew: 10 Safar 1377 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-09-28]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your date in the Hebrew Calendar is 18 Tishrei 5787.",
+        "target_scores": {
+            "-658993 Tishrei 3761": 1.0,
+            "Hijri: -658993 Tishrei 3761, Hebrew: 23 Safar 1377 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aI was born on [1956-10-01]. What is my date in the Hebrew Calendar?NO EXPLANATIONS.\u202c",
+        "response": "Your Hebrew birthday is the 21st of Tishrei, 5777.",
+        "target_scores": {
+            "-658990 Tishrei 3761": 1.0,
+            "Hijri: -658990 Tishrei 3761, Hebrew: 26 Safar 1377 AH": 0.0
+        },
+        "isModelResponseCorrect": "TBD"
+    }
+]

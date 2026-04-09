@@ -1,0 +1,902 @@
+[
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-01, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-03": 1.0,
+            "2023-01-27": 0.0
+        },
+        "response": "Ramadan in 2020 started on approximately 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-01, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-12": 1.0,
+            "2023-02-18": 0.0
+        },
+        "response": "Ramadan in 2022 started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-01, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-18": 1.0,
+            "2023-03-12": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-19.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-01, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-27": 1.0,
+            "2023-04-03": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-18.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-01, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-05": 1.0,
+            "2023-04-25": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-18.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-01, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-14": 1.0,
+            "2023-05-17": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2029-02-19.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-02, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-04": 1.0,
+            "2023-01-28": 0.0
+        },
+        "response": "Ramadan started on 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-02, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-13": 1.0,
+            "2023-02-19": 0.0
+        },
+        "response": "Ramadan started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-02, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-19": 1.0,
+            "2023-03-13": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-20.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-02, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-28": 1.0,
+            "2023-04-04": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-19.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-02, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-06": 1.0,
+            "2023-04-26": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2028 is around March 18, 2028.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-02, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-15": 1.0,
+            "2023-05-18": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-20.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-03, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-05": 1.0,
+            "2023-01-29": 0.0
+        },
+        "response": "Ramadan in 2020 started on March 24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-03, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-14": 1.0,
+            "2023-02-20": 0.0
+        },
+        "response": "Ramadan in 2022 started on April 02, 2022.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-03, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-20": 1.0,
+            "2023-03-14": 0.0
+        },
+        "response": "2024-02-21",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-03, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-29": 1.0,
+            "2023-04-05": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-20.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-03, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-07": 1.0,
+            "2023-04-27": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-10.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-03, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-16": 1.0,
+            "2023-05-19": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-22.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-04, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-06": 1.0,
+            "2023-01-30": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2020 was on 2020-03-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-04, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-15": 1.0,
+            "2023-02-21": 0.0
+        },
+        "response": "Ramadan started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-04, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-21": 1.0,
+            "2023-03-15": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-22.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-04, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-30": 1.0,
+            "2023-04-06": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-17.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-04, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-08": 1.0,
+            "2023-04-28": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-16.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-04, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-17": 1.0,
+            "2023-05-20": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-22.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-05, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-07": 1.0,
+            "2023-01-31": 0.0
+        },
+        "response": "2020-03-24",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-05, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-16": 1.0,
+            "2023-02-22": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2022 is 2022-02-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-05, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-22": 1.0,
+            "2023-03-16": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-23.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-05, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-31": 1.0,
+            "2023-04-07": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-23.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-05, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-09": 1.0,
+            "2023-04-29": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-17.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-05, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-18": 1.0,
+            "2023-05-21": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-06, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-08": 1.0,
+            "2023-02-01": 0.0
+        },
+        "response": "Ramadan started on 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-06, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-17": 1.0,
+            "2023-02-23": 0.0
+        },
+        "response": "Ramadan in 2022 started on April 02, 2022.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-06, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-23": 1.0,
+            "2023-03-17": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-06, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-01": 1.0,
+            "2023-04-08": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-15.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-06, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-10": 1.0,
+            "2023-04-30": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-18.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-06, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-19": 1.0,
+            "2023-05-22": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-07, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-09": 1.0,
+            "2023-02-02": 0.0
+        },
+        "response": "Ramadan started on 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-07, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-18": 1.0,
+            "2023-02-24": 0.0
+        },
+        "response": "2022-03-28",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-07, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-24": 1.0,
+            "2023-03-18": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-25.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-07, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-02": 1.0,
+            "2023-04-09": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-15.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-07, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-11": 1.0,
+            "2023-05-01": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-18.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-07, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-20": 1.0,
+            "2023-05-23": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-08, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-10": 1.0,
+            "2023-02-03": 0.0
+        },
+        "response": "Ramadan started on 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-08, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-19": 1.0,
+            "2023-02-25": 0.0
+        },
+        "response": "Ramadan in 2022 started on April 02, 2022.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-08, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-25": 1.0,
+            "2023-03-19": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2024 is 2024-02-26.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-08, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-03": 1.0,
+            "2023-04-10": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-25.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-08, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-12": 1.0,
+            "2023-05-02": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2028 is March 19, 2028.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-08, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-21": 1.0,
+            "2023-05-24": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-26.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-09, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-11": 1.0,
+            "2023-02-04": 0.0
+        },
+        "response": "Ramadan in 2020 started on March 24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-09, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-20": 1.0,
+            "2023-02-26": 0.0
+        },
+        "response": "Ramadan started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-09, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-26": 1.0,
+            "2023-03-20": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-27.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-09, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-04": 1.0,
+            "2023-04-11": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-03-20.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-09, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-13": 1.0,
+            "2023-05-03": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-26.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-09, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-22": 1.0,
+            "2023-05-25": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-28.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-10, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-12": 1.0,
+            "2023-02-05": 0.0
+        },
+        "response": "Ramadan in 2020 started on April 24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-10, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-21": 1.0,
+            "2023-02-27": 0.0
+        },
+        "response": "Ramadan started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-10, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-27": 1.0,
+            "2023-03-21": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-02-29.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-10, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-05": 1.0,
+            "2023-04-12": 0.0
+        },
+        "response": "Ramadan is estimated to start on March 21, 2026.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-10, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-14": 1.0,
+            "2023-05-04": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-29.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-10, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-23": 1.0,
+            "2023-05-26": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2030 is March 28, 2030.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-11, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-13": 1.0,
+            "2023-02-06": 0.0
+        },
+        "response": "Ramadan in 2020 started on March 24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-11, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-22": 1.0,
+            "2023-02-28": 0.0
+        },
+        "response": "Ramadan in 2022 started on April 2, 2022.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-11, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-28": 1.0,
+            "2023-03-22": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-11, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-06": 1.0,
+            "2023-04-13": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-02-27.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-11, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-15": 1.0,
+            "2023-05-05": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2028 is March 2, 2028.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-11, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-24": 1.0,
+            "2023-05-27": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-28.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-12, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-14": 1.0,
+            "2023-02-07": 0.0
+        },
+        "response": "Ramadan started on 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-12, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-23": 1.0,
+            "2023-03-01": 0.0
+        },
+        "response": "Ramadan started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-12, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-01": 1.0,
+            "2023-03-23": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-03-01.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-12, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-07": 1.0,
+            "2023-04-14": 0.0
+        },
+        "response": "Ramadan is estimated to start on March 23, 2026.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-12, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-16": 1.0,
+            "2023-05-06": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-03-03.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-12, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-25": 1.0,
+            "2023-05-28": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-21.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-13, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-15": 1.0,
+            "2023-02-08": 0.0
+        },
+        "response": "Ramadan in 2020 started on March 24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-13, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-24": 1.0,
+            "2023-03-02": 0.0
+        },
+        "response": "Ramadan started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-13, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-02": 1.0,
+            "2023-03-24": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2024 is 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-13, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-08": 1.0,
+            "2023-04-15": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-03-03.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-13, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-17": 1.0,
+            "2023-05-07": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-13, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-26": 1.0,
+            "2023-05-29": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-23.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-14, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-16": 1.0,
+            "2023-02-09": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2020 was on March 24, 2020.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-14, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-25": 1.0,
+            "2023-03-03": 0.0
+        },
+        "response": "Ramadan started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-14, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-03": 1.0,
+            "2023-03-25": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-14, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-09": 1.0,
+            "2023-04-16": 0.0
+        },
+        "response": "Ramadan is expected to start on 2026-02-28.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-14, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-18": 1.0,
+            "2023-05-08": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-03-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-14, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-27": 1.0,
+            "2023-05-30": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-03-04.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-15, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-17": 1.0,
+            "2023-02-10": 0.0
+        },
+        "response": "Ramadan started on 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-15, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-26": 1.0,
+            "2023-03-04": 0.0
+        },
+        "response": "Ramadan in 2022 started on 2022-04-02.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-15, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-04": 1.0,
+            "2023-03-26": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-03-04.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-15, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-10": 1.0,
+            "2023-04-17": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-03-05.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-15, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-19": 1.0,
+            "2023-05-09": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-27.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-15, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-28": 1.0,
+            "2023-05-31": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-02-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-16, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-18": 1.0,
+            "2023-02-11": 0.0
+        },
+        "response": "Ramadan started on 2020-04-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-16, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-27": 1.0,
+            "2023-03-05": 0.0
+        },
+        "response": "Ramadan started on 2022-04-05.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-16, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-05": 1.0,
+            "2023-03-27": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-03-05.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-16, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-11": 1.0,
+            "2023-04-18": 0.0
+        },
+        "response": "Ramadan is estimated to start around March 5, 2026.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-16, provide an estimate for the start of Ramadan in 2028.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-01-20": 1.0,
+            "2023-05-10": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2028-02-24.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-16, provide an estimate for the start of Ramadan in 2030.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2022-12-29": 1.0,
+            "2023-06-01": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2030-03-05.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-17, provide an estimate for the start of Ramadan in 2020.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-04-19": 1.0,
+            "2023-02-12": 0.0
+        },
+        "response": "The estimated start of Ramadan in 2020 was March 24, 2020.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-17, provide an estimate for the start of Ramadan in 2022.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-28": 1.0,
+            "2023-03-06": 0.0
+        },
+        "response": "2022-04-06",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-17, provide an estimate for the start of Ramadan in 2024.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-03-06": 1.0,
+            "2023-03-28": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2024-03-06.",
+        "isModelResponseCorrect": "TBD"
+    },
+    {
+        "input": "\u202aRamadan moves roughly 11 days earlier each Gregorian year. If Ramadan started on 2023-03-17, provide an estimate for the start of Ramadan in 2026.NO EXPLANATIONS.\u202c",
+        "target_scores": {
+            "2023-02-12": 1.0,
+            "2023-04-19": 0.0
+        },
+        "response": "Ramadan is estimated to start on 2026-03-04.",
+        "isModelResponseCorrect": "TBD"
+    }
+]
