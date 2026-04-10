@@ -1,23 +1,27 @@
-# Model Evaluation Pipeline
+## Evaluation Pipeline
 
-This diagram illustrates the 6-stage evaluation process for geotemporal reasoning.
+To clearly illustrate the benchmarking methodology, we include a process figure that summarizes the full evaluation pipeline. The figure shows how each stage contributes to a comprehensive, fair, and insightful assessment of model performance on geotemporal reasoning tasks.
 
 ```mermaid
-graph TD
-    %% Define the Flow
-    Start([Start Evaluation]) --> Step1[Ground Truth Generation]
-    Step1 --> Step2[Model Inference]
-    Step2 --> Step3[Response Normalization]
-    Step3 --> Step4{Exact Match Check}
-    Step4 --> Step5[Error Analysis]
-    Step5 --> Step6[Final Scoring]
-    Step6 --> End([End Evaluation])
+flowchart TD
+    A([Start Evaluation]) --> B[Deterministic Ground Truth Generation]
+    B --> C[Model Inference]
+    C --> D[Response Normalization and Cleaning]
+    D --> E{Exact-Match Verification}
+    E -->|Correct| F[Final Scoring]
+    E -->|Incorrect| G[Error Analysis and Categorization]
+    G --> F
+    F --> H([End Evaluation])
 
-    %% Styling for GitHub
-    classDef start_end fill:#f5f5f5,stroke:#333,stroke-width:2px;
-    classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:1px;
-    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:1px;
-    
-    class Start,End start_end;
-    class Step1,Step2,Step3,Step5,Step6 process;
-    class Step4 decision;
+    classDef startend fill:#f7f7f7,stroke:#333,stroke-width:2px,color:#111;
+    classDef process fill:#e8f1ff,stroke:#2b6cb0,stroke-width:1.5px,color:#111;
+    classDef decision fill:#fff6cc,stroke:#d69e2e,stroke-width:1.5px,color:#111;
+    classDef analysis fill:#f3e8ff,stroke:#805ad5,stroke-width:1.5px,color:#111;
+
+    class A,H startend;
+    class B,C,D,F process;
+    class E decision;
+    class G analysis;
+```
+
+This benchmarking pipeline begins with deterministic ground-truth generation using formal calendar and time zone rules. Each prompt is then evaluated through standardized model inference, followed by response normalization to remove formatting artifacts. Exact-match verification ensures strict and reproducible scoring, while error analysis provides additional insight into common failure modes. Together, these stages deliver a comprehensive evaluation framework that is fair across models and informative for understanding both strengths and weaknesses.
