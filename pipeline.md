@@ -12,18 +12,18 @@ flowchart TB
     E --> C1[Correct Response]
     E --> I1[Incorrect Response]
 
-    C1 --> M(( ))
+    C1 --> M((Merge))
     I1 --> G[Error Analysis and<br/>Categorization]
     G --> M
 
     M --> F[Final Scoring]
     F --> H([End Evaluation])
 
-    classDef startend fill:#f7f7f7,stroke:#333,stroke-width:2px,color:#111;
-    classDef process fill:#e8f1ff,stroke:#2b6cb0,stroke-width:1.5px,color:#111;
+    classDef startend fill:#f7f7f7,stroke:#333,stroke-width:2px,color:#111,rx:18,ry:18;
+    classDef process fill:#e8f1ff,stroke:#2b6cb0,stroke-width:1.5px,color:#111,rx:4,ry:4;
     classDef decision fill:#fff6cc,stroke:#d69e2e,stroke-width:1.5px,color:#111;
-    classDef analysis fill:#f3e8ff,stroke:#805ad5,stroke-width:1.5px,color:#111;
-    classDef merge fill:#ffffff,stroke:#999,stroke-width:1px,color:#ffffff;
+    classDef analysis fill:#f3e8ff,stroke:#805ad5,stroke-width:1.5px,color:#111,rx:4,ry:4;
+    classDef merge fill:#ffffff,stroke:#999,stroke-width:1px,color:#ffffff,rx:18,ry:18;
 
     class A,H startend;
     class B,C,D,F process;
