@@ -5,7 +5,7 @@ This diagram illustrates the 6-stage evaluation process for geotemporal reasonin
 ```mermaid
 graph TD
     %% Define the Flow
-    Start([Start Evaluation]) --> Step1[1. Ground Truth Generation]
+    Start([Start Evaluation]) --> Step1[Ground Truth Generation]
     Step1 --> Step2[Model Inference]
     Step2 --> Step3[Response Normalization]
     Step3 --> Step4{Exact Match Check}
